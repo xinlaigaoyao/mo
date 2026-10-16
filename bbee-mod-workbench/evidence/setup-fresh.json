@@ -1,0 +1,18 @@
+{
+  "command": [
+    "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Interpreter\\pythoncore-3.14-64\\python.exe",
+    "-E",
+    "-s",
+    "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\pipeline.py",
+    "--strict",
+    "--fresh",
+    "--build-id",
+    "25627491"
+  ],
+  "cwd": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher",
+  "exit_code": 1,
+  "elapsed_seconds": 22.21,
+  "log": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\setup-fresh.log",
+  "log_sha256": "2a322ed87c0e2f5187253be37dfa25f1dfbfe81b1f9d669e753d538ddc716807",
+  "game_target": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\game"
+}

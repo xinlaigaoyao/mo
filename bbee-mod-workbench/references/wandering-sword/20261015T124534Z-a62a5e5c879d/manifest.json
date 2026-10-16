@@ -1,0 +1,221 @@
+{
+  "kind": "decoded_reference",
+  "captured_utc": "2026-10-15T12:45:34.761923+00:00",
+  "inputs": {
+    "selected_manifest": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261015T122045Z-a69abc003aec\\manifest.json",
+    "selected_manifest_sha256": "2ffb76f77b67fde80e119f86d5b37abeabd38d4115e1a87165ccd04c2b78a1f3",
+    "source_pak_sha256": "5e049dc376c36dacadf6edb6fab133942679b54b1809d7f483728deec35beaff",
+    "members": [
+      {
+        "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_HeadImage.uasset",
+        "bytes": 768,
+        "sha256": "eee4ce5764178d06e96603cccf473073f1693791747846c906a5f7be139d8b52"
+      },
+      {
+        "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_HeadImage.uexp",
+        "bytes": 84372,
+        "sha256": "720f6f2c7ae5923213e117d16dfdf8d56361267e86561371fe2fb4dd83e67f47"
+      },
+      {
+        "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_WuDang_HeadImage.uasset",
+        "bytes": 782,
+        "sha256": "c22be78133e8c5150bb866b9a57df76b8d4cbec9c6589825c4d4e2847c14ce4e"
+      },
+      {
+        "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_WuDang_HeadImage.uexp",
+        "bytes": 84372,
+        "sha256": "4f0b3220ca5d441a61b6f1e86b39ddd3f9f8791d2574ba172bfa6e14b1ce5c9f"
+      },
+      {
+        "member": "Wandering_Sword/Content/JH/Tables/NPCResources.uasset",
+        "bytes": 2224551,
+        "sha256": "dacbdb6ebb998e48f47bc40e9092eebc1f47765a7675c031ec691897031d9220"
+      },
+      {
+        "member": "Wandering_Sword/Content/JH/Tables/NPCResources.uexp",
+        "bytes": 7349295,
+        "sha256": "e872fd05305ec2a660623396132673c0fe9c157f2fc1a42274f2a2a935e453c3"
+      },
+      {
+        "member": "Wandering_Sword/Content/Localization/Skills技能表/zh-Hans/Skills技能表.locres",
+        "bytes": 301708,
+        "sha256": "e90093d2d12918d48040c3915ba19dd9fb2e3ef4087bba2ad8e275750883fec4"
+      },
+      {
+        "member": "Wandering_Sword/Content/JH/Skills/WD_N_LiuYunTaiJi/GA_WD_N_LiuYunTaiJi.uasset",
+        "bytes": 2986,
+        "sha256": "670fdb88d934cd409b078da13f481921ea91ee2e222b1a78301919119702ee78"
+      },
+      {
+        "member": "Wandering_Sword/Content/JH/Skills/WD_N_LiuYunTaiJi/GA_WD_N_LiuYunTaiJi.uexp",
+        "bytes": 1928,
+        "sha256": "6be358ed23789a7523b16386252fc3e5dc7f7b518eaad9f1f1d96f8cc28f35b8"
+      }
+    ]
+  },
+  "decoder_source_sha256": "9d6803c6e2cbbcf531351e92f1b7265223cd444e51ebea955f73fe1014037a7f",
+  "pillow_version": "12.3.0",
+  "package_structures": {
+    "JH/Characters/Image/T_Hero_HeadImage": {
+      "stored_package_version": 0,
+      "explicit_reading_profile": "UE4.26",
+      "unversioned_properties": false,
+      "package_flags": "0x80000000",
+      "name_count": 17,
+      "import_count": 3,
+      "exports": [
+        {
+          "class_index": -1,
+          "super_index": 0,
+          "template_index": -3,
+          "outer_index": 0,
+          "name": "T_Hero_HeadImage",
+          "flags": 11,
+          "size": 84368,
+          "offset": 768,
+          "class_object": {
+            "class_package": "/Script/CoreUObject",
+            "class": "Class",
+            "outer_index": -2,
+            "object": "Texture2D"
+          }
+        }
+      ]
+    },
+    "JH/Characters/Image/T_Hero_WuDang_HeadImage": {
+      "stored_package_version": 0,
+      "explicit_reading_profile": "UE4.26",
+      "unversioned_properties": false,
+      "package_flags": "0x80000000",
+      "name_count": 17,
+      "import_count": 3,
+      "exports": [
+        {
+          "class_index": -1,
+          "super_index": 0,
+          "template_index": -3,
+          "outer_index": 0,
+          "name": "T_Hero_WuDang_HeadImage",
+          "flags": 11,
+          "size": 84368,
+          "offset": 782,
+          "class_object": {
+            "class_package": "/Script/CoreUObject",
+            "class": "Class",
+            "outer_index": -2,
+            "object": "Texture2D"
+          }
+        }
+      ]
+    },
+    "JH/Tables/NPCResources": {
+      "stored_package_version": 0,
+      "explicit_reading_profile": "UE4.26",
+      "unversioned_properties": false,
+      "package_flags": "0x80000000",
+      "name_count": 30597,
+      "import_count": 5,
+      "exports": [
+        {
+          "class_index": -1,
+          "super_index": 0,
+          "template_index": -2,
+          "outer_index": 0,
+          "name": "NPCResources",
+          "flags": 11,
+          "size": 7349291,
+          "offset": 2224551,
+          "class_object": {
+            "class_package": "/Script/CoreUObject",
+            "class": "Class",
+            "outer_index": -3,
+            "object": "DataTable"
+          }
+        }
+      ]
+    },
+    "JH/Skills/WD_N_LiuYunTaiJi/GA_WD_N_LiuYunTaiJi": {
+      "stored_package_version": 0,
+      "explicit_reading_profile": "UE4.26",
+      "unversioned_properties": false,
+      "package_flags": "0x80000000",
+      "name_count": 80,
+      "import_count": 16,
+      "exports": [
+        {
+          "class_index": -4,
+          "super_index": -1,
+          "template_index": -2,
+          "outer_index": 0,
+          "name": "GA_WD_N_LiuYunTaiJi_C",
+          "flags": 9,
+          "size": 80,
+          "offset": 2986,
+          "class_object": {
+            "class_package": "/Script/CoreUObject",
+            "class": "Class",
+            "outer_index": -11,
+            "object": "BlueprintGeneratedClass"
+          }
+        },
+        {
+          "class_index": 1,
+          "super_index": 0,
+          "template_index": -5,
+          "outer_index": 0,
+          "name": "Default__GA_WD_N_LiuYunTaiJi_C",
+          "flags": 57,
+          "size": 1844,
+          "offset": 3066,
+          "class_object": {
+            "object": "GA_WD_N_LiuYunTaiJi_C",
+            "class": "export"
+          }
+        }
+      ]
+    }
+  },
+  "outputs": [
+    {
+      "file": "T_Hero_HeadImage.png",
+      "sha256": "b6857aca99de389ae4ae22958cd99e5f746f3d38a61b70377dc9272a45adc56c",
+      "width": 145,
+      "height": 145,
+      "format": "PF_B8G8R8A8",
+      "mips": 1,
+      "bulk_flags": "0x48",
+      "pixel_sha256_bgra": "6c81283458e9bdfeb22dd36eaf1d654f6bbf772c69ff8e03f8118dc9bf51139d",
+      "scope": "145px source avatar; not full portrait or character animation"
+    },
+    {
+      "file": "T_Hero_WuDang_HeadImage.png",
+      "sha256": "c167a8a073c5f7f43915f5bb6b3e18ca31ae247b0c5d6c38c9e978cb2679e049",
+      "width": 145,
+      "height": 145,
+      "format": "PF_B8G8R8A8",
+      "mips": 1,
+      "bulk_flags": "0x48",
+      "pixel_sha256_bgra": "fddc3abc333e5d6267c070792ec5545ee309da9ad7694379160a8a9bc110c24b",
+      "scope": "145px source avatar; not full portrait or character animation"
+    },
+    {
+      "file": "hero-resource-mapping.json",
+      "sha256": "a9ef65610303f5c2a23565e5e63aa55e92997f5bc530915a25e94e1004cd1e9b"
+    },
+    {
+      "file": "skill-text.json",
+      "sha256": "e5d68954fa239ebb9034af0fb9ede47db979ebdfb3432ed1ac235d0ea6daab3c"
+    },
+    {
+      "file": "skill-text-focus.json",
+      "sha256": "6e81b35b0dc038ce93f0b696507d9cab6ace4cf1ced8f8a1c719620896055945"
+    }
+  ],
+  "visual_identity_review": "pending; structural/pixel checks do not confirm identity",
+  "limitations": [
+    "Two small avatars only; no full portrait, body sprites or animation frames.",
+    "NPC mapping points to assets that remain unexported/unread.",
+    "Original localized skill text is not proof of runtime mechanics or BBEE balance.",
+    "No GA/CDO mechanics, Blueprint bytecode or third-party binaries executed."
+  ]
+}

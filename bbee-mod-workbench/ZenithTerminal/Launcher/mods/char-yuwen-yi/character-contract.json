@@ -1,0 +1,333 @@
+{
+  "schema": 1,
+  "actor_id": 200901,
+  "skin_id": 200901020,
+  "role": "ywy",
+  "skin": "02",
+  "logic": "actor/logicdata/ywy",
+  "bullet_id": 20090101,
+  "bullet_logic": "actor/logicdata/ywybullet",
+  "simulation_hz": 60,
+  "coordinate_system": "feet anchor; positive x faces right; same scale for all body clips",
+  "clips": {
+    "ywy_stand": {
+      "ticks": 288,
+      "loop": true,
+      "semantic": "stand"
+    },
+    "ywy_standby": {
+      "ticks": 120,
+      "loop": true,
+      "semantic": "standby"
+    },
+    "ywy_run_start": {
+      "ticks": 6,
+      "loop": false,
+      "semantic": "run_start"
+    },
+    "ywy_run": {
+      "ticks": 80,
+      "loop": true,
+      "semantic": "run"
+    },
+    "ywy_run_stop": {
+      "ticks": 12,
+      "loop": false,
+      "semantic": "run_stop"
+    },
+    "ywy_squat": {
+      "ticks": 2,
+      "loop": false,
+      "semantic": "squat"
+    },
+    "ywy_squat_loop": {
+      "ticks": 96,
+      "loop": true,
+      "semantic": "squat_loop"
+    },
+    "ywy_squat_to_stand": {
+      "ticks": 10,
+      "loop": false,
+      "semantic": "squat_to_stand"
+    },
+    "ywy_jump": {
+      "ticks": 47,
+      "loop": false,
+      "semantic": "jump"
+    },
+    "ywy_jump2": {
+      "ticks": 33,
+      "loop": false,
+      "semantic": "jump2"
+    },
+    "ywy_drop_start": {
+      "ticks": 6,
+      "loop": false,
+      "semantic": "drop_start"
+    },
+    "ywy_drop": {
+      "ticks": 120,
+      "loop": true,
+      "semantic": "drop"
+    },
+    "ywy_dropend": {
+      "ticks": 16,
+      "loop": false,
+      "semantic": "dropend"
+    },
+    "ywy_dash": {
+      "ticks": 22,
+      "loop": false,
+      "semantic": "dash"
+    },
+    "ywy_dash_air": {
+      "ticks": 18,
+      "loop": false,
+      "semantic": "dash_air"
+    },
+    "ywy_dash_end": {
+      "ticks": 12,
+      "loop": false,
+      "semantic": "dash_end"
+    },
+    "ywy_behit": {
+      "ticks": 19,
+      "loop": false,
+      "semantic": "behit"
+    },
+    "ywy_behit_air": {
+      "ticks": 25,
+      "loop": false,
+      "semantic": "behit_air"
+    },
+    "ywy_tumble": {
+      "ticks": 30,
+      "loop": false,
+      "semantic": "tumble"
+    },
+    "ywy_down": {
+      "ticks": 20,
+      "loop": false,
+      "semantic": "down"
+    },
+    "ywy_getup": {
+      "ticks": 30,
+      "loop": false,
+      "semantic": "getup"
+    },
+    "ywy_dead": {
+      "ticks": 150,
+      "loop": false,
+      "semantic": "dead"
+    },
+    "ywy_born": {
+      "ticks": 120,
+      "loop": false,
+      "semantic": "born"
+    },
+    "ywy_born_fall": {
+      "ticks": 96,
+      "loop": false,
+      "semantic": "born_fall"
+    },
+    "ywy_born_land": {
+      "ticks": 55,
+      "loop": false,
+      "semantic": "born_land"
+    },
+    "ywy_pose": {
+      "ticks": 120,
+      "loop": false,
+      "semantic": "pose"
+    },
+    "ywy_summon": {
+      "ticks": 30,
+      "loop": false,
+      "semantic": "summon"
+    },
+    "ywy_burst": {
+      "ticks": 39,
+      "loop": false,
+      "semantic": "burst"
+    },
+    "ywy_heal": {
+      "ticks": 93,
+      "loop": false,
+      "semantic": "heal"
+    },
+    "ywy_transmit": {
+      "ticks": 88,
+      "loop": false,
+      "semantic": "transmit"
+    },
+    "ywy_sword1": {
+      "ticks": 24,
+      "loop": false,
+      "semantic": "sword1",
+      "source_keyframe_indices": [0, 1, 2, 3, 4, 5],
+      "source_keyframe_ticks": [2, 2, 2, 4, 4, 10],
+      "chain_after_ticks": 16
+    },
+    "ywy_sword2": {
+      "ticks": 28,
+      "loop": false,
+      "semantic": "sword2",
+      "source_keyframe_indices": [2, 3, 4, 5],
+      "source_keyframe_ticks": [3, 7, 7, 11],
+      "chain_after_ticks": 20
+    },
+    "ywy_sword3": {
+      "ticks": 36,
+      "loop": false,
+      "semantic": "sword3",
+      "source_keyframe_indices": [0, 1, 2, 3, 4, 5],
+      "source_keyframe_ticks": [3, 3, 4, 8, 6, 12],
+      "chain_after_ticks": 27
+    },
+    "ywy_launcher": {
+      "ticks": 36,
+      "loop": false,
+      "semantic": "launcher"
+    },
+    "ywy_air1": {
+      "ticks": 27,
+      "loop": false,
+      "semantic": "air1",
+      "source_keyframe_indices": [0, 1, 2, 3, 4, 5],
+      "source_keyframe_ticks": [2, 2, 2, 6, 5, 10],
+      "chain_after_ticks": 20
+    },
+    "ywy_air2": {
+      "ticks": 33,
+      "loop": false,
+      "semantic": "air2",
+      "source_keyframe_indices": [2, 3, 4, 5],
+      "source_keyframe_ticks": [5, 8, 8, 12],
+      "chain_after_ticks": 24
+    },
+    "ywy_zhenwu": {
+      "ticks": 32,
+      "loop": false,
+      "semantic": "zhenwu",
+      "source_keyframe_indices": [0, 1, 2, 3, 4, 5],
+      "source_keyframe_ticks": [2, 2, 3, 4, 3, 18],
+      "chain_after_ticks": 17
+    },
+    "ywy_chase": {
+      "ticks": 36,
+      "loop": false,
+      "semantic": "chase"
+    },
+    "ywy_taiji_fist": {
+      "ticks": 42,
+      "loop": false,
+      "semantic": "taiji_fist"
+    },
+    "ywy_charge": {
+      "ticks": 60,
+      "loop": true,
+      "semantic": "charge"
+    },
+    "ywy_circle_short": {
+      "ticks": 39,
+      "loop": false,
+      "semantic": "circle_short"
+    },
+    "ywy_circle_full": {
+      "ticks": 48,
+      "loop": false,
+      "semantic": "circle_full"
+    },
+    "ywy_ultra": {
+      "ticks": 90,
+      "loop": false,
+      "semantic": "ultra"
+    },
+    "ywy_escape": {
+      "ticks": 22,
+      "loop": false,
+      "semantic": "escape"
+    },
+    "ywy_sword_echo": {
+      "ticks": 24,
+      "loop": false,
+      "semantic": "sword_echo"
+    },
+    "ywy_taiji_counter": {
+      "ticks": 30,
+      "loop": false,
+      "semantic": "taiji_counter"
+    },
+    "ywy_wuxiang": {
+      "ticks": 60,
+      "loop": false,
+      "semantic": "wuxiang"
+    },
+    "ywy_zhenwu_wave": {
+      "ticks": 90,
+      "loop": false,
+      "semantic": "zhenwu_wave"
+    },
+    "ywy_qi_impact": {
+      "ticks": 24,
+      "loop": false,
+      "semantic": "qi_impact"
+    },
+    "ywy_taiji_charge": {
+      "ticks": 60,
+      "loop": true,
+      "semantic": "taiji_charge"
+    },
+    "ywy_taiji_circle": {
+      "ticks": 48,
+      "loop": false,
+      "semantic": "taiji_circle"
+    },
+    "ywy_ultra_field": {
+      "ticks": 90,
+      "loop": false,
+      "semantic": "ultra_field"
+    }
+  },
+  "cinematic_aliases": {
+    "ywy_UPjump_1": "ywy_jump",
+    "ywy_UPjump_2": "ywy_jump2",
+    "ywy_UPjump_3": "ywy_jump2",
+    "ywy_Dash_timeline": "ywy_run",
+    "ywy_dropend4": "ywy_dropend",
+    "ywy_Stand_timeline": "ywy_stand",
+    "ywy_Stand2_timeline": "ywy_stand",
+    "ywy_Born_timeline": "ywy_born",
+    "ywy_Born2_timeline": "ywy_born",
+    "ywy_drop_inherit": "ywy_drop",
+    "ywy_squat_loop_inherit": "ywy_squat_loop",
+    "ywy_squat_to_stand": "ywy_squat_to_stand",
+    "ywy_stand_inherit": "ywy_stand",
+    "ywy_standby_inherit": "ywy_standby",
+    "ywy_burst_x_inherit": "ywy_burst",
+    "ywy_knockdown_stand_inherit": "ywy_getup"
+  },
+  "resource_slots": {
+    "qi": 2,
+    "ultra": 3,
+    "summon": 11
+  },
+  "qi": {
+    "min": 0,
+    "max": 100,
+    "initial": 100,
+    "recover_per_second": 3
+  },
+  "taiji": {
+    "min": 0,
+    "max": 5,
+    "stage_reset": true
+  },
+  "notes": [
+    "Body source must supply every named clip; no donor body or null fallback.",
+    "All timings are mod adaptation candidates, not original Wandering Sword values.",
+    "All eight effect clips use hash-bound original Wandering Sword texture/SubUV pixels with declared 2D projection, RG recolouring, alpha composition and 60 Hz retiming.",
+    "Original Cascade/shader/mesh simulation is not copied; no body frame or geometric eight-frame placeholder may substitute a projectile effect.",
+    "zhenwu_wave is a finite 90-tick flight; qi_impact is a separate finite 24-tick zero-damage hit visual; charge layers must be removed on action cancellation."
+  ]
+}

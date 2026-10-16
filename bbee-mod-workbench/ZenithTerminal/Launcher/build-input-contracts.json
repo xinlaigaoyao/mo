@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "status": "reviewed",
+  "build_id": "25627491",
+  "mods": {
+    "char-ruby": {
+      "derived_outputs": [
+        {
+          "path": "gen/audio_map.json",
+          "phase": "build-diagnostic",
+          "producer": "ruby_audio.py:write_map, called after build_acbs and patch_collection",
+          "reason": "The importer recomputes plan from banks/script cues, then overwrites this diagnostic with generated time, resolved sheet IDs, content-addressed ACB paths and cue metadata. Current prepare/build does not read this file. cue_for(amap=None) can read it as a separate convenience API but is not called by the reviewed prepare/importer paths."
+        }
+      ],
+      "bound_sources": {
+        "ruby_audio.py": "3af46c331fe8b3c6452c3c5867653be31577883f13db52227be8b51866712f60",
+        "import_ruby.py": "3785296e81230f6db7d0e16a50ce47d56d00eb6f47ac0342528721dce0a509cf",
+        "build_ruby.py": "f0e544d52e785567d378636c02279f6c7f89f5a3f0d3fe872e45b2e768a955a8"
+      }
+    }
+  },
+  "review": {
+    "checked_date": "2026-10-15",
+    "evidence": "evidence/build-input-drift-diagnosis.json",
+    "scope": "One exact importer diagnostic path; all source, bundled source assets, gen action trees and other generated inputs remain recursively hashed. Any producer/reader source change invalidates this declaration and requires review."
+  }
+}

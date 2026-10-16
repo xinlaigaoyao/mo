@@ -1,0 +1,19 @@
+{
+  "build_id": "25627491",
+  "status": "restored",
+  "run_id": "e590ad1585024475a35c0aea7df048a7",
+  "game_started": false,
+  "phases": [
+    "uninstall"
+  ],
+  "pristine_index_archive": {
+    "path": "private/task-owned-index-backups/25627491/e8aa7e3c2dce46b6882b47a1e9142f77/plan.json",
+    "sha256": "52b8de0b11b3203135a182c6e27debf1d4e01ff52c7a3bfe8a6316cbf73e9dd9"
+  },
+  "pristine_index_cleanup_result": {
+    "path": "evidence/yuwen-yi/runtime-interrupted-e590ad1585024475a35c0aea7df048a7/index-pristine-archive.json",
+    "sha256": "a2cacd5750a60b2bdbfbb03b454f30c2621dbbb025f7c76fc56aae7cfe3f0800"
+  },
+  "restored_game_files": 2397,
+  "restored_file_set_exact": true
+}

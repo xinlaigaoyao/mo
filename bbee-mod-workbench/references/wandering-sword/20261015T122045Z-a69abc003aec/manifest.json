@@ -1,0 +1,164 @@
+{
+  "captured_utc": "2026-10-15T12:20:45.332053+00:00",
+  "source": {
+    "source_pak": "E:\\SteamLibrary\\steamapps\\common\\Wandering Sword\\Wandering_Sword\\Content\\Paks\\Wandering_Sword-WindowsNoEditor.pak",
+    "source_pak_sha256": "5e049dc376c36dacadf6edb6fab133942679b54b1809d7f483728deec35beaff",
+    "pak_bytes": 5954388501,
+    "pak_version": 11,
+    "mount_point": "../../../",
+    "primary_index_sha1": "bb9defc448a0bec010d439bc83157f6d7c7b91b6",
+    "secondary_indices": {
+      "path_hash": {
+        "offset": 5941673282,
+        "bytes": 3515862,
+        "sha1": "1d5b249c85b201b45fcb0d6af73152f779e46bf0"
+      },
+      "full_directory": {
+        "offset": 5945189144,
+        "bytes": 9199136,
+        "sha1": "3acaa4916815722d4a41b9490a5769c9000a8ecb"
+      }
+    },
+    "member_count": 289441,
+    "directory_count": 4936,
+    "encrypted_index": false,
+    "encrypted_members": 0,
+    "extensions": {
+      ".bin": 2,
+      ".uasset": 141812,
+      ".uexp": 142563,
+      ".ubulk": 2732,
+      ".ufont": 13,
+      ".ini": 32,
+      ".icu": 4,
+      ".cfu": 1,
+      ".res": 1079,
+      ".nrm": 3,
+      ".brk": 12,
+      ".dict": 1,
+      ".locmeta": 13,
+      ".locres": 35,
+      ".png": 274,
+      ".PNG": 9,
+      ".tps": 3,
+      ".ttf": 14,
+      ".psd": 5,
+      ".uplugin": 79,
+      ".uproject": 1,
+      ".umap": 751,
+      ".uptnl": 2,
+      ".upluginmanifest": 1
+    },
+    "compression_counts": {
+      "Zlib": 288260,
+      "none": 1181
+    }
+  },
+  "selection_mode": "explicit members only",
+  "decoder_source_sha256": "4d1294ed576472cd5bb238f9eb4e83cd98e7c2be2e63c05a5c39d4c701217e00",
+  "selected_count": 9,
+  "decoded_total_bytes": 10050762,
+  "stored_total_bytes": 689522,
+  "companions_auto_selected": false,
+  "members": [
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_HeadImage.uasset",
+      "offset": 310816768,
+      "stored_bytes": 449,
+      "uncompressed_bytes": 768,
+      "compression": "Zlib",
+      "stored_sha1": "f2efdc8ca774f26ec13e82966159ab511e478fea",
+      "decoded_sha256": "eee4ce5764178d06e96603cccf473073f1693791747846c906a5f7be139d8b52",
+      "output_kind": "raw Unreal PAK member; not converted image/audio",
+      "output_relative": "raw/Wandering_Sword/Content/JH/Characters/Image/T_Hero_HeadImage.uasset"
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_HeadImage.uexp",
+      "offset": 310817290,
+      "stored_bytes": 39817,
+      "uncompressed_bytes": 84372,
+      "compression": "Zlib",
+      "stored_sha1": "e2d60bc27bb38f46bfd8d262830e9a4f807a230b",
+      "decoded_sha256": "720f6f2c7ae5923213e117d16dfdf8d56361267e86561371fe2fb4dd83e67f47",
+      "output_kind": "raw Unreal PAK member; not converted image/audio",
+      "output_relative": "raw/Wandering_Sword/Content/JH/Characters/Image/T_Hero_HeadImage.uexp"
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_WuDang_HeadImage.uasset",
+      "offset": 312836096,
+      "stored_bytes": 458,
+      "uncompressed_bytes": 782,
+      "compression": "Zlib",
+      "stored_sha1": "b839cf0b1a711083a8559553227fcd75a579fe7c",
+      "decoded_sha256": "c22be78133e8c5150bb866b9a57df76b8d4cbec9c6589825c4d4e2847c14ce4e",
+      "output_kind": "raw Unreal PAK member; not converted image/audio",
+      "output_relative": "raw/Wandering_Sword/Content/JH/Characters/Image/T_Hero_WuDang_HeadImage.uasset"
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_WuDang_HeadImage.uexp",
+      "offset": 312836627,
+      "stored_bytes": 39205,
+      "uncompressed_bytes": 84372,
+      "compression": "Zlib",
+      "stored_sha1": "ac193dcb760714846cbf586781392aa370bd3b89",
+      "decoded_sha256": "4f0b3220ca5d441a61b6f1e86b39ddd3f9f8791d2574ba172bfa6e14b1ce5c9f",
+      "output_kind": "raw Unreal PAK member; not converted image/audio",
+      "output_relative": "raw/Wandering_Sword/Content/JH/Characters/Image/T_Hero_WuDang_HeadImage.uexp"
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Tables/NPCResources.uasset",
+      "offset": 4570836992,
+      "stored_bytes": 312377,
+      "uncompressed_bytes": 2224551,
+      "compression": "Zlib",
+      "stored_sha1": "9db86b9d7c52a080c1f5fe0ac9d3e6152aef6d26",
+      "decoded_sha256": "dacbdb6ebb998e48f47bc40e9092eebc1f47765a7675c031ec691897031d9220",
+      "output_kind": "raw Unreal PAK member; not converted image/audio",
+      "output_relative": "raw/Wandering_Sword/Content/JH/Tables/NPCResources.uasset"
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Tables/NPCResources.uexp",
+      "offset": 4571149970,
+      "stored_bytes": 215524,
+      "uncompressed_bytes": 7349295,
+      "compression": "Zlib",
+      "stored_sha1": "12360dbad724b77903dd4223a58fe838102adbff",
+      "decoded_sha256": "e872fd05305ec2a660623396132673c0fe9c157f2fc1a42274f2a2a935e453c3",
+      "output_kind": "raw Unreal PAK member; not converted image/audio",
+      "output_relative": "raw/Wandering_Sword/Content/JH/Tables/NPCResources.uexp"
+    },
+    {
+      "member": "Wandering_Sword/Content/Localization/Skills技能表/zh-Hans/Skills技能表.locres",
+      "offset": 5934047232,
+      "stored_bytes": 79813,
+      "uncompressed_bytes": 301708,
+      "compression": "Zlib",
+      "stored_sha1": "4c79ff237c280269188633be2c292b75060d96eb",
+      "decoded_sha256": "e90093d2d12918d48040c3915ba19dd9fb2e3ef4087bba2ad8e275750883fec4",
+      "output_kind": "raw Unreal PAK member; not converted image/audio",
+      "output_relative": "raw/Wandering_Sword/Content/Localization/Skills技能表/zh-Hans/Skills技能表.locres"
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Skills/WD_N_LiuYunTaiJi/GA_WD_N_LiuYunTaiJi.uasset",
+      "offset": 4569860096,
+      "stored_bytes": 1511,
+      "uncompressed_bytes": 2986,
+      "compression": "Zlib",
+      "stored_sha1": "f48ba71771fad0e765dd6681c4c2af2ac77cf015",
+      "decoded_sha256": "670fdb88d934cd409b078da13f481921ea91ee2e222b1a78301919119702ee78",
+      "output_kind": "raw Unreal PAK member; not converted image/audio",
+      "output_relative": "raw/Wandering_Sword/Content/JH/Skills/WD_N_LiuYunTaiJi/GA_WD_N_LiuYunTaiJi.uasset"
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Skills/WD_N_LiuYunTaiJi/GA_WD_N_LiuYunTaiJi.uexp",
+      "offset": 4569861680,
+      "stored_bytes": 368,
+      "uncompressed_bytes": 1928,
+      "compression": "Zlib",
+      "stored_sha1": "824b2787d84b11b05e537dd99be6e6f4485df866",
+      "decoded_sha256": "6be358ed23789a7523b16386252fc3e5dc7f7b518eaad9f1f1d96f8cc28f35b8",
+      "output_kind": "raw Unreal PAK member; not converted image/audio",
+      "output_relative": "raw/Wandering_Sword/Content/JH/Skills/WD_N_LiuYunTaiJi/GA_WD_N_LiuYunTaiJi.uexp"
+    }
+  ]
+}

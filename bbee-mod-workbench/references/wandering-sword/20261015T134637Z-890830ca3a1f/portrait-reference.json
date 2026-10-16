@@ -1,0 +1,176 @@
+{
+  "portraits": [
+    {
+      "row": "Hero",
+      "npc_resource_id": 0,
+      "field": "TeamImage",
+      "object": "/Game/JH/Characters/Image/T_Hero_HeadImage1.T_Hero_HeadImage1",
+      "stem": "T_Hero_HeadImage1",
+      "package": "/Game/JH/Characters/Image/T_Hero_HeadImage1",
+      "width": 900,
+      "height": 835,
+      "format": "PF_B8G8R8A8",
+      "mips": 1,
+      "pixel_sha256_bgra": "63dccb48d0628818f192463ff92db903efe1305745980d83373c51c781784ad3",
+      "png": "portraits/T_Hero_HeadImage1.png",
+      "alpha_bbox": [
+        206,
+        42,
+        668,
+        801
+      ],
+      "bytes": 448694,
+      "sha256": "824b29ddfd6388e6bc7d68aae9603894408a66c9ad9779390bb7af40293cc658"
+    },
+    {
+      "row": "Hero",
+      "npc_resource_id": 0,
+      "field": "DlgImage",
+      "object": "/Game/JH/Characters/Image/T_Hero_HeadImage2.T_Hero_HeadImage2",
+      "stem": "T_Hero_HeadImage2",
+      "package": "/Game/JH/Characters/Image/T_Hero_HeadImage2",
+      "width": 500,
+      "height": 534,
+      "format": "PF_B8G8R8A8",
+      "mips": 1,
+      "pixel_sha256_bgra": "e18738cda3155140e04ddf0d7d65260634f13e47518ee8f76674073ee1cf0539",
+      "png": "portraits/T_Hero_HeadImage2.png",
+      "alpha_bbox": [
+        139,
+        114,
+        413,
+        497
+      ],
+      "bytes": 156091,
+      "sha256": "28a4c85d98900ed0d46ac3e378c752670dc2bc7f3d2aad15f3bf0b82b00374f6"
+    },
+    {
+      "row": "Hero",
+      "npc_resource_id": 0,
+      "field": "FightImage",
+      "object": "/Game/JH/Characters/Image/T_Hero_HeadImage3.T_Hero_HeadImage3",
+      "stem": "T_Hero_HeadImage3",
+      "package": "/Game/JH/Characters/Image/T_Hero_HeadImage3",
+      "width": 173,
+      "height": 173,
+      "format": "PF_B8G8R8A8",
+      "mips": 1,
+      "pixel_sha256_bgra": "205d7a094669d0534700925c69c8cfd538cd5150faf9c5e5753693f841e81762",
+      "png": "portraits/T_Hero_HeadImage3.png",
+      "alpha_bbox": [
+        24,
+        1,
+        170,
+        171
+      ],
+      "bytes": 48824,
+      "sha256": "743455ee6c5f9549ed9a0196fd0441032924830c2a615dee935551b882214562"
+    },
+    {
+      "row": "Hero_WuDang",
+      "npc_resource_id": 1,
+      "field": "TeamImage",
+      "object": "/Game/JH/Characters/Image/T_Hero_WuDang_HeadImage1.T_Hero_WuDang_HeadImage1",
+      "stem": "T_Hero_WuDang_HeadImage1",
+      "package": "/Game/JH/Characters/Image/T_Hero_WuDang_HeadImage1",
+      "width": 900,
+      "height": 835,
+      "format": "PF_B8G8R8A8",
+      "mips": 1,
+      "pixel_sha256_bgra": "661c6f9eb85ff728c68911fabb969cea1049e20fc81c60ba233a7db0943189a7",
+      "png": "portraits/T_Hero_WuDang_HeadImage1.png",
+      "alpha_bbox": [
+        206,
+        41,
+        718,
+        801
+      ],
+      "bytes": 478458,
+      "sha256": "09df0a1a1974af252adcc8b04bdb34d210066ca78545f094d0d4ac825d864040"
+    },
+    {
+      "row": "Hero_WuDang",
+      "npc_resource_id": 1,
+      "field": "DlgImage",
+      "object": "/Game/JH/Characters/Image/T_Hero_WuDang_HeadImage2.T_Hero_WuDang_HeadImage2",
+      "stem": "T_Hero_WuDang_HeadImage2",
+      "package": "/Game/JH/Characters/Image/T_Hero_WuDang_HeadImage2",
+      "width": 500,
+      "height": 534,
+      "format": "PF_B8G8R8A8",
+      "mips": 1,
+      "pixel_sha256_bgra": "a5022a0e91e7739e2574cbca9b0b76385065b55f86b4ce877de913736324786a",
+      "png": "portraits/T_Hero_WuDang_HeadImage2.png",
+      "alpha_bbox": [
+        139,
+        114,
+        389,
+        497
+      ],
+      "bytes": 148725,
+      "sha256": "913690865d0de54d96091fb4d2e5d595f662464453865deaa19a3847294df34f"
+    },
+    {
+      "row": "Hero_WuDang",
+      "npc_resource_id": 1,
+      "field": "FightImage",
+      "object": "/Game/JH/Characters/Image/T_Hero_WuDang_HeadImage3.T_Hero_WuDang_HeadImage3",
+      "stem": "T_Hero_WuDang_HeadImage3",
+      "package": "/Game/JH/Characters/Image/T_Hero_WuDang_HeadImage3",
+      "width": 173,
+      "height": 173,
+      "format": "PF_B8G8R8A8",
+      "mips": 1,
+      "pixel_sha256_bgra": "63cb381c8501d9579a8f7049bef383c785b6e903703c7e209b7b8dfad14abc05",
+      "png": "portraits/T_Hero_WuDang_HeadImage3.png",
+      "alpha_bbox": [
+        24,
+        1,
+        161,
+        171
+      ],
+      "bytes": 47898,
+      "sha256": "b4e80b371515a72a0863fb85f8304871265b2df1ed2f85d77ed5c538182a4e55"
+    }
+  ],
+  "identity_text": [
+    {
+      "namespace": "NPCs",
+      "key": "0_Name",
+      "text": "宇文逸",
+      "namespace_hash_stored": 212111303,
+      "key_hash_stored": 1191710547,
+      "source_string_hash_stored": 2095684959,
+      "localized_string_index": 1391
+    },
+    {
+      "namespace": "NPCs",
+      "key": "1_Name",
+      "text": "宇文逸",
+      "namespace_hash_stored": 212111303,
+      "key_hash_stored": 3262127975,
+      "source_string_hash_stored": 2095684959,
+      "localized_string_index": 1391
+    },
+    {
+      "namespace": "NPCs",
+      "key": "0_Description",
+      "text": "来自关外辽城的普通少年，自幼与叔叔相依为命。",
+      "namespace_hash_stored": 212111303,
+      "key_hash_stored": 3399129203,
+      "source_string_hash_stored": 1869737995,
+      "localized_string_index": 1685
+    }
+  ],
+  "identity_join": "NPCResources Hero.Id=0/Hero_WuDang.Id=1 joined to NPCs namespace 0_Name/1_Name; NPCs master resource relation not decoded",
+  "master_table": {
+    "decoded": false,
+    "reason": "0x80040000 localization-gather profile outside unchanged old decoder",
+    "raw_members": [
+      "Wandering_Sword/Content/JH/Tables/NPCs.uasset",
+      "Wandering_Sword/Content/JH/Tables/NPCs.uexp"
+    ]
+  },
+  "visual_acceptance": "pending",
+  "portrait_framing": "Original Team/Dialog crops; full-body framing remains a visual question"
+}

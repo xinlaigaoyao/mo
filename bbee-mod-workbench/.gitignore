@@ -1,0 +1,17 @@
+baselines/
+private/
+ZenithTerminal/Interpreter/
+ZenithTerminal/Launcher/game/
+ZenithTerminal/Launcher/decoded/
+ZenithTerminal/Launcher/extracted_raw/
+ZenithTerminal/Launcher/inspect/
+ZenithTerminal/Launcher/patch_out/
+ZenithTerminal/Launcher/save_backups/
+ZenithTerminal/Launcher/local_only/
+__pycache__/
+*.pyc
+ZenithTerminal/Launcher/.decode-*/
+ZenithTerminal/Launcher/.baseline_history/
+ZenithTerminal/Launcher/dump/
+builds/
+tools/nuget/

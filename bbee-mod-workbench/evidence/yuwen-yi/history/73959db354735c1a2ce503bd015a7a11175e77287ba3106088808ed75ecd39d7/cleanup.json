@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "removed": [],
+  "retained": [
+    "source",
+    "final builds",
+    "evidence",
+    "independent baseline",
+    "private verified backups"
+  ]
+}

@@ -1,0 +1,841 @@
+{
+  "atlas_preview": {
+    "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\ui\\potential_atlas_preview.png",
+    "scope": "Preview arrangement only; native atlas donor owns actual packing",
+    "sha256": "750ddcb90f9af571d3a32ced4f644b42e93197d97e8ca04ea2694bc2387f9555"
+  },
+  "kind": "yuwen_yi_ui_art",
+  "placement_provenance": {
+    "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\decoded\\tables\\HeroPortraitOffsetConfigUI.json.orig",
+    "reference_actor": 102901,
+    "scope": "Native UI placement values only; no reference artwork pixels",
+    "sha256": "97307f7893927ac88d2df959031ccb6eed3b8d43ae347acb16fa6d26f5210dbe"
+  },
+  "portrait_source_manifest": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261015T134637Z-890830ca3a1f\\manifest.json",
+  "portrait_source_sha256": "aae6004559b0fa63b16e2ecfa7ffe1f24d5e25cf02561bc191012234ddb43df5",
+  "schema": 1,
+  "source_pak_sha256": "5e049dc376c36dacadf6edb6fab133942679b54b1809d7f483728deec35beaff",
+  "spec": {
+    "HeroPortraitOffsetConfigUI": [
+      {
+        "$append": true,
+        "Id": 200901,
+        "Key": "BattleChallengePrepare",
+        "PivotX": 0.529202,
+        "PivotY": 0.0828,
+        "Scale": 1.225275
+      },
+      {
+        "$append": true,
+        "Id": 200901,
+        "Key": "BreedFinishRoom",
+        "PivotX": 0.43257,
+        "PivotY": 0.37605,
+        "Scale": 1.991071
+      },
+      {
+        "$append": true,
+        "Id": 200901,
+        "Key": "BreedPrepare",
+        "PivotX": 0.454044,
+        "PivotY": 0.501728,
+        "Scale": 1.531593
+      },
+      {
+        "$append": true,
+        "Id": 200901,
+        "Key": "BreedPrepareS",
+        "PivotX": 0.486255,
+        "PivotY": 0.599478,
+        "Scale": 1.378434
+      },
+      {
+        "$append": true,
+        "Id": 200901,
+        "Key": "BreedResult",
+        "PivotX": 0.529202,
+        "PivotY": 0.264336,
+        "Scale": 1.531593
+      },
+      {
+        "$append": true,
+        "Id": 200901,
+        "Key": "FesL",
+        "PivotX": 0.346676,
+        "PivotY": 0.348121,
+        "Scale": 0.949588
+      },
+      {
+        "$append": true,
+        "Id": 200901,
+        "Key": "FesR",
+        "PivotX": 0.700991,
+        "PivotY": 0.348121,
+        "Scale": 0.949588
+      },
+      {
+        "$append": true,
+        "Id": 200901,
+        "Key": "FesShadowL",
+        "PivotX": 0.851306,
+        "PivotY": 0.222443,
+        "Scale": 1.531593
+      },
+      {
+        "$append": true,
+        "Id": 200901,
+        "Key": "FesShadowR",
+        "PivotX": 0.185624,
+        "PivotY": 0.222443,
+        "Scale": 1.531593
+      },
+      {
+        "$append": true,
+        "Id": 200901,
+        "Key": "GenericActorDetail",
+        "PivotX": 0.658044,
+        "PivotY": 0.0828,
+        "Scale": 1.225275
+      },
+      {
+        "$append": true,
+        "Id": 200901,
+        "Key": "PvpTeamMatchL",
+        "PivotX": 0.475518,
+        "PivotY": 0.348121,
+        "Scale": 1.837912
+      },
+      {
+        "$append": true,
+        "Id": 200901,
+        "Key": "PvpTeamMatchR",
+        "PivotX": 0.529202,
+        "PivotY": 0.348121,
+        "Scale": 1.837912
+      }
+    ],
+    "content": {
+      "assets": [
+        {
+          "appendItems": [
+            {
+              "key": "path",
+              "list": "_entries",
+              "value": {
+                "height": 836,
+                "path": "UI/Texture/HeroPortraitFull/HeroPortraitFull_200901",
+                "width": 900
+              }
+            },
+            {
+              "key": "path",
+              "list": "_entries",
+              "value": {
+                "height": 1024,
+                "path": "UI/Texture/HeroPortraitLMB/HeroPortraitFull_200901",
+                "width": 1024
+              }
+            },
+            {
+              "key": "path",
+              "list": "_entries",
+              "value": {
+                "height": 2048,
+                "path": "UI/Texture/HeroPortraitFullMB/HeroPortraitFull_200901",
+                "width": 2048
+              }
+            },
+            {
+              "key": "path",
+              "list": "_entries",
+              "value": {
+                "height": 1024,
+                "path": "UI/Texture/HeroPortraitCoatArms/HeroPortraitFull_200901",
+                "width": 1024
+              }
+            },
+            {
+              "key": "path",
+              "list": "_entries",
+              "value": {
+                "height": 256,
+                "path": "UI/Texture/HeroHeadIcon/HeroHeadIcon_200901",
+                "width": 256
+              }
+            },
+            {
+              "key": "path",
+              "list": "_entries",
+              "value": {
+                "height": 128,
+                "path": "UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+                "width": 128
+              }
+            },
+            {
+              "key": "path",
+              "list": "_entries",
+              "value": {
+                "height": 184,
+                "path": "UI/Texture/HeroHeadIcon/HeroEvoHead_200901",
+                "width": 189
+              }
+            },
+            {
+              "key": "path",
+              "list": "_entries",
+              "value": {
+                "height": 184,
+                "path": "UI/Texture/HeroHeadIcon/HeroEvoHead_Off_200901",
+                "width": 189
+              }
+            },
+            {
+              "key": "path",
+              "list": "_entries",
+              "value": {
+                "height": 237,
+                "path": "UI/Texture/HeroHeadIcon/HeroFinalBattle_200901",
+                "width": 258
+              }
+            },
+            {
+              "key": "path",
+              "list": "_entries",
+              "value": {
+                "height": 221,
+                "path": "UI/Texture/HeroHeadIcon/HeroPvPFinish_200901",
+                "width": 827
+              }
+            },
+            {
+              "key": "path",
+              "list": "_entries",
+              "value": {
+                "height": 477,
+                "path": "UI/Texture/HeroHeadIcon/HeroPDA_200901",
+                "width": 287
+              }
+            },
+            {
+              "key": "path",
+              "list": "_entries",
+              "value": {
+                "height": 256,
+                "path": "UI/Texture/IconSkill/IconSkill_200901",
+                "width": 256
+              }
+            }
+          ],
+          "asset": "metrics",
+          "bundle": "ui/texture/metrics.ab"
+        }
+      ]
+    },
+    "metrics": [
+      {
+        "key": "path",
+        "list": "_entries",
+        "value": {
+          "height": 836,
+          "path": "UI/Texture/HeroPortraitFull/HeroPortraitFull_200901",
+          "width": 900
+        }
+      },
+      {
+        "key": "path",
+        "list": "_entries",
+        "value": {
+          "height": 1024,
+          "path": "UI/Texture/HeroPortraitLMB/HeroPortraitFull_200901",
+          "width": 1024
+        }
+      },
+      {
+        "key": "path",
+        "list": "_entries",
+        "value": {
+          "height": 2048,
+          "path": "UI/Texture/HeroPortraitFullMB/HeroPortraitFull_200901",
+          "width": 2048
+        }
+      },
+      {
+        "key": "path",
+        "list": "_entries",
+        "value": {
+          "height": 1024,
+          "path": "UI/Texture/HeroPortraitCoatArms/HeroPortraitFull_200901",
+          "width": 1024
+        }
+      },
+      {
+        "key": "path",
+        "list": "_entries",
+        "value": {
+          "height": 256,
+          "path": "UI/Texture/HeroHeadIcon/HeroHeadIcon_200901",
+          "width": 256
+        }
+      },
+      {
+        "key": "path",
+        "list": "_entries",
+        "value": {
+          "height": 128,
+          "path": "UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+          "width": 128
+        }
+      },
+      {
+        "key": "path",
+        "list": "_entries",
+        "value": {
+          "height": 184,
+          "path": "UI/Texture/HeroHeadIcon/HeroEvoHead_200901",
+          "width": 189
+        }
+      },
+      {
+        "key": "path",
+        "list": "_entries",
+        "value": {
+          "height": 184,
+          "path": "UI/Texture/HeroHeadIcon/HeroEvoHead_Off_200901",
+          "width": 189
+        }
+      },
+      {
+        "key": "path",
+        "list": "_entries",
+        "value": {
+          "height": 237,
+          "path": "UI/Texture/HeroHeadIcon/HeroFinalBattle_200901",
+          "width": 258
+        }
+      },
+      {
+        "key": "path",
+        "list": "_entries",
+        "value": {
+          "height": 221,
+          "path": "UI/Texture/HeroHeadIcon/HeroPvPFinish_200901",
+          "width": 827
+        }
+      },
+      {
+        "key": "path",
+        "list": "_entries",
+        "value": {
+          "height": 477,
+          "path": "UI/Texture/HeroHeadIcon/HeroPDA_200901",
+          "width": 287
+        }
+      },
+      {
+        "key": "path",
+        "list": "_entries",
+        "value": {
+          "height": 256,
+          "path": "UI/Texture/IconSkill/IconSkill_200901",
+          "width": 256
+        }
+      }
+    ],
+    "potentialAtlas": {
+      "donor": "ui/atlas/iconpotential103401/iconpotential103401",
+      "donor_evidence": {
+        "bundle_sha256": "c70b21647f16104ee5290db54b5352a2bfa530d23e83c1ebaff4ce7957f4c57a",
+        "cell_size": [
+          120,
+          120
+        ],
+        "distinct_positions": 16,
+        "game_build": "25627491",
+        "scope": "Stock object layout only; all sixteen icon cells replaced by owned images",
+        "sprite_objects": 16,
+        "texture_size": [
+          976,
+          244
+        ]
+      },
+      "items": [
+        [
+          "Potential_209001",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209001.png"
+        ],
+        [
+          "Potential_209002",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209002.png"
+        ],
+        [
+          "Potential_209003",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209003.png"
+        ],
+        [
+          "Potential_209004",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209004.png"
+        ],
+        [
+          "Potential_209005",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209005.png"
+        ],
+        [
+          "Potential_209006",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209006.png"
+        ],
+        [
+          "Potential_209007",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209007.png"
+        ],
+        [
+          "Potential_209008",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209008.png"
+        ],
+        [
+          "Potential_209009",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209009.png"
+        ],
+        [
+          "Potential_209010",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209010.png"
+        ],
+        [
+          "Potential_209011",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209011.png"
+        ],
+        [
+          "Potential_209012",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209012.png"
+        ],
+        [
+          "Talent_209080",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Talent_209080.png"
+        ],
+        [
+          "Ywy_Qi",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Ywy_Qi.png"
+        ],
+        [
+          "Ywy_Taiji",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Ywy_Taiji.png"
+        ],
+        [
+          "Ywy_Guard",
+          "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Ywy_Guard.png"
+        ]
+      ],
+      "native_contract": "bundleClones.atlasSprites consumes [name, absolute PNG file]; no source stock icons retained",
+      "path": "ui/atlas/iconpotential200901/iconpotential200901",
+      "rename": [
+        [
+          "IconPotential103401",
+          "IconPotential200901"
+        ]
+      ],
+      "sprites": [
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209001.png",
+          "name": "Potential_209001",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            0,
+            288,
+            96,
+            96
+          ],
+          "sha256": "6ebf15487fab638c3147aff8139c53beca0dd304a81a0093b62bf025e325e9be"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209002.png",
+          "name": "Potential_209002",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            96,
+            288,
+            96,
+            96
+          ],
+          "sha256": "f21c3aff582ecefc1588be36259cfdbde3c6e267e407b273785d8cd1555e6bb1"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209003.png",
+          "name": "Potential_209003",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            192,
+            288,
+            96,
+            96
+          ],
+          "sha256": "0d476b6629444a7c7a9fd25b74418735037f127bf2671b1ca07c28c4b75d9514"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209004.png",
+          "name": "Potential_209004",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            288,
+            288,
+            96,
+            96
+          ],
+          "sha256": "e2e7fe32ab2c5d06856755f6effd156a840f525c4d0a0123ab6beafc7563bd5f"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209005.png",
+          "name": "Potential_209005",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            0,
+            192,
+            96,
+            96
+          ],
+          "sha256": "7300cff4abc910c7b69467c39192be6d1252547bdd4f91bcd4e661f17bd5723d"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209006.png",
+          "name": "Potential_209006",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            96,
+            192,
+            96,
+            96
+          ],
+          "sha256": "f4937f26337314febef62f55f50d86d78c547a90c8961678d5d6f9cb4a43f4ac"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209007.png",
+          "name": "Potential_209007",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            192,
+            192,
+            96,
+            96
+          ],
+          "sha256": "18c8ed4e528067887b5bf22dd22b40b552f8a1a4e74871f5e643a8bc4b7ad5af"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209008.png",
+          "name": "Potential_209008",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            288,
+            192,
+            96,
+            96
+          ],
+          "sha256": "742bdcdd0a123950b4397f1a4dd14a22c7f59b00bbd0c5ce3ff58d74d720c330"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209009.png",
+          "name": "Potential_209009",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            0,
+            96,
+            96,
+            96
+          ],
+          "sha256": "12acc4466350d6b46d8a2b8b90d70c9c3f007f180b9fb71459c911206787039d"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209010.png",
+          "name": "Potential_209010",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            96,
+            96,
+            96,
+            96
+          ],
+          "sha256": "9d2394f6cfda2d072b74862ec67a3e801bfb35c7a2a85631e8be14ea86d3a753"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209011.png",
+          "name": "Potential_209011",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            192,
+            96,
+            96,
+            96
+          ],
+          "sha256": "05a40e396d37738aca02f7d5303a7481e022ceb8d2e7b861ea89493a7c44cb31"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209012.png",
+          "name": "Potential_209012",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            288,
+            96,
+            96,
+            96
+          ],
+          "sha256": "5ebcdf68c90d409ff223f2f6b375db2d415f633687a84cc3ab6084bd2812161d"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Talent_209080.png",
+          "name": "Talent_209080",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            0,
+            0,
+            96,
+            96
+          ],
+          "sha256": "75ec254c82ff5afe33a09c920147ab7539f6f7e1fd264bb9425c56d71fc5b2e7"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Ywy_Qi.png",
+          "name": "Ywy_Qi",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            96,
+            0,
+            96,
+            96
+          ],
+          "sha256": "0d476b6629444a7c7a9fd25b74418735037f127bf2671b1ca07c28c4b75d9514"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Ywy_Taiji.png",
+          "name": "Ywy_Taiji",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            192,
+            0,
+            96,
+            96
+          ],
+          "sha256": "f21c3aff582ecefc1588be36259cfdbde3c6e267e407b273785d8cd1555e6bb1"
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Ywy_Guard.png",
+          "name": "Ywy_Guard",
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "preview_rect": [
+            288,
+            0,
+            96,
+            96
+          ],
+          "sha256": "e2e7fe32ab2c5d06856755f6effd156a840f525c4d0a0123ab6beafc7563bd5f"
+        }
+      ]
+    },
+    "spriteAliases": {
+      "BaseActor_200901": "tex:UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+      "BaseActor_200901_S": "tex:UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+      "FesActor_200901k": "tex:UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+      "FesActor_200901k_S": "tex:UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+      "HeroHead_200901": "tex:UI/Texture/HeroHeadIcon/HeroEvoHead_200901",
+      "HeroHead_200901_Off": "tex:UI/Texture/HeroHeadIcon/HeroEvoHead_Off_200901",
+      "HeroPortraitFull_200901": "tex:UI/Texture/HeroHeadIcon/HeroFinalBattle_200901",
+      "HeroPortraitFull_200901_S": "tex:UI/Texture/HeroHeadIcon/HeroHeadIcon_200901",
+      "IconSkill_200901": "tex:UI/Texture/IconSkill/IconSkill_200901",
+      "PDA_HeroPortraitFull_200901": "tex:UI/Texture/HeroHeadIcon/HeroPDA_200901",
+      "PVE_HeroPortraitFull_200901_H": "tex:UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+      "PVP_HeroPortraitFull_200901": "tex:UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+      "PvPFinish_HeroPortraitFull_200901": "tex:UI/Texture/HeroHeadIcon/HeroPvPFinish_200901"
+    }
+  },
+  "textures": [
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\ui\\full.png",
+      "key": "full",
+      "logical": "ui/texture/heroportraitfull/heroportraitfull_200901",
+      "native_path": "UI/Texture/HeroPortraitFull/HeroPortraitFull_200901",
+      "provenance": "Original Hero_WuDang Team/Dialog/FightImage aspect-preserving composition; crest/skill/atlas are own geometric drawings",
+      "sha256": "1c90b4a0ec71a8d7f0d3c5d1adff715e4f6b21354a15f738b036048472c9aada",
+      "size": [
+        900,
+        836
+      ]
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\ui\\lmb.png",
+      "key": "lmb",
+      "logical": "ui/texture/heroportraitlmb/heroportraitfull_200901",
+      "native_path": "UI/Texture/HeroPortraitLMB/HeroPortraitFull_200901",
+      "provenance": "Original Hero_WuDang Team/Dialog/FightImage aspect-preserving composition; crest/skill/atlas are own geometric drawings",
+      "sha256": "a48ce2c898cb329a8e8d168b5dced5c9fd608725b09f08c76d0b327d82cfb2cc",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\ui\\mb.png",
+      "key": "mb",
+      "logical": "ui/texture/heroportraitfullmb/heroportraitfull_200901",
+      "native_path": "UI/Texture/HeroPortraitFullMB/HeroPortraitFull_200901",
+      "provenance": "Original Hero_WuDang Team/Dialog/FightImage aspect-preserving composition; crest/skill/atlas are own geometric drawings",
+      "sha256": "600c3a6c367c3f3aa6f49b3af1e0c432c10c530b09a04ebdf22c94f2d9448048",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\ui\\coatarms.png",
+      "key": "coatarms",
+      "logical": "ui/texture/heroportraitcoatarms/heroportraitfull_200901",
+      "native_path": "UI/Texture/HeroPortraitCoatArms/HeroPortraitFull_200901",
+      "provenance": "Original Hero_WuDang Team/Dialog/FightImage aspect-preserving composition; crest/skill/atlas are own geometric drawings",
+      "sha256": "995026b4453965f3e0c3fb1c5a992c598bd2e27422038aae6a2b97e073dae3a0",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\ui\\head.png",
+      "key": "head",
+      "logical": "ui/texture/heroheadicon/heroheadicon_200901",
+      "native_path": "UI/Texture/HeroHeadIcon/HeroHeadIcon_200901",
+      "provenance": "Original Hero_WuDang Team/Dialog/FightImage aspect-preserving composition; crest/skill/atlas are own geometric drawings",
+      "sha256": "79dae4ce0acfb24594777f206992c9b75a716cc3b8058b6ba844acd6f7b41847",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\ui\\smallhead.png",
+      "key": "smallhead",
+      "logical": "ui/texture/heroheadicon/herosmallhead_200901",
+      "native_path": "UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+      "provenance": "Original Hero_WuDang Team/Dialog/FightImage aspect-preserving composition; crest/skill/atlas are own geometric drawings",
+      "sha256": "c8960c4a72b92f6a46f617eee94cbe8c316ca594df2d78aa0011f555c4c566b3",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\ui\\evohead.png",
+      "key": "evohead",
+      "logical": "ui/texture/heroheadicon/heroevohead_200901",
+      "native_path": "UI/Texture/HeroHeadIcon/HeroEvoHead_200901",
+      "provenance": "Original Hero_WuDang Team/Dialog/FightImage aspect-preserving composition; crest/skill/atlas are own geometric drawings",
+      "sha256": "7f76384eb3d91ecea91f950bb3f8b9df2d80f576891bcff8c570c86a96a95a0c",
+      "size": [
+        189,
+        184
+      ]
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\ui\\evohead_off.png",
+      "key": "evohead_off",
+      "logical": "ui/texture/heroheadicon/heroevohead_off_200901",
+      "native_path": "UI/Texture/HeroHeadIcon/HeroEvoHead_Off_200901",
+      "provenance": "Original Hero_WuDang Team/Dialog/FightImage aspect-preserving composition; crest/skill/atlas are own geometric drawings",
+      "sha256": "b4ceb52215740d23ea0ea102593cc14cd557a3cb107cebacff18c1fedae23be0",
+      "size": [
+        189,
+        184
+      ]
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\ui\\finalbattle.png",
+      "key": "finalbattle",
+      "logical": "ui/texture/heroheadicon/herofinalbattle_200901",
+      "native_path": "UI/Texture/HeroHeadIcon/HeroFinalBattle_200901",
+      "provenance": "Original Hero_WuDang Team/Dialog/FightImage aspect-preserving composition; crest/skill/atlas are own geometric drawings",
+      "sha256": "05713fbcf7d5397010c411195ac3008ca96ece063fca6aa04d49c70034d479f4",
+      "size": [
+        258,
+        237
+      ]
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\ui\\pvpfinish.png",
+      "key": "pvpfinish",
+      "logical": "ui/texture/heroheadicon/heropvpfinish_200901",
+      "native_path": "UI/Texture/HeroHeadIcon/HeroPvPFinish_200901",
+      "provenance": "Original Hero_WuDang Team/Dialog/FightImage aspect-preserving composition; crest/skill/atlas are own geometric drawings",
+      "sha256": "1cf8f5b498464884e69e58e0ac53242fc3f6c00745661dbb0f6c8865b04f236b",
+      "size": [
+        827,
+        221
+      ]
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\ui\\pda.png",
+      "key": "pda",
+      "logical": "ui/texture/heroheadicon/heropda_200901",
+      "native_path": "UI/Texture/HeroHeadIcon/HeroPDA_200901",
+      "provenance": "Original Hero_WuDang Team/Dialog/FightImage aspect-preserving composition; crest/skill/atlas are own geometric drawings",
+      "sha256": "c401841beb759971ae54e9499d39c429774811a3b306d167906f0c66752a3d81",
+      "size": [
+        287,
+        477
+      ]
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\ui\\skill.png",
+      "key": "skill",
+      "logical": "ui/texture/iconskill/iconskill_200901",
+      "native_path": "UI/Texture/IconSkill/IconSkill_200901",
+      "provenance": "Original Hero_WuDang Team/Dialog/FightImage aspect-preserving composition; crest/skill/atlas are own geometric drawings",
+      "sha256": "17fa9d25afc2a3620bcfa8271436b336b48de9b4b4bf5486ac116fe33660babc",
+      "size": [
+        256,
+        256
+      ]
+    }
+  ]
+}

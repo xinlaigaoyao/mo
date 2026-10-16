@@ -1,0 +1,3589 @@
+{
+  "id": "char-yuwen-yi",
+  "name": "宇文逸 · 流云太极",
+  "author": "local user mod",
+  "version": "0.1.0-dev",
+  "description": "《逸剑风云决》宇文逸的横版动作改编；剑拳联动、梯云纵与出生完整流云太极绝式。",
+  "gameBuilds": [
+    "25627491"
+  ],
+  "dependencies": [
+    "bbee-sdk",
+    "bbee-actors"
+  ],
+  "prepare": [
+    "mods/char-yuwen-yi/build_yuwen.py"
+  ],
+  "content": {
+    "tables": {
+      "HeroConfig": [
+        {
+          "$copyRows": {
+            "where": {
+              "Id": 100101
+            },
+            "set": {
+              "Id": 200901,
+              "LogicRes": "ywy",
+              "Skin": [
+                "02"
+              ],
+              "MoveSpeed": 7.5,
+              "Describe": "ywy",
+              "MinMp": 0.0,
+              "MaxMp": 100.0,
+              "MpRecover": [
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6.6666665,
+                6.6666665,
+                50
+              ],
+              "Boxwidth": 0.6,
+              "Boxheight": 1.8,
+              "Colwidth": 0.72,
+              "Colheight": 1.8
+            }
+          }
+        }
+      ],
+      "BaseActorConf": [
+        {
+          "$copyRows": {
+            "where": {
+              "ActorId": 100101
+            },
+            "set": {
+              "ActorId": 200901,
+              "PotentialPoolId": 200901,
+              "Unlocked": 1,
+              "SortNum": 107,
+              "PvpUnlocked": 0,
+              "InheritSkill": [],
+              "Name": "宇文逸",
+              "Talents": [
+                {
+                  "Id": 209080,
+                  "Quality": 1
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "BaseActorAttrConf": [
+        {
+          "$copyRows": {
+            "where": {
+              "ActorId": 100101
+            },
+            "set": {
+              "ActorId": 200901,
+              "Attr": [
+                {
+                  "Type": 1,
+                  "Value": 1250.0
+                },
+                {
+                  "Type": 6,
+                  "Value": 210.0
+                },
+                {
+                  "Type": 18,
+                  "Value": 100.0
+                },
+                {
+                  "Type": 92,
+                  "Value": 1.0
+                },
+                {
+                  "Type": 98,
+                  "Value": 99.0
+                },
+                {
+                  "Type": 115,
+                  "Value": 0.3
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "FesActorAttrInheritConf": [
+        {
+          "$copyRows": {
+            "where": {
+              "ActorId": 100101
+            },
+            "set": {
+              "ActorId": 200901
+            }
+          }
+        }
+      ],
+      "PvpBaseActorAttrConf": [
+        {
+          "$copyRows": {
+            "where": {
+              "ActorId": 100101
+            },
+            "set": {
+              "ActorId": 200901
+            }
+          }
+        }
+      ],
+      "ActorConfig": [
+        {
+          "$copyRows": {
+            "where": {
+              "Id": 100101
+            },
+            "set": {
+              "Id": 200901,
+              "Paid": null,
+              "MinPaidActorCount": 0
+            }
+          }
+        }
+      ],
+      "ClientSkinConf": [
+        {
+          "$copyRows": {
+            "where": {
+              "Id": 100101020
+            },
+            "set": {
+              "Id": 200901020,
+              "HeroId": 200901,
+              "Color": "#447d9d",
+              "SkinName": "02",
+              "SkinNameDisplay": "武当",
+              "VfxTintColor": "#AADDF0"
+            }
+          }
+        }
+      ],
+      "SkinUnlockConf": [
+        {
+          "$copyRows": {
+            "where": {
+              "Id": 100101020
+            },
+            "set": {
+              "Id": 200901020
+            }
+          }
+        }
+      ],
+      "BulletConfig": [
+        {
+          "$copyRows": {
+            "where": {
+              "Id": 10030101
+            },
+            "set": {
+              "Id": 20090101,
+              "LogicRes": "ywybullet"
+            }
+          }
+        }
+      ],
+      "SkillActivate": [
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 1,
+          "Order": 1,
+          "Action": "ywy_launcher",
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "AllowFlying": false,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 1,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.26666666666666666,
+          "Mutelist": "\"all\":0.26666666666666666,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [
+            "Start_1"
+          ],
+          "Timeout": 0,
+          "SatisfyInputkey": [
+            1
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209002"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209002"
+            }
+          ],
+          "Input": "Attack",
+          "InputDir": 1,
+          "ExitTrigger": [
+            "End_1"
+          ],
+          "PreScriptCallParams": "move:\"ywy_launcher\", input:1, group:1"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 1,
+          "Order": 2,
+          "Action": "ywy_sword1",
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "AllowFlying": false,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 1,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.26666666666666666,
+          "Mutelist": "\"all\":0.26666666666666666,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [
+            "Start_1"
+          ],
+          "Timeout": 0.48,
+          "SatisfyInputkey": [
+            1
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209002"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209002"
+            }
+          ],
+          "Input": "Attack",
+          "PreScriptCallParams": "move:\"ywy_sword1\", input:1, group:1"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 1,
+          "Order": 3,
+          "Action": "ywy_sword2",
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "AllowFlying": false,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 1,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.3333333333333333,
+          "Mutelist": "\"all\":0.3333333333333333,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [],
+          "Timeout": 0.52,
+          "SatisfyInputkey": [
+            1
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209002"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209002"
+            }
+          ],
+          "Input": "Attack",
+          "PreSkillOrder": [
+            2
+          ],
+          "PreScriptCallParams": "move:\"ywy_sword2\", input:1, group:1"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 1,
+          "Order": 4,
+          "Action": "ywy_sword3",
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "AllowFlying": false,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 1,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.45,
+          "Mutelist": "\"all\":0.45,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [],
+          "Timeout": 0,
+          "SatisfyInputkey": [
+            1
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209002"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209002"
+            }
+          ],
+          "Input": "Attack",
+          "PreSkillOrder": [
+            3
+          ],
+          "ExitTrigger": [
+            "End_1"
+          ],
+          "PreScriptCallParams": "move:\"ywy_sword3\", input:1, group:1"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 4,
+          "Order": 1,
+          "Action": "ywy_air1",
+          "AllowActiveState": true,
+          "AllowGround": false,
+          "AllowFlying": true,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 4,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.3333333333333333,
+          "Mutelist": "\"all\":0.3333333333333333,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [
+            "Start_4"
+          ],
+          "Timeout": 0.6,
+          "SatisfyInputkey": [
+            4
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209002"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209002"
+            }
+          ],
+          "Input": "Attack",
+          "PrecheckActionCd": 1,
+          "PreScriptCallParams": "move:\"ywy_air1\", input:1, group:4"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 4,
+          "Order": 2,
+          "Action": "ywy_air2",
+          "AllowActiveState": true,
+          "AllowGround": false,
+          "AllowFlying": true,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 4,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.4,
+          "Mutelist": "\"all\":0.4,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [],
+          "Timeout": 0,
+          "SatisfyInputkey": [
+            4
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209002"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209002"
+            }
+          ],
+          "Input": "Attack",
+          "PreSkillOrder": [
+            1
+          ],
+          "ExitTrigger": [
+            "End_4"
+          ],
+          "PrecheckActionCd": 1,
+          "PreScriptCallParams": "move:\"ywy_air2\", input:1, group:4"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 2,
+          "Order": 1,
+          "Action": "ywy_taiji_fist",
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "AllowFlying": true,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 2,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.5333333333333333,
+          "Mutelist": "\"all\":0.5333333333333333,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [
+            "Start_2"
+          ],
+          "Timeout": 0,
+          "SatisfyInputkey": [
+            2
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209005"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209005"
+            }
+          ],
+          "Input": "Skill",
+          "Mps": [
+            {
+              "Slot": 2,
+              "Limit": "20",
+              "MpChange": -20.0
+            }
+          ],
+          "InputDir": 2,
+          "ExitTrigger": [
+            "End_2"
+          ],
+          "PreScriptCallParams": "move:\"ywy_taiji_fist\", input:3, group:2"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 2,
+          "Order": 2,
+          "Action": "ywy_chase",
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "AllowFlying": true,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 2,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.38333333333333336,
+          "Mutelist": "\"all\":0.38333333333333336,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [
+            "Start_2"
+          ],
+          "Timeout": 0,
+          "SatisfyInputkey": [
+            2
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209003"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209003"
+            }
+          ],
+          "Input": "Skill",
+          "Mps": [
+            {
+              "Slot": 2,
+              "Limit": "25",
+              "MpChange": -25.0
+            }
+          ],
+          "InputDir": 1,
+          "ExitTrigger": [
+            "End_2"
+          ],
+          "PreScriptCallParams": "move:\"ywy_chase\", input:3, group:2"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 2,
+          "Order": 3,
+          "Action": "ywy_zhenwu",
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "AllowFlying": true,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 2,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.2833333333333333,
+          "Mutelist": "\"all\":0.2833333333333333,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [
+            "Start_2"
+          ],
+          "Timeout": 0,
+          "SatisfyInputkey": [
+            2
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209002"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209002"
+            }
+          ],
+          "Input": "Skill",
+          "Mps": [
+            {
+              "Slot": 2,
+              "Limit": "20",
+              "MpChange": -20.0
+            }
+          ],
+          "ExitTrigger": [
+            "End_2"
+          ],
+          "PreScriptCallParams": "move:\"ywy_zhenwu\", input:3, group:2"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 8,
+          "Order": 1,
+          "Action": "ywy_circle_full",
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "AllowFlying": true,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 8,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.5833333333333334,
+          "Mutelist": "\"all\":0.5833333333333334,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [
+            "Start_8"
+          ],
+          "Timeout": 0,
+          "SatisfyInputkey": [
+            8
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209009"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209009"
+            }
+          ],
+          "Mps": [
+            {
+              "Slot": 2,
+              "Limit": "40",
+              "MpChange": -40.0
+            }
+          ],
+          "ExitTrigger": [
+            "End_8"
+          ],
+          "PreScriptCallParams": "move:\"ywy_circle_full\", input:0, group:8"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 8,
+          "Order": 2,
+          "Action": "ywy_circle_short",
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "AllowFlying": true,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 8,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.4,
+          "Mutelist": "\"all\":0.4,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [
+            "Start_8"
+          ],
+          "Timeout": 0,
+          "SatisfyInputkey": [
+            8
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209009"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209009"
+            }
+          ],
+          "Mps": [
+            {
+              "Slot": 2,
+              "Limit": "30",
+              "MpChange": -30.0
+            }
+          ],
+          "ExitTrigger": [
+            "End_8"
+          ],
+          "PreScriptCallParams": "move:\"ywy_circle_short\", input:0, group:8"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 3,
+          "Order": 1,
+          "Mps": [
+            {
+              "Slot": 3,
+              "Limit": "100"
+            }
+          ],
+          "ActionpointInputTag": 3,
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209010"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209010"
+            }
+          ]
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 3,
+          "Order": 2,
+          "Action": "ywy_ultra",
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "AllowFlying": true,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 3,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 1.25,
+          "Mutelist": "\"all\":1.25,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [
+            "Start_3"
+          ],
+          "Timeout": 0,
+          "SatisfyInputkey": [
+            3
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209010"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209010"
+            }
+          ],
+          "Input": "Ultra",
+          "Mps": [
+            {
+              "Slot": 3,
+              "Limit": "100",
+              "MpChange": -100.0
+            }
+          ],
+          "UiSkip": 1,
+          "UiSkipMobile": 1,
+          "ExitTrigger": [
+            "End_3"
+          ],
+          "PreScriptCallParams": "move:\"ywy_ultra\", input:4, group:3"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 5,
+          "Order": 1,
+          "Action": "ywy_escape",
+          "AllowActiveState": false,
+          "AllowGround": true,
+          "AllowFlying": true,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 5,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.15,
+          "Mutelist": "\"all\":0.08,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [
+            "Start_5"
+          ],
+          "Timeout": 0.7,
+          "SatisfyInputkey": [
+            5
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209008"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209008"
+            }
+          ],
+          "Input": "Dash",
+          "AllowPassiveState": true,
+          "PreScriptCallParams": "move:\"ywy_escape\", input:55, group:5, escape:true"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 5,
+          "Order": 2,
+          "Action": "dash",
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "AllowFlying": false,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 5,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.15,
+          "Mutelist": "\"all\":0.08,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [
+            "Start_5"
+          ],
+          "Timeout": 0.85,
+          "SatisfyInputkey": [
+            5
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209008"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209008"
+            }
+          ],
+          "Input": "Dash",
+          "TurnToDrag": true,
+          "PreScriptCallParams": "move:\"dash\", input:55, group:5, dash:1"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 5,
+          "Order": 3,
+          "Action": "dash2",
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "AllowFlying": false,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 5,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.15,
+          "Mutelist": "\"all\":0.08,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [],
+          "Timeout": 0,
+          "SatisfyInputkey": [
+            5
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209008"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209008"
+            }
+          ],
+          "Input": "Dash",
+          "PreSkillOrder": [
+            2
+          ],
+          "TurnToDrag": true,
+          "ExitTrigger": [
+            "End_5"
+          ],
+          "PreScriptCallParams": "move:\"dash2\", input:55, group:5, dash:2"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Group": 5,
+          "Order": 4,
+          "Action": "dashAir",
+          "AllowActiveState": true,
+          "AllowGround": false,
+          "AllowFlying": true,
+          "AutoTurn": 1,
+          "ActionpointInputTag": 5,
+          "ActionpointInputTag2": 1,
+          "Preinputtime": 0.48,
+          "ActdurStrict": 0.15,
+          "Mutelist": "\"all\":0.08,\"5\":0.01,\"7\":0.10",
+          "StartTrigger": [
+            "Start_5"
+          ],
+          "Timeout": 0.7,
+          "SatisfyInputkey": [
+            5
+          ],
+          "PreScriptCall": "YwyGate",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209008"
+            },
+            {
+              "Atlas": "UI/Atlas/IconPotential200901/IconPotential200901",
+              "Sprite": "Potential_209008"
+            }
+          ],
+          "Input": "Dash",
+          "TurnToDrag": true,
+          "PrecheckActionCd": 1,
+          "PreScriptCallParams": "move:\"dashAir\", input:55, group:5"
+        },
+        {
+          "ActorId": 200901,
+          "Group": 7,
+          "Order": 1,
+          "Action": "jump_down",
+          "StartTrigger": [
+            "Start_7"
+          ],
+          "Input": "Jump",
+          "InputDir": 2,
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "Mutelist": "\"all\":0.17",
+          "AutoTurn": 1,
+          "StartScriptCall": "SkillJumpDownStart",
+          "SatisfyInputkey": [
+            7
+          ],
+          "ActionpointInputTag": 7,
+          "ActionpointInputTag2": 1,
+          "$new": true,
+          "Preinputtime": 0.48,
+          "ExitTrigger": [
+            "End_7"
+          ],
+          "Timeout": 0,
+          "PreScriptCall": "YwyGate",
+          "PreScriptCallParams": "move:\"jump_down\", input:800, group:7"
+        },
+        {
+          "ActorId": 200901,
+          "Group": 7,
+          "Order": 2,
+          "Action": "drop_down",
+          "StartTrigger": [
+            "Start_7"
+          ],
+          "Input": "Jump",
+          "InputDir": 2,
+          "AllowActiveState": true,
+          "AllowFlying": true,
+          "Mutelist": "\"all\":0.005,\"5\":0.1,\"7\":0.2,\"8\":0.1",
+          "AutoTurn": 1,
+          "SatisfyInputkey": [
+            7
+          ],
+          "ActionpointInputTag": 7,
+          "ActionpointInputTag2": 3,
+          "$new": true,
+          "Preinputtime": 0.48,
+          "ExitTrigger": [
+            "End_7"
+          ],
+          "Timeout": 0,
+          "PreScriptCall": "YwyGate",
+          "PreScriptCallParams": "move:\"drop_down\", input:800, group:7"
+        },
+        {
+          "ActorId": 200901,
+          "Group": 7,
+          "Order": 3,
+          "Action": "jump",
+          "StartTrigger": [
+            "Start_7"
+          ],
+          "Input": "Jump",
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "Mutelist": "\"all\":0.17",
+          "Preinputtime": 0.48,
+          "AutoTurn": 1,
+          "StartScriptCall": "SkillJumpStart",
+          "ActionpointInputTag": 7,
+          "ActionpointInputTag2": 1,
+          "$new": true,
+          "ExitTrigger": [
+            "End_7"
+          ],
+          "Timeout": 0,
+          "SatisfyInputkey": [
+            7
+          ],
+          "PreScriptCall": "YwyGate",
+          "PreScriptCallParams": "move:\"jump\", input:800, group:7"
+        },
+        {
+          "ActorId": 200901,
+          "Group": 7,
+          "Order": 4,
+          "Action": "jump2",
+          "AllowActiveState": true,
+          "AllowFlying": true,
+          "AutoTurn": 1,
+          "SatisfyInputkey": [
+            7
+          ],
+          "ActionpointInputTag": 7,
+          "ActionpointInputTag2": 1,
+          "$new": true,
+          "Input": "Jump",
+          "Preinputtime": 0.48,
+          "StartTrigger": [
+            "Start_7"
+          ],
+          "ExitTrigger": [
+            "End_7"
+          ],
+          "Timeout": 0,
+          "PreScriptCall": "YwyGate",
+          "PreScriptCallParams": "move:\"jump2\", input:800, group:7",
+          "PrecheckActionCd": 1
+        },
+        {
+          "ActorId": 200901,
+          "Group": 11,
+          "Order": 3,
+          "Action": "summon",
+          "Input": "Summon",
+          "Mps": [
+            {
+              "Slot": 11,
+              "Limit": "100"
+            }
+          ],
+          "AllowActiveState": true,
+          "AllowGround": true,
+          "AllowFlying": true,
+          "Mutelist": "\"11\":0.5",
+          "Icon": [
+            {
+              "Atlas": "UI/Atlas/Common/Common",
+              "Sprite": "ImgSummon"
+            },
+            {
+              "Atlas": "UI/Atlas/Common/Common",
+              "Sprite": "ImgSummonOFF"
+            }
+          ],
+          "AutoTurn": 1,
+          "PreScriptCall": "SummonSkill",
+          "SatisfyInputkey": [
+            11
+          ],
+          "ActionpointInputTag": 11,
+          "ActionpointInputTag2": 1,
+          "$new": true
+        }
+      ],
+      "SkillDamage": [
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_sword1",
+          "HitTimes": 1.0,
+          "SkillGroupId": 1,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            1.7
+          ],
+          "DamageRatioPvp": [
+            1.7
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_sword2",
+          "HitTimes": 1.0,
+          "SkillGroupId": 1,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            2.2
+          ],
+          "DamageRatioPvp": [
+            2.2
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_sword3",
+          "HitTimes": 1.0,
+          "SkillGroupId": 1,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            3.4
+          ],
+          "DamageRatioPvp": [
+            3.4
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_launcher",
+          "HitTimes": 1.0,
+          "SkillGroupId": 1,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            2.6
+          ],
+          "DamageRatioPvp": [
+            2.6
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_air1",
+          "HitTimes": 1.0,
+          "SkillGroupId": 4,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            2.1
+          ],
+          "DamageRatioPvp": [
+            2.1
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_air2",
+          "HitTimes": 1.0,
+          "SkillGroupId": 4,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            2.8
+          ],
+          "DamageRatioPvp": [
+            2.8
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_zhenwu",
+          "HitTimes": 1.0,
+          "SkillGroupId": 2,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            1
+          ],
+          "DamageRatioPvp": [
+            1
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_chase",
+          "HitTimes": 1.0,
+          "SkillGroupId": 2,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            4
+          ],
+          "DamageRatioPvp": [
+            4
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_taiji_fist",
+          "HitTimes": 1.0,
+          "SkillGroupId": 2,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            3.6
+          ],
+          "DamageRatioPvp": [
+            3.6
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_circle_short",
+          "HitTimes": 1.0,
+          "SkillGroupId": 8,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            5.0
+          ],
+          "DamageRatioPvp": [
+            5.0
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_circle_full",
+          "HitTimes": 1.0,
+          "SkillGroupId": 8,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            8.0
+          ],
+          "DamageRatioPvp": [
+            8.0
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_ultra",
+          "HitTimes": 1.0,
+          "SkillGroupId": 3,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            22
+          ],
+          "DamageRatioPvp": [
+            22
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_zhenwu_bolt",
+          "HitTimes": 1.0,
+          "SkillGroupId": 2,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            4.4
+          ],
+          "DamageRatioPvp": [
+            4.4
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_zhenwu_bolt_up",
+          "HitTimes": 1.0,
+          "SkillGroupId": 2,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            4.4
+          ],
+          "DamageRatioPvp": [
+            4.4
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_zhenwu_bolt_down",
+          "HitTimes": 1.0,
+          "SkillGroupId": 2,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            4.4
+          ],
+          "DamageRatioPvp": [
+            4.4
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_sword_echo",
+          "HitTimes": 1.0,
+          "SkillGroupId": 1,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            1.8
+          ],
+          "DamageRatioPvp": [
+            1.8
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_attached",
+          "HitTimes": 1.0,
+          "SkillGroupId": 8,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            0.65
+          ],
+          "DamageRatioPvp": [
+            0.65
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_taiji_counter",
+          "HitTimes": 1.0,
+          "SkillGroupId": 2,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            4.2
+          ],
+          "DamageRatioPvp": [
+            4.2
+          ],
+          "VibrateName": "3_mid_short"
+        },
+        {
+          "$new": true,
+          "ActorId": 200901,
+          "Action": "ywy_wuxiang",
+          "HitTimes": 1.0,
+          "SkillGroupId": 3,
+          "FluctMin": 1.0,
+          "FluctMax": 1.0,
+          "DamageRatio": [
+            1.6
+          ],
+          "DamageRatioPvp": [
+            1.6
+          ],
+          "VibrateName": "3_mid_short"
+        }
+      ],
+      "BaseActorPotentialConf": [
+        {
+          "$new": true,
+          "Id": 209001,
+          "Rank": 1,
+          "Label": [
+            209001
+          ],
+          "Score": 40,
+          "TriggerInfo": {
+            "Id": 2090011,
+            "Level": 1
+          },
+          "OrderId": [
+            1
+          ],
+          "ActorId": 200901,
+          "RelationId": [
+            909001
+          ],
+          "IconId": 209001,
+          "New": true
+        },
+        {
+          "$new": true,
+          "Id": 209002,
+          "Rank": 2,
+          "Label": [
+            209002
+          ],
+          "Score": 40,
+          "TriggerInfo": {
+            "Id": 2090021,
+            "Level": 1
+          },
+          "OrderId": [
+            1
+          ],
+          "ActorId": 200901,
+          "RelationId": [
+            909002
+          ],
+          "IconId": 209002,
+          "New": true
+        },
+        {
+          "$new": true,
+          "Id": 209003,
+          "Rank": 3,
+          "Label": [
+            209003
+          ],
+          "Score": 40,
+          "TriggerInfo": {
+            "Id": 2090031,
+            "Level": 1
+          },
+          "OrderId": [
+            1
+          ],
+          "ActorId": 200901,
+          "RelationId": [
+            909003
+          ],
+          "IconId": 209003,
+          "New": true
+        },
+        {
+          "$new": true,
+          "Id": 209004,
+          "Rank": 4,
+          "Label": [
+            209004
+          ],
+          "Score": 40,
+          "TriggerInfo": {
+            "Id": 2090041,
+            "Level": 1
+          },
+          "OrderId": [
+            1
+          ],
+          "ActorId": 200901,
+          "RelationId": [
+            909004
+          ],
+          "IconId": 209004,
+          "New": true
+        },
+        {
+          "$new": true,
+          "Id": 209005,
+          "Rank": 5,
+          "Label": [
+            209005
+          ],
+          "Score": 40,
+          "TriggerInfo": {
+            "Id": 2090051,
+            "Level": 1
+          },
+          "OrderId": [
+            2
+          ],
+          "ActorId": 200901,
+          "RelationId": [
+            909005
+          ],
+          "IconId": 209005,
+          "New": true
+        },
+        {
+          "$new": true,
+          "Id": 209006,
+          "Rank": 6,
+          "Label": [
+            209006
+          ],
+          "Score": 40,
+          "TriggerInfo": {
+            "Id": 2090061,
+            "Level": 1
+          },
+          "OrderId": [
+            2
+          ],
+          "ActorId": 200901,
+          "RelationId": [
+            909006
+          ],
+          "IconId": 209006,
+          "New": true
+        },
+        {
+          "$new": true,
+          "Id": 209007,
+          "Rank": 7,
+          "Label": [
+            209007
+          ],
+          "Score": 40,
+          "TriggerInfo": {
+            "Id": 2090071,
+            "Level": 1
+          },
+          "OrderId": [
+            2
+          ],
+          "ActorId": 200901,
+          "RelationId": [
+            909007
+          ],
+          "IconId": 209007,
+          "New": true
+        },
+        {
+          "$new": true,
+          "Id": 209008,
+          "Rank": 8,
+          "Label": [
+            209008
+          ],
+          "Score": 40,
+          "TriggerInfo": {
+            "Id": 2090081,
+            "Level": 1
+          },
+          "OrderId": [
+            2
+          ],
+          "ActorId": 200901,
+          "RelationId": [
+            909008
+          ],
+          "IconId": 209008,
+          "New": true
+        },
+        {
+          "$new": true,
+          "Id": 209009,
+          "Rank": 9,
+          "Label": [
+            209009
+          ],
+          "Score": 40,
+          "TriggerInfo": {
+            "Id": 2090091,
+            "Level": 1
+          },
+          "OrderId": [
+            3
+          ],
+          "ActorId": 200901,
+          "RelationId": [
+            909009
+          ],
+          "IconId": 209009,
+          "New": true
+        },
+        {
+          "$new": true,
+          "Id": 209010,
+          "Rank": 10,
+          "Label": [
+            209010
+          ],
+          "Score": 40,
+          "TriggerInfo": {
+            "Id": 2090101,
+            "Level": 1
+          },
+          "OrderId": [
+            3
+          ],
+          "ActorId": 200901,
+          "RelationId": [
+            909010
+          ],
+          "IconId": 209010,
+          "New": true
+        },
+        {
+          "$new": true,
+          "Id": 209011,
+          "Rank": 11,
+          "Label": [
+            209011
+          ],
+          "Score": 40,
+          "TriggerInfo": {
+            "Id": 2090111,
+            "Level": 1
+          },
+          "OrderId": [
+            3
+          ],
+          "ActorId": 200901,
+          "RelationId": [
+            909011
+          ],
+          "IconId": 209011,
+          "New": true
+        },
+        {
+          "$new": true,
+          "Id": 209012,
+          "Rank": 12,
+          "Label": [
+            209012
+          ],
+          "Score": 40,
+          "TriggerInfo": {
+            "Id": 2090121,
+            "Level": 1
+          },
+          "OrderId": [
+            3
+          ],
+          "ActorId": 200901,
+          "RelationId": [
+            909012
+          ],
+          "IconId": 209012,
+          "New": true
+        }
+      ],
+      "ActorActionConf": [
+        {
+          "$new": true,
+          "Id": 909001,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909021
+          ],
+          "FromPotential": 209001,
+          "SortOrder": 1,
+          "Label": [
+            "YwyPotentialLabel_909001"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909002,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909024
+          ],
+          "FromPotential": 209002,
+          "SortOrder": 2,
+          "Label": [
+            "YwyPotentialLabel_909002"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909003,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909025
+          ],
+          "FromPotential": 209003,
+          "SortOrder": 3,
+          "Label": [
+            "YwyPotentialLabel_909003"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909004,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909027
+          ],
+          "FromPotential": 209004,
+          "SortOrder": 4,
+          "Label": [
+            "YwyPotentialLabel_909004"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909005,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909026
+          ],
+          "FromPotential": 209005,
+          "SortOrder": 5,
+          "Label": [
+            "YwyPotentialLabel_909005"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909006,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909026
+          ],
+          "FromPotential": 209006,
+          "SortOrder": 6,
+          "Label": [
+            "YwyPotentialLabel_909006"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909007,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909031
+          ],
+          "FromPotential": 209007,
+          "SortOrder": 7,
+          "Label": [
+            "YwyPotentialLabel_909007"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909008,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909028
+          ],
+          "FromPotential": 209008,
+          "SortOrder": 8,
+          "Label": [
+            "YwyPotentialLabel_909008"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909009,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909027
+          ],
+          "FromPotential": 209009,
+          "SortOrder": 9,
+          "Label": [
+            "YwyPotentialLabel_909009"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909010,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909029
+          ],
+          "FromPotential": 209010,
+          "SortOrder": 10,
+          "Label": [
+            "YwyPotentialLabel_909010"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909011,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909031
+          ],
+          "FromPotential": 209011,
+          "SortOrder": 11,
+          "Label": [
+            "YwyPotentialLabel_909011"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909012,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909031
+          ],
+          "FromPotential": 209012,
+          "SortOrder": 12,
+          "Label": [
+            "YwyPotentialLabel_909012"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909021,
+          "ActorId": 200901,
+          "Type": 1,
+          "SkillCostOrigin": 0,
+          "SortOrder": 1
+        },
+        {
+          "$new": true,
+          "Id": 909022,
+          "ActorId": 200901,
+          "Type": 1,
+          "SkillCostOrigin": 0,
+          "SortOrder": 2,
+          "Inherit": [
+            909021
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909023,
+          "ActorId": 200901,
+          "Type": 1,
+          "SkillCostOrigin": 0,
+          "SortOrder": 3,
+          "Inherit": [
+            909021
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909024,
+          "ActorId": 200901,
+          "Type": 1,
+          "SkillCostOrigin": 20,
+          "SortOrder": 4
+        },
+        {
+          "$new": true,
+          "Id": 909025,
+          "ActorId": 200901,
+          "Type": 1,
+          "SkillCostOrigin": 25,
+          "SortOrder": 5
+        },
+        {
+          "$new": true,
+          "Id": 909026,
+          "ActorId": 200901,
+          "Type": 1,
+          "SkillCostOrigin": 20,
+          "SortOrder": 6
+        },
+        {
+          "$new": true,
+          "Id": 909027,
+          "ActorId": 200901,
+          "Type": 1,
+          "SkillCostOrigin": 30,
+          "SortOrder": 7
+        },
+        {
+          "$new": true,
+          "Id": 909028,
+          "ActorId": 200901,
+          "Type": 1,
+          "SkillCostOrigin": 0,
+          "SortOrder": 8
+        },
+        {
+          "$new": true,
+          "Id": 909029,
+          "ActorId": 200901,
+          "Type": 1,
+          "SkillCostOrigin": 100,
+          "SortOrder": 9,
+          "IsUltraSkill": true
+        },
+        {
+          "$new": true,
+          "Id": 909030,
+          "ActorId": 200901,
+          "Type": 1,
+          "SkillCostOrigin": 0,
+          "SortOrder": 10,
+          "Inherit": [
+            909028
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909031,
+          "ActorId": 200901,
+          "Type": 1,
+          "SortOrder": 11,
+          "SkillCostOrigin": 0
+        },
+        {
+          "$new": true,
+          "Id": 909101,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909026
+          ],
+          "FromPotentialCombo": 209101,
+          "SortOrder": 101,
+          "Label": [
+            "YwyPotentialLabel_909101"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909102,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909031
+          ],
+          "FromPotentialCombo": 209102,
+          "SortOrder": 102,
+          "Label": [
+            "YwyPotentialLabel_909102"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909103,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909031
+          ],
+          "FromPotentialCombo": 209103,
+          "SortOrder": 103,
+          "Label": [
+            "YwyPotentialLabel_909103"
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 909104,
+          "ActorId": 200901,
+          "Type": 2,
+          "Inherit": [
+            909027
+          ],
+          "FromPotentialCombo": 209104,
+          "SortOrder": 104,
+          "Label": [
+            "YwyPotentialLabel_909104"
+          ]
+        }
+      ],
+      "PlayerBattleTriggerDetail": [
+        {
+          "$new": true,
+          "Idx": 2090011,
+          "Lvl": 1,
+          "Name": "宇文逸·两仪连华",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090011,
+          "Lvl": 5,
+          "Name": "宇文逸·两仪连华",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090021,
+          "Lvl": 1,
+          "Name": "宇文逸·真武三清",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090021,
+          "Lvl": 5,
+          "Name": "宇文逸·真武三清",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090031,
+          "Lvl": 1,
+          "Name": "宇文逸·梯云追月",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090031,
+          "Lvl": 5,
+          "Name": "宇文逸·梯云追月",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090041,
+          "Lvl": 1,
+          "Name": "宇文逸·剑势不绝",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090041,
+          "Lvl": 5,
+          "Name": "宇文逸·剑势不绝",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090051,
+          "Lvl": 1,
+          "Name": "宇文逸·以静制动",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090051,
+          "Lvl": 5,
+          "Name": "宇文逸·以静制动",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090061,
+          "Lvl": 1,
+          "Name": "宇文逸·云相反照",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090061,
+          "Lvl": 5,
+          "Name": "宇文逸·云相反照",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090071,
+          "Lvl": 1,
+          "Name": "宇文逸·拳剑相生",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090071,
+          "Lvl": 5,
+          "Name": "宇文逸·拳剑相生",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090081,
+          "Lvl": 1,
+          "Name": "宇文逸·轻身破阵",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090081,
+          "Lvl": 5,
+          "Name": "宇文逸·轻身破阵",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090091,
+          "Lvl": 1,
+          "Name": "宇文逸·圆转不息",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090091,
+          "Lvl": 5,
+          "Name": "宇文逸·圆转不息",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090101,
+          "Lvl": 1,
+          "Name": "宇文逸·流云归一",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090101,
+          "Lvl": 5,
+          "Name": "宇文逸·流云归一",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090111,
+          "Lvl": 1,
+          "Name": "宇文逸·百川归流",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090111,
+          "Lvl": 5,
+          "Name": "宇文逸·百川归流",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090121,
+          "Lvl": 1,
+          "Name": "宇文逸·四象无极",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090121,
+          "Lvl": 5,
+          "Name": "宇文逸·四象无极",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090801,
+          "Lvl": 1,
+          "Name": "流云内息",
+          "Value": [
+            1
+          ],
+          "Pvpvalue": [
+            1
+          ],
+          "TrigType": "StartStage",
+          "OPFunc": "trYwyTalent",
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090801,
+          "Lvl": 2,
+          "Name": "流云内息",
+          "Value": [
+            2
+          ],
+          "Pvpvalue": [
+            2
+          ],
+          "TrigType": "StartStage",
+          "OPFunc": "trYwyTalent",
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090801,
+          "Lvl": 3,
+          "Name": "流云内息",
+          "Value": [
+            3
+          ],
+          "Pvpvalue": [
+            3
+          ],
+          "TrigType": "StartStage",
+          "OPFunc": "trYwyTalent",
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090801,
+          "Lvl": 4,
+          "Name": "流云内息",
+          "Value": [
+            4
+          ],
+          "Pvpvalue": [
+            4
+          ],
+          "TrigType": "StartStage",
+          "OPFunc": "trYwyTalent",
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090801,
+          "Lvl": 5,
+          "Name": "流云内息",
+          "Value": [
+            5
+          ],
+          "Pvpvalue": [
+            5
+          ],
+          "TrigType": "StartStage",
+          "OPFunc": "trYwyTalent",
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090901,
+          "Lvl": 1,
+          "Name": "宇文逸原生事件·StartStage",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "TrigType": "StartStage",
+          "OPFunc": "trYwyStage",
+          "UiShowType": "HideCD"
+        },
+        {
+          "$new": true,
+          "Idx": 2090902,
+          "Lvl": 1,
+          "Name": "宇文逸原生事件·SuccessDodge",
+          "Value": [
+            0
+          ],
+          "Pvpvalue": [
+            0
+          ],
+          "TrigType": "SuccessDodge",
+          "OPFunc": "trYwyDodge",
+          "UiShowType": "HideCD",
+          "Cd": "0.5"
+        }
+      ],
+      "BaseActorTalentQualityConf": [
+        {
+          "$new": true,
+          "TalentId": 209080,
+          "Quality": 1,
+          "Score": 30,
+          "TalentEffectId": 2090801
+        },
+        {
+          "$new": true,
+          "TalentId": 209080,
+          "Quality": 2,
+          "Score": 30,
+          "TalentEffectId": 2090802
+        },
+        {
+          "$new": true,
+          "TalentId": 209080,
+          "Quality": 3,
+          "Score": 30,
+          "TalentEffectId": 2090803
+        },
+        {
+          "$new": true,
+          "TalentId": 209080,
+          "Quality": 4,
+          "Score": 30,
+          "TalentEffectId": 2090804
+        },
+        {
+          "$new": true,
+          "TalentId": 209080,
+          "Quality": 5,
+          "Score": 30,
+          "TalentEffectId": 2090805
+        }
+      ],
+      "TalentEffectConf": [
+        {
+          "$new": true,
+          "EffectId": 2090801,
+          "EffectType": 1,
+          "Trigger": [
+            {
+              "TriggerId": 2090801,
+              "TriggerLevel": 1
+            }
+          ]
+        },
+        {
+          "$new": true,
+          "EffectId": 2090802,
+          "EffectType": 1,
+          "Trigger": [
+            {
+              "TriggerId": 2090801,
+              "TriggerLevel": 2
+            }
+          ]
+        },
+        {
+          "$new": true,
+          "EffectId": 2090803,
+          "EffectType": 1,
+          "Trigger": [
+            {
+              "TriggerId": 2090801,
+              "TriggerLevel": 3
+            }
+          ]
+        },
+        {
+          "$new": true,
+          "EffectId": 2090804,
+          "EffectType": 1,
+          "Trigger": [
+            {
+              "TriggerId": 2090801,
+              "TriggerLevel": 4
+            }
+          ]
+        },
+        {
+          "$new": true,
+          "EffectId": 2090805,
+          "EffectType": 1,
+          "Trigger": [
+            {
+              "TriggerId": 2090801,
+              "TriggerLevel": 5
+            }
+          ]
+        }
+      ],
+      "PotentialComboConf": [
+        {
+          "$new": true,
+          "Id": 209101,
+          "ActorId": 200901,
+          "Potentials": [
+            209005,
+            209006
+          ],
+          "RelationId": [
+            909101
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 209102,
+          "ActorId": 200901,
+          "Potentials": [
+            209007,
+            209011
+          ],
+          "RelationId": [
+            909102
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 209103,
+          "ActorId": 200901,
+          "Potentials": [
+            209008,
+            209012
+          ],
+          "RelationId": [
+            909103
+          ]
+        },
+        {
+          "$new": true,
+          "Id": 209104,
+          "ActorId": 200901,
+          "Potentials": [
+            209004,
+            209009
+          ],
+          "RelationId": [
+            909104
+          ]
+        }
+      ],
+      "HeroPortraitOffsetConfigUI": [
+        {
+          "$append": true,
+          "Id": 200901,
+          "Key": "BattleChallengePrepare",
+          "PivotX": 0.529202,
+          "PivotY": 0.0828,
+          "Scale": 1.225275
+        },
+        {
+          "$append": true,
+          "Id": 200901,
+          "Key": "BreedFinishRoom",
+          "PivotX": 0.43257,
+          "PivotY": 0.37605,
+          "Scale": 1.991071
+        },
+        {
+          "$append": true,
+          "Id": 200901,
+          "Key": "BreedPrepare",
+          "PivotX": 0.454044,
+          "PivotY": 0.501728,
+          "Scale": 1.531593
+        },
+        {
+          "$append": true,
+          "Id": 200901,
+          "Key": "BreedPrepareS",
+          "PivotX": 0.486255,
+          "PivotY": 0.599478,
+          "Scale": 1.378434
+        },
+        {
+          "$append": true,
+          "Id": 200901,
+          "Key": "BreedResult",
+          "PivotX": 0.529202,
+          "PivotY": 0.264336,
+          "Scale": 1.531593
+        },
+        {
+          "$append": true,
+          "Id": 200901,
+          "Key": "FesL",
+          "PivotX": 0.346676,
+          "PivotY": 0.348121,
+          "Scale": 0.949588
+        },
+        {
+          "$append": true,
+          "Id": 200901,
+          "Key": "FesR",
+          "PivotX": 0.700991,
+          "PivotY": 0.348121,
+          "Scale": 0.949588
+        },
+        {
+          "$append": true,
+          "Id": 200901,
+          "Key": "FesShadowL",
+          "PivotX": 0.851306,
+          "PivotY": 0.222443,
+          "Scale": 1.531593
+        },
+        {
+          "$append": true,
+          "Id": 200901,
+          "Key": "FesShadowR",
+          "PivotX": 0.185624,
+          "PivotY": 0.222443,
+          "Scale": 1.531593
+        },
+        {
+          "$append": true,
+          "Id": 200901,
+          "Key": "GenericActorDetail",
+          "PivotX": 0.658044,
+          "PivotY": 0.0828,
+          "Scale": 1.225275
+        },
+        {
+          "$append": true,
+          "Id": 200901,
+          "Key": "PvpTeamMatchL",
+          "PivotX": 0.475518,
+          "PivotY": 0.348121,
+          "Scale": 1.837912
+        },
+        {
+          "$append": true,
+          "Id": 200901,
+          "Key": "PvpTeamMatchR",
+          "PivotX": 0.529202,
+          "PivotY": 0.348121,
+          "Scale": 1.837912
+        }
+      ]
+    },
+    "locale": {
+      "chs": {
+        "BaseActor_chs_200901": "宇文逸",
+        "ActorSkill_200901": "流云太极",
+        "ActorSkillDesc_200901": "出生自带完整剑拳招式与绝式。按方向切换技能，剑拳交替积势，蓄攻释放剑圈。潜能强化既有招式；关联效果面板显示真实双卡叠加条件。",
+        "ActorName_ywy": "宇文逸",
+        "ActorUltra_200901": "流云太极绝式",
+        "ActorUltraDesc_200901": "出生自带。消耗100点绝式资源，拳劲、剑圈、终斩三段原生范围判定；不强制扣真气。",
+        "PotentialName_209001": "两仪连华",
+        "PotentialDesc_209001": "第三段剑首次命中敌人时，追加前方两道剑气，第二道伤害为第一道的70%。每次第三段剑只触发一次，命中多个敌人不会重复生成。剑气持续0.40秒，对同一敌人各命中至多一次。",
+        "ActorActionName_909001": "两仪连华",
+        "ActorActionNameRuby_909001": "两仪连华",
+        "ActorActionDesc_909001": "第三段剑首次命中敌人时，追加前方两道剑气，第二道伤害为第一道的70%。每次第三段剑只触发一次，命中多个敌人不会重复生成。剑气持续0.40秒，对同一敌人各命中至多一次。",
+        "TriggerName_2090011": "两仪连华",
+        "TriggerDesc_2090011": "第三段剑首次命中敌人时，追加前方两道剑气，第二道伤害为第一道的70%。每次第三段剑只触发一次，命中多个敌人不会重复生成。剑气持续0.40秒，对同一敌人各命中至多一次。",
+        "ActorActionInput_909001": "【地面】<action=Attack> · <action=Attack> · <action=Attack>",
+        "ActorActionAffectedObject_909001": "两仪连华",
+        "PotentialName_209002": "真武三清",
+        "PotentialDesc_209002": "真武剑气由一道增至上、中、下三道穿透剑气；上下侧刃伤害各为中刃的75%。每次施放只生成一组，空放也正常出招；每道持续1.50秒，对同一敌人命中至多一次，不额外消耗真气。",
+        "ActorActionName_909002": "真武三清",
+        "ActorActionNameRuby_909002": "真武三清",
+        "ActorActionDesc_909002": "真武剑气由一道增至上、中、下三道穿透剑气；上下侧刃伤害各为中刃的75%。每次施放只生成一组，空放也正常出招；每道持续1.50秒，对同一敌人命中至多一次，不额外消耗真气。",
+        "TriggerName_2090021": "真武三清",
+        "TriggerDesc_2090021": "真武剑气由一道增至上、中、下三道穿透剑气；上下侧刃伤害各为中刃的75%。每次施放只生成一组，空放也正常出招；每道持续1.50秒，对同一敌人命中至多一次，不额外消耗真气。",
+        "ActorActionInput_909002": "<action=Skill>",
+        "ActorActionAffectedObject_909002": "真武三清",
+        "PotentialName_209003": "梯云追月",
+        "PotentialDesc_209003": "流云追身剑启动时，立即恢复二段跳和空中梯云纵的使用次数，无需命中。可接二段跳、空中位移或空连；此效果本身不重置已用过的两段空连，二段跳仍按原有规则重置空连。",
+        "ActorActionName_909003": "梯云追月",
+        "ActorActionNameRuby_909003": "梯云追月",
+        "ActorActionDesc_909003": "流云追身剑启动时，立即恢复二段跳和空中梯云纵的使用次数，无需命中。可接二段跳、空中位移或空连；此效果本身不重置已用过的两段空连，二段跳仍按原有规则重置空连。",
+        "TriggerName_2090031": "梯云追月",
+        "TriggerDesc_2090031": "流云追身剑启动时，立即恢复二段跳和空中梯云纵的使用次数，无需命中。可接二段跳、空中位移或空连；此效果本身不重置已用过的两段空连，二段跳仍按原有规则重置空连。",
+        "ActorActionInput_909003": "<action=MoveY+>+<action=Skill>",
+        "ActorActionAffectedObject_909003": "梯云追月",
+        "PotentialName_209004": "剑势不绝",
+        "PotentialDesc_209004": "短蓄或满蓄剑圈启动时立即返还5点真气；剑圈动作持续至0.45秒时，向前追加两道等伤剑气。追击不额外耗气，每道持续0.40秒、对同一敌人命中至多一次；在追击发出前取消动作不会补发。",
+        "ActorActionName_909004": "剑势不绝",
+        "ActorActionNameRuby_909004": "剑势不绝",
+        "ActorActionDesc_909004": "短蓄或满蓄剑圈启动时立即返还5点真气；剑圈动作持续至0.45秒时，向前追加两道等伤剑气。追击不额外耗气，每道持续0.40秒、对同一敌人命中至多一次；在追击发出前取消动作不会补发。",
+        "TriggerName_2090041": "剑势不绝",
+        "TriggerDesc_2090041": "短蓄或满蓄剑圈启动时立即返还5点真气；剑圈动作持续至0.45秒时，向前追加两道等伤剑气。追击不额外耗气，每道持续0.40秒、对同一敌人命中至多一次；在追击发出前取消动作不会补发。",
+        "ActorActionInput_909004": "长按<action=Attack>后释放",
+        "ActorActionAffectedObject_909004": "剑势不绝",
+        "PotentialName_209005": "以静制动",
+        "PotentialDesc_209005": "流云太极拳的化劲窗口由前0.35秒延长至前0.45秒。窗口内受击免除该次伤害和受击动作，成功化劲仍按原规则回气、积势；前0.20秒的精准化劲窗口不变。未化劲成功时仍正常打出主动掌劲。",
+        "ActorActionName_909005": "以静制动",
+        "ActorActionNameRuby_909005": "以静制动",
+        "ActorActionDesc_909005": "流云太极拳的化劲窗口由前0.35秒延长至前0.45秒。窗口内受击免除该次伤害和受击动作，成功化劲仍按原规则回气、积势；前0.20秒的精准化劲窗口不变。未化劲成功时仍正常打出主动掌劲。",
+        "TriggerName_2090051": "以静制动",
+        "TriggerDesc_2090051": "流云太极拳的化劲窗口由前0.35秒延长至前0.45秒。窗口内受击免除该次伤害和受击动作，成功化劲仍按原规则回气、积势；前0.20秒的精准化劲窗口不变。未化劲成功时仍正常打出主动掌劲。",
+        "ActorActionInput_909005": "<action=MoveY->+<action=Skill>",
+        "ActorActionAffectedObject_909005": "以静制动",
+        "PotentialName_209006": "云相反照",
+        "PotentialDesc_209006": "化劲成功时追加一次独立范围反击；在招式前0.20秒内精准化劲，反击伤害额外提高50%。每次太极拳最多获得一次反击，且反击奖励至少间隔1秒；反击持续0.50秒，对同一敌人命中至多一次。",
+        "ActorActionName_909006": "云相反照",
+        "ActorActionNameRuby_909006": "云相反照",
+        "ActorActionDesc_909006": "化劲成功时追加一次独立范围反击；在招式前0.20秒内精准化劲，反击伤害额外提高50%。每次太极拳最多获得一次反击，且反击奖励至少间隔1秒；反击持续0.50秒，对同一敌人命中至多一次。",
+        "TriggerName_2090061": "云相反照",
+        "TriggerDesc_2090061": "化劲成功时追加一次独立范围反击；在招式前0.20秒内精准化劲，反击伤害额外提高50%。每次太极拳最多获得一次反击，且反击奖励至少间隔1秒；反击持续0.50秒，对同一敌人命中至多一次。",
+        "ActorActionInput_909006": "<action=MoveY->+<action=Skill> · 化劲成功",
+        "ActorActionAffectedObject_909006": "云相反照",
+        "PotentialName_209007": "拳剑相生",
+        "PotentialDesc_209007": "剑式与流云太极拳的主动掌劲交替首次命中敌人时，额外恢复5点真气，并获得相当于最大生命3%的护盾，持续3秒。只按本人动作首次命中结算，剑气或反击不会代替主动掌劲触发；相邻交替结算须间隔超过0.10秒。",
+        "ActorActionName_909007": "拳剑相生",
+        "ActorActionNameRuby_909007": "拳剑相生",
+        "ActorActionDesc_909007": "剑式与流云太极拳的主动掌劲交替首次命中敌人时，额外恢复5点真气，并获得相当于最大生命3%的护盾，持续3秒。只按本人动作首次命中结算，剑气或反击不会代替主动掌劲触发；相邻交替结算须间隔超过0.10秒。",
+        "TriggerName_2090071": "拳剑相生",
+        "TriggerDesc_2090071": "剑式与流云太极拳的主动掌劲交替首次命中敌人时，额外恢复5点真气，并获得相当于最大生命3%的护盾，持续3秒。只按本人动作首次命中结算，剑气或反击不会代替主动掌劲触发；相邻交替结算须间隔超过0.10秒。",
+        "ActorActionInput_909007": "剑式 · <action=MoveY->+<action=Skill> · 剑式",
+        "ActorActionAffectedObject_909007": "拳剑相生",
+        "PotentialName_209008": "轻身破阵",
+        "PotentialDesc_209008": "梯云纵启动后1.20秒内，本人直接攻击伤害提高25%，独立剑气不享受这项加成。完美闪避在原有回气奖励之外额外积1势，并刷新这1.20秒窗口；太极势上限仍为5。",
+        "ActorActionName_909008": "轻身破阵",
+        "ActorActionNameRuby_909008": "轻身破阵",
+        "ActorActionDesc_909008": "梯云纵启动后1.20秒内，本人直接攻击伤害提高25%，独立剑气不享受这项加成。完美闪避在原有回气奖励之外额外积1势，并刷新这1.20秒窗口；太极势上限仍为5。",
+        "TriggerName_2090081": "轻身破阵",
+        "TriggerDesc_2090081": "梯云纵启动后1.20秒内，本人直接攻击伤害提高25%，独立剑气不享受这项加成。完美闪避在原有回气奖励之外额外积1势，并刷新这1.20秒窗口；太极势上限仍为5。",
+        "ActorActionInput_909008": "<action=Dash> · 进攻",
+        "ActorActionAffectedObject_909008": "轻身破阵",
+        "PotentialName_209009": "圆转不息",
+        "PotentialDesc_209009": "短蓄和满蓄剑圈最多只消耗2层太极势，仍按出手前的全部势计算剑圈伤害和短盾。每层势使剑圈伤害提高10%、给予最大生命3%的盾，盾持续3秒、上限15%；5势出手可保留3势。绝式仍消耗全部势。",
+        "ActorActionName_909009": "圆转不息",
+        "ActorActionNameRuby_909009": "圆转不息",
+        "ActorActionDesc_909009": "短蓄和满蓄剑圈最多只消耗2层太极势，仍按出手前的全部势计算剑圈伤害和短盾。每层势使剑圈伤害提高10%、给予最大生命3%的盾，盾持续3秒、上限15%；5势出手可保留3势。绝式仍消耗全部势。",
+        "TriggerName_2090091": "圆转不息",
+        "TriggerDesc_2090091": "短蓄和满蓄剑圈最多只消耗2层太极势，仍按出手前的全部势计算剑圈伤害和短盾。每层势使剑圈伤害提高10%、给予最大生命3%的盾，盾持续3秒、上限15%；5势出手可保留3势。绝式仍消耗全部势。",
+        "ActorActionInput_909009": "长按<action=Attack>后释放",
+        "ActorActionAffectedObject_909009": "圆转不息",
+        "PotentialName_209010": "流云归一",
+        "PotentialDesc_209010": "流云太极绝式启动时，立即刷新独立流云脱身的7秒冷却。随后在普通可解受击中按<action=Dash>即可脱身；不解除死亡、剧情控制或不可解抓取。绝式和普通梯云纵均出生自带，此潜能只刷新脱身机会。",
+        "ActorActionName_909010": "流云归一",
+        "ActorActionNameRuby_909010": "流云归一",
+        "ActorActionDesc_909010": "流云太极绝式启动时，立即刷新独立流云脱身的7秒冷却。随后在普通可解受击中按<action=Dash>即可脱身；不解除死亡、剧情控制或不可解抓取。绝式和普通梯云纵均出生自带，此潜能只刷新脱身机会。",
+        "TriggerName_2090101": "流云归一",
+        "TriggerDesc_2090101": "流云太极绝式启动时，立即刷新独立流云脱身的7秒冷却。随后在普通可解受击中按<action=Dash>即可脱身；不解除死亡、剧情控制或不可解抓取。绝式和普通梯云纵均出生自带，此潜能只刷新脱身机会。",
+        "ActorActionInput_909010": "<action=Dynamic>",
+        "ActorActionAffectedObject_909010": "流云归一",
+        "PotentialName_209011": "百川归流",
+        "PotentialDesc_209011": "剑式与流云太极拳主动掌劲交替首次命中敌人时，额外恢复8点真气和4点绝式资源。与拳剑相生的奖励可以叠加；只按本人动作首次命中结算，独立剑气不触发，相邻交替结算须间隔超过0.10秒，资源不超过各自100点上限。",
+        "ActorActionName_909011": "百川归流",
+        "ActorActionNameRuby_909011": "百川归流",
+        "ActorActionDesc_909011": "剑式与流云太极拳主动掌劲交替首次命中敌人时，额外恢复8点真气和4点绝式资源。与拳剑相生的奖励可以叠加；只按本人动作首次命中结算，独立剑气不触发，相邻交替结算须间隔超过0.10秒，资源不超过各自100点上限。",
+        "TriggerName_2090111": "百川归流",
+        "TriggerDesc_2090111": "剑式与流云太极拳主动掌劲交替首次命中敌人时，额外恢复8点真气和4点绝式资源。与拳剑相生的奖励可以叠加；只按本人动作首次命中结算，独立剑气不触发，相邻交替结算须间隔超过0.10秒，资源不超过各自100点上限。",
+        "ActorActionInput_909011": "剑式 · <action=MoveY->+<action=Skill> · 剑式",
+        "ActorActionAffectedObject_909011": "百川归流",
+        "PotentialName_209012": "四象无极",
+        "PotentialDesc_209012": "合法剑拳交替命中结算后达到5势时，触发范围剑阵，并进入3秒无极状态，期间本人和自有剑气伤害提高40%。剑阵至少间隔2秒、持续1秒，对同一敌人最多命中3次。只达到5势而未发生交替命中不会触发；触发本身不消耗太极势。",
+        "ActorActionName_909012": "四象无极",
+        "ActorActionNameRuby_909012": "四象无极",
+        "ActorActionDesc_909012": "合法剑拳交替命中结算后达到5势时，触发范围剑阵，并进入3秒无极状态，期间本人和自有剑气伤害提高40%。剑阵至少间隔2秒、持续1秒，对同一敌人最多命中3次。只达到5势而未发生交替命中不会触发；触发本身不消耗太极势。",
+        "TriggerName_2090121": "四象无极",
+        "TriggerDesc_2090121": "合法剑拳交替命中结算后达到5势时，触发范围剑阵，并进入3秒无极状态，期间本人和自有剑气伤害提高40%。剑阵至少间隔2秒、持续1秒，对同一敌人最多命中3次。只达到5势而未发生交替命中不会触发；触发本身不消耗太极势。",
+        "ActorActionInput_909012": "5势 · 剑式与<action=MoveY->+<action=Skill>交替命中",
+        "ActorActionAffectedObject_909012": "四象无极",
+        "ActorActionName_909021": "武当三段剑",
+        "ActorActionNameRuby_909021": "武当三段剑",
+        "ActorActionInput_909021": "【地面】<action=Attack> · <action=Attack> · <action=Attack>",
+        "ActorActionDesc_909021": "出生自带三段剑。各段首次命中敌人分别恢复6、6、10点真气，第三段另积1势。每段对多个敌人的命中只结算一次资源；独立剑气不重复提供这项奖励。",
+        "ActorActionName_909022": "挑空剑",
+        "ActorActionNameRuby_909022": "挑空剑",
+        "ActorActionInput_909022": "【地面】<action=MoveY+>+<action=Attack>",
+        "ActorActionDesc_909022": "出生自带上挑剑，可衔接跳跃与空连。本人首次命中恢复6点真气；不能被挑飞的目标仍可受到剑击伤害。",
+        "ActorActionName_909023": "空中剑式",
+        "ActorActionNameRuby_909023": "空中剑式",
+        "ActorActionInput_909023": "【空中】<action=Attack> · <action=Attack>",
+        "ActorActionDesc_909023": "出生自带两段空连，各段首次命中恢复6、10点真气，第二段另积1势。落地或使用二段跳可重置两段空连的次数。",
+        "ActorActionName_909024": "真武剑气",
+        "ActorActionNameRuby_909024": "真武剑气",
+        "ActorActionInput_909024": "<action=Skill>",
+        "ActorActionDesc_909024": "出生自带，消耗20点真气发出前方穿透剑气，持续1.50秒。无需命中或锁定目标即可施放；按住上、下方向会分别使用追身剑、太极拳。",
+        "ActorActionName_909025": "流云追身剑",
+        "ActorActionNameRuby_909025": "流云追身剑",
+        "ActorActionInput_909025": "<action=MoveY+>+<action=Skill>",
+        "ActorActionDesc_909025": "出生自带，消耗25点真气向前上方推进并挥斩；地面、空中均可施放，无目标时也正常出招。",
+        "ActorActionName_909026": "流云太极拳",
+        "ActorActionNameRuby_909026": "流云太极拳",
+        "ActorActionInput_909026": "<action=MoveY->+<action=Skill>",
+        "ActorActionDesc_909026": "出生自带，消耗20点真气，前0.35秒可化劲，随后打出主动掌劲。化劲成功免除当次伤害及受击动作，恢复20真气、8绝式资源并积1势；前0.20秒精准化劲改为恢复25真气、12绝式资源。每次动作奖励最多一次，奖励至少间隔1秒；窗口后至动作0.50秒仍减伤70%。",
+        "ActorActionName_909027": "流云太极剑",
+        "ActorActionNameRuby_909027": "流云太极剑",
+        "ActorActionInput_909027": "长按<action=Attack>后释放",
+        "ActorActionDesc_909027": "出生自带。首剑即时出手，按住0.30秒进入蓄势，0.80秒达到满蓄；释放后短蓄消耗30真气，满蓄消耗40真气。默认消耗全部太极势，每层使剑圈伤害提高10%，并给予最大生命3%的3秒护盾，上限15%。每个命中的敌人额外附着一把有限寿命的剑气；不足30真气时释放直接结束蓄势。",
+        "ActorActionName_909028": "梯云纵",
+        "ActorActionNameRuby_909028": "梯云纵",
+        "ActorActionInput_909028": "<action=Dash>",
+        "ActorActionDesc_909028": "出生自带，不耗真气。地面可连续位移两次，停用0.45秒后恢复；空中可用一次，落地恢复。每次前0.30秒无敌，可取消攻击后摇。完美闪避本身恢复10真气、5绝式资源，奖励至少间隔0.50秒。",
+        "ActorActionName_909029": "流云太极绝式",
+        "ActorActionNameRuby_909029": "流云太极绝式",
+        "ActorActionInput_909029": "<action=Dynamic>",
+        "ActorActionDesc_909029": "出生自带，通过动态技能键施放，消耗100点绝式资源，不消耗真气。拳劲、剑圈、终斩连续攻击周围目标。消耗全部太极势，每层使本体绝式伤害提高10%，启动获得最大生命15%的3秒护盾。召唤战术仍使用<action=Summon>。",
+        "ActorActionName_909030": "流云脱身",
+        "ActorActionNameRuby_909030": "流云脱身",
+        "ActorActionInput_909030": "【普通受击】<action=Dash>",
+        "ActorActionDesc_909030": "出生自带独立脱身，不耗真气，每7秒可用一次。只在普通可解受击中可发动，不解除死亡、剧情控制或不可解抓取；与普通梯云纵的次数分开计算。",
+        "ActorActionAffectedObject_909021": "武当三段剑",
+        "ActorActionAffectedObject_909022": "挑空剑",
+        "ActorActionAffectedObject_909023": "空中剑式",
+        "ActorActionAffectedObject_909024": "真武剑气",
+        "ActorActionAffectedObject_909025": "流云追身剑",
+        "ActorActionAffectedObject_909026": "流云太极拳",
+        "ActorActionAffectedObject_909027": "流云太极剑",
+        "ActorActionAffectedObject_909028": "梯云纵",
+        "ActorActionAffectedObject_909029": "流云太极绝式",
+        "ActorActionAffectedObject_909030": "流云脱身",
+        "ActorActionName_909031": "拳剑流转",
+        "ActorActionNameRuby_909031": "拳剑流转",
+        "ActorActionInput_909031": "剑式 · <action=MoveY->+<action=Skill> · 剑式",
+        "ActorActionDesc_909031": "出生机制。三段剑、挑空剑、空连、追身剑及剑圈视为剑式；与太极拳主动掌劲交替首次命中敌人时积1势。相邻交替结算须间隔超过0.10秒，剑气、反击不代替本人主动命中。太极势上限5，进入新房间会清空势、短盾和临时增伤窗口。",
+        "ActorActionAffectedObject_909031": "拳剑流转",
+        "ActorActionConfCostDesc_909027": "真气：短蓄30／满蓄40",
+        "ActorActionConfCostDesc_909029": "绝式资源：100",
+        "YwyPotentialLabel_909001": "<color=#3AFDFFFF>两仪连华</color> · 【地面】<action=Attack> · <action=Attack> · <action=Attack>",
+        "PotentialNameRuby_209001": "两仪连华",
+        "YwyPotentialLabel_909002": "<color=#3AFDFFFF>真武三清</color> · <action=Skill>",
+        "PotentialNameRuby_209002": "真武三清",
+        "YwyPotentialLabel_909003": "<color=#3AFDFFFF>梯云追月</color> · <action=MoveY+>+<action=Skill>",
+        "PotentialNameRuby_209003": "梯云追月",
+        "YwyPotentialLabel_909004": "<color=#3AFDFFFF>剑势不绝</color> · 长按<action=Attack>后释放",
+        "PotentialNameRuby_209004": "剑势不绝",
+        "YwyPotentialLabel_909005": "<color=#3AFDFFFF>以静制动</color> · <action=MoveY->+<action=Skill>",
+        "PotentialNameRuby_209005": "以静制动",
+        "YwyPotentialLabel_909006": "<color=#3AFDFFFF>云相反照</color> · <action=MoveY->+<action=Skill> · 化劲成功",
+        "PotentialNameRuby_209006": "云相反照",
+        "YwyPotentialLabel_909007": "<color=#3AFDFFFF>拳剑相生</color> · 剑式 · <action=MoveY->+<action=Skill> · 剑式",
+        "PotentialNameRuby_209007": "拳剑相生",
+        "YwyPotentialLabel_909008": "<color=#3AFDFFFF>轻身破阵</color> · <action=Dash> · 进攻",
+        "PotentialNameRuby_209008": "轻身破阵",
+        "YwyPotentialLabel_909009": "<color=#3AFDFFFF>圆转不息</color> · 长按<action=Attack>后释放",
+        "PotentialNameRuby_209009": "圆转不息",
+        "YwyPotentialLabel_909010": "<color=#3AFDFFFF>流云归一</color> · <action=Dynamic>",
+        "PotentialNameRuby_209010": "流云归一",
+        "YwyPotentialLabel_909011": "<color=#3AFDFFFF>百川归流</color> · 剑式 · <action=MoveY->+<action=Skill> · 剑式",
+        "PotentialNameRuby_209011": "百川归流",
+        "YwyPotentialLabel_909012": "<color=#3AFDFFFF>四象无极</color> · 5势 · 剑式与<action=MoveY->+<action=Skill>交替命中",
+        "PotentialNameRuby_209012": "四象无极",
+        "ActorActionName_909101": "静中反照",
+        "ActorActionNameRuby_909101": "静中反照",
+        "ActorActionInput_909101": "<action=MoveY->+<action=Skill>",
+        "ActorActionDesc_909101": "同时获得以静制动、云相反照：可在前0.45秒内成功化劲并触发范围反击；只有前0.20秒内的精准化劲使反击伤害额外提高50%。窗口延长不会延长精准判定。",
+        "ActorActionAffectedObject_909101": "静中反照",
+        "YwyPotentialLabel_909101": "<color=#3AFDFFFF>关联效果 · 静中反照</color>",
+        "ActorActionName_909102": "百川相生",
+        "ActorActionNameRuby_909102": "百川相生",
+        "ActorActionInput_909102": "剑式 · <action=MoveY->+<action=Skill> · 剑式",
+        "ActorActionDesc_909102": "同时获得拳剑相生、百川归流：每次合法剑拳交替首次命中，合计额外恢复13真气、4绝式资源，并获得最大生命3%的3秒护盾；不额外结算第二次交替或第二层势，资源受100点上限限制。",
+        "ActorActionAffectedObject_909102": "百川相生",
+        "YwyPotentialLabel_909102": "<color=#3AFDFFFF>关联效果 · 百川相生</color>",
+        "ActorActionName_909103": "轻身入无极",
+        "ActorActionNameRuby_909103": "轻身入无极",
+        "ActorActionInput_909103": "剑式 · <action=MoveY->+<action=Skill> · 剑式",
+        "ActorActionDesc_909103": "同时获得轻身破阵、四象无极：梯云纵或完美闪避后的1.20秒窗口与3秒无极状态重叠时，本人直接攻击的两项倍率相乘，达到原伤害的175%；独立剑气只获得无极的140%。仍须5势时合法剑拳交替命中触发无极，剑阵至少间隔2秒。",
+        "ActorActionAffectedObject_909103": "轻身入无极",
+        "YwyPotentialLabel_909103": "<color=#3AFDFFFF>关联效果 · 轻身入无极</color>",
+        "ActorActionName_909104": "圆转续剑",
+        "ActorActionNameRuby_909104": "圆转续剑",
+        "ActorActionInput_909104": "长按<action=Attack>后释放",
+        "ActorActionDesc_909104": "同时获得剑势不绝、圆转不息：剑圈启动返还5真气，最多消耗2势，按出手前全部势强化伤害与盾；持续至0.45秒仍追加双剑气。5势出手保留3势，短蓄实际净耗25真气、满蓄35真气；施放前仍须具备30或40真气。",
+        "ActorActionAffectedObject_909104": "圆转续剑",
+        "YwyPotentialLabel_909104": "<color=#3AFDFFFF>关联效果 · 圆转续剑</color>",
+        "TriggerName_2090801": "流云内息",
+        "TriggerDesc_2090801": "每秒额外恢复1～5点真气。传承给其他意识体时仍按其普通技能槽生效。"
+      },
+      "enu": {
+        "BaseActor_chs_200901": "宇文逸",
+        "ActorSkill_200901": "流云太极",
+        "ActorSkillDesc_200901": "出生自带完整剑拳招式与绝式。按方向切换技能，剑拳交替积势，蓄攻释放剑圈。潜能强化既有招式；关联效果面板显示真实双卡叠加条件。",
+        "ActorName_ywy": "宇文逸",
+        "ActorUltra_200901": "流云太极绝式",
+        "ActorUltraDesc_200901": "出生自带。消耗100点绝式资源，拳劲、剑圈、终斩三段原生范围判定；不强制扣真气。",
+        "PotentialName_209001": "两仪连华",
+        "PotentialDesc_209001": "第三段剑首次命中敌人时，追加前方两道剑气，第二道伤害为第一道的70%。每次第三段剑只触发一次，命中多个敌人不会重复生成。剑气持续0.40秒，对同一敌人各命中至多一次。",
+        "ActorActionName_909001": "两仪连华",
+        "ActorActionNameRuby_909001": "两仪连华",
+        "ActorActionDesc_909001": "第三段剑首次命中敌人时，追加前方两道剑气，第二道伤害为第一道的70%。每次第三段剑只触发一次，命中多个敌人不会重复生成。剑气持续0.40秒，对同一敌人各命中至多一次。",
+        "TriggerName_2090011": "两仪连华",
+        "TriggerDesc_2090011": "第三段剑首次命中敌人时，追加前方两道剑气，第二道伤害为第一道的70%。每次第三段剑只触发一次，命中多个敌人不会重复生成。剑气持续0.40秒，对同一敌人各命中至多一次。",
+        "ActorActionInput_909001": "【地面】<action=Attack> · <action=Attack> · <action=Attack>",
+        "ActorActionAffectedObject_909001": "两仪连华",
+        "PotentialName_209002": "真武三清",
+        "PotentialDesc_209002": "真武剑气由一道增至上、中、下三道穿透剑气；上下侧刃伤害各为中刃的75%。每次施放只生成一组，空放也正常出招；每道持续1.50秒，对同一敌人命中至多一次，不额外消耗真气。",
+        "ActorActionName_909002": "真武三清",
+        "ActorActionNameRuby_909002": "真武三清",
+        "ActorActionDesc_909002": "真武剑气由一道增至上、中、下三道穿透剑气；上下侧刃伤害各为中刃的75%。每次施放只生成一组，空放也正常出招；每道持续1.50秒，对同一敌人命中至多一次，不额外消耗真气。",
+        "TriggerName_2090021": "真武三清",
+        "TriggerDesc_2090021": "真武剑气由一道增至上、中、下三道穿透剑气；上下侧刃伤害各为中刃的75%。每次施放只生成一组，空放也正常出招；每道持续1.50秒，对同一敌人命中至多一次，不额外消耗真气。",
+        "ActorActionInput_909002": "<action=Skill>",
+        "ActorActionAffectedObject_909002": "真武三清",
+        "PotentialName_209003": "梯云追月",
+        "PotentialDesc_209003": "流云追身剑启动时，立即恢复二段跳和空中梯云纵的使用次数，无需命中。可接二段跳、空中位移或空连；此效果本身不重置已用过的两段空连，二段跳仍按原有规则重置空连。",
+        "ActorActionName_909003": "梯云追月",
+        "ActorActionNameRuby_909003": "梯云追月",
+        "ActorActionDesc_909003": "流云追身剑启动时，立即恢复二段跳和空中梯云纵的使用次数，无需命中。可接二段跳、空中位移或空连；此效果本身不重置已用过的两段空连，二段跳仍按原有规则重置空连。",
+        "TriggerName_2090031": "梯云追月",
+        "TriggerDesc_2090031": "流云追身剑启动时，立即恢复二段跳和空中梯云纵的使用次数，无需命中。可接二段跳、空中位移或空连；此效果本身不重置已用过的两段空连，二段跳仍按原有规则重置空连。",
+        "ActorActionInput_909003": "<action=MoveY+>+<action=Skill>",
+        "ActorActionAffectedObject_909003": "梯云追月",
+        "PotentialName_209004": "剑势不绝",
+        "PotentialDesc_209004": "短蓄或满蓄剑圈启动时立即返还5点真气；剑圈动作持续至0.45秒时，向前追加两道等伤剑气。追击不额外耗气，每道持续0.40秒、对同一敌人命中至多一次；在追击发出前取消动作不会补发。",
+        "ActorActionName_909004": "剑势不绝",
+        "ActorActionNameRuby_909004": "剑势不绝",
+        "ActorActionDesc_909004": "短蓄或满蓄剑圈启动时立即返还5点真气；剑圈动作持续至0.45秒时，向前追加两道等伤剑气。追击不额外耗气，每道持续0.40秒、对同一敌人命中至多一次；在追击发出前取消动作不会补发。",
+        "TriggerName_2090041": "剑势不绝",
+        "TriggerDesc_2090041": "短蓄或满蓄剑圈启动时立即返还5点真气；剑圈动作持续至0.45秒时，向前追加两道等伤剑气。追击不额外耗气，每道持续0.40秒、对同一敌人命中至多一次；在追击发出前取消动作不会补发。",
+        "ActorActionInput_909004": "长按<action=Attack>后释放",
+        "ActorActionAffectedObject_909004": "剑势不绝",
+        "PotentialName_209005": "以静制动",
+        "PotentialDesc_209005": "流云太极拳的化劲窗口由前0.35秒延长至前0.45秒。窗口内受击免除该次伤害和受击动作，成功化劲仍按原规则回气、积势；前0.20秒的精准化劲窗口不变。未化劲成功时仍正常打出主动掌劲。",
+        "ActorActionName_909005": "以静制动",
+        "ActorActionNameRuby_909005": "以静制动",
+        "ActorActionDesc_909005": "流云太极拳的化劲窗口由前0.35秒延长至前0.45秒。窗口内受击免除该次伤害和受击动作，成功化劲仍按原规则回气、积势；前0.20秒的精准化劲窗口不变。未化劲成功时仍正常打出主动掌劲。",
+        "TriggerName_2090051": "以静制动",
+        "TriggerDesc_2090051": "流云太极拳的化劲窗口由前0.35秒延长至前0.45秒。窗口内受击免除该次伤害和受击动作，成功化劲仍按原规则回气、积势；前0.20秒的精准化劲窗口不变。未化劲成功时仍正常打出主动掌劲。",
+        "ActorActionInput_909005": "<action=MoveY->+<action=Skill>",
+        "ActorActionAffectedObject_909005": "以静制动",
+        "PotentialName_209006": "云相反照",
+        "PotentialDesc_209006": "化劲成功时追加一次独立范围反击；在招式前0.20秒内精准化劲，反击伤害额外提高50%。每次太极拳最多获得一次反击，且反击奖励至少间隔1秒；反击持续0.50秒，对同一敌人命中至多一次。",
+        "ActorActionName_909006": "云相反照",
+        "ActorActionNameRuby_909006": "云相反照",
+        "ActorActionDesc_909006": "化劲成功时追加一次独立范围反击；在招式前0.20秒内精准化劲，反击伤害额外提高50%。每次太极拳最多获得一次反击，且反击奖励至少间隔1秒；反击持续0.50秒，对同一敌人命中至多一次。",
+        "TriggerName_2090061": "云相反照",
+        "TriggerDesc_2090061": "化劲成功时追加一次独立范围反击；在招式前0.20秒内精准化劲，反击伤害额外提高50%。每次太极拳最多获得一次反击，且反击奖励至少间隔1秒；反击持续0.50秒，对同一敌人命中至多一次。",
+        "ActorActionInput_909006": "<action=MoveY->+<action=Skill> · 化劲成功",
+        "ActorActionAffectedObject_909006": "云相反照",
+        "PotentialName_209007": "拳剑相生",
+        "PotentialDesc_209007": "剑式与流云太极拳的主动掌劲交替首次命中敌人时，额外恢复5点真气，并获得相当于最大生命3%的护盾，持续3秒。只按本人动作首次命中结算，剑气或反击不会代替主动掌劲触发；相邻交替结算须间隔超过0.10秒。",
+        "ActorActionName_909007": "拳剑相生",
+        "ActorActionNameRuby_909007": "拳剑相生",
+        "ActorActionDesc_909007": "剑式与流云太极拳的主动掌劲交替首次命中敌人时，额外恢复5点真气，并获得相当于最大生命3%的护盾，持续3秒。只按本人动作首次命中结算，剑气或反击不会代替主动掌劲触发；相邻交替结算须间隔超过0.10秒。",
+        "TriggerName_2090071": "拳剑相生",
+        "TriggerDesc_2090071": "剑式与流云太极拳的主动掌劲交替首次命中敌人时，额外恢复5点真气，并获得相当于最大生命3%的护盾，持续3秒。只按本人动作首次命中结算，剑气或反击不会代替主动掌劲触发；相邻交替结算须间隔超过0.10秒。",
+        "ActorActionInput_909007": "剑式 · <action=MoveY->+<action=Skill> · 剑式",
+        "ActorActionAffectedObject_909007": "拳剑相生",
+        "PotentialName_209008": "轻身破阵",
+        "PotentialDesc_209008": "梯云纵启动后1.20秒内，本人直接攻击伤害提高25%，独立剑气不享受这项加成。完美闪避在原有回气奖励之外额外积1势，并刷新这1.20秒窗口；太极势上限仍为5。",
+        "ActorActionName_909008": "轻身破阵",
+        "ActorActionNameRuby_909008": "轻身破阵",
+        "ActorActionDesc_909008": "梯云纵启动后1.20秒内，本人直接攻击伤害提高25%，独立剑气不享受这项加成。完美闪避在原有回气奖励之外额外积1势，并刷新这1.20秒窗口；太极势上限仍为5。",
+        "TriggerName_2090081": "轻身破阵",
+        "TriggerDesc_2090081": "梯云纵启动后1.20秒内，本人直接攻击伤害提高25%，独立剑气不享受这项加成。完美闪避在原有回气奖励之外额外积1势，并刷新这1.20秒窗口；太极势上限仍为5。",
+        "ActorActionInput_909008": "<action=Dash> · 进攻",
+        "ActorActionAffectedObject_909008": "轻身破阵",
+        "PotentialName_209009": "圆转不息",
+        "PotentialDesc_209009": "短蓄和满蓄剑圈最多只消耗2层太极势，仍按出手前的全部势计算剑圈伤害和短盾。每层势使剑圈伤害提高10%、给予最大生命3%的盾，盾持续3秒、上限15%；5势出手可保留3势。绝式仍消耗全部势。",
+        "ActorActionName_909009": "圆转不息",
+        "ActorActionNameRuby_909009": "圆转不息",
+        "ActorActionDesc_909009": "短蓄和满蓄剑圈最多只消耗2层太极势，仍按出手前的全部势计算剑圈伤害和短盾。每层势使剑圈伤害提高10%、给予最大生命3%的盾，盾持续3秒、上限15%；5势出手可保留3势。绝式仍消耗全部势。",
+        "TriggerName_2090091": "圆转不息",
+        "TriggerDesc_2090091": "短蓄和满蓄剑圈最多只消耗2层太极势，仍按出手前的全部势计算剑圈伤害和短盾。每层势使剑圈伤害提高10%、给予最大生命3%的盾，盾持续3秒、上限15%；5势出手可保留3势。绝式仍消耗全部势。",
+        "ActorActionInput_909009": "长按<action=Attack>后释放",
+        "ActorActionAffectedObject_909009": "圆转不息",
+        "PotentialName_209010": "流云归一",
+        "PotentialDesc_209010": "流云太极绝式启动时，立即刷新独立流云脱身的7秒冷却。随后在普通可解受击中按<action=Dash>即可脱身；不解除死亡、剧情控制或不可解抓取。绝式和普通梯云纵均出生自带，此潜能只刷新脱身机会。",
+        "ActorActionName_909010": "流云归一",
+        "ActorActionNameRuby_909010": "流云归一",
+        "ActorActionDesc_909010": "流云太极绝式启动时，立即刷新独立流云脱身的7秒冷却。随后在普通可解受击中按<action=Dash>即可脱身；不解除死亡、剧情控制或不可解抓取。绝式和普通梯云纵均出生自带，此潜能只刷新脱身机会。",
+        "TriggerName_2090101": "流云归一",
+        "TriggerDesc_2090101": "流云太极绝式启动时，立即刷新独立流云脱身的7秒冷却。随后在普通可解受击中按<action=Dash>即可脱身；不解除死亡、剧情控制或不可解抓取。绝式和普通梯云纵均出生自带，此潜能只刷新脱身机会。",
+        "ActorActionInput_909010": "<action=Dynamic>",
+        "ActorActionAffectedObject_909010": "流云归一",
+        "PotentialName_209011": "百川归流",
+        "PotentialDesc_209011": "剑式与流云太极拳主动掌劲交替首次命中敌人时，额外恢复8点真气和4点绝式资源。与拳剑相生的奖励可以叠加；只按本人动作首次命中结算，独立剑气不触发，相邻交替结算须间隔超过0.10秒，资源不超过各自100点上限。",
+        "ActorActionName_909011": "百川归流",
+        "ActorActionNameRuby_909011": "百川归流",
+        "ActorActionDesc_909011": "剑式与流云太极拳主动掌劲交替首次命中敌人时，额外恢复8点真气和4点绝式资源。与拳剑相生的奖励可以叠加；只按本人动作首次命中结算，独立剑气不触发，相邻交替结算须间隔超过0.10秒，资源不超过各自100点上限。",
+        "TriggerName_2090111": "百川归流",
+        "TriggerDesc_2090111": "剑式与流云太极拳主动掌劲交替首次命中敌人时，额外恢复8点真气和4点绝式资源。与拳剑相生的奖励可以叠加；只按本人动作首次命中结算，独立剑气不触发，相邻交替结算须间隔超过0.10秒，资源不超过各自100点上限。",
+        "ActorActionInput_909011": "剑式 · <action=MoveY->+<action=Skill> · 剑式",
+        "ActorActionAffectedObject_909011": "百川归流",
+        "PotentialName_209012": "四象无极",
+        "PotentialDesc_209012": "合法剑拳交替命中结算后达到5势时，触发范围剑阵，并进入3秒无极状态，期间本人和自有剑气伤害提高40%。剑阵至少间隔2秒、持续1秒，对同一敌人最多命中3次。只达到5势而未发生交替命中不会触发；触发本身不消耗太极势。",
+        "ActorActionName_909012": "四象无极",
+        "ActorActionNameRuby_909012": "四象无极",
+        "ActorActionDesc_909012": "合法剑拳交替命中结算后达到5势时，触发范围剑阵，并进入3秒无极状态，期间本人和自有剑气伤害提高40%。剑阵至少间隔2秒、持续1秒，对同一敌人最多命中3次。只达到5势而未发生交替命中不会触发；触发本身不消耗太极势。",
+        "TriggerName_2090121": "四象无极",
+        "TriggerDesc_2090121": "合法剑拳交替命中结算后达到5势时，触发范围剑阵，并进入3秒无极状态，期间本人和自有剑气伤害提高40%。剑阵至少间隔2秒、持续1秒，对同一敌人最多命中3次。只达到5势而未发生交替命中不会触发；触发本身不消耗太极势。",
+        "ActorActionInput_909012": "5势 · 剑式与<action=MoveY->+<action=Skill>交替命中",
+        "ActorActionAffectedObject_909012": "四象无极",
+        "ActorActionName_909021": "武当三段剑",
+        "ActorActionNameRuby_909021": "武当三段剑",
+        "ActorActionInput_909021": "【地面】<action=Attack> · <action=Attack> · <action=Attack>",
+        "ActorActionDesc_909021": "出生自带三段剑。各段首次命中敌人分别恢复6、6、10点真气，第三段另积1势。每段对多个敌人的命中只结算一次资源；独立剑气不重复提供这项奖励。",
+        "ActorActionName_909022": "挑空剑",
+        "ActorActionNameRuby_909022": "挑空剑",
+        "ActorActionInput_909022": "【地面】<action=MoveY+>+<action=Attack>",
+        "ActorActionDesc_909022": "出生自带上挑剑，可衔接跳跃与空连。本人首次命中恢复6点真气；不能被挑飞的目标仍可受到剑击伤害。",
+        "ActorActionName_909023": "空中剑式",
+        "ActorActionNameRuby_909023": "空中剑式",
+        "ActorActionInput_909023": "【空中】<action=Attack> · <action=Attack>",
+        "ActorActionDesc_909023": "出生自带两段空连，各段首次命中恢复6、10点真气，第二段另积1势。落地或使用二段跳可重置两段空连的次数。",
+        "ActorActionName_909024": "真武剑气",
+        "ActorActionNameRuby_909024": "真武剑气",
+        "ActorActionInput_909024": "<action=Skill>",
+        "ActorActionDesc_909024": "出生自带，消耗20点真气发出前方穿透剑气，持续1.50秒。无需命中或锁定目标即可施放；按住上、下方向会分别使用追身剑、太极拳。",
+        "ActorActionName_909025": "流云追身剑",
+        "ActorActionNameRuby_909025": "流云追身剑",
+        "ActorActionInput_909025": "<action=MoveY+>+<action=Skill>",
+        "ActorActionDesc_909025": "出生自带，消耗25点真气向前上方推进并挥斩；地面、空中均可施放，无目标时也正常出招。",
+        "ActorActionName_909026": "流云太极拳",
+        "ActorActionNameRuby_909026": "流云太极拳",
+        "ActorActionInput_909026": "<action=MoveY->+<action=Skill>",
+        "ActorActionDesc_909026": "出生自带，消耗20点真气，前0.35秒可化劲，随后打出主动掌劲。化劲成功免除当次伤害及受击动作，恢复20真气、8绝式资源并积1势；前0.20秒精准化劲改为恢复25真气、12绝式资源。每次动作奖励最多一次，奖励至少间隔1秒；窗口后至动作0.50秒仍减伤70%。",
+        "ActorActionName_909027": "流云太极剑",
+        "ActorActionNameRuby_909027": "流云太极剑",
+        "ActorActionInput_909027": "长按<action=Attack>后释放",
+        "ActorActionDesc_909027": "出生自带。首剑即时出手，按住0.30秒进入蓄势，0.80秒达到满蓄；释放后短蓄消耗30真气，满蓄消耗40真气。默认消耗全部太极势，每层使剑圈伤害提高10%，并给予最大生命3%的3秒护盾，上限15%。每个命中的敌人额外附着一把有限寿命的剑气；不足30真气时释放直接结束蓄势。",
+        "ActorActionName_909028": "梯云纵",
+        "ActorActionNameRuby_909028": "梯云纵",
+        "ActorActionInput_909028": "<action=Dash>",
+        "ActorActionDesc_909028": "出生自带，不耗真气。地面可连续位移两次，停用0.45秒后恢复；空中可用一次，落地恢复。每次前0.30秒无敌，可取消攻击后摇。完美闪避本身恢复10真气、5绝式资源，奖励至少间隔0.50秒。",
+        "ActorActionName_909029": "流云太极绝式",
+        "ActorActionNameRuby_909029": "流云太极绝式",
+        "ActorActionInput_909029": "<action=Dynamic>",
+        "ActorActionDesc_909029": "出生自带，通过动态技能键施放，消耗100点绝式资源，不消耗真气。拳劲、剑圈、终斩连续攻击周围目标。消耗全部太极势，每层使本体绝式伤害提高10%，启动获得最大生命15%的3秒护盾。召唤战术仍使用<action=Summon>。",
+        "ActorActionName_909030": "流云脱身",
+        "ActorActionNameRuby_909030": "流云脱身",
+        "ActorActionInput_909030": "【普通受击】<action=Dash>",
+        "ActorActionDesc_909030": "出生自带独立脱身，不耗真气，每7秒可用一次。只在普通可解受击中可发动，不解除死亡、剧情控制或不可解抓取；与普通梯云纵的次数分开计算。",
+        "ActorActionAffectedObject_909021": "武当三段剑",
+        "ActorActionAffectedObject_909022": "挑空剑",
+        "ActorActionAffectedObject_909023": "空中剑式",
+        "ActorActionAffectedObject_909024": "真武剑气",
+        "ActorActionAffectedObject_909025": "流云追身剑",
+        "ActorActionAffectedObject_909026": "流云太极拳",
+        "ActorActionAffectedObject_909027": "流云太极剑",
+        "ActorActionAffectedObject_909028": "梯云纵",
+        "ActorActionAffectedObject_909029": "流云太极绝式",
+        "ActorActionAffectedObject_909030": "流云脱身",
+        "ActorActionName_909031": "拳剑流转",
+        "ActorActionNameRuby_909031": "拳剑流转",
+        "ActorActionInput_909031": "剑式 · <action=MoveY->+<action=Skill> · 剑式",
+        "ActorActionDesc_909031": "出生机制。三段剑、挑空剑、空连、追身剑及剑圈视为剑式；与太极拳主动掌劲交替首次命中敌人时积1势。相邻交替结算须间隔超过0.10秒，剑气、反击不代替本人主动命中。太极势上限5，进入新房间会清空势、短盾和临时增伤窗口。",
+        "ActorActionAffectedObject_909031": "拳剑流转",
+        "ActorActionConfCostDesc_909027": "真气：短蓄30／满蓄40",
+        "ActorActionConfCostDesc_909029": "绝式资源：100",
+        "YwyPotentialLabel_909001": "<color=#3AFDFFFF>两仪连华</color> · 【地面】<action=Attack> · <action=Attack> · <action=Attack>",
+        "PotentialNameRuby_209001": "两仪连华",
+        "YwyPotentialLabel_909002": "<color=#3AFDFFFF>真武三清</color> · <action=Skill>",
+        "PotentialNameRuby_209002": "真武三清",
+        "YwyPotentialLabel_909003": "<color=#3AFDFFFF>梯云追月</color> · <action=MoveY+>+<action=Skill>",
+        "PotentialNameRuby_209003": "梯云追月",
+        "YwyPotentialLabel_909004": "<color=#3AFDFFFF>剑势不绝</color> · 长按<action=Attack>后释放",
+        "PotentialNameRuby_209004": "剑势不绝",
+        "YwyPotentialLabel_909005": "<color=#3AFDFFFF>以静制动</color> · <action=MoveY->+<action=Skill>",
+        "PotentialNameRuby_209005": "以静制动",
+        "YwyPotentialLabel_909006": "<color=#3AFDFFFF>云相反照</color> · <action=MoveY->+<action=Skill> · 化劲成功",
+        "PotentialNameRuby_209006": "云相反照",
+        "YwyPotentialLabel_909007": "<color=#3AFDFFFF>拳剑相生</color> · 剑式 · <action=MoveY->+<action=Skill> · 剑式",
+        "PotentialNameRuby_209007": "拳剑相生",
+        "YwyPotentialLabel_909008": "<color=#3AFDFFFF>轻身破阵</color> · <action=Dash> · 进攻",
+        "PotentialNameRuby_209008": "轻身破阵",
+        "YwyPotentialLabel_909009": "<color=#3AFDFFFF>圆转不息</color> · 长按<action=Attack>后释放",
+        "PotentialNameRuby_209009": "圆转不息",
+        "YwyPotentialLabel_909010": "<color=#3AFDFFFF>流云归一</color> · <action=Dynamic>",
+        "PotentialNameRuby_209010": "流云归一",
+        "YwyPotentialLabel_909011": "<color=#3AFDFFFF>百川归流</color> · 剑式 · <action=MoveY->+<action=Skill> · 剑式",
+        "PotentialNameRuby_209011": "百川归流",
+        "YwyPotentialLabel_909012": "<color=#3AFDFFFF>四象无极</color> · 5势 · 剑式与<action=MoveY->+<action=Skill>交替命中",
+        "PotentialNameRuby_209012": "四象无极",
+        "ActorActionName_909101": "静中反照",
+        "ActorActionNameRuby_909101": "静中反照",
+        "ActorActionInput_909101": "<action=MoveY->+<action=Skill>",
+        "ActorActionDesc_909101": "同时获得以静制动、云相反照：可在前0.45秒内成功化劲并触发范围反击；只有前0.20秒内的精准化劲使反击伤害额外提高50%。窗口延长不会延长精准判定。",
+        "ActorActionAffectedObject_909101": "静中反照",
+        "YwyPotentialLabel_909101": "<color=#3AFDFFFF>关联效果 · 静中反照</color>",
+        "ActorActionName_909102": "百川相生",
+        "ActorActionNameRuby_909102": "百川相生",
+        "ActorActionInput_909102": "剑式 · <action=MoveY->+<action=Skill> · 剑式",
+        "ActorActionDesc_909102": "同时获得拳剑相生、百川归流：每次合法剑拳交替首次命中，合计额外恢复13真气、4绝式资源，并获得最大生命3%的3秒护盾；不额外结算第二次交替或第二层势，资源受100点上限限制。",
+        "ActorActionAffectedObject_909102": "百川相生",
+        "YwyPotentialLabel_909102": "<color=#3AFDFFFF>关联效果 · 百川相生</color>",
+        "ActorActionName_909103": "轻身入无极",
+        "ActorActionNameRuby_909103": "轻身入无极",
+        "ActorActionInput_909103": "剑式 · <action=MoveY->+<action=Skill> · 剑式",
+        "ActorActionDesc_909103": "同时获得轻身破阵、四象无极：梯云纵或完美闪避后的1.20秒窗口与3秒无极状态重叠时，本人直接攻击的两项倍率相乘，达到原伤害的175%；独立剑气只获得无极的140%。仍须5势时合法剑拳交替命中触发无极，剑阵至少间隔2秒。",
+        "ActorActionAffectedObject_909103": "轻身入无极",
+        "YwyPotentialLabel_909103": "<color=#3AFDFFFF>关联效果 · 轻身入无极</color>",
+        "ActorActionName_909104": "圆转续剑",
+        "ActorActionNameRuby_909104": "圆转续剑",
+        "ActorActionInput_909104": "长按<action=Attack>后释放",
+        "ActorActionDesc_909104": "同时获得剑势不绝、圆转不息：剑圈启动返还5真气，最多消耗2势，按出手前全部势强化伤害与盾；持续至0.45秒仍追加双剑气。5势出手保留3势，短蓄实际净耗25真气、满蓄35真气；施放前仍须具备30或40真气。",
+        "ActorActionAffectedObject_909104": "圆转续剑",
+        "YwyPotentialLabel_909104": "<color=#3AFDFFFF>关联效果 · 圆转续剑</color>",
+        "TriggerName_2090801": "流云内息",
+        "TriggerDesc_2090801": "每秒额外恢复1～5点真气。传承给其他意识体时仍按其普通技能槽生效。"
+      }
+    },
+    "bundleClones": [
+      {
+        "from": "actor/logicdata/rg",
+        "to": "actor/logicdata/ywy",
+        "rename": [
+          [
+            "LogicData/rg.asset",
+            "LogicData/ywy.asset"
+          ]
+        ]
+      },
+      {
+        "from": "actor/logicdata/nobullet",
+        "to": "actor/logicdata/ywybullet",
+        "refTypesFrom": [
+          "actor/logicdata/rg"
+        ],
+        "rename": [
+          [
+            "LogicData/nobullet.asset",
+            "LogicData/ywybullet.asset"
+          ]
+        ]
+      },
+      {
+        "from": "ui/atlas/iconpotential103401/iconpotential103401",
+        "to": "ui/atlas/iconpotential200901/iconpotential200901",
+        "rename": [
+          [
+            "IconPotential103401",
+            "IconPotential200901"
+          ]
+        ],
+        "atlasSprites": [
+          [
+            "Potential_209001",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209001.png"
+          ],
+          [
+            "Potential_209002",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209002.png"
+          ],
+          [
+            "Potential_209003",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209003.png"
+          ],
+          [
+            "Potential_209004",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209004.png"
+          ],
+          [
+            "Potential_209005",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209005.png"
+          ],
+          [
+            "Potential_209006",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209006.png"
+          ],
+          [
+            "Potential_209007",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209007.png"
+          ],
+          [
+            "Potential_209008",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209008.png"
+          ],
+          [
+            "Potential_209009",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209009.png"
+          ],
+          [
+            "Potential_209010",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209010.png"
+          ],
+          [
+            "Potential_209011",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209011.png"
+          ],
+          [
+            "Potential_209012",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Potential_209012.png"
+          ],
+          [
+            "Talent_209080",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Talent_209080.png"
+          ],
+          [
+            "Ywy_Qi",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Ywy_Qi.png"
+          ],
+          [
+            "Ywy_Taiji",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Ywy_Taiji.png"
+          ],
+          [
+            "Ywy_Guard",
+            "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\prepared\\icons\\Ywy_Guard.png"
+          ]
+        ]
+      }
+    ],
+    "assets": [
+      {
+        "bundle": "actor/touch/actorvirtualbuttonconfig.ab",
+        "asset": "ActorVirtualButtonConfig",
+        "copyItems": [
+          {
+            "list": "actorEntries",
+            "key": "actorId",
+            "from": 100101,
+            "to": 200901,
+            "set": [
+              {
+                "path": "styleEntries",
+                "value": [
+                  {
+                    "style": 0,
+                    "virtualButtonEntries": [
+                      {
+                        "commands": [
+                          4
+                        ],
+                        "preferredSkillGroups": [
+                          3
+                        ],
+                        "potentialEntries": [
+                          {
+                            "actorId": 200901,
+                            "criteria": {
+                              "direction": 0,
+                              "posture": 0
+                            },
+                            "icon": {
+                              "m_FileID": 0,
+                              "m_PathID": 0
+                            },
+                            "_1": 0,
+                            "_2": 0,
+                            "_3": 0,
+                            "_4": 0,
+                            "_5": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "bundle": "actor/logicdata/ywy.ab",
+        "asset": "rg",
+        "treeFile": "gen/ywy_tree.json"
+      },
+      {
+        "bundle": "actor/logicdata/ywybullet.ab",
+        "asset": "nobullet",
+        "treeFile": "gen/ywybullet_tree.json"
+      },
+      {
+        "bundle": "actor/buff/buff.ab",
+        "asset": "Buff",
+        "copyItems": [
+          {
+            "list": "BuffList",
+            "key": "Idx",
+            "from": "10501",
+            "to": "ywy_shield",
+            "set": [
+              {
+                "path": "Name",
+                "value": "宇文逸·太极短盾"
+              },
+              {
+                "path": "MaxStack",
+                "value": 1
+              },
+              {
+                "path": "AddReplaceType",
+                "value": 3
+              },
+              {
+                "path": "AddEffects",
+                "value": []
+              },
+              {
+                "path": "LogicArray",
+                "value": [
+                  {
+                    "Type": 73,
+                    "ValueConstFp": {
+                      "value": 4294967296
+                    },
+                    "ValueAddForStackFp": {
+                      "value": 0
+                    },
+                    "OverTimeUpdateIntervalFp": {
+                      "value": 0
+                    },
+                    "OnlyUpdateWhenBattleRun": 0,
+                    "ScriptCall": "",
+                    "ParamSet": {
+                      "ParamList": [],
+                      "ParamHintTypeInEditor": ""
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "list": "BuffList",
+            "key": "Idx",
+            "from": "24401_cd",
+            "to": "ywy_breath",
+            "set": [
+              {
+                "path": "Name",
+                "value": "宇文逸·流云内息"
+              },
+              {
+                "path": "MaxStack",
+                "value": 1
+              },
+              {
+                "path": "AddReplaceType",
+                "value": 3
+              },
+              {
+                "path": "AddEffects",
+                "value": []
+              },
+              {
+                "path": "AudioCue",
+                "value": []
+              },
+              {
+                "path": "LogicArray",
+                "value": [
+                  {
+                    "Type": 141,
+                    "ValueConstFp": {
+                      "value": 4294967296
+                    },
+                    "ValueAddForStackFp": {
+                      "value": 0
+                    },
+                    "OverTimeUpdateIntervalFp": {
+                      "value": 4294967296
+                    },
+                    "OnlyUpdateWhenBattleRun": 1,
+                    "ScriptCall": "",
+                    "ParamSet": {
+                      "ParamList": [
+                        {
+                          "Key": "Slot",
+                          "Value": "2"
+                        }
+                      ],
+                      "ParamHintTypeInEditor": "BuffLogic_MPChangeOT"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "appendItems": [
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 836,
+              "path": "UI/Texture/HeroPortraitFull/HeroPortraitFull_200901",
+              "width": 900
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 1024,
+              "path": "UI/Texture/HeroPortraitLMB/HeroPortraitFull_200901",
+              "width": 1024
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 2048,
+              "path": "UI/Texture/HeroPortraitFullMB/HeroPortraitFull_200901",
+              "width": 2048
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 1024,
+              "path": "UI/Texture/HeroPortraitCoatArms/HeroPortraitFull_200901",
+              "width": 1024
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 256,
+              "path": "UI/Texture/HeroHeadIcon/HeroHeadIcon_200901",
+              "width": 256
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 128,
+              "path": "UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+              "width": 128
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 184,
+              "path": "UI/Texture/HeroHeadIcon/HeroEvoHead_200901",
+              "width": 189
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 184,
+              "path": "UI/Texture/HeroHeadIcon/HeroEvoHead_Off_200901",
+              "width": 189
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 237,
+              "path": "UI/Texture/HeroHeadIcon/HeroFinalBattle_200901",
+              "width": 258
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 221,
+              "path": "UI/Texture/HeroHeadIcon/HeroPvPFinish_200901",
+              "width": 827
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 477,
+              "path": "UI/Texture/HeroHeadIcon/HeroPDA_200901",
+              "width": 287
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 256,
+              "path": "UI/Texture/IconSkill/IconSkill_200901",
+              "width": 256
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 96,
+              "path": "UI/Texture/IconPotential/Potential_209001",
+              "width": 96
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 96,
+              "path": "UI/Texture/IconPotential/Potential_209002",
+              "width": 96
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 96,
+              "path": "UI/Texture/IconPotential/Potential_209003",
+              "width": 96
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 96,
+              "path": "UI/Texture/IconPotential/Potential_209004",
+              "width": 96
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 96,
+              "path": "UI/Texture/IconPotential/Potential_209005",
+              "width": 96
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 96,
+              "path": "UI/Texture/IconPotential/Potential_209006",
+              "width": 96
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 96,
+              "path": "UI/Texture/IconPotential/Potential_209007",
+              "width": 96
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 96,
+              "path": "UI/Texture/IconPotential/Potential_209008",
+              "width": 96
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 96,
+              "path": "UI/Texture/IconPotential/Potential_209009",
+              "width": 96
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 96,
+              "path": "UI/Texture/IconPotential/Potential_209010",
+              "width": 96
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 96,
+              "path": "UI/Texture/IconPotential/Potential_209011",
+              "width": 96
+            }
+          },
+          {
+            "key": "path",
+            "list": "_entries",
+            "value": {
+              "height": 96,
+              "path": "UI/Texture/IconPotential/Potential_209012",
+              "width": 96
+            }
+          }
+        ],
+        "asset": "metrics",
+        "bundle": "ui/texture/metrics.ab"
+      }
+    ],
+    "js": [
+      {
+        "file": "data/js/gameplay/battleactor/ActorFuncs",
+        "append": "globalThis.BB_YWY_INPUT_POLICY={\"schema\":1,\"buffer\":0.48,\"recovery\":{\"ywy_sword1\":0.26666666666666666,\"ywy_sword2\":0.3333333333333333,\"ywy_sword3\":0.45,\"ywy_launcher\":0.26666666666666666,\"ywy_air1\":0.3333333333333333,\"ywy_air2\":0.4,\"ywy_zhenwu\":0.2833333333333333,\"ywy_chase\":0.38333333333333336,\"ywy_taiji_fist\":0.5333333333333333,\"ywy_circle_short\":0.4,\"ywy_circle_full\":0.5833333333333334,\"ywy_ultra\":1.25},\"dash_cancel\":0.01,\"jump_cancel\":0.1,\"dash_follow\":0.15,\"dash_attack\":0.08};"
+      },
+      {
+        "file": "data/js/gameplay/battleactor/ActorFuncs",
+        "appendFile": "js/actor.js"
+      },
+      {
+        "file": "data/js/gameplay/playertrigger/PlayerTriggerFuncs",
+        "appendFile": "js/triggers.js"
+      },
+      {
+        "file": "data/js/window/battle/BattleUI",
+        "appendFile": "js/hud.js"
+      },
+      {
+        "file": "data/js/gameplay/battle/BattleJs",
+        "appendFile": "js/lifecycle.js"
+      },
+      {
+        "file": "data/js/core/ActorUtil",
+        "append": "globalThis.BB_ACTOR_DONOR=globalThis.BB_ACTOR_DONOR||{};globalThis.BB_ACTOR_DONOR[200901]=100101;globalThis.BB_SELF_TRIGGERS=globalThis.BB_SELF_TRIGGERS||{};globalThis.BB_SELF_TRIGGERS[200901]=[2090901,2090902];"
+      },
+      {
+        "file": "data/js/window/battle/BattleUI",
+        "append": "globalThis.BB_HUD_SPRITES=globalThis.BB_HUD_SPRITES||{};globalThis.BB_HUD_SPRITES[\"Potential_209001\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Potential_209002\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Potential_209003\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Potential_209004\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Potential_209005\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Potential_209006\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Potential_209007\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Potential_209008\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Potential_209009\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Potential_209010\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Potential_209011\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Potential_209012\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Talent_209080\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Ywy_Qi\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Ywy_Taiji\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";globalThis.BB_HUD_SPRITES[\"Ywy_Guard\"]=\"UI/Atlas/IconPotential200901/IconPotential200901\";"
+      }
+    ],
+    "importers": [
+      {
+        "script": "import_yuwen.py",
+        "args": [
+          "all"
+        ]
+      }
+    ],
+    "spriteAliases": {
+      "BaseActor_200901": "tex:UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+      "BaseActor_200901_S": "tex:UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+      "FesActor_200901k": "tex:UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+      "FesActor_200901k_S": "tex:UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+      "HeroHead_200901": "tex:UI/Texture/HeroHeadIcon/HeroEvoHead_200901",
+      "HeroHead_200901_Off": "tex:UI/Texture/HeroHeadIcon/HeroEvoHead_Off_200901",
+      "HeroPortraitFull_200901": "tex:UI/Texture/HeroHeadIcon/HeroFinalBattle_200901",
+      "HeroPortraitFull_200901_S": "tex:UI/Texture/HeroHeadIcon/HeroHeadIcon_200901",
+      "IconSkill_200901": "tex:UI/Texture/IconSkill/IconSkill_200901",
+      "PDA_HeroPortraitFull_200901": "tex:UI/Texture/HeroHeadIcon/HeroPDA_200901",
+      "PVE_HeroPortraitFull_200901_H": "tex:UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+      "PVP_HeroPortraitFull_200901": "tex:UI/Texture/HeroHeadIcon/HeroSmallHead_200901",
+      "PvPFinish_HeroPortraitFull_200901": "tex:UI/Texture/HeroHeadIcon/HeroPvPFinish_200901"
+    },
+    "textureAliases": {}
+  }
+}

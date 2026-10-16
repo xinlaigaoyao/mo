@@ -1,0 +1,18 @@
+{
+  "status": "completed_for_closed_task_scratch",
+  "removed": [
+    "private/temp/first-playtest-art-review.py",
+    "private/temp/complete-delivery-closure.py",
+    "private/temp/record-offline-ready.py",
+    "private/temp/archive-source-delivery.py",
+    "private/build-profile",
+    "builds/full-repeat",
+    "builds/withdrawal"
+  ],
+  "retained": [
+    "active private/temp/play and shortcut runtime scratch until normal exit",
+    "active formal launcher journal and all saves/backups",
+    "source/art/native proof and candidate"
+  ],
+  "game_closed_by_agent": false
+}

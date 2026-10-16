@@ -1,0 +1,16 @@
+{
+  "tests_run": 291,
+  "failures": 0,
+  "errors": 0,
+  "skipped": [
+    {
+      "test": "test_symlink_component_is_rejected (test_install_transaction.InstallTransactionTests.test_symlink_component_is_rejected)",
+      "reason": "symlink creation is not enabled on this host"
+    },
+    {
+      "test": "test_link_in_save_tree_is_rejected (test_save_safety.SaveSafetyTests.test_link_in_save_tree_is_rejected)",
+      "reason": "symlink creation is not enabled on this host"
+    }
+  ],
+  "passed": true
+}

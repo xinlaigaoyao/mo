@@ -1,0 +1,12 @@
+{
+  "scope": "historical platform acceptance before new character runtime",
+  "files": {
+    "runtime-acceptance.json": "2ae61f3a0a96c2151894459d1c0d777e51a13abbb62afcefc3c7369f3734cfa3",
+    "runtime-progress.json": "a7abcc32759f2f43424e8b9895a933e8edca7052006fd00327452d53cfdde1ce",
+    "runtime-final-restoration.json": "aa9be8dbb5fab402d730d2293e91d6c23787b37888813ea891b56b09e5b463ff",
+    "inspector-fixed-runtime.json": "1a603ba0f0fa69eeaabcb96ee5d15dd5d51d8ccfbca957811bf3cfeae42c1717",
+    "runtime-reopen-observation.json": "fb1321086a25fe1172cb4882d1327ea882b0ad9e8c57d6075c92e7b3b4961b44",
+    "runtime-f9-observation.json": "802e14ea72fbe93e0f59285aadf7ec164779be2be08978db810cc765c6e07a01",
+    "runtime-interpreter-identity.json": "82a21bf0b1d078e81b89da6c28a7860c04606668eea903078d0e06840475466f"
+  }
+}

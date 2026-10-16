@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "approved": true,
+  "source_row": "Hero_WuDang",
+  "faces_positive_x": true,
+  "body_manifest_sha256": "c53f67f143e03b8cbb598671368de13f241e2dcfb60870bc8c9a054c46f253dc",
+  "portrait_manifest_sha256": "aae6004559b0fa63b16e2ecfa7ffe1f24d5e25cf02561bc191012234ddb43df5",
+  "authored_manifest_sha256": "54050fc64e5436217a8687e0f16fd311d91ca77ccc2d1ab2589a3beae81b6696",
+  "portrait_landmarks": {
+    "face_x": 458,
+    "top": 65,
+    "floor": 793
+  },
+  "portrait_landmark_basis": {
+    "face_x": "Manual visual center of face on original 900x835 TeamImage",
+    "top": "first alpha>=128 row",
+    "floor": "exclusive lower extent at alpha>=4, retaining the original fade"
+  },
+  "evidence": [
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-native-wudang-contact-sheet.png",
+      "sha256": "9c7c17d475bd00274ce8880571492b5d2128b7218bab22315b445fed60d17314"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-native-wudang-flipbooks.png",
+      "sha256": "5f3d2d06ee2c40dd390b68f2ef1773847841ca3393dac80063c8bf995a04ecdc"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\portrait-composite-review.png",
+      "sha256": "edfd5b8cf696e5c1aeb5bc41f588ac5487f07136caad69780f6bc433e2754795"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\authored-poses-contact-sheet.png",
+      "sha256": "e51bc66592b3b28dd2de3cf8552594d46cfa22089eb50736b22bf54c1b63b457"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\authored-poses-visual-review.json",
+      "sha256": "5f804957fbcfee90b7b754654cefd9d0e0778c59d0f1a171050fe3283a3ed6f3"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-reference-validation.json",
+      "sha256": "7285e44549a7cbe7fb37729920e3e6f833a8827c0b2b142cae487198415666ab"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\portrait-reference-validation.json",
+      "sha256": "6c5da4a3da6110de651c8908a47b6ccfe184e69bfee50521c3d2d646242af3de"
+    }
+  ],
+  "observations": [
+    "Root viewed all 64 unique original blue-clothed sprites and 18 ordered native flipbooks in contact sheets. Bodies and swords/palm effects are complete and the selected Right mappings face positive x. Original feet pivots are visibly consistent within their original atlas families.",
+    "Root viewed all three original blue Hero_WuDang portraits and a correctly alpha-composited TeamImage. Identity and blue/white outfit match. TeamImage is a half-length composition with a bottom fade, not a full-body artwork. Hidden RGB at alpha0 is not an opaque background.",
+    "Root viewed every one of the 40 newly authored reaction/extras frames. Hair, hands and feet are not cut off, row semantics are identifiable, poses face right and share the declared foot baseline. Each source sheet has one calibrated scale; no per-frame height normalization."
+  ],
+  "scope": "Approval to prepare and build this complete art candidate only. Contact sheets do not prove animation fluency, Unity playback, gameplay collision or final character acceptance."
+}

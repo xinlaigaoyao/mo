@@ -1,0 +1,17 @@
+{
+  "command": [
+    "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Interpreter\\pythoncore-3.14-64\\python.exe",
+    "-E",
+    "-s",
+    "-c",
+    "import faulthandler,os,runpy,sys; sys.stdout.reconfigure(encoding='utf-8',errors='replace',line_buffering=True,write_through=True); sys.stderr.reconfigure(encoding='utf-8',errors='replace',line_buffering=True,write_through=True); faulthandler.enable(); faulthandler.dump_traceback_later(600,repeat=True); p=sys.argv[1]; sys.argv=sys.argv[1:]; sys.path.insert(0,os.path.dirname(p)); runpy.run_path(p,run_name='__main__')",
+    "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\sandbox_install.py",
+    "install"
+  ],
+  "cwd": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher",
+  "exit_code": 0,
+  "elapsed_seconds": 3.01,
+  "log": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\final-update.log",
+  "log_sha256": "d0ba5761138d304945c512c74982f3e6b842a5358e2739b41f336bf5a2f81b4a",
+  "game_target": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\game"
+}

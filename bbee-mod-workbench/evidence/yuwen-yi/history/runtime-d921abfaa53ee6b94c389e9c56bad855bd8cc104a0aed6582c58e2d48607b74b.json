@@ -1,0 +1,20 @@
+{
+  "status": "pending",
+  "actor_id": 200901,
+  "build_record_sha256": "a85afaa34a33698b2719e232d37e90ce6f9ce8520fa63c4aea180db58ddf4a49",
+  "profile_sha256": "cd7763272595eb7e9f9f6cb4693f9acef2c336e7baa1f1b20482f611fd5baed8",
+  "checks": {
+    "character_selection": "pending",
+    "combat": "pending",
+    "reopen": "pending"
+  },
+  "offline_engineering": "passed",
+  "persistent_entry": "configured_offline",
+  "configuration_evidence": {
+    "path": "evidence/yuwen-yi/persistent-entry-configuration.json",
+    "sha256": "a70c4b53585f8295d72b614041e4215e140a34c56d150a583fa27d0379aea22b"
+  },
+  "game_launch_performed": false,
+  "scope": "User is away. All current offline work is complete; do not launch or operate the game. Actual selection/input/potential UI/FX/high difficulty/save-reopen remain unverified.",
+  "checklist": "docs/work/yuwen-yi/acceptance.md"
+}

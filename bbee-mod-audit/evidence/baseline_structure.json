@@ -1,0 +1,115 @@
+{
+  "scope": "read-only manifest/index/schema membership; no TextAsset decode, anchors, build, install or game test",
+  "date": "2026-10-15 Asia/Shanghai",
+  "game_root": "E:\\SteamLibrary\\steamapps\\common\\BlazblueEntropyEffect",
+  "source_archive": "C:\\Users\\MECHREVO\\Downloads\\ZenithTerminal-0.3.0-alpha (1).zip",
+  "source_archive_sha256": "b5b3c2548ab61259c6f757b0cbf450a1d3490345ae9172915a5d7a303c36e150",
+  "manifest_sha256": "a599becfa315c9151b02ef0d661f5e923b68830e6ac12d6b634d3f84cf7eb6f1",
+  "merge_sha256": "21c176e944763b72a084f03f43fc66c9f54e4fa58c07f96ea26d2c2b0a5f86a6",
+  "manifest": {
+    "declared_names": 60429,
+    "declared_dependency_records": 60407,
+    "declared_guid_records": 60312,
+    "has_end_marker": true,
+    "parsed_names": 60429,
+    "parsed_dependency_records": 60407,
+    "parsed_guid_records": 60312,
+    "duplicate_names": 0,
+    "bad_indexes": [],
+    "merge_logical_count": 60410,
+    "merge_names_absent_from_manifest": [
+      "buildlogtep.json",
+      "manifest",
+      "shadervariantinfos"
+    ],
+    "manifest_names_without_merge_entry": [
+      "effect/common/fbx/mesh_spacing_remains",
+      "effect/common/fbx/mesh_spacing_ruins",
+      "effect/prefab/scene/stage_3b_501",
+      "effect/prefab/scene/stage_3b_501_console",
+      "effect/prefab/scene/stage_3b_501_l",
+      "effect/prefab/scene/stage_3b_501_l_console",
+      "effect/prefab/scene/stage_3b_501_r",
+      "effect/prefab/scene/stage_3b_501_r_console",
+      "ui/atlas/common/common_alt",
+      "ui/atlas/common_/common_alt_",
+      "ui/atlas/commonmb_alt_/commonmb_alt_",
+      "ui/atlas/evocharacter/evocharacter_alt",
+      "ui/atlas/fight/fight_alt",
+      "ui/atlas/iconachievement_alt/iconachievement_alt",
+      "ui/atlas/iconconsciousness_alt/iconconsciousness_alt",
+      "ui/atlas/iconsanbuff_alt/iconsanbuff_alt",
+      "ui/atlas/iconstagepve_alt/iconstagepve_alt",
+      "ui/atlas/login/login_alt",
+      "ui/atlas/resource_alt/resource_alt",
+      "ui/atlas/selectroom_alt/selectroom_alt",
+      "ui/texture/updatelog/updatelog_1",
+      "ui/texture/updatelog/updatelog_2"
+    ]
+  },
+  "static_descriptor_membership": [
+    {
+      "id": "char-nine",
+      "source_path": "ZenithTerminal/Launcher/mods/char-nine/mod.json",
+      "tables_checked": 21,
+      "missing_table_bundles": [],
+      "missing_schema_types": [],
+      "js_modules_checked": 2,
+      "missing_js_bundles": [],
+      "bundle_clone_sources_checked": 31,
+      "bundle_clone_sources_absent_from_live_merge": []
+    },
+    {
+      "id": "dr-party",
+      "source_path": "ZenithTerminal/Launcher/mods/dr-party/mod.json",
+      "tables_checked": 18,
+      "missing_table_bundles": [],
+      "missing_schema_types": [],
+      "js_modules_checked": 3,
+      "missing_js_bundles": [],
+      "bundle_clone_sources_checked": 3,
+      "bundle_clone_sources_absent_from_live_merge": []
+    },
+    {
+      "id": "bbee-actors",
+      "source_path": "ZenithTerminal/Launcher/shared/bbee-actors/mod.json",
+      "tables_checked": 0,
+      "missing_table_bundles": [],
+      "missing_schema_types": [],
+      "js_modules_checked": 20,
+      "missing_js_bundles": [],
+      "bundle_clone_sources_checked": 0,
+      "bundle_clone_sources_absent_from_live_merge": []
+    },
+    {
+      "id": "bbee-inspector",
+      "source_path": "ZenithTerminal/Launcher/shared/bbee-inspector/mod.json",
+      "tables_checked": 0,
+      "missing_table_bundles": [],
+      "missing_schema_types": [],
+      "js_modules_checked": 1,
+      "missing_js_bundles": [],
+      "bundle_clone_sources_checked": 0,
+      "bundle_clone_sources_absent_from_live_merge": []
+    },
+    {
+      "id": "bbee-sdk",
+      "source_path": "ZenithTerminal/Launcher/shared/bbee-sdk/mod.json",
+      "tables_checked": 0,
+      "missing_table_bundles": [],
+      "missing_schema_types": [],
+      "js_modules_checked": 5,
+      "missing_js_bundles": [],
+      "bundle_clone_sources_checked": 0,
+      "bundle_clone_sources_absent_from_live_merge": []
+    }
+  ],
+  "not_verified": [
+    "Actual game table payload matches schema snapshot",
+    "JS replacement anchors exist and are unique",
+    "Generated Ruby descriptor and assets",
+    "Full pipeline decode completeness and encode/decode equivalence",
+    "Pristine Steam depot byte identity",
+    "Installation, save backup/restore and runtime behavior"
+  ]
+}

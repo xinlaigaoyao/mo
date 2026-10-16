@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "actor_id": 200901,
+  "build_record_sha256": "a85afaa34a33698b2719e232d37e90ce6f9ce8520fa63c4aea180db58ddf4a49",
+  "profile_sha256": "cd7763272595eb7e9f9f6cb4693f9acef2c336e7baa1f1b20482f611fd5baed8",
+  "checks": {
+    "character_selection": "pending",
+    "combat": "failed",
+    "reopen": "pending"
+  },
+  "offline_engineering": "passed",
+  "persistent_entry": "configured_offline",
+  "configuration_evidence": {
+    "path": "evidence/yuwen-yi/persistent-entry-configuration.json",
+    "sha256": "a70c4b53585f8295d72b614041e4215e140a34c56d150a583fa27d0379aea22b"
+  },
+  "game_launch_performed": true,
+  "scope": "Second live playtest: user confirms attack no longer truncates; selected icons are corrupt and three distinct normal attacks are missing. Martial-art-specific potential VFX requested. Computer Use stopped by physical Escape; game remains active in persistent launcher. No fresh F9 obtained.",
+  "checklist": "docs/work/yuwen-yi/acceptance.md",
+  "run_id": "d66e51203de94e60b8d54bba7f1ac4a3",
+  "feedback": {
+    "path": "evidence/yuwen-yi/second-playtest-feedback.png",
+    "sha256": "4fc3cfb4df9ae1f809a8156c81e808f0f045b09979fd0f9ec499239b85d77bfa"
+  },
+  "issue": "docs/work/yuwen-yi/issues/02-second-playtest.md"
+}

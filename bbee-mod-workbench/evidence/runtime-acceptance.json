@@ -1,0 +1,12 @@
+{
+  "acceptance_scope": "progress preservation only; character runtime remains separate",
+  "current_progress_backup_verified": true,
+  "current_progress_files": 44,
+  "current_progress_preserved_exactly": true,
+  "original_backup_verified": true,
+  "run_id": "67946a5463a5467786d4b548e3a498b5",
+  "runtime_acceptance_passed": false,
+  "save_restoration_performed": false,
+  "save_writes_performed": false,
+  "status": "released_preserving_progress"
+}

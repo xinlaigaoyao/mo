@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "restored_proxy_files": [
+    {
+      "name": "Juij_Steam.dll",
+      "sha256": "27523f29d16ae3341970e912c19abc7c60018476e9b1a247f2381af35b6cbeb9"
+    },
+    {
+      "name": "version.dll",
+      "sha256": "27523f29d16ae3341970e912c19abc7c60018476e9b1a247f2381af35b6cbeb9"
+    },
+    {
+      "name": "winmm.dll",
+      "sha256": "27523f29d16ae3341970e912c19abc7c60018476e9b1a247f2381af35b6cbeb9"
+    }
+  ],
+  "owned_appid_hints_removed": 2
+}

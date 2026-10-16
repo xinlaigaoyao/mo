@@ -1,0 +1,7 @@
+{
+ "enabled": [
+  "bbee-sdk",
+  "bbee-actors",
+  "bbee-inspector"
+ ]
+}

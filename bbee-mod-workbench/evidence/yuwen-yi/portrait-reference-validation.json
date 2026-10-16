@@ -1,0 +1,415 @@
+{
+  "status": "passed",
+  "captured_utc": "2026-10-15T13:59:24.395873+00:00",
+  "scope": "Uniform portrait source batch validation and authorized native-source visual contact sheets; no production preparation or BBEE runtime acceptance.",
+  "manifest": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261015T134637Z-890830ca3a1f\\manifest.json",
+  "manifest_sha256": "aae6004559b0fa63b16e2ecfa7ffe1f24d5e25cf02561bc191012234ddb43df5",
+  "checks_executed": 12,
+  "checks": [
+    {
+      "check": "captured_source_pak_identity_and_fixed_manifest",
+      "status": "passed",
+      "manifest_sha256": "aae6004559b0fa63b16e2ecfa7ffe1f24d5e25cf02561bc191012234ddb43df5"
+    },
+    {
+      "check": "producer_source:wandering_character_portrait_reference.py",
+      "status": "passed",
+      "sha256": "fc1a969e392638011d42cde147df58571ada76e6b58e791b8778b10475a3730e"
+    },
+    {
+      "check": "producer_source:wandering_character_parser.py",
+      "status": "passed",
+      "sha256": "b6ce5019a7746e264da10997bef3b3315caee045255db07f41f4105cf22778a4"
+    },
+    {
+      "check": "producer_source:wandering_character_reference.py",
+      "status": "passed",
+      "sha256": "c22db8bb97605dd036debdfd8f40b217c32fe046fc0dabfba1cfe3855a165b4b"
+    },
+    {
+      "check": "producer_source:wandering_decode_reference.py",
+      "status": "passed",
+      "sha256": "9d6803c6e2cbbcf531351e92f1b7265223cd444e51ebea955f73fe1014037a7f"
+    },
+    {
+      "check": "producer_source:wandering_reference.py",
+      "status": "passed",
+      "sha256": "4d1294ed576472cd5bb238f9eb4e83cd98e7c2be2e63c05a5c39d4c701217e00"
+    },
+    {
+      "check": "all_22_outputs_hash_size_and_exact_inventory",
+      "status": "passed",
+      "files": 22
+    },
+    {
+      "check": "15_raw_member_sha256_and_lengths",
+      "status": "passed",
+      "files": 15,
+      "bytes": 30293659
+    },
+    {
+      "check": "current_source_footer_3_indices_and_15_selected_member_slices",
+      "status": "passed",
+      "indices": [
+        {
+          "index": "primary",
+          "bytes": 5929610,
+          "sha1": "bb9defc448a0bec010d439bc83157f6d7c7b91b6"
+        },
+        {
+          "index": "path_hash",
+          "bytes": 3515862,
+          "sha1": "1d5b249c85b201b45fcb0d6af73152f779e46bf0"
+        },
+        {
+          "index": "full_directory",
+          "bytes": 9199136,
+          "sha1": "3acaa4916815722d4a41b9490a5769c9000a8ecb"
+        }
+      ],
+      "members": 15
+    },
+    {
+      "check": "six_pngs_exact_bgra_rgba_full_pixel_readback",
+      "status": "passed",
+      "portraits": [
+        {
+          "row": "Hero",
+          "field": "TeamImage",
+          "size": [
+            900,
+            835
+          ],
+          "png_sha256": "824b29ddfd6388e6bc7d68aae9603894408a66c9ad9779390bb7af40293cc658",
+          "pixel_sha256_bgra": "63dccb48d0628818f192463ff92db903efe1305745980d83373c51c781784ad3",
+          "alpha_zero_pixels": 549789,
+          "alpha_full_pixels": 159233,
+          "alpha_partial_pixels": 42478,
+          "alpha_bbox": [
+            206,
+            42,
+            668,
+            801
+          ],
+          "alpha_threshold_bboxes": {}
+        },
+        {
+          "row": "Hero",
+          "field": "DlgImage",
+          "size": [
+            500,
+            534
+          ],
+          "png_sha256": "28a4c85d98900ed0d46ac3e378c752670dc2bc7f3d2aad15f3bf0b82b00374f6",
+          "pixel_sha256_bgra": "e18738cda3155140e04ddf0d7d65260634f13e47518ee8f76674073ee1cf0539",
+          "alpha_zero_pixels": 208273,
+          "alpha_full_pixels": 51480,
+          "alpha_partial_pixels": 7247,
+          "alpha_bbox": [
+            139,
+            114,
+            413,
+            497
+          ],
+          "alpha_threshold_bboxes": {}
+        },
+        {
+          "row": "Hero",
+          "field": "FightImage",
+          "size": [
+            173,
+            173
+          ],
+          "png_sha256": "743455ee6c5f9549ed9a0196fd0441032924830c2a615dee935551b882214562",
+          "pixel_sha256_bgra": "205d7a094669d0534700925c69c8cfd538cd5150faf9c5e5753693f841e81762",
+          "alpha_zero_pixels": 16247,
+          "alpha_full_pixels": 12594,
+          "alpha_partial_pixels": 1088,
+          "alpha_bbox": [
+            24,
+            1,
+            170,
+            171
+          ],
+          "alpha_threshold_bboxes": {}
+        },
+        {
+          "row": "Hero_WuDang",
+          "field": "TeamImage",
+          "size": [
+            900,
+            835
+          ],
+          "png_sha256": "09df0a1a1974af252adcc8b04bdb34d210066ca78545f094d0d4ac825d864040",
+          "pixel_sha256_bgra": "661c6f9eb85ff728c68911fabb969cea1049e20fc81c60ba233a7db0943189a7",
+          "alpha_zero_pixels": 543057,
+          "alpha_full_pixels": 155213,
+          "alpha_partial_pixels": 53230,
+          "alpha_bbox": [
+            206,
+            41,
+            718,
+            801
+          ],
+          "alpha_threshold_bboxes": {
+            "1": [
+              206,
+              41,
+              718,
+              801
+            ],
+            "32": [
+              206,
+              64,
+              710,
+              755
+            ],
+            "64": [
+              206,
+              64,
+              700,
+              731
+            ],
+            "128": [
+              206,
+              65,
+              686,
+              704
+            ],
+            "192": [
+              206,
+              66,
+              682,
+              687
+            ],
+            "254": [
+              207,
+              68,
+              670,
+              675
+            ]
+          }
+        },
+        {
+          "row": "Hero_WuDang",
+          "field": "DlgImage",
+          "size": [
+            500,
+            534
+          ],
+          "png_sha256": "913690865d0de54d96091fb4d2e5d595f662464453865deaa19a3847294df34f",
+          "pixel_sha256_bgra": "a5022a0e91e7739e2574cbca9b0b76385065b55f86b4ce877de913736324786a",
+          "alpha_zero_pixels": 213877,
+          "alpha_full_pixels": 45708,
+          "alpha_partial_pixels": 7415,
+          "alpha_bbox": [
+            139,
+            114,
+            389,
+            497
+          ],
+          "alpha_threshold_bboxes": {}
+        },
+        {
+          "row": "Hero_WuDang",
+          "field": "FightImage",
+          "size": [
+            173,
+            173
+          ],
+          "png_sha256": "b4e80b371515a72a0863fb85f8304871265b2df1ed2f85d77ed5c538182a4e55",
+          "pixel_sha256_bgra": "63cb381c8501d9579a8f7049bef383c785b6e903703c7e209b7b8dfad14abc05",
+          "alpha_zero_pixels": 16296,
+          "alpha_full_pixels": 11886,
+          "alpha_partial_pixels": 1747,
+          "alpha_bbox": [
+            24,
+            1,
+            161,
+            171
+          ],
+          "alpha_threshold_bboxes": {}
+        }
+      ]
+    },
+    {
+      "check": "locres4586_and_exact_two_id_name_joins",
+      "status": "passed",
+      "entry_count": 4586,
+      "identity_join": [
+        {
+          "resource_row": "Hero",
+          "resource_id": 0,
+          "namespace": "NPCs",
+          "key": "0_Name",
+          "text": "宇文逸"
+        },
+        {
+          "resource_row": "Hero_WuDang",
+          "resource_id": 1,
+          "namespace": "NPCs",
+          "key": "1_Name",
+          "text": "宇文逸"
+        }
+      ],
+      "master_table_resource_relation_decoded": false
+    },
+    {
+      "check": "native_wudang_contact_sheets",
+      "status": "passed",
+      "unique_sprites": 64,
+      "flipbooks": 18,
+      "outputs": [
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-native-wudang-contact-sheet.png",
+          "sha256": "9c7c17d475bd00274ce8880571492b5d2128b7218bab22315b445fed60d17314",
+          "size": [
+            1848,
+            1692
+          ]
+        },
+        {
+          "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-native-wudang-flipbooks.png",
+          "sha256": "5f3d2d06ee2c40dd390b68f2ef1773847841ca3393dac80063c8bf995a04ecdc",
+          "size": [
+            2380,
+            3354
+          ]
+        }
+      ],
+      "creative_art_added": false
+    }
+  ],
+  "source_pak_status": {
+    "path": "E:\\SteamLibrary\\steamapps\\common\\Wandering Sword\\Wandering_Sword\\Content\\Paks\\Wandering_Sword-WindowsNoEditor.pak",
+    "capture_verified_full_sha256": "5e049dc376c36dacadf6edb6fab133942679b54b1809d7f483728deec35beaff",
+    "full_pak_sha256_recomputed_this_validation": false,
+    "scope": "Capture SHA inherited from frozen successful extraction; current footer/three index hashes and all fifteen selected compressed/member hashes reverified, without another whole-6GB read.",
+    "identity_before": [
+      3576378993059954490,
+      1125899907363067,
+      5954388501,
+      1792042176329101000
+    ],
+    "identity_after": [
+      3576378993059954490,
+      1125899907363067,
+      5954388501,
+      1792042176329101000
+    ],
+    "unchanged_during_validation": true
+  },
+  "selected_source_payloads": [
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_HeadImage1.uasset",
+      "stored_sha1": "5046c22d91deb8afc876881bf98ee8881b974edf",
+      "decoded_sha256": "8232507bce49e2bb54458a36e5ee7ce0a5edf2b2f185e1837c9ba2ef25305680",
+      "bytes": 770
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_HeadImage1.uexp",
+      "stored_sha1": "2aaefe5a3f2908891c277e4ab7efbed2f878523d",
+      "decoded_sha256": "261803688f2dca390cd595b7d83d9ddf62ce3a0692a489fdd049977cd9124386",
+      "bytes": 3006272
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_HeadImage2.uasset",
+      "stored_sha1": "45dd040b41f349777f01d90196cf230861207227",
+      "decoded_sha256": "d43996b21de549d8af179e319008530a8b124f70fb238a3e87dfb5e30081e778",
+      "bytes": 770
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_HeadImage2.uexp",
+      "stored_sha1": "35dbd584b1b5933766e04107efbd8e0a8fd33728",
+      "decoded_sha256": "cd156e12af084b4d15ce2a95ecfa97bf094da1072d8f4f2966bcdc5164d9796b",
+      "bytes": 1068272
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_HeadImage3.uasset",
+      "stored_sha1": "5c40f77dd62f81f2e3d488edcac53fc961978fe0",
+      "decoded_sha256": "684779d0a08b5d8cd1fa1a69fcc5023d1224242e722775802eb5e1cb3aa9a982",
+      "bytes": 770
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_HeadImage3.uexp",
+      "stored_sha1": "143f91ee7fbffb4aeefa443c319a97e74624a25b",
+      "decoded_sha256": "d7d781019cbcf847153e108b7020e5397e34ca323ed09c242d07e11f8b9fed76",
+      "bytes": 119988
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_WuDang_HeadImage1.uasset",
+      "stored_sha1": "529b4296e0551b732555375e093180f96b3eeefa",
+      "decoded_sha256": "70ab4355580b8524b17e1a89304a16d672c19e80a6b5d4398bf1f60eeb073d0c",
+      "bytes": 784
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_WuDang_HeadImage1.uexp",
+      "stored_sha1": "1fdbafc180953cb007f341e066b27ebf64c23592",
+      "decoded_sha256": "29b80c80fee7abaa9306294175b1b858a7b4dc32bf1bb8d85744a12155a0b2b1",
+      "bytes": 3006272
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_WuDang_HeadImage2.uasset",
+      "stored_sha1": "fb645b988ebcb1d5d5d993abc04f6e8dd9ebfdf0",
+      "decoded_sha256": "9b42875616ecb5a5db8c8ac09f7d50589d3cc77d238fcd9f1eb83906f5b46624",
+      "bytes": 784
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_WuDang_HeadImage2.uexp",
+      "stored_sha1": "1044fdfa0be068b7a2e875a9cd4624495bc17ad6",
+      "decoded_sha256": "93eceae67f91a6cd5e1f4a220891e7f3fc665228b626fbf5ce6417359b5da324",
+      "bytes": 1068272
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_WuDang_HeadImage3.uasset",
+      "stored_sha1": "07dbf5d37be074629eccba63b603c0c448a32b42",
+      "decoded_sha256": "1b3c14cdbfe52994fd6b873ff0fc7fbd34ca53cec6588edf819cb13fe7e829d5",
+      "bytes": 784
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Characters/Image/T_Hero_WuDang_HeadImage3.uexp",
+      "stored_sha1": "09436d35bb34de70a437482b5ecbcd4b86455ced",
+      "decoded_sha256": "352f293adc318766b9c98bd5e598b18e34fd69d8fdbb494cd48c7246a465443b",
+      "bytes": 119988
+    },
+    {
+      "member": "Wandering_Sword/Content/Localization/Npc/zh-Hans/Npc.locres",
+      "stored_sha1": "a10d35afcb6934fc1fd97fc7cf15f07efaee37d4",
+      "decoded_sha256": "7fa70d0d31b94a643efa2e6108c86ca08eae2470488e49ebc24d3d2c06a0f07a",
+      "bytes": 324042
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Tables/NPCs.uasset",
+      "stored_sha1": "2d8684ff9731d8ae62148123f6379aa3a8306574",
+      "decoded_sha256": "9a450475646b2b267fe39178cb9ac2c27b9bb51d0500a0282a194f534490ead8",
+      "bytes": 109454
+    },
+    {
+      "member": "Wandering_Sword/Content/JH/Tables/NPCs.uexp",
+      "stored_sha1": "bfc4625c6fd00fbbcf33ba7c67e6d0473563a5c6",
+      "decoded_sha256": "0c3dcfdb36901efc70d65446064c5a97d44c1629d1e2cf418eb586ff3c131ec3",
+      "bytes": 21466437
+    }
+  ],
+  "pillow_version": "12.3.0",
+  "native_qa": [
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-native-wudang-contact-sheet.png",
+      "sha256": "9c7c17d475bd00274ce8880571492b5d2128b7218bab22315b445fed60d17314",
+      "size": [
+        1848,
+        1692
+      ]
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-native-wudang-flipbooks.png",
+      "sha256": "5f3d2d06ee2c40dd390b68f2ef1773847841ca3393dac80063c8bf995a04ecdc",
+      "size": [
+        2380,
+        3354
+      ]
+    }
+  ],
+  "visual_scope": "Root has separately reviewed original portraits; this receipt does not approve authored poses or character runtime.",
+  "master_table": "NPCs raw bytes hash/payload verified; distinct localization-gather property schema intentionally not decoded."
+}

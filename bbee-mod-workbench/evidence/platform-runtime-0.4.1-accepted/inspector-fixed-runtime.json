@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "run_id": "9a95cfaa547b4837868243de38886267",
+  "process_id": 82868,
+  "process_path_matches_working_copy": true,
+  "inspector_version": "0.4.1",
+  "report_wall": "2026-10-15T13:13:30.720Z",
+  "effect_subscription_success_events": 1,
+  "effect_spawn_events": 118,
+  "warning_count": 0,
+  "history_count": 261,
+  "report_files": [
+    {
+      "suffix": ".json",
+      "sha256": "98974c38777e4605d441b3f8ce9a40c4fcb5137ab4e89a98eed9f64e003bef53",
+      "bytes": 56138
+    },
+    {
+      "suffix": ".txt",
+      "sha256": "fb748a4c3f69c0609dacdb3cde54ce7d6c4274251acd890dbdad694e4c1afdac",
+      "bytes": 23294
+    }
+  ],
+  "runtime_probe": {
+    "status": "loaded",
+    "observed_ms": 1792069911681,
+    "save_root_matches": true,
+    "working_directory_matches": true,
+    "is_playing": true
+  },
+  "build_receipts": {
+    "_build.json": "85bcd34b3b72c45071a35264625bf483825b83b95f6fc135c8ae2265a494e7f4",
+    "_verification.json": "6877542dd69f13a8cc2a85f3abe62856a9f3d5ff2056efe9866e2963a7b5c0ef"
+  },
+  "reopen_pending": false,
+  "restoration_pending": false,
+  "reopen_verified": true,
+  "second_process_id": 2548,
+  "second_process_path_matches_working_copy": true,
+  "second_scene_observed": "main_menu",
+  "second_runtime_probe": {
+    "status": "loaded",
+    "observed_ms": 1792070080933,
+    "save_root_matches": true,
+    "working_directory_matches": true,
+    "is_playing": true
+  },
+  "save_root_restored_exactly": true,
+  "launcher_restored": true,
+  "framework_uninstalled": true,
+  "game_closed": true,
+  "raw_diagnostics_archived_private": true
+}

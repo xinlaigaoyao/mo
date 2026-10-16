@@ -1,0 +1,377 @@
+{
+  "terms": [
+    "流云太极",
+    "太极剑法",
+    "真武剑气",
+    "梯云纵",
+    "太极拳",
+    "太极神功"
+  ],
+  "matching_skill_key_prefixes": [
+    "103",
+    "105",
+    "115",
+    "137",
+    "403",
+    "442",
+    "444",
+    "702",
+    "802",
+    "837",
+    "840"
+  ],
+  "entries": [
+    {
+      "namespace": "Skills",
+      "key": "702_CastEffectDesc",
+      "text": "<B>使用后2回合内武当派所有招式伤害+15%。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 1769974178,
+      "source_string_hash_stored": 2249609854,
+      "localized_string_index": 17
+    },
+    {
+      "namespace": "Skills",
+      "key": "840_CastEffectDesc",
+      "text": "<B>使用后为自身添加 2~3层太极效果，为队友添加1~2层太极效果，持续5回合。</>\n<B>太极：每1层太极效果使自身伤害减免+6%。被攻击时返还本次伤害的5%给予伤害者，并有30%几率自动叠加1层太极效果，最高可叠加5层。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 3990033294,
+      "source_string_hash_stored": 1401723129,
+      "localized_string_index": 25
+    },
+    {
+      "namespace": "Skills",
+      "key": "802_CastEffectDesc",
+      "text": "<B>使用后为自身添加 2层太极效果，持续5回合。</>\n<B>太极：每1层太极效果使自身伤害减免+6%。被攻击时返还本次伤害的5%给予伤害者，并有30%几率自动叠加1层太极效果，最高可叠加5层。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 925077770,
+      "source_string_hash_stored": 3847661606,
+      "localized_string_index": 26
+    },
+    {
+      "namespace": "Skills",
+      "key": "837_CastEffectDesc",
+      "text": "<B>使用后清除自身3个负面效果，自身获得2层归元效果，持续3回合。归元效果消失后对周身24格目标造成自身(内功+力道）*5的额外伤害。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 1525801631,
+      "source_string_hash_stored": 1487595422,
+      "localized_string_index": 86
+    },
+    {
+      "namespace": "Skills",
+      "key": "444_CastEffectDesc",
+      "text": "<B>对目标造成4层卸劲效果，持续2回合。</>\n<B>卸劲：攻击-5%，最高叠加9层。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 1456207646,
+      "source_string_hash_stored": 2012934660,
+      "localized_string_index": 241
+    },
+    {
+      "namespace": "Skills",
+      "key": "137_CastEffectDesc",
+      "text": "<B>对目标造成4层破甲效果，持续2回合。</>\n<B>破甲：防御-5%，最高叠加9层。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 357794647,
+      "source_string_hash_stored": 3631029972,
+      "localized_string_index": 242
+    },
+    {
+      "namespace": "Skills",
+      "key": "702_SpecialEffectDesc",
+      "text": "<B>每级效果-使用本轻功后下回合集气值+5%(10级为+50%)。</>\n\n<skill_flags sufficient_lv=\"5\">5级效果-梯云：使用本轻功后，移动期间无视周边敌人牵制，每回合为自身添加2~3层灵动效果，每次移动后为自身添加1层轻身效果，持续3回合。</>\n\n<skill_flags sufficient_lv=\"10\">10级效果-身法+20。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 3666042156,
+      "source_string_hash_stored": 3291531380,
+      "localized_string_index": 293
+    },
+    {
+      "namespace": "Skills",
+      "key": "837_SpecialEffectDesc",
+      "text": "<skill_flags sufficient_lv=\"4\">4级效果-云随风动：太极效果叠加几率+30%，每层的太极反伤效果+100%，每层太极使武当1-3式刀法伤害+4%，玄虚刀法伤害+8%。</>\n\n<skill_flags sufficient_lv=\"7\">7级效果-风随云走：被暴击伤害减免+30%，自身有无极效果时，受击触发无极效果时有90%几率不消耗无极层数。无极伤害+100%，无极触发范围增加为周身24格。</>\n\n<skill_flags sufficient_lv=\"10\">10级效果-云相太极：自身太极效果始终保留1层不被清空，主动使用太极拳或太极剑法不再消耗太极层数。若自身太极拳或太极剑法招式处于冷却中，受击时不再叠加太极层数且以同等几率消耗1层太极效果，并使用对应招式（太极拳或太极剑法）对范围内敌方进行1次反击，自身绝式CD-1回合，反击效果每回合最多触发1次。</>\n",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 4193596927,
+      "source_string_hash_stored": 2193842297,
+      "localized_string_index": 334
+    },
+    {
+      "namespace": "Skills",
+      "key": "403_SpecialEffectDesc",
+      "text": "<skill_flags sufficient_lv=\"4\">4级效果-借力打力：使用太极拳时，使目标攻击-35%，移动-3，持续3回合。</>\n\n<skill_flags sufficient_lv=\"7\">7级效果-太极拳：使用太极拳时，自身每有1层太极效果，则太极拳伤害+15%，并清除自身太极效果。</> \n\n<skill_flags sufficient_lv=\"10\">10级效果-拳掌精通+25。</> ",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 459555541,
+      "source_string_hash_stored": 3215835855,
+      "localized_string_index": 338
+    },
+    {
+      "namespace": "Skills",
+      "key": "442_SpecialEffectDesc",
+      "text": "<skill_flags sufficient_lv=\"4\">4级效果-借力打力：使用太极拳时，使目标攻击-35%，移动-3，持续3回合。</>\n\n<skill_flags sufficient_lv=\"7\">7级效果-太极拳：使用太极拳时，自身每有1层太极效果，则太极拳伤害+15%，并清除自身太极效果。</> \n\n<skill_flags sufficient_lv=\"10\">10级效果-拳掌精通+25。</> ",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 3436740786,
+      "source_string_hash_stored": 3215835855,
+      "localized_string_index": 338
+    },
+    {
+      "namespace": "Skills",
+      "key": "444_SpecialEffectDesc",
+      "text": "<skill_flags sufficient_lv=\"4\">4级效果-借力打力：若自身装备太极拳则使用本招式时使目标攻击-35%，移动-3，持续3回合。自身触发云相太极绝式反击时，反击距离不受限制，反击伤害+35%。</>\n\n<skill_flags sufficient_lv=\"7\">7级效果-流云太极拳：使用本招式时自身获得1层太极效果，并对目标额外造成太极对应层数的卸劲效果，自身获得太极对应层数的玄虚效果。</> \n\n<skill_flags sufficient_lv=\"10\">10级效果-以静制动：本回合未移动或未使用任何武学则自身获得本效果，使自身当前集气值低于35%时太极效果的伤害减免翻倍。期间若被攻击则下回合本招式伤害+50%，持续1回合。</> ",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 3731858530,
+      "source_string_hash_stored": 1853491890,
+      "localized_string_index": 339
+    },
+    {
+      "namespace": "Skills",
+      "key": "105_SpecialEffectDesc",
+      "text": "<skill_flags sufficient_lv=\"4\">4级效果-太极化势：使用太极剑法时，对目标造成防御降低效果，使防御-40%，持续3回合。</>\n\n<skill_flags sufficient_lv=\"7\">7级效果-太极剑：使用太极剑法时，自身每有1层太极效果，则太极剑法伤害+12%，并清除自身太极效果。</> \n\n<skill_flags sufficient_lv=\"10\">10级效果-剑法精通+25。</> ",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 1105891390,
+      "source_string_hash_stored": 4141682879,
+      "localized_string_index": 349
+    },
+    {
+      "namespace": "Skills",
+      "key": "115_SpecialEffectDesc",
+      "text": "<skill_flags sufficient_lv=\"4\">4级效果-太极化势：使用太极剑法时，对目标造成防御降低效果，使防御-40%，持续3回合。</>\n\n<skill_flags sufficient_lv=\"7\">7级效果-太极剑：使用太极剑法时，自身每有1层太极效果，则太极剑法伤害+12%，并清除自身太极效果。</> \n\n<skill_flags sufficient_lv=\"10\">10级效果-剑法精通+25。</> ",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 1147897989,
+      "source_string_hash_stored": 4141682879,
+      "localized_string_index": 349
+    },
+    {
+      "namespace": "Skills",
+      "key": "137_SpecialEffectDesc",
+      "text": "<skill_flags sufficient_lv=\"4\">4级效果-太极化势：若自身装备太极剑法则使用本招式时使目标防御-40%，持续3回合。自身受击触发云相太极绝式反击前，无视自身太极层数，使本次太极减伤减免最大30%伤害，并将自身周围24格范围的敌方目标拉向自身，同时打断目标的多段招式。</>\n\n<skill_flags sufficient_lv=\"7\">7级效果-流云太极剑：使用本招式时自身获得1层太极效果，并对目标额外造成太极对应层数的破甲效果，自身获得太极对应层数的玄虚效果。</> \n\n<skill_flags sufficient_lv=\"10\">10级效果-以静制动：本回合未移动或未使用任何武学则自身获得本效果，使自身当前集气值低于35%时太极效果的伤害减免翻倍。期间若被攻击则下回合本招式伤害+50%，持续1回合。</> ",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 247908324,
+      "source_string_hash_stored": 1072827469,
+      "localized_string_index": 350
+    },
+    {
+      "namespace": "Skills",
+      "key": "103_SpecialEffectDesc",
+      "text": "<skill_flags sufficient_lv=\"5\">5级效果-剑气如虹：真武剑气伤害+8%，每装配1个武当派心法可额外使本招式伤害增加+8%。</> \n\n<skill_flags sufficient_lv=\"10\">10级效果-气贯长河：自身每100点真气上限使本招式伤害+0.5%。</> ",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 3551314401,
+      "source_string_hash_stored": 1830241616,
+      "localized_string_index": 423
+    },
+    {
+      "namespace": "Skills",
+      "key": "840_SpecialEffectDesc",
+      "text": "<skill_flags sufficient_lv=\"5\">5级效果-太极圆转：进入战场时自身获得1层太极圆转，自身攻击+5%，防御+50%，每额外叠加1层太极圆转，攻击+5%，防御-10%，每回合自动叠加1层，叠至5层后重新叠加。每次交互使用太极拳-剑与流云太极拳-剑时，本效果每层使下次交互使用的招式伤害+8%，且自身获得对应本效果层数的气血护盾，持续2回合。</>\n<skill_flags sufficient_lv=\"5\">气血护盾：每1层气血护盾效果可抵御自身气血上限5%伤害，最高叠加5层。</>\n\n<skill_flags sufficient_lv=\"10\">10级效果-流云不息：武当派所有招式伤害+35%。进入战场时为自身与所有队友添加1层太极效果，每回合有35%几率为自身与周围24格队友添加1层太极效果，并使其气血与真气+8%，同时移除1个负面效果。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 1753911802,
+      "source_string_hash_stored": 4032773867,
+      "localized_string_index": 453
+    },
+    {
+      "namespace": "Skills",
+      "key": "802_SpecialEffectDesc",
+      "text": "<skill_flags sufficient_lv=\"5\">5级效果-太极神功：进入战场时为自身添加1层太极效果，持续5回合。自身有太极效果且被攻击时有30%几率使太极效果额外叠加1层。</>\n\n<skill_flags sufficient_lv=\"10\">10级效果-太极拳剑强化：太极拳与太极剑法伤害+25%。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 1411002311,
+      "source_string_hash_stored": 1010872961,
+      "localized_string_index": 454
+    },
+    {
+      "namespace": "Skills",
+      "key": "837_ViewName",
+      "text": "云相太极",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 2756579707,
+      "source_string_hash_stored": 1293006077,
+      "localized_string_index": 686
+    },
+    {
+      "namespace": "Skills",
+      "key": "105_ViewName",
+      "text": "太极剑法",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 1183507443,
+      "source_string_hash_stored": 147892548,
+      "localized_string_index": 825
+    },
+    {
+      "namespace": "Skills",
+      "key": "115_ViewName",
+      "text": "太极剑法-被动（不翻译）",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 3522337280,
+      "source_string_hash_stored": 761748062,
+      "localized_string_index": 826
+    },
+    {
+      "namespace": "Skills",
+      "key": "403_ViewName",
+      "text": "太极拳",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 1982274516,
+      "source_string_hash_stored": 2216707967,
+      "localized_string_index": 827
+    },
+    {
+      "namespace": "Skills",
+      "key": "442_ViewName",
+      "text": "太极拳-被动（不翻译）",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 811827796,
+      "source_string_hash_stored": 3421122759,
+      "localized_string_index": 828
+    },
+    {
+      "namespace": "Skills",
+      "key": "802_ViewName",
+      "text": "太极神功",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 686369172,
+      "source_string_hash_stored": 3323373133,
+      "localized_string_index": 829
+    },
+    {
+      "namespace": "Skills",
+      "key": "702_ViewName",
+      "text": "梯云纵",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 1386137165,
+      "source_string_hash_stored": 410901442,
+      "localized_string_index": 949
+    },
+    {
+      "namespace": "Skills",
+      "key": "840_Description",
+      "text": "武当<R>心法</>\n<G>修炼每级提升 经脉点+46，气血上限+50，真气上限+65</>\n此为宇文逸领悟流转之法后，与太极神功结合所创之太极势，自静、柔之表，勘破动之本质，于太极之上的领悟，已大为精进。\n<Y>仅可对自身与周围24格队友使用。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 2075586833,
+      "source_string_hash_stored": 104767702,
+      "localized_string_index": 954
+    },
+    {
+      "namespace": "Skills",
+      "key": "103_Description",
+      "text": "武当派 <R>剑法招式-绝式</> \n<G>修炼每级提升 剑法精通+1.9</>\n<Y>对自身十字13格范围造成伤害。</> ",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 3743539106,
+      "source_string_hash_stored": 3361664789,
+      "localized_string_index": 958
+    },
+    {
+      "namespace": "Skills",
+      "key": "137_Description",
+      "text": "武当派<R>剑法招式-绝式</> \n<G>修炼每级提升 剑法精通+3.1</>\n宇文逸以流云太极改良原有太极剑法所得武学，与自身流云太极之意极为契合。\n此太极剑法重势不重式，剑势使来，自成方圆，敌式尽纳其中。\n<Y>对自身周围13格范围造成伤害。</> ",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 529026355,
+      "source_string_hash_stored": 3498993584,
+      "localized_string_index": 967
+    },
+    {
+      "namespace": "Skills",
+      "key": "105_Description",
+      "text": "武当派<R>剑法招式-绝式</> \n<G>修炼每级提升 剑法精通+3.1</>\n张三丰晚年所创剑法，能以柔克刚，四两拨千斤。\n<Y>对自身周围13格范围造成伤害。</> ",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 2518732414,
+      "source_string_hash_stored": 76086854,
+      "localized_string_index": 968
+    },
+    {
+      "namespace": "Skills",
+      "key": "115_Description",
+      "text": "武当派<R>剑法招式-绝式</> \n<G>修炼每级提升 剑法精通+3.1</>\n张三丰晚年所创剑法，能以柔克刚，四两拨千斤。\n<Y>对自身周围13格范围造成伤害。</> ",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 3078233341,
+      "source_string_hash_stored": 76086854,
+      "localized_string_index": 968
+    },
+    {
+      "namespace": "Skills",
+      "key": "802_Description",
+      "text": "武当派<R>心法</>\n<G>修炼每级提升 经脉点+34，气血上限+35，真气上限+50</>\n<Y>仅可对自身使用。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 1073888245,
+      "source_string_hash_stored": 2067355325,
+      "localized_string_index": 971
+    },
+    {
+      "namespace": "Skills",
+      "key": "837_Description",
+      "text": "武当派<R>心法</>\n<G>修炼每级提升 经脉点+59，气血上限+65，真气上限+85</>\n武当三丰祖师暗藏于云纹太极图中的旷世武学，此绝学依修行者对太极领悟不同而呈现不同相貌，并无固定章法可循，然能修成此绝学，便意味着修行者已悟太极奥理。\n本心法可使太极神功与四象无极功效果大幅增强。\n<Y>仅可对自身使用。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 3673785686,
+      "source_string_hash_stored": 4026442184,
+      "localized_string_index": 973
+    },
+    {
+      "namespace": "Skills",
+      "key": "444_Description",
+      "text": "武当派<R>拳掌招式-绝式</>\n<G>修炼每级提升 拳掌精通+3.2</>\n宇文逸以流云太极改良原有太极拳法所得武学，与自身流云太极之意极为契合。\n此太极拳法重意不重力，意动则拳至，拳至则气随，动静相合，以弱制强。\n<Y>对自身中距离5格范围造成伤害。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 558976815,
+      "source_string_hash_stored": 72991902,
+      "localized_string_index": 977
+    },
+    {
+      "namespace": "Skills",
+      "key": "403_Description",
+      "text": "武当派<R>拳掌招式-绝式</>\n<G>修炼每级提升 拳掌精通+3.2</>\n张三丰晚年所创拳法，是以慢打快、以静制动的绝世武学，一招一式都暗合太极的阴阳变化，精微奥妙。\n<Y>对自身中距离5格范围造成伤害。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 3640741802,
+      "source_string_hash_stored": 2074268839,
+      "localized_string_index": 978
+    },
+    {
+      "namespace": "Skills",
+      "key": "442_Description",
+      "text": "武当派<R>拳掌招式-绝式</>\n<G>修炼每级提升 拳掌精通+3.2</>\n张三丰晚年所创拳法，是以慢打快、以静制动的绝世武学，一招一式都暗合太极的阴阳变化，精微奥妙。\n<Y>对自身中距离5格范围造成伤害。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 3135960556,
+      "source_string_hash_stored": 2074268839,
+      "localized_string_index": 978
+    },
+    {
+      "namespace": "Skills",
+      "key": "702_Description",
+      "text": "武当派<R>轻功</>\n<G>修炼每级提升 精力上限+4.6</>\n武当派的高阶轻功身法。\n<Y>使用后可位移至4格内指定区域。</>",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 2767005269,
+      "source_string_hash_stored": 3461692192,
+      "localized_string_index": 980
+    },
+    {
+      "namespace": "Skills",
+      "key": "840_ViewName",
+      "text": "流云太极",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 2359794731,
+      "source_string_hash_stored": 1734293834,
+      "localized_string_index": 1198
+    },
+    {
+      "namespace": "Skills",
+      "key": "137_ViewName",
+      "text": "流云太极剑",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 126655273,
+      "source_string_hash_stored": 204185123,
+      "localized_string_index": 1199
+    },
+    {
+      "namespace": "Skills",
+      "key": "444_ViewName",
+      "text": "流云太极拳",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 3433010704,
+      "source_string_hash_stored": 3475155517,
+      "localized_string_index": 1200
+    },
+    {
+      "namespace": "Skills",
+      "key": "103_ViewName",
+      "text": "真武剑气",
+      "namespace_hash_stored": 2683466833,
+      "key_hash_stored": 3589921794,
+      "source_string_hash_stored": 516023961,
+      "localized_string_index": 1281
+    }
+  ],
+  "scope": "Original localized wording, including rich-text tags/placeholders; not a BBEE mechanic specification"
+}

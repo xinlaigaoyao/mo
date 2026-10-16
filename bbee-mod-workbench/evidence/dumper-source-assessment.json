@@ -1,0 +1,8 @@
+{
+  "source": "https://codeload.github.com/Perfare/Il2CppDumper/zip/refs/tags/v6.7.46",
+  "sha256": "30ed88daf62b2da25ed2a82ffc31b9cf97371292d2fb8131cc4c39ffc8690f43",
+  "version": "6.7.46",
+  "safety_change": "PELoader and Windows fallback replaced with fail-closed exception; no game DLL loading",
+  "value": "recover full scoped protobuf schema and DummyDll for metadata31",
+  "scope": "local source build; no global install"
+}

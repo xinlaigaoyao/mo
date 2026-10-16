@@ -1,0 +1,15 @@
+{
+  "status": "configured_offline",
+  "build_record_sha256": "a85afaa34a33698b2719e232d37e90ce6f9ce8520fa63c4aea180db58ddf4a49",
+  "profile_sha256": "cd7763272595eb7e9f9f6cb4693f9acef2c336e7baa1f1b20482f611fd5baed8",
+  "source_preserved_run": "67946a5463a5467786d4b548e3a498b5",
+  "original_backup_verified": true,
+  "current_progress_backup_verified": true,
+  "current_progress_files": 44,
+  "current_progress_preserved_exactly": true,
+  "save_writes_performed": false,
+  "save_restoration_performed": false,
+  "private_configuration_sha256": "b758afb3684574328749bef0796a3a7b4246c6c498ad4931796e02b64b401d00",
+  "launch_performed": false,
+  "runtime_acceptance_passed": false
+}

@@ -1,0 +1,247 @@
+{
+  "checked_on_local_date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "scope": "Read-only local game installation evidence; excludes proposed-character assets and design.",
+  "game_root": "E:\\SteamLibrary\\steamapps\\common\\BlazblueEntropyEffect",
+  "methods": [
+    "Read selected safe Steam appmanifest keys only.",
+    "Enumerated game directory names, read file version metadata and SHA-256 hashes.",
+    "Parsed merge.json with built-in PowerShell JSON parser; checked logical-name uniqueness, path shape, physical-file existence, and computed slice bounds.",
+    "Sampled only selected core table/JS plus first/last logical UnityFS bundle headers and SHA-256 of those compressed slices.",
+    "Read game resource header strings; did not load or execute any game or package binaries."
+  ],
+  "prohibited_reads_not_performed": [
+    "Juij_Steam.json contents",
+    "Steam account fields",
+    "Raw saves or user profile content"
+  ],
+  "steam_appmanifest": {
+    "path": "E:\\SteamLibrary\\steamapps\\appmanifest_2273430.acf",
+    "safe_fields": {
+      "appid": "2273430",
+      "name": "BlazBlue Entropy Effect",
+      "installdir": "BlazblueEntropyEffect",
+      "buildid": "25627491",
+      "StateFlags": "4",
+      "LastUpdated": "1790814288",
+      "SizeOnDisk": "16319978315"
+    },
+    "hash_not_recorded_to_avoid_account_metadata_coupling": true
+  },
+  "unity": {
+    "pe_product_version": "2022.3.62f2 (7670c08855a9)",
+    "globalgamemanagers_header_version": "2022.3.62f2",
+    "il2cpp_gameassembly_present": true,
+    "global_metadata_present": true,
+    "puerts_native_plugin_present": true
+  },
+  "critical_files": [
+    {
+      "relative_path": "BlazblueEntropyEffect.exe",
+      "length": 666624,
+      "sha256": "E50FDB19FC003C5E4B3523A7B49C43405AEAC6D99A0708111AFD2DFC6C934185",
+      "file_version": "2022.3.62.7762112",
+      "product_version": "2022.3.62f2 (7670c08855a9)",
+      "description": ""
+    },
+    {
+      "relative_path": "UnityPlayer.dll",
+      "length": 31006120,
+      "sha256": "43FB0AEA1B80C74963DAE88EC7FC1C3C1993D893CE94D12972000FCC9B653AD1",
+      "file_version": "2022.3.62.7762112",
+      "product_version": "2022.3.62f2 (7670c08855a9)",
+      "description": "Unity playback engine"
+    },
+    {
+      "relative_path": "GameAssembly.dll",
+      "length": 94898176,
+      "sha256": "5E08D1B5B97F288AC78A2192A200F968EF5551318DC25E87FD2E31ACD166BDD9",
+      "file_version": null,
+      "product_version": null,
+      "description": null
+    },
+    {
+      "relative_path": "Juij_Steam.dll",
+      "length": 4226560,
+      "sha256": "27523F29D16AE3341970E912C19ABC7C60018476E9B1A247F2381AF35B6CBEB9",
+      "file_version": "4.1.3.163",
+      "product_version": "4.1.3.163",
+      "description": "Steam DLC 解锁"
+    },
+    {
+      "relative_path": "version.dll",
+      "length": 4226560,
+      "sha256": "27523F29D16AE3341970E912C19ABC7C60018476E9B1A247F2381AF35B6CBEB9",
+      "file_version": "4.1.3.163",
+      "product_version": "4.1.3.163",
+      "description": "Steam DLC 解锁"
+    },
+    {
+      "relative_path": "winmm.dll",
+      "length": 4226560,
+      "sha256": "27523F29D16AE3341970E912C19ABC7C60018476E9B1A247F2381AF35B6CBEB9",
+      "file_version": "4.1.3.163",
+      "product_version": "4.1.3.163",
+      "description": "Steam DLC 解锁"
+    },
+    {
+      "relative_path": "BlazblueEntropyEffect_Data\\globalgamemanagers",
+      "length": 391876,
+      "sha256": "F0F7D669B82A4BC689CB9DCE0CDF23FFCA08A3A8F728A9D9AF352F4596FCED1F",
+      "file_version": null,
+      "product_version": null,
+      "description": null
+    },
+    {
+      "relative_path": "BlazblueEntropyEffect_Data\\StreamingAssets\\ab\\manifest",
+      "length": 5847998,
+      "sha256": "A599BECFA315C9151B02EF0D661F5E923B68830E6AC12D6B634D3F84CF7EB6F1",
+      "file_version": null,
+      "product_version": null,
+      "description": null
+    },
+    {
+      "relative_path": "BlazblueEntropyEffect_Data\\StreamingAssets\\ab\\merge.json",
+      "length": 6688951,
+      "sha256": "21C176E944763B72A084F03F43FC66C9F54E4FA58C07F96EA26D2C2B0A5F86A6",
+      "file_version": null,
+      "product_version": null,
+      "description": null
+    },
+    {
+      "relative_path": "BlazblueEntropyEffect_Data\\StreamingAssets\\ab\\gameconstconfig",
+      "length": 1579,
+      "sha256": "2F7B7A8146A75FA9C4720CD5893BEA962775AA5F2694F5B7047ED36125A07B61",
+      "file_version": null,
+      "product_version": null,
+      "description": null
+    }
+  ],
+  "resources": {
+    "ab_root": "E:\\SteamLibrary\\steamapps\\common\\BlazblueEntropyEffect\\BlazblueEntropyEffect_Data\\StreamingAssets\\ab",
+    "ab_top_level_file_count": 1088,
+    "merge_logical_count": 60410,
+    "physical_merge_file_count": 1084,
+    "physical_merge_total_bytes": 9873083834,
+    "data_xlsx_count": 192,
+    "data_js_count": 1034,
+    "duplicate_logical_names": [],
+    "unsafe_or_unexpected_paths": [],
+    "slice_boundary_issues": [],
+    "manifest_header_magic": "04-22-4D-18",
+    "manifest_visible_format": "FastManifest V3",
+    "manifest_visible_declared_count": "60429",
+    "manifest_not_decompressed": true,
+    "sampled_core_bundle_headers": [
+      {
+        "logical": "actor/aibtree/ai354102.ab",
+        "physical": "m_1.m",
+        "start": 0,
+        "computed_slice_bytes": 3596,
+        "signature": "UnityFS",
+        "unity_version": "2022.3.62f2",
+        "unityfs_declared_bytes": 3596,
+        "declared_bytes_equal_slice": true,
+        "slice_sha256": "5DFB8ED40E1E7D87BC4E75839D4170BA873C0D9FB555EDECEE8E5993C3005BE3"
+      },
+      {
+        "logical": "data/js/gameplay/buff/bufffuncs.ab",
+        "physical": "m_532.m",
+        "start": 6535387,
+        "computed_slice_bytes": 2905,
+        "signature": "UnityFS",
+        "unity_version": "2022.3.62f2",
+        "unityfs_declared_bytes": 2905,
+        "declared_bytes_equal_slice": true,
+        "slice_sha256": "1AAE7402BC06DC8387A39F2E9F85C7137510EEB1612673E386CC9D9137FD642E"
+      },
+      {
+        "logical": "data/js/window/battle/battleui.ab",
+        "physical": "m_299.m",
+        "start": 4140574,
+        "computed_slice_bytes": 17719,
+        "signature": "UnityFS",
+        "unity_version": "2022.3.62f2",
+        "unityfs_declared_bytes": 17719,
+        "declared_bytes_equal_slice": true,
+        "slice_sha256": "021BF18D4C0C35328F873AC7A01128C199D3D42B03EE3E65F0556E82FA23E60E"
+      },
+      {
+        "logical": "data/xlsx/skillactivate.ab",
+        "physical": "m_112.m",
+        "start": 9049940,
+        "computed_slice_bytes": 55313,
+        "signature": "UnityFS",
+        "unity_version": "2022.3.62f2",
+        "unityfs_declared_bytes": 55313,
+        "declared_bytes_equal_slice": true,
+        "slice_sha256": "880EE411429187E391EE22554E6A4FE29F124A04E493E83FCB665703B7AD063B"
+      },
+      {
+        "logical": "data/xlsx/skilldamage.ab",
+        "physical": "m_232.m",
+        "start": 6346678,
+        "computed_slice_bytes": 45738,
+        "signature": "UnityFS",
+        "unity_version": "2022.3.62f2",
+        "unityfs_declared_bytes": 45738,
+        "declared_bytes_equal_slice": true,
+        "slice_sha256": "8C8EC1125A38B6416C5B5F7B7B9A1765FB1F5C1D455ACB5227002302F5925B6C"
+      },
+      {
+        "logical": "data/xlsxfixed/skillactivatefixedpointwrap.ab",
+        "physical": "m_941.m",
+        "start": 597116,
+        "computed_slice_bytes": 55806,
+        "signature": "UnityFS",
+        "unity_version": "2022.3.62f2",
+        "unityfs_declared_bytes": 55806,
+        "declared_bytes_equal_slice": true,
+        "slice_sha256": "C208FFDCE311D5E1078C115C084781F7CFA112C60F1FA2F0AC42C7E1C474F072"
+      },
+      {
+        "logical": "data/xlsxfixed/skilldamagefixedpointwrap.ab",
+        "physical": "m_656.m",
+        "start": 4235966,
+        "computed_slice_bytes": 46565,
+        "signature": "UnityFS",
+        "unity_version": "2022.3.62f2",
+        "unityfs_declared_bytes": 46565,
+        "declared_bytes_equal_slice": true,
+        "slice_sha256": "3CF8175E1989EB1A657F447096CADF72F5604623233756C3A2A4DB54B89E408D"
+      },
+      {
+        "logical": "ui/texture/pveshop/icon_shop_item_9001.ab",
+        "physical": "m_1084.m",
+        "start": 6451464,
+        "computed_slice_bytes": 12979,
+        "signature": "UnityFS",
+        "unity_version": "2022.3.62f2",
+        "unityfs_declared_bytes": 12979,
+        "declared_bytes_equal_slice": true,
+        "slice_sha256": "9C2C3F88128ACA1C7AF98949C21EC16BED3407D0E239BA5F3F790D5AD6491BBF"
+      }
+    ]
+  },
+  "installation_markers": {
+    "zenith_or_other_common_mod_marker_files": [],
+    "common_mod_directories_at_root": [],
+    "third_party_files": [
+      "Juij_Steam.dll",
+      "Juij_Steam.json",
+      "version.dll",
+      "winmm.dll"
+    ],
+    "three_dll_sha256_equal": true,
+    "description_in_three_dlls": "Steam DLC 解锁",
+    "config_content_not_read": true
+  },
+  "boundaries": [
+    "Steam buildid=25627491 matches research target but does not certify exact original bytes or clean installation.",
+    "Matching Unity version and valid index boundaries do not prove UnityPy decoding, schema, JS anchors, complete build, installation, or runtime compatibility.",
+    "Absence of m_mod.m and common markers does not prove assets were never edited by any tool.",
+    "Manifest visible count differs from merge row count; manifest was not decompressed in this file and cause is not established.",
+    "PuerTS native plugin filename establishes file presence only, not the full JS/C# runtime call chain.",
+    "No game launch, install, setup, prepare, importer, original package module import, or raw-save access was performed."
+  ]
+}

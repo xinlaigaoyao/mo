@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "script_sha256": "1f1fc09557484cffdf9c99049675290b4065f619181d502d14e198c8979c00d5",
+  "log_sha256": "1ff7b0fd750c3c2fd2099d644984eee40079b311bc002ed179b52cd46bb932c9",
+  "scenarios": 31,
+  "scope": "offline native event contract; C# integration unproven"
+}

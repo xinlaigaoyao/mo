@@ -1,0 +1,1858 @@
+{
+  "verified_date": "2026-10-15",
+  "scope": "Static ZIP listing, text reads and independent SHA256 only; no archive script, EXE, DLL, installer, bundled Python or game was executed; no user account configuration or save contents read.",
+  "archive_path": "C:\\Users\\MECHREVO\\Downloads\\ZenithTerminal-0.3.0-alpha (1).zip",
+  "archive_sha256": "b5b3c2548ab61259c6f757b0cbf450a1d3490345ae9172915a5d7a303c36e150",
+  "expected_archive_sha256": "b5b3c2548ab61259c6f757b0cbf450a1d3490345ae9172915a5d7a303c36e150",
+  "archive_matches": true,
+  "archive_file_count": 4083,
+  "expected_file_count": 4083,
+  "archive_uncompressed_bytes": 441912348.0,
+  "source_hash_validation": {
+    "expected_hash_count": 155,
+    "matched_count": 155,
+    "mismatches": [],
+    "checks": [
+      {
+        "path": "DELTARUNE_PARTY_GUIDE.md",
+        "expected_sha256": "0d471548e1f3d69b656ae4d6673e4099c064b188016e6d2499871ce120b9a0a8",
+        "actual_sha256": "0d471548e1f3d69b656ae4d6673e4099c064b188016e6d2499871ce120b9a0a8",
+        "matches": true
+      },
+      {
+        "path": "Gui/NOTICES.md",
+        "expected_sha256": "1de170dae355a255e20342530866b2e7854ce728df4f70f8914691fd70e89243",
+        "actual_sha256": "1de170dae355a255e20342530866b2e7854ce728df4f70f8914691fd70e89243",
+        "matches": true
+      },
+      {
+        "path": "Gui/launcher/ZenithTerminal.cs",
+        "expected_sha256": "b7d482f45df4da05b41b7171f21a08eedc1236d4ab13ea31be150748643a3d62",
+        "actual_sha256": "b7d482f45df4da05b41b7171f21a08eedc1236d4ab13ea31be150748643a3d62",
+        "matches": true
+      },
+      {
+        "path": "Gui/run_gui.py",
+        "expected_sha256": "ab9b15b7b61039530126af684be215df10d878899a9821ee72e76cb2e3fa40f8",
+        "actual_sha256": "ab9b15b7b61039530126af684be215df10d878899a9821ee72e76cb2e3fa40f8",
+        "matches": true
+      },
+      {
+        "path": "Gui/zenith_gui/__init__.py",
+        "expected_sha256": "2533a9aec440f05450d6b721f4a13e9d227b4780e4f258d52df01cd5bd184df1",
+        "actual_sha256": "2533a9aec440f05450d6b721f4a13e9d227b4780e4f258d52df01cd5bd184df1",
+        "matches": true
+      },
+      {
+        "path": "Gui/zenith_gui/controller.py",
+        "expected_sha256": "f7b47930211abe475abf552a5e456260c33ad7e57ad379c53209f19657b998d5",
+        "actual_sha256": "f7b47930211abe475abf552a5e456260c33ad7e57ad379c53209f19657b998d5",
+        "matches": true
+      },
+      {
+        "path": "Gui/zenith_gui/known_mods.json",
+        "expected_sha256": "07e7cd2759b3cb4b93d37ca71c833420e79d3627a6e3a0de9092e9fec0a141b8",
+        "actual_sha256": "07e7cd2759b3cb4b93d37ca71c833420e79d3627a6e3a0de9092e9fec0a141b8",
+        "matches": true
+      },
+      {
+        "path": "Gui/zenith_gui/links.json",
+        "expected_sha256": "e9e251b74eb861fbe5a61c7002ae703694bad86189ed81e32bddc24ba31a6a41",
+        "actual_sha256": "e9e251b74eb861fbe5a61c7002ae703694bad86189ed81e32bddc24ba31a6a41",
+        "matches": true
+      },
+      {
+        "path": "Gui/zenith_gui/shell.py",
+        "expected_sha256": "0f56db0272b41c6d02ffa4740e4129963acd032b0410ba26f9fc123e3075248c",
+        "actual_sha256": "0f56db0272b41c6d02ffa4740e4129963acd032b0410ba26f9fc123e3075248c",
+        "matches": true
+      },
+      {
+        "path": "Launcher/1_SETUP.bat",
+        "expected_sha256": "961ee43f5a66a165ab7657ee4d833cb753b946dfb081a5edd48d8d98374c0b99",
+        "actual_sha256": "961ee43f5a66a165ab7657ee4d833cb753b946dfb081a5edd48d8d98374c0b99",
+        "matches": true
+      },
+      {
+        "path": "Launcher/2_INSTALL.bat",
+        "expected_sha256": "7dc8fc3cc0c57f89f2006c26fd6a7473e2721ac87784ad614885ed08cda82b08",
+        "actual_sha256": "7dc8fc3cc0c57f89f2006c26fd6a7473e2721ac87784ad614885ed08cda82b08",
+        "matches": true
+      },
+      {
+        "path": "Launcher/BACKUP_SAVE.bat",
+        "expected_sha256": "75b8784add2730447b317fa1cd2e23602fc13242692c7b339642d15c7122e06c",
+        "actual_sha256": "75b8784add2730447b317fa1cd2e23602fc13242692c7b339642d15c7122e06c",
+        "matches": true
+      },
+      {
+        "path": "Launcher/CHANGELOG.md",
+        "expected_sha256": "672010a3a3eeb79ea5a4f78dbd259cfa98c599c7a74888740d67ba6da9127526",
+        "actual_sha256": "672010a3a3eeb79ea5a4f78dbd259cfa98c599c7a74888740d67ba6da9127526",
+        "matches": true
+      },
+      {
+        "path": "Launcher/MAKE_FEEDBACK_ZIP.bat",
+        "expected_sha256": "edeefeb68fa4019ba0c2b17897033b85409d2dcaf5897fc0f074e55d99d5ef63",
+        "actual_sha256": "edeefeb68fa4019ba0c2b17897033b85409d2dcaf5897fc0f074e55d99d5ef63",
+        "matches": true
+      },
+      {
+        "path": "Launcher/README.md",
+        "expected_sha256": "4029b6803289c2b76b9b3c50f82dd9b38ed42e6f54f972650fcef055b9e3f1a6",
+        "actual_sha256": "4029b6803289c2b76b9b3c50f82dd9b38ed42e6f54f972650fcef055b9e3f1a6",
+        "matches": true
+      },
+      {
+        "path": "Launcher/REPAIR_SAVE.bat",
+        "expected_sha256": "9f6cdbebc845d56225b6a8d133c9a1bfb5e6d46de75d2bd3b0f78ab2c3d0c2e4",
+        "actual_sha256": "9f6cdbebc845d56225b6a8d133c9a1bfb5e6d46de75d2bd3b0f78ab2c3d0c2e4",
+        "matches": true
+      },
+      {
+        "path": "Launcher/STATUS.bat",
+        "expected_sha256": "ad4a7a59d16b173d0c1fd7d0d9e499069e408baa24f5c96671f6f36c3a628a4b",
+        "actual_sha256": "ad4a7a59d16b173d0c1fd7d0d9e499069e408baa24f5c96671f6f36c3a628a4b",
+        "matches": true
+      },
+      {
+        "path": "Launcher/UNINSTALL.bat",
+        "expected_sha256": "9035cd46d51b721ef6781c58c95a17b7cefb8d9477d29c396f81ceb4148de283",
+        "actual_sha256": "9035cd46d51b721ef6781c58c95a17b7cefb8d9477d29c396f81ceb4148de283",
+        "matches": true
+      },
+      {
+        "path": "Launcher/animview.py",
+        "expected_sha256": "e4b2ad83620730a29f1a5a3af5ea680fa2de5444e70f5ab5f04142e1a9066dc5",
+        "actual_sha256": "e4b2ad83620730a29f1a5a3af5ea680fa2de5444e70f5ab5f04142e1a9066dc5",
+        "matches": true
+      },
+      {
+        "path": "Launcher/audit_build.py",
+        "expected_sha256": "9ebe76d6873f9303a4357df3f9c26a33d01e41ac2486d703423d425b8ff63b9c",
+        "actual_sha256": "9ebe76d6873f9303a4357df3f9c26a33d01e41ac2486d703423d425b8ff63b9c",
+        "matches": true
+      },
+      {
+        "path": "Launcher/bbchar.py",
+        "expected_sha256": "b3ecf8a995ddc4b6d886fa2fb485d0688e4d14a3156a8906c0573882c946a6bc",
+        "actual_sha256": "b3ecf8a995ddc4b6d886fa2fb485d0688e4d14a3156a8906c0573882c946a6bc",
+        "matches": true
+      },
+      {
+        "path": "Launcher/bbmod.py",
+        "expected_sha256": "89cde5d98d5cbb69b058b2125f767583c66d18c7a421cf612976d8dffe49eb77",
+        "actual_sha256": "89cde5d98d5cbb69b058b2125f767583c66d18c7a421cf612976d8dffe49eb77",
+        "matches": true
+      },
+      {
+        "path": "Launcher/bbrig.py",
+        "expected_sha256": "dc294ead0b8e6a415e463faab7178e6bf24ddcc589bb8252f60aa066200dda8a",
+        "actual_sha256": "dc294ead0b8e6a415e463faab7178e6bf24ddcc589bb8252f60aa066200dda8a",
+        "matches": true
+      },
+      {
+        "path": "Launcher/docs/BUILD_UPDATE.md",
+        "expected_sha256": "4e46e5ad79a3f190d19d732924520fdd918c202606b3d476e406b2dc47f79637",
+        "actual_sha256": "4e46e5ad79a3f190d19d732924520fdd918c202606b3d476e406b2dc47f79637",
+        "matches": true
+      },
+      {
+        "path": "Launcher/docs/INSTALL.md",
+        "expected_sha256": "77cda91e40ba46a6c07ce1c25d0f637747034af57c68bd4bc62ffaa87e02ff3d",
+        "actual_sha256": "77cda91e40ba46a6c07ce1c25d0f637747034af57c68bd4bc62ffaa87e02ff3d",
+        "matches": true
+      },
+      {
+        "path": "Launcher/docs/NINE_GUIDE.md",
+        "expected_sha256": "4b9f377ef9a657fcea882ee4c69cc8d09becaaadc9c58cb31baf11e36c59677b",
+        "actual_sha256": "4b9f377ef9a657fcea882ee4c69cc8d09becaaadc9c58cb31baf11e36c59677b",
+        "matches": true
+      },
+      {
+        "path": "Launcher/docs/TROUBLESHOOTING.md",
+        "expected_sha256": "2a59f82809a3362d47d1795943fb6cdbb5af0eaa7967e73cf531842c62e627ea",
+        "actual_sha256": "2a59f82809a3362d47d1795943fb6cdbb5af0eaa7967e73cf531842c62e627ea",
+        "matches": true
+      },
+      {
+        "path": "Launcher/docs/UNINSTALL.md",
+        "expected_sha256": "ef92f687332c2b574f63a12b9a1408f6eaca30952dca99ba909f1313244d8973",
+        "actual_sha256": "ef92f687332c2b574f63a12b9a1408f6eaca30952dca99ba909f1313244d8973",
+        "matches": true
+      },
+      {
+        "path": "Launcher/docs/UPDATE.md",
+        "expected_sha256": "9a388e3a59ec16ad6bffa87aad3816dd2c320a8017e9dc973c54d887dcac2c2f",
+        "actual_sha256": "9a388e3a59ec16ad6bffa87aad3816dd2c320a8017e9dc973c54d887dcac2c2f",
+        "matches": true
+      },
+      {
+        "path": "Launcher/entry_point.py",
+        "expected_sha256": "046e8ae4eb92ef7eea64a5fc6bf335fc61848d4ea951d0639a34288fd59ef1a6",
+        "actual_sha256": "046e8ae4eb92ef7eea64a5fc6bf335fc61848d4ea951d0639a34288fd59ef1a6",
+        "matches": true
+      },
+      {
+        "path": "Launcher/make_patch.py",
+        "expected_sha256": "01889193e0d9ffefc6334aac737141ec3c967ec9e2ddc35f9e35e4db2a104d94",
+        "actual_sha256": "01889193e0d9ffefc6334aac737141ec3c967ec9e2ddc35f9e35e4db2a104d94",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-nine/cf_arts.py",
+        "expected_sha256": "87cba1493efdd32db0e1b3701c99e255b38170c740818f16246a3f6bc3addd07",
+        "actual_sha256": "87cba1493efdd32db0e1b3701c99e255b38170c740818f16246a3f6bc3addd07",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-nine/cf_clips.py",
+        "expected_sha256": "95f4aefd9d6172b9bc8328dc5dfcd2e0502dc9218747aca94614faf1ab3625f5",
+        "actual_sha256": "95f4aefd9d6172b9bc8328dc5dfcd2e0502dc9218747aca94614faf1ab3625f5",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-nine/cf_fx.py",
+        "expected_sha256": "ff84e16924cddb22a10611b37c0e461c2404013ad9ce5d45b4bdf489340807d7",
+        "actual_sha256": "ff84e16924cddb22a10611b37c0e461c2404013ad9ce5d45b4bdf489340807d7",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-nine/gen/nin_tree.json",
+        "expected_sha256": "7f11c14044886d41f4f0f073b2c79725c2bd71b9b305ea4ec428738e36be7f7d",
+        "actual_sha256": "7f11c14044886d41f4f0f073b2c79725c2bd71b9b305ea4ec428738e36be7f7d",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-nine/gen/ninb1_tree.json",
+        "expected_sha256": "57f299eb61d568b02b95dee4e56f0b850d68d8f17d987e9e2cd1e42cebc6fe1c",
+        "actual_sha256": "57f299eb61d568b02b95dee4e56f0b850d68d8f17d987e9e2cd1e42cebc6fe1c",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-nine/gen/ninb2_tree.json",
+        "expected_sha256": "a09712cbac16d0f6ce9a22c62ba70d55f5d517f64cc53073e645e80eb8b3eb2a",
+        "actual_sha256": "a09712cbac16d0f6ce9a22c62ba70d55f5d517f64cc53073e645e80eb8b3eb2a",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-nine/gen/ninb3_tree.json",
+        "expected_sha256": "97fc0614b42a971ff47090e02150fa6f809e53042941304472e28117b38697a4",
+        "actual_sha256": "97fc0614b42a971ff47090e02150fa6f809e53042941304472e28117b38697a4",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-nine/import_cf.py",
+        "expected_sha256": "2e19c5c64c0eaf08faff23e7aba2267e41f1f3d69cb4f67397d318d248dd5639",
+        "actual_sha256": "2e19c5c64c0eaf08faff23e7aba2267e41f1f3d69cb4f67397d318d248dd5639",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-nine/js/arts_chord.js",
+        "expected_sha256": "88495ce4f1ba939ca0ff6805bb11f00980ad662743b36f07a402513f09c33dc5",
+        "actual_sha256": "88495ce4f1ba939ca0ff6805bb11f00980ad662743b36f07a402513f09c33dc5",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-nine/js/spell_hud.js",
+        "expected_sha256": "6524cf904ea8ba956dbbb3778fb45f48dfadc28957449f6f848b7ae8294c684f",
+        "actual_sha256": "6524cf904ea8ba956dbbb3778fb45f48dfadc28957449f6f848b7ae8294c684f",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-nine/mod.json",
+        "expected_sha256": "318fe79ce39fea64c044170213c8cb9272aee55cbf7e3cfdc37da49af67429ee",
+        "actual_sha256": "318fe79ce39fea64c044170213c8cb9272aee55cbf7e3cfdc37da49af67429ee",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-nine/vfx/clones.json",
+        "expected_sha256": "0f54949beef804e40cd835078e18adf7592a99dfff8faf681b46603514cdec53",
+        "actual_sha256": "0f54949beef804e40cd835078e18adf7592a99dfff8faf681b46603514cdec53",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-nine/vfx/fxmap.json",
+        "expected_sha256": "7d7a4b96e1b1e094c4ec46dce246b669e6e784c573841d3d5423ba298b46ae66",
+        "actual_sha256": "7d7a4b96e1b1e094c4ec46dce246b669e6e784c573841d3d5423ba298b46ae66",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-nine/vfx/import_fx.py",
+        "expected_sha256": "d8403c9947deaf24cf09c7529d399982e222a42d39218a8301f7536622afe21c",
+        "actual_sha256": "d8403c9947deaf24cf09c7529d399982e222a42d39218a8301f7536622afe21c",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/art/icons/icons.json",
+        "expected_sha256": "f0c1bf9019fe09168a6ccbd1e0bc012870a57046c7758407ee159866e5de81b9",
+        "actual_sha256": "f0c1bf9019fe09168a6ccbd1e0bc012870a57046c7758407ee159866e5de81b9",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/build_ruby.py",
+        "expected_sha256": "f0e544d52e785567d378636c02279f6c7f89f5a3f0d3fe872e45b2e768a955a8",
+        "actual_sha256": "f0e544d52e785567d378636c02279f6c7f89f5a3f0d3fe872e45b2e768a955a8",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/docs/BUILD_UPDATE.md",
+        "expected_sha256": "4e46e5ad79a3f190d19d732924520fdd918c202606b3d476e406b2dc47f79637",
+        "actual_sha256": "4e46e5ad79a3f190d19d732924520fdd918c202606b3d476e406b2dc47f79637",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/docs/CHANGELOG.md",
+        "expected_sha256": "ac0bb9fed384fdfcbf4ddbd825c4cb49fb8a8caa74bddc84a1e6a008a89fe178",
+        "actual_sha256": "ac0bb9fed384fdfcbf4ddbd825c4cb49fb8a8caa74bddc84a1e6a008a89fe178",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/docs/COMPATIBILITY.md",
+        "expected_sha256": "6d7cb40c440ba45d7828114e85a2578689a80b6cc701fbb5f20559defc661041",
+        "actual_sha256": "6d7cb40c440ba45d7828114e85a2578689a80b6cc701fbb5f20559defc661041",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/docs/LIMITATIONS.md",
+        "expected_sha256": "3c3fd3ef9dfc2eb679683e804beb3390a25fe5db8e4f38076680872931b8e7b9",
+        "actual_sha256": "3c3fd3ef9dfc2eb679683e804beb3390a25fe5db8e4f38076680872931b8e7b9",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/docs/README.md",
+        "expected_sha256": "6838644c7fa56736a8bed8a1b469a787f6132e3f9ce19dbd6dc9277c0c4d8e80",
+        "actual_sha256": "6838644c7fa56736a8bed8a1b469a787f6132e3f9ce19dbd6dc9277c0c4d8e80",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/fx/clones.json",
+        "expected_sha256": "db505d28e719805ebc4f608f91c7327e074a0a6e0c8cdb31246b2183f19af656",
+        "actual_sha256": "db505d28e719805ebc4f608f91c7327e074a0a6e0c8cdb31246b2183f19af656",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/fx/fxmap.json",
+        "expected_sha256": "fe8ecca7b3381c87c1ea01485959be9c31c34aa1a536c55b5b537935da37c4ff",
+        "actual_sha256": "fe8ecca7b3381c87c1ea01485959be9c31c34aa1a536c55b5b537935da37c4ff",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/fx_wave/clones.json",
+        "expected_sha256": "fd74a7641ee52f7c70de1e61d19ef7546d5cb145a476d059dd6639539ffd9012",
+        "actual_sha256": "fd74a7641ee52f7c70de1e61d19ef7546d5cb145a476d059dd6639539ffd9012",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/fx_wave/fxmap.json",
+        "expected_sha256": "1344ddd2491383e4567cbfa2587a611dd9c36bba606be7bbdebbfef1efa9506f",
+        "actual_sha256": "1344ddd2491383e4567cbfa2587a611dd9c36bba606be7bbdebbfef1efa9506f",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/fxcompile_ruby.py",
+        "expected_sha256": "615cdba386b935aec97b38134d31ce20ce11a4185e51b11ef5fb6029308ceb23",
+        "actual_sha256": "615cdba386b935aec97b38134d31ce20ce11a4185e51b11ef5fb6029308ceb23",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/hca_crypt.py",
+        "expected_sha256": "4a44e939625d0ba5b490fd67d78429564751d624fc1b7faf703c2ae5c99e714b",
+        "actual_sha256": "4a44e939625d0ba5b490fd67d78429564751d624fc1b7faf703c2ae5c99e714b",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/import_ruby.py",
+        "expected_sha256": "3785296e81230f6db7d0e16a50ce47d56d00eb6f47ac0342528721dce0a509cf",
+        "actual_sha256": "3785296e81230f6db7d0e16a50ce47d56d00eb6f47ac0342528721dce0a509cf",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/bossport.py",
+        "expected_sha256": "81cee570fe48f271a4987be7a33670b68a5952a4570e48f00f6c8cc4f77ea225",
+        "actual_sha256": "81cee570fe48f271a4987be7a33670b68a5952a4570e48f00f6c8cc4f77ea225",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/portraits.py",
+        "expected_sha256": "45aaa6cefec8e7c22dd8b7c0a47a5972087176ac39eca19084be235613f20468",
+        "actual_sha256": "45aaa6cefec8e7c22dd8b7c0a47a5972087176ac39eca19084be235613f20468",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/bbscript_dump.py",
+        "expected_sha256": "717f6f6d6571400ff686553912e6ecc5350a3a88ae987e66ef45b1f2bf04c4cb",
+        "actual_sha256": "717f6f6d6571400ff686553912e6ecc5350a3a88ae987e66ef45b1f2bf04c4cb",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/bbscript_names.json",
+        "expected_sha256": "e4f89cb581bcee293ee004602a6c7c3c283d758004e9e33025cf8d99574249cc",
+        "actual_sha256": "e4f89cb581bcee293ee004602a6c7c3c283d758004e9e33025cf8d99574249cc",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/bbscript_sizes.json",
+        "expected_sha256": "60b2fdb6f14ef22fb68a093d211741d4499f28f4e7d05ab632f9594440141cc2",
+        "actual_sha256": "60b2fdb6f14ef22fb68a093d211741d4499f28f4e7d05ab632f9594440141cc2",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_clips.py",
+        "expected_sha256": "476d5478596e3718aebe0022747ea694eb39af0a8a6e9ba38a43b3903661d6f5",
+        "actual_sha256": "476d5478596e3718aebe0022747ea694eb39af0a8a6e9ba38a43b3903661d6f5",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_formats.py",
+        "expected_sha256": "d95bbed1607b9744d30bfa21cedf3ea33389197f54df3618ffbf8efa5ccea1f1",
+        "actual_sha256": "d95bbed1607b9744d30bfa21cedf3ea33389197f54df3618ffbf8efa5ccea1f1",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_fxcompile.py",
+        "expected_sha256": "51eb462231126aa505b6c9ef0c8e2999cb15ea9378e3339a136bf6dd9dec3793",
+        "actual_sha256": "51eb462231126aa505b6c9ef0c8e2999cb15ea9378e3339a136bf6dd9dec3793",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_moves.py",
+        "expected_sha256": "9e5a12cba38074ff5d97f2762fb623d9d2fd12e2188f48213fe15253d988f67d",
+        "actual_sha256": "9e5a12cba38074ff5d97f2762fb623d9d2fd12e2188f48213fe15253d988f67d",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_mua.py",
+        "expected_sha256": "2a1bf8f883081d2bb8c9ccd2d74cd85acc70567d69cb9b304d0eda185ad2fc6a",
+        "actual_sha256": "2a1bf8f883081d2bb8c9ccd2d74cd85acc70567d69cb9b304d0eda185ad2fc6a",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_owner.py",
+        "expected_sha256": "7fc4bce787ef398869ef9ecac2a739adef28e1c7f884abb5e5fd730f596fe38d",
+        "actual_sha256": "7fc4bce787ef398869ef9ecac2a739adef28e1c7f884abb5e5fd730f596fe38d",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_read.py",
+        "expected_sha256": "2440a1320c95c982eadd9a09d64b81f48c273024d640cfe682ca63a918672573",
+        "actual_sha256": "2440a1320c95c982eadd9a09d64b81f48c273024d640cfe682ca63a918672573",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_rig.py",
+        "expected_sha256": "b86ac2eb7326193bb0fcedb476237157ec712e536fbfa76e6a01971a4d67db41",
+        "actual_sha256": "b86ac2eb7326193bb0fcedb476237157ec712e536fbfa76e6a01971a4d67db41",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_ui_dump.py",
+        "expected_sha256": "69b710d40fb7fc7f7aeefa6d7d043b7ab55c780aa5d3083d331dc32db47eab4c",
+        "actual_sha256": "69b710d40fb7fc7f7aeefa6d7d043b7ab55c780aa5d3083d331dc32db47eab4c",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_xact.py",
+        "expected_sha256": "c61742975b66edc70c6ffe30613575d71992dac94c7bfc055913be4d48059fb1",
+        "actual_sha256": "c61742975b66edc70c6ffe30613575d71992dac94c7bfc055913be4d48059fb1",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/ruby_arcband.py",
+        "expected_sha256": "09d457249679c218d57ea6f6523dfcb84ca690bdbc4a6d6d3bbed9809144c521",
+        "actual_sha256": "09d457249679c218d57ea6f6523dfcb84ca690bdbc4a6d6d3bbed9809144c521",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/ruby_blade.py",
+        "expected_sha256": "15116e5bb1f4cb8ee302fc3e5b3978f2f4f5a8a7b841428d51e54b61128fdcf1",
+        "actual_sha256": "15116e5bb1f4cb8ee302fc3e5b3978f2f4f5a8a7b841428d51e54b61128fdcf1",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbtag/ruby_crescent.py",
+        "expected_sha256": "7e439623a2b69380ccbe9efad6f6ce54124d1188baf2c311b35693cedb21592e",
+        "actual_sha256": "7e439623a2b69380ccbe9efad6f6ce54124d1188baf2c311b35693cedb21592e",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/bbvfx.py",
+        "expected_sha256": "de0ab622f067deccbedd5f8d597e02be6800371b672add6c787904bbfc7345bc",
+        "actual_sha256": "de0ab622f067deccbedd5f8d597e02be6800371b672add6c787904bbfc7345bc",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/cri_acb.py",
+        "expected_sha256": "074eea172b9b6c1d602a9b3da2dd639ffd40624ad585f38f905370c75688967b",
+        "actual_sha256": "074eea172b9b6c1d602a9b3da2dd639ffd40624ad585f38f905370c75688967b",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/own/tools/hca/Program.cs",
+        "expected_sha256": "5affa3c1a514f1421b2b7272ea726617b1295972c305a443be15748c97fc064c",
+        "actual_sha256": "5affa3c1a514f1421b2b7272ea726617b1295972c305a443be15748c97fc064c",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/rrb_fx.py",
+        "expected_sha256": "82eb04f29fcf5db32f09a416639793aec757c6f09fbae923f3ee83316d72df6c",
+        "actual_sha256": "82eb04f29fcf5db32f09a416639793aec757c6f09fbae923f3ee83316d72df6c",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/rrb_portrait.py",
+        "expected_sha256": "0fffd11b389d91c773c833bc7a11df0c8d87a9ce64234dc63e2b37f42b937aad",
+        "actual_sha256": "0fffd11b389d91c773c833bc7a11df0c8d87a9ce64234dc63e2b37f42b937aad",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/rrb_pots.py",
+        "expected_sha256": "cf6a107a6289f05c25abf285dd5ec1cbe2eed7f4b1389af54042e68b7163c56d",
+        "actual_sha256": "cf6a107a6289f05c25abf285dd5ec1cbe2eed7f4b1389af54042e68b7163c56d",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/rrb_power.py",
+        "expected_sha256": "50e499f1bc1f3d5ff33c744a150d05ffd2dea1b953eddd51e076c8bb311194ee",
+        "actual_sha256": "50e499f1bc1f3d5ff33c744a150d05ffd2dea1b953eddd51e076c8bb311194ee",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/rrb_sound.py",
+        "expected_sha256": "b58102746c392a6176b16c5185de3ddcca820862b4a0eb233962f126ee4a7e63",
+        "actual_sha256": "b58102746c392a6176b16c5185de3ddcca820862b4a0eb233962f126ee4a7e63",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/rrb_text.py",
+        "expected_sha256": "495574097be175814e36bb07a3bc8e4be2ca87a5392fd07b4f4a66584ddbacbc",
+        "actual_sha256": "495574097be175814e36bb07a3bc8e4be2ca87a5392fd07b4f4a66584ddbacbc",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/ruby_audio.py",
+        "expected_sha256": "3af46c331fe8b3c6452c3c5867653be31577883f13db52227be8b51866712f60",
+        "actual_sha256": "3af46c331fe8b3c6452c3c5867653be31577883f13db52227be8b51866712f60",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/ruby_clashbg.py",
+        "expected_sha256": "975aead31408dc169f4fb75709dac24bc568772786b806ce3b6814cd3ddb5c86",
+        "actual_sha256": "975aead31408dc169f4fb75709dac24bc568772786b806ce3b6814cd3ddb5c86",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/ruby_clips.py",
+        "expected_sha256": "fb6983eb6429643245a4cd27b7d65231b022c26af186840ff994890adbb553b1",
+        "actual_sha256": "fb6983eb6429643245a4cd27b7d65231b022c26af186840ff994890adbb553b1",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/ruby_fx.py",
+        "expected_sha256": "16233553dd9bfad0fd1762713d363e2821f0084c3fa21cd58756686fec5686e5",
+        "actual_sha256": "16233553dd9bfad0fd1762713d363e2821f0084c3fa21cd58756686fec5686e5",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/ruby_ui.py",
+        "expected_sha256": "f50894f6b1c49cf67fc4f433a9e2190463406e24eac47b7e40c421364b27ab22",
+        "actual_sha256": "f50894f6b1c49cf67fc4f433a9e2190463406e24eac47b7e40c421364b27ab22",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/src/rrb_hud.js",
+        "expected_sha256": "ec4f273993f66631f902691685feb9ccf64e618c13d14889b615cc518b904a87",
+        "actual_sha256": "ec4f273993f66631f902691685feb9ccf64e618c13d14889b615cc518b904a87",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/src/rrb_runtime.js",
+        "expected_sha256": "353e61b89abdbba6e5f6b5851dde6d63be19617451cba45fd9342db9d879090e",
+        "actual_sha256": "353e61b89abdbba6e5f6b5851dde6d63be19617451cba45fd9342db9d879090e",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/terminal.json",
+        "expected_sha256": "3259fd91209050aaf2294af60bf624bb17233a79f4457fbecf67b64589721363",
+        "actual_sha256": "3259fd91209050aaf2294af60bf624bb17233a79f4457fbecf67b64589721363",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/char-ruby/terminal_art.py",
+        "expected_sha256": "d96d61bedbb007f20461db07e030e5cd7e49a0fbf210a6d80785b1eef4817dc1",
+        "actual_sha256": "d96d61bedbb007f20461db07e030e5cd7e49a0fbf210a6d80785b1eef4817dc1",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/audio/dr_sfx.py",
+        "expected_sha256": "4f7c503136d122254e28e623535af77db71ae1f01d7a150e811846c6ae0ea139",
+        "actual_sha256": "4f7c503136d122254e28e623535af77db71ae1f01d7a150e811846c6ae0ea139",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/audio/hca_crypt.py",
+        "expected_sha256": "4a44e939625d0ba5b490fd67d78429564751d624fc1b7faf703c2ae5c99e714b",
+        "actual_sha256": "4a44e939625d0ba5b490fd67d78429564751d624fc1b7faf703c2ae5c99e714b",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/audio/import_audio.py",
+        "expected_sha256": "f1549577328baa37c6e60415e3a5dc6e6a5f787858e25a3db135435b18bfe08f",
+        "actual_sha256": "f1549577328baa37c6e60415e3a5dc6e6a5f787858e25a3db135435b18bfe08f",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/dr_pack.py",
+        "expected_sha256": "628e60d78f028028ea258a104ebfcd3674a2bed101fb84c9599f1d543883118b",
+        "actual_sha256": "628e60d78f028028ea258a104ebfcd3674a2bed101fb84c9599f1d543883118b",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/dr_source.py",
+        "expected_sha256": "175f2735ae3b979a6428504b97bda74f13b605a6ad3dac9b49fd67e3df5b20ec",
+        "actual_sha256": "175f2735ae3b979a6428504b97bda74f13b605a6ad3dac9b49fd67e3df5b20ec",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/fx/clones.json",
+        "expected_sha256": "82d9a50fc5645cdc771b6aa985fec4f35e728a7298e745c0a3251ce47feee786",
+        "actual_sha256": "82d9a50fc5645cdc771b6aa985fec4f35e728a7298e745c0a3251ce47feee786",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/fx/fxmap.json",
+        "expected_sha256": "176d429aa4f8aaf1356a57ff30d54ca6a0cc8fdd647bab0920dde63d590cbe07",
+        "actual_sha256": "176d429aa4f8aaf1356a57ff30d54ca6a0cc8fdd647bab0920dde63d590cbe07",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/fx/import_fx.py",
+        "expected_sha256": "e03b73c657c72f97692cd70552d02753bc00c14b1911af556d46d62e652752b7",
+        "actual_sha256": "e03b73c657c72f97692cd70552d02753bc00c14b1911af556d46d62e652752b7",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/gen/command_cfg.json",
+        "expected_sha256": "37b04129427cb025db8ab9fbe976639ae436d31cc2697ad75f1d9ad4165c7b0a",
+        "actual_sha256": "37b04129427cb025db8ab9fbe976639ae436d31cc2697ad75f1d9ad4165c7b0a",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/gen/kit_fx.json",
+        "expected_sha256": "8c2f83d320e0a7563892b5ea7b69c710e8612b02ca8778d4a9cfdd02ba973d1f",
+        "actual_sha256": "8c2f83d320e0a7563892b5ea7b69c710e8612b02ca8778d4a9cfdd02ba973d1f",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/gen/kris_tree.json",
+        "expected_sha256": "c7fa8fb02acb8e933491093bb4efa6fa6b1bd7dc881455d9e5aca15b6e2c2e8e",
+        "actual_sha256": "c7fa8fb02acb8e933491093bb4efa6fa6b1bd7dc881455d9e5aca15b6e2c2e8e",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/gen/krisbullet_tree.json",
+        "expected_sha256": "cd812e940b9b6488fca2912de33df1f72aa909c00f16e2e8b2e4715cd956ef73",
+        "actual_sha256": "cd812e940b9b6488fca2912de33df1f72aa909c00f16e2e8b2e4715cd956ef73",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/gen/potentials.json",
+        "expected_sha256": "f96d8acb5d7de9b05fd4cc5895cd4014c44e81a333be1e603f4393ab83711b63",
+        "actual_sha256": "f96d8acb5d7de9b05fd4cc5895cd4014c44e81a333be1e603f4393ab83711b63",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/gen/retimed.json",
+        "expected_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "actual_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/import_kris.py",
+        "expected_sha256": "dafec79da91bd111dcbfee8f98477f8f83b22f96ea04ec6be58c037dc606718f",
+        "actual_sha256": "dafec79da91bd111dcbfee8f98477f8f83b22f96ea04ec6be58c037dc606718f",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/js/command.js",
+        "expected_sha256": "95d37913eca2a64cbda5ad4bfbb28df02d217439f2bd8b08debd1c2dfa0ade53",
+        "actual_sha256": "95d37913eca2a64cbda5ad4bfbb28df02d217439f2bd8b08debd1c2dfa0ade53",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/js/potentials.js",
+        "expected_sha256": "bc971e405bfaf7139457b3e4d33466bf170d6ae61a692742ed8f5b9ceb73ac6c",
+        "actual_sha256": "bc971e405bfaf7139457b3e4d33466bf170d6ae61a692742ed8f5b9ceb73ac6c",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/js/potentials_trig.js",
+        "expected_sha256": "bc13cd7cb049f25168b7d76384b687c0732a8d17f82fff799d872567414aa7a6",
+        "actual_sha256": "bc13cd7cb049f25168b7d76384b687c0732a8d17f82fff799d872567414aa7a6",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/js/pots_fireshock.js",
+        "expected_sha256": "d11a8d6fdcddffd5e1cf65331347e3f680a5564b2d09ee64592d28185e5875fe",
+        "actual_sha256": "d11a8d6fdcddffd5e1cf65331347e3f680a5564b2d09ee64592d28185e5875fe",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/js/pots_move.js",
+        "expected_sha256": "c54e92a870ff80cfe6c84baadd737e5c1c49d7e1fa2fae705d032eab366c6c5c",
+        "actual_sha256": "c54e92a870ff80cfe6c84baadd737e5c1c49d7e1fa2fae705d032eab366c6c5c",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/js/pots_party.js",
+        "expected_sha256": "976f3fcdacbb2ffaf09755f9d3b5db1e209ee154fff54413140277a264897e9a",
+        "actual_sha256": "976f3fcdacbb2ffaf09755f9d3b5db1e209ee154fff54413140277a264897e9a",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/js/pots_pen.js",
+        "expected_sha256": "32aeb92b83740a89c3a704abc7f8d367deb015bd5c81fb8b3c1e9afe7c419a1a",
+        "actual_sha256": "32aeb92b83740a89c3a704abc7f8d367deb015bd5c81fb8b3c1e9afe7c419a1a",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/js/pots_rudebuster.js",
+        "expected_sha256": "4e0d6d4f708a1365481e5433906b1cac7fd54ca3b903edb57c682e3aecd8f914",
+        "actual_sha256": "4e0d6d4f708a1365481e5433906b1cac7fd54ca3b903edb57c682e3aecd8f914",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/js/pots_slash.js",
+        "expected_sha256": "c1c30bd618d5665ec2893fe5d553250f7bb200924c4e1f36991b48c7e1b7c0b0",
+        "actual_sha256": "c1c30bd618d5665ec2893fe5d553250f7bb200924c4e1f36991b48c7e1b7c0b0",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/js/pots_tension.js",
+        "expected_sha256": "c49db428ac9632d091135166493c76af77d2d4c19b438111cdef0a501ad5a823",
+        "actual_sha256": "c49db428ac9632d091135166493c76af77d2d4c19b438111cdef0a501ad5a823",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/kris_clips.py",
+        "expected_sha256": "0d0f571f7eee57b214511d99bca1275a72f3ad16ba9701bc36aebc0f9a505b37",
+        "actual_sha256": "0d0f571f7eee57b214511d99bca1275a72f3ad16ba9701bc36aebc0f9a505b37",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/kris_portraits.py",
+        "expected_sha256": "774757b987ec31f2c2481a8f9926e56341956c4e1274898401b24d7ac2624718",
+        "actual_sha256": "774757b987ec31f2c2481a8f9926e56341956c4e1274898401b24d7ac2624718",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/mod.json",
+        "expected_sha256": "237f8e6c2f46c211452b785092716b041008c9634d3af1941b3ac3836ee90a52",
+        "actual_sha256": "237f8e6c2f46c211452b785092716b041008c9634d3af1941b3ac3836ee90a52",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/pack/audio/info.json",
+        "expected_sha256": "10d35fd54ce44dfa207cdfda549c00cd327f36365547d91362a6cee62f44c0ac",
+        "actual_sha256": "10d35fd54ce44dfa207cdfda549c00cd327f36365547d91362a6cee62f44c0ac",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/pack/frames/font_fnt_main.json",
+        "expected_sha256": "3f560473d979d86a6e5930b9796a39ee9d16cc06ee4754b8d4476045ebc70c49",
+        "actual_sha256": "3f560473d979d86a6e5930b9796a39ee9d16cc06ee4754b8d4476045ebc70c49",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/pack/frames/font_fnt_mainbig.json",
+        "expected_sha256": "c73a1a7011218ed330cba2dba7ebd8149c6e4cd15a8766f4f2fb82194024e1e3",
+        "actual_sha256": "c73a1a7011218ed330cba2dba7ebd8149c6e4cd15a8766f4f2fb82194024e1e3",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/pack/frames/meta.json",
+        "expected_sha256": "ef61785fc80a976e5afa0693ba459281bc7b6cb0fdb9ac24a0e0eacb7366286e",
+        "actual_sha256": "ef61785fc80a976e5afa0693ba459281bc7b6cb0fdb9ac24a0e0eacb7366286e",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/pack/frames/ui_labels.json",
+        "expected_sha256": "4f0f4d40f39710060d34d307eacde2ddad5b5e391c180054e2bfe48f80517634",
+        "actual_sha256": "4f0f4d40f39710060d34d307eacde2ddad5b5e391c180054e2bfe48f80517634",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/pack/pack.json",
+        "expected_sha256": "cb691d506de7b057db35bbf0d08837bbccafc499aa64b8862df7894e2a7e3672",
+        "actual_sha256": "cb691d506de7b057db35bbf0d08837bbccafc499aa64b8862df7894e2a7e3672",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/party_clips.py",
+        "expected_sha256": "f1d1cc96b5936da11f3213cf4841bb5063d447ea0110a12d473fe01b4f022ada",
+        "actual_sha256": "f1d1cc96b5936da11f3213cf4841bb5063d447ea0110a12d473fe01b4f022ada",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/dr-party/party_ui.py",
+        "expected_sha256": "4b09b7753a494befbdb910ca358c23d01f97c057696b6be4e3018be33975c79e",
+        "actual_sha256": "4b09b7753a494befbdb910ca358c23d01f97c057696b6be4e3018be33975c79e",
+        "matches": true
+      },
+      {
+        "path": "Launcher/mods/profile.json",
+        "expected_sha256": "60db63ac672f547adc36015e2798a7541d7da309d5a0097eae9afebd41345f7b",
+        "actual_sha256": "60db63ac672f547adc36015e2798a7541d7da309d5a0097eae9afebd41345f7b",
+        "matches": true
+      },
+      {
+        "path": "Launcher/pipeline.py",
+        "expected_sha256": "a91e417d0bc15050ab85766991b09df3d12b83f8ccaae94ff8ba37caad4d16ce",
+        "actual_sha256": "a91e417d0bc15050ab85766991b09df3d12b83f8ccaae94ff8ba37caad4d16ce",
+        "matches": true
+      },
+      {
+        "path": "Launcher/shared/bbee-actors/mod.json",
+        "expected_sha256": "38bea436e32dafffae846fc3c0a4fd723692faef3811c79bf26e6db14eb43fa0",
+        "actual_sha256": "38bea436e32dafffae846fc3c0a4fd723692faef3811c79bf26e6db14eb43fa0",
+        "matches": true
+      },
+      {
+        "path": "Launcher/shared/bbee-inspector/mod.json",
+        "expected_sha256": "8e55ee1266cc74981460194ef7cfddb3fd1a24805d4f75afaa7f42b66f327f0a",
+        "actual_sha256": "8e55ee1266cc74981460194ef7cfddb3fd1a24805d4f75afaa7f42b66f327f0a",
+        "matches": true
+      },
+      {
+        "path": "Launcher/shared/bbee-sdk/mod.json",
+        "expected_sha256": "fbc14ba9f66c603f4d51e249a42f055492fb0a8bda51e747dafcf04f0d62bab4",
+        "actual_sha256": "fbc14ba9f66c603f4d51e249a42f055492fb0a8bda51e747dafcf04f0d62bab4",
+        "matches": true
+      },
+      {
+        "path": "Launcher/shared/profile.json",
+        "expected_sha256": "cfe815018cc6b1d95a3e6ff5e856213c05e6517c6ae7940b7010b284e481de8c",
+        "actual_sha256": "cfe815018cc6b1d95a3e6ff5e856213c05e6517c6ae7940b7010b284e481de8c",
+        "matches": true
+      },
+      {
+        "path": "Launcher/tools/bbcf/bbcf_read.py",
+        "expected_sha256": "875415b08c2d8dc808ef237a0168b5f8934d6be4acd1415b941bfaed0a3c0a62",
+        "actual_sha256": "875415b08c2d8dc808ef237a0168b5f8934d6be4acd1415b941bfaed0a3c0a62",
+        "matches": true
+      },
+      {
+        "path": "Launcher/tools/bbtag/bbscript_dump.py",
+        "expected_sha256": "de8de1eaa97248205b391823fb5b88438de4067907ee3abd83843bc1a3ae08ae",
+        "actual_sha256": "de8de1eaa97248205b391823fb5b88438de4067907ee3abd83843bc1a3ae08ae",
+        "matches": true
+      },
+      {
+        "path": "Launcher/tools/bbtag/bbtag_formats.py",
+        "expected_sha256": "825526a00356f4d3f31e3425421eee4cd5c5520309ce9980968a234687d34553",
+        "actual_sha256": "825526a00356f4d3f31e3425421eee4cd5c5520309ce9980968a234687d34553",
+        "matches": true
+      },
+      {
+        "path": "Launcher/tools/bbtag/bbtag_fxport.py",
+        "expected_sha256": "df8a3c6cebf84b85bdff118a296d6f462b1c01c0b1b9d6a45703ed2de69726a8",
+        "actual_sha256": "df8a3c6cebf84b85bdff118a296d6f462b1c01c0b1b9d6a45703ed2de69726a8",
+        "matches": true
+      },
+      {
+        "path": "Launcher/tools/bbtag/bbtag_mua.py",
+        "expected_sha256": "cfc255fceaf846fbd2bf6583c4d36ff3ad6fda456c6fd4761168c79c2b94d363",
+        "actual_sha256": "cfc255fceaf846fbd2bf6583c4d36ff3ad6fda456c6fd4761168c79c2b94d363",
+        "matches": true
+      },
+      {
+        "path": "Launcher/tools/bbtag/bbtag_owner.py",
+        "expected_sha256": "5f88ef264e7a5a02a9e4319323987b2f2ee34c858c013e8bdaa0647f705f552f",
+        "actual_sha256": "5f88ef264e7a5a02a9e4319323987b2f2ee34c858c013e8bdaa0647f705f552f",
+        "matches": true
+      },
+      {
+        "path": "Launcher/tools/bbtag/bbtag_ptl.py",
+        "expected_sha256": "0caf09ffddbfafb0979cd8bfc72af14bcc531fc944fe8a5648a32ea4e0b4baee",
+        "actual_sha256": "0caf09ffddbfafb0979cd8bfc72af14bcc531fc944fe8a5648a32ea4e0b4baee",
+        "matches": true
+      },
+      {
+        "path": "Launcher/tools/bbtag/bbtag_read.py",
+        "expected_sha256": "1c2cda25f7298d6415fd6d9b6a43a55749ca631fea4d2ba1c6a880eadbc3249c",
+        "actual_sha256": "1c2cda25f7298d6415fd6d9b6a43a55749ca631fea4d2ba1c6a880eadbc3249c",
+        "matches": true
+      },
+      {
+        "path": "Launcher/tools/bbtag/bbtag_rig.py",
+        "expected_sha256": "9017371b06136183430db84b9e2b892ca4c5c24952c51c0c7959ffae95a36386",
+        "actual_sha256": "9017371b06136183430db84b9e2b892ca4c5c24952c51c0c7959ffae95a36386",
+        "matches": true
+      },
+      {
+        "path": "Launcher/tools/bbvfx.py",
+        "expected_sha256": "3f298c15250f51b38ae8afc77da0e805742b69f0284f4d72afe2b33e340e067b",
+        "actual_sha256": "3f298c15250f51b38ae8afc77da0e805742b69f0284f4d72afe2b33e340e067b",
+        "matches": true
+      },
+      {
+        "path": "Launcher/tools/cri_acb.py",
+        "expected_sha256": "074eea172b9b6c1d602a9b3da2dd639ffd40624ad585f38f905370c75688967b",
+        "actual_sha256": "074eea172b9b6c1d602a9b3da2dd639ffd40624ad585f38f905370c75688967b",
+        "matches": true
+      },
+      {
+        "path": "Launcher/tools/gameslot.py",
+        "expected_sha256": "53406978684c3cc0ffe4ebb2a3d0edce4b5c6d1554428159278c5ba3c284324e",
+        "actual_sha256": "53406978684c3cc0ffe4ebb2a3d0edce4b5c6d1554428159278c5ba3c284324e",
+        "matches": true
+      },
+      {
+        "path": "Launcher/tools/savefile.py",
+        "expected_sha256": "39cc85a4fc8f3c5d0a4f00b348fe860d2272d859c0ba205a28d3a89e8a6d065d",
+        "actual_sha256": "39cc85a4fc8f3c5d0a4f00b348fe860d2272d859c0ba205a28d3a89e8a6d065d",
+        "matches": true
+      },
+      {
+        "path": "Launcher/tools/schema/25627491/proto_schema_snapshot.json",
+        "expected_sha256": "7799e135ea0c40fa2f3e9e1b9c7b683d9ce05c10b16947c001192ec8268fe9aa",
+        "actual_sha256": "7799e135ea0c40fa2f3e9e1b9c7b683d9ce05c10b16947c001192ec8268fe9aa",
+        "matches": true
+      },
+      {
+        "path": "NOTICES.md",
+        "expected_sha256": "02822ec784b970028b6d8ad45dc84b4fa248758d8c199880c61cc94a086c97e4",
+        "actual_sha256": "02822ec784b970028b6d8ad45dc84b4fa248758d8c199880c61cc94a086c97e4",
+        "matches": true
+      },
+      {
+        "path": "RUBY_ROSE_GUIDE.md",
+        "expected_sha256": "f38ea34f7b143d41141f17cc4c96dd1ee44476a620f69fd61e9cf25987f4aeea",
+        "actual_sha256": "f38ea34f7b143d41141f17cc4c96dd1ee44476a620f69fd61e9cf25987f4aeea",
+        "matches": true
+      },
+      {
+        "path": "SETUP_GUIDE.md",
+        "expected_sha256": "d00ecabc67822f94d6583a6b7a1bf3f19cbaf978b0ee833def0dec93558b67bc",
+        "actual_sha256": "d00ecabc67822f94d6583a6b7a1bf3f19cbaf978b0ee833def0dec93558b67bc",
+        "matches": true
+      },
+      {
+        "path": "Start The Zenith Terminal.bat",
+        "expected_sha256": "ec710cbc94265bcf66d5dac941f1e8c8a70421a8f0631798fd9c9805f46c3aa4",
+        "actual_sha256": "ec710cbc94265bcf66d5dac941f1e8c8a70421a8f0631798fd9c9805f46c3aa4",
+        "matches": true
+      }
+    ]
+  },
+  "presence": [
+    {
+      "path": "Launcher/pipeline.py",
+      "exists": true
+    },
+    {
+      "path": "Launcher/bbmod.py",
+      "exists": true
+    },
+    {
+      "path": "Launcher/make_patch.py",
+      "exists": true
+    },
+    {
+      "path": "Launcher/bbchar.py",
+      "exists": true
+    },
+    {
+      "path": "Launcher/entry_point.py",
+      "exists": true
+    },
+    {
+      "path": "Interpreter/pythoncore-3.14-64/python.exe",
+      "exists": true
+    },
+    {
+      "path": "Interpreter/pythoncore-3.14-64/pythonw.exe",
+      "exists": true
+    },
+    {
+      "path": "Launcher/tools/schema/25627491/proto_schema_snapshot.json",
+      "exists": true
+    },
+    {
+      "path": "Launcher/dump/dump.cs",
+      "exists": false
+    },
+    {
+      "path": "Launcher/tools/ingame/gamecheck.py",
+      "exists": false
+    },
+    {
+      "path": "Launcher/tools/bbtag/check_ruby_build.py",
+      "exists": false
+    },
+    {
+      "path": "Launcher/docs/boons-plus/README.md",
+      "exists": false
+    },
+    {
+      "path": "Launcher/requirements.txt",
+      "exists": false
+    },
+    {
+      "path": "Launcher/nine_alpha.py",
+      "exists": false
+    }
+  ],
+  "typetree_cache_members": [],
+  "dummy_dll_members": [],
+  "schema_snapshot_members": [
+    "ZenithTerminal/Launcher/tools/schema/25627491/proto_schema_snapshot.json"
+  ],
+  "dependency_metadata_members": [
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/archspec-0.2.6.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/astc_encoder_py-0.1.12.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/attrs-26.1.0.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/brotli-1.2.0.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/etcpak-0.9.15.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/fsspec-2026.7.0.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/lz4-4.4.5.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/numpy-2.5.1.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/pillow-12.3.0.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/pip-26.2.1.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/pyside6-6.11.2.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/pyside6_addons-6.11.2.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/pyside6_essentials-6.11.2.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/shiboken6-6.11.2.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/texture2ddecoder-1.0.6.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/tpk_ar-0.2.4.dist-info/METADATA",
+    "ZenithTerminal/Interpreter/pythoncore-3.14-64/Lib/site-packages/unitypy-1.25.3.dist-info/METADATA"
+  ],
+  "party_encoded_audio_cache_count": 24,
+  "findings": [
+    {
+      "priority": "P0",
+      "title": "Standard save path is hard-coded",
+      "basis": "entry_point.py:170-190",
+      "interpretation": "Only USERPROFILE/LocalLow/91Act/BlazblueEntropyEffect Steam and XBoxPc save slots are enumerated; a different runtime save root must be explicitly located and independently backed up before mutation. This static result does not identify the actual active save."
+    },
+    {
+      "priority": "P1",
+      "title": "Reported encode roundtrip is not implemented",
+      "basis": "make_patch.py:189-194; bbmod.py:53-59",
+      "interpretation": "verify_table only counts length-prefixed records and prints; there is no semantic decode comparison or final boundary assertion."
+    },
+    {
+      "priority": "P1",
+      "title": "Setup completeness is not a process exit gate",
+      "basis": "pipeline.py:42-43,58-73,181-192; entry_point.py:130-135",
+      "interpretation": "Bundle parse errors are skipped; unresolved JS and failed table decodes are counted but do not force a nonzero exit. Setup trusts return code and writes build marker."
+    },
+    {
+      "priority": "P1",
+      "title": "Install consists of separate commits",
+      "basis": "make_patch.py:289-292; bbmod.py:493-498; bbchar.py:38-51",
+      "interpretation": "m_mod.m and merge.json are individually replaced, manifest is written afterward without an atomic temp replace, installed.json last. Need interrupted update and restore tests; this is a static failure window, not a reproduced crash."
+    },
+    {
+      "priority": "P1",
+      "title": "Missing type tree fallback material",
+      "basis": "bbmod.py:232-255; ZIP inventory",
+      "interpretation": "No dump/DummyDll or tools/typetrees exists in this release. It may work for bundles with suitable embedded type trees; otherwise fallback raises SystemExit. Actual baseline bundle coverage requires validation."
+    },
+    {
+      "priority": "P1",
+      "title": "Table ownership and key uniqueness need broader regression tests",
+      "basis": "bbmod.py:137,150-167",
+      "interpretation": "Base index silently keeps last duplicate key; new/copy/replace set wildcard owner but ordinary field writes inspect only field owner; append does not update index. Existing four tests do not establish complete conflict detection."
+    },
+    {
+      "priority": "P2",
+      "title": "Build reproduction needs pinned fallback dependencies and test fixture",
+      "basis": "entry_point.py:101-108; composer_tests.json",
+      "interpretation": "Bundled runtime is present; fallback pip installs latest missing packages without pinned versions. Composer JSON has results and a source hash but no included runnable test/fixtures or mapping for that extracted-source hash."
+    },
+    {
+      "priority": "P1",
+      "title": "Decoded pristine snapshots persist across re-setup",
+      "basis": "pipeline.py:8,69,191; bbmod.py:127-128,136,196; entry_point.py:130-135,151",
+      "interpretation": "pipeline overwrites live decoded tables and JS but does not refresh/remove their .orig files; ensure_orig preserves first snapshot and composers reload it. Re-setup can stamp a new build while subsequent composition still uses prior-build snapshots. Requires version-scoped snapshot refresh and hash validation; not dynamically reproduced."
+    }
+  ],
+  "source_excerpts": [
+    {
+      "zip_member": "ZenithTerminal/Launcher/pipeline.py",
+      "line_start": 1,
+      "line_end": 43,
+      "lines": [
+        "1: import os, sys, re, json, struct, collections, shutil",
+        "2: ROOT = sys.argv[1] if len(sys.argv) > 1 else os.path.dirname(os.path.abspath(__file__))",
+        "3: GAME = os.path.join(ROOT, \"game\")",
+        "4: AB = os.path.join(GAME, r\"BlazblueEntropyEffect_Data\\StreamingAssets\\ab\")",
+        "5: DUMP = os.path.join(ROOT, r\"dump\\dump.cs\")",
+        "6: RAW = os.path.join(ROOT, \"extracted_raw\"); DEC = os.path.join(ROOT, \"decoded\")",
+        "7: INS = os.path.join(ROOT, \"inspect\"); TOUT = os.path.join(DEC, \"tables\")",
+        "8: for d in (RAW, DEC, INS, TOUT): os.makedirs(d, exist_ok=True)",
+        "9: import UnityPy, lz4.frame",
+        "10: ",
+        "11: ",
+        "12: man = lz4.frame.decompress(open(os.path.join(AB, \"manifest\"), \"rb\").read())",
+        "13: open(os.path.join(INS, \"manifest_decoded.txt\"), \"wb\").write(man)",
+        "14: ",
+        "15: ",
+        "16: _mlive = os.path.join(AB, \"merge.json\"); _morig = _mlive + \".orig\"",
+        "17: _msrc = _mlive",
+        "18: if '\"m_mod.m\"' in open(_mlive, encoding=\"utf-8\").read():",
+        "19:     _stamp = open(_morig + \".build\").read().strip() if os.path.exists(_morig + \".build\") else None",
+        "20:     _acf = os.path.realpath(os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(GAME))), \"appmanifest_2273430.acf\"))",
+        "21:     _now = re.search(r'\"buildid\"\\s+\"(\\d+)\"', open(_acf, encoding=\"utf-8\", errors=\"replace\").read()).group(1) if os.path.exists(_acf) else None",
+        "22:     if os.path.exists(_morig) and _stamp and _stamp == _now:",
+        "23:         _msrc = _morig; print(\"mods are installed: decoding the pristine backup merge.json.orig (build %s)\" % _stamp)",
+        "24:     else:",
+        "25:         sys.exit(\"merge.json is modded and there is no pristine backup for this game build. Run `python bbmod.py uninstall` \"",
+        "26:                  \"(or Steam 'Verify integrity'), then pipeline.py again. See docs/BUILD_UPDATE.md.\")",
+        "27: merge = json.load(open(_msrc, encoding=\"utf-8\"))",
+        "28: open(os.path.join(INS, \"logical_bundles.txt\"), \"w\", encoding=\"utf-8\").write(\"\\n\".join(sorted(e[\"r\"] for e in merge)))",
+        "29: by_file = collections.defaultdict(list)",
+        "30: for e in merge: by_file[e[\"m\"]].append(e)",
+        "31: for m in by_file: by_file[m].sort(key=lambda e: e[\"s\"])",
+        "32: def slice_bundle(entry):",
+        "33:     lst = by_file[entry[\"m\"]]; i = lst.index(entry)",
+        "34:     p = os.path.join(AB, entry[\"m\"]); end = lst[i+1][\"s\"] if i+1 < len(lst) else os.path.getsize(p)",
+        "35:     with open(p, \"rb\") as f: f.seek(entry[\"s\"]); return f.read(end - entry[\"s\"])",
+        "36: print(\"logical bundles:\", len(merge))",
+        "37: ",
+        "38: ",
+        "39: count = 0",
+        "40: for e in merge:",
+        "41:     if not e[\"r\"].startswith(\"data/\"): continue",
+        "42:     try: env = UnityPy.load(slice_bundle(e))",
+        "43:     except Exception: continue"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/pipeline.py",
+      "line_start": 58,
+      "line_end": 73,
+      "lines": [
+        "58: js_ok = js_bad = 0; keys = {}",
+        "59: for dp, dn, fn in os.walk(RAW):",
+        "60:     for f in fn:",
+        "61:         p = os.path.join(dp, f); b = open(p, \"rb\").read()",
+        "62:         rel = os.path.relpath(p, RAW); base = os.path.join(DEC, rel[:-4]); os.makedirs(os.path.dirname(base), exist_ok=True)",
+        "63:         if b[:4] != b\"NOAH\":",
+        "64:             ext = \".json\" if b[:1] in b\"{[\" else \".bin\"",
+        "65:             open(base + ext, \"wb\").write(b); continue",
+        "66:         key = int.from_bytes(bytes(b[4+i] ^ b'\"use'[i] for i in range(4)), \"little\")",
+        "67:         dec = noah_xor(b[4:], key)",
+        "68:         if dec[:12] == b'\"use strict\"':",
+        "69:             open(base + \".js\", \"wb\").write(dec); keys[rel.replace(\"\\\\\", \"/\")[:-4]] = key; js_ok += 1",
+        "70:         else:",
+        "71:             open(base + \".noah\", \"wb\").write(b); js_bad += 1",
+        "72: json.dump({k: f\"0x{v:08x}\" for k, v in keys.items()}, open(os.path.join(INS, \"js_keys.json\"), \"w\"), indent=1)",
+        "73: print(f\"JS decoded: {js_ok}, unresolved: {js_bad}  (keys saved to inspect\\\\js_keys.json)\")"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/pipeline.py",
+      "line_start": 78,
+      "line_end": 115,
+      "lines": [
+        "78: def _steam_manifest(root):",
+        "79:     \"\"\"<library>/steamapps/common/<game>  ->  <library>/steamapps/appmanifest_2273430.acf (any Steam library)\"\"\"",
+        "80:     try:",
+        "81:         g = os.path.realpath(os.path.join(root, \"game\"))",
+        "82:         cand = os.path.join(os.path.dirname(os.path.dirname(g)), \"appmanifest_2273430.acf\")",
+        "83:         if os.path.exists(cand): return cand",
+        "84:     except Exception: pass",
+        "85:     return r\"C:\\Program Files (x86)\\Steam\\steamapps\\appmanifest_2273430.acf\"",
+        "86: def _build_id():",
+        "87:     try:",
+        "88:         acf = open(_steam_manifest(ROOT), encoding=\"utf-8\", errors=\"replace\").read()",
+        "89:         return re.search(r'\"buildid\"\\s+\"(\\d+)\"', acf).group(1)",
+        "90:     except Exception: return \"unknown\"",
+        "91: SNAP = os.path.join(ROOT, \"tools\", \"schema\", _build_id())",
+        "92: if os.path.exists(DUMP):",
+        "93:     text = open(DUMP, encoding=\"utf-8\", errors=\"replace\").read()",
+        "94:     blocks = re.split(r\"(?m)^(?=// Namespace: )\", text)",
+        "95:     schema = {}; enums = set()",
+        "96:     for b in blocks:",
+        "97:         m = re.search(r\"(?m)^[^\\n]*?(class|struct|enum|interface)\\s+([\\w\\.]+)[^\\n]*// TypeDefIndex: (\\d+)\", b)",
+        "98:         if not m: continue",
+        "99:         if m.group(1) == \"enum\": enums.add(m.group(2).split(\".\")[-1]); continue",
+        "100:         nums = dict(re.findall(r\"public const int (\\w+)FieldNumber = (\\d+);\", b))",
+        "101:         if not nums: continue",
+        "102:         props = {pm.group(2): pm.group(1) for pm in re.finditer(r\"public ([\\w\\.<>, `]+?) (\\w+) \\{ get;\", b)}",
+        "103:         schema[m.group(2).split(\".\")[-1]] = {int(n): (fn, props.get(fn, \"?\")) for fn, n in nums.items()}",
+        "104:     os.makedirs(SNAP, exist_ok=True)",
+        "105:     json.dump({\"schema\": {k: {str(n): v for n, v in f.items()} for k, f in schema.items()}, \"enums\": sorted(enums)},",
+        "106:               open(os.path.join(SNAP, \"proto_schema_snapshot.json\"), \"w\"))",
+        "107: else:",
+        "108:     _sp = os.path.join(SNAP, \"proto_schema_snapshot.json\")",
+        "109:     if not os.path.exists(_sp):",
+        "110:         sys.exit(\"No dump/dump.cs and no schema snapshot for game build %s. See docs/BUILD_UPDATE.md.\" % os.path.basename(SNAP))",
+        "111:     _snap = json.load(open(_sp)); enums = set(_snap[\"enums\"])",
+        "112:     schema = {k: {int(n): tuple(v) for n, v in f.items()} for k, f in _snap[\"schema\"].items()}",
+        "113:     print(\"proto schema: using snapshot\", _sp)",
+        "114: json.dump({k: {str(n): v for n, v in f.items()} for k, f in schema.items()}, open(os.path.join(INS, \"proto_schema.json\"), \"w\"), indent=1)",
+        "115: print(\"proto types:\", len(schema))"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/pipeline.py",
+      "line_start": 181,
+      "line_end": 192,
+      "lines": [
+        "181: TB = os.path.join(DEC, \"data\", \"xlsx\"); ok = bad = 0",
+        "182: for f in sorted(os.listdir(TB)):",
+        "183:     if not f.endswith(\".bin\"): continue",
+        "184:     name = f[:-4]; cls = name if name in schema else None",
+        "185:     b = open(os.path.join(TB, f), \"rb\").read(); rows = []; i = 0",
+        "186:     try:",
+        "187:         while i + 4 <= len(b):",
+        "188:             ln = struct.unpack_from(\"<I\", b, i)[0]; i += 4; rows.append(dmsg(b[i:i+ln], cls or \"?\")); i += ln",
+        "189:         ok += 1",
+        "190:     except Exception as ex: bad += 1",
+        "191:     json.dump(rows, open(os.path.join(TOUT, name + \".json\"), \"w\", encoding=\"utf-8\"), ensure_ascii=False, indent=1)",
+        "192: print(f\"tables decoded: {ok}, failed: {bad}\")"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/make_patch.py",
+      "line_start": 25,
+      "line_end": 61,
+      "lines": [
+        "25: def _steam_manifest(root):",
+        "26:     \"\"\"<library>/steamapps/common/<game>  ->  <library>/steamapps/appmanifest_2273430.acf (any Steam library)\"\"\"",
+        "27:     try:",
+        "28:         g = os.path.realpath(os.path.join(root, \"game\"))",
+        "29:         cand = os.path.join(os.path.dirname(os.path.dirname(g)), \"appmanifest_2273430.acf\")",
+        "30:         if os.path.exists(cand): return cand",
+        "31:     except Exception: pass",
+        "32:     return r\"C:\\Program Files (x86)\\Steam\\steamapps\\appmanifest_2273430.acf\"",
+        "33: STEAM_MANIFEST = _steam_manifest(ROOT)",
+        "34: def current_build():",
+        "35:     try:",
+        "36:         m = re.search(r'\"buildid\"\\s+\"(\\d+)\"', open(STEAM_MANIFEST, encoding=\"utf-8\").read()); return m.group(1) if m else None",
+        "37:     except OSError: return None",
+        "38: def backup_state(bak):",
+        "39:     \"\"\"None = no backup; True = stamped for the installed build; False = stale (unstamped or another build)\"\"\"",
+        "40:     if not os.path.exists(bak): return None",
+        "41:     st = bak + \".build\"",
+        "42:     return os.path.exists(st) and open(st, encoding=\"utf-8\").read().strip() == (current_build() or \"?\")",
+        "43: def require_usable_backup(bak, what):",
+        "44:     if backup_state(bak) is False:",
+        "45:         stamp = open(bak + \".build\", encoding=\"utf-8\").read().strip() if os.path.exists(bak + \".build\") else \"unstamped (pre-guard)\"",
+        "46:         raise SystemExit(",
+        "47:             f\"REFUSING to {what}: {bak} is from game build {stamp}, but the installed game is build {current_build()}.\\n\"",
+        "48:             f\"  Steam replaced the live index when it patched the game; this backup would write the OLD index back.\\n\"",
+        "49:             f\"  Retire the stale backup (rename it, e.g. add .b<oldbuild>) so a fresh one is taken from the current game,\\n\"",
+        "50:             f\"  then re-extract data for the new build before building mods. See docs/BUILD_UPDATE.md.\")",
+        "51: def make_backup(src, bak):",
+        "52:     shutil.copy2(src, bak); open(bak + \".build\", \"w\", encoding=\"utf-8\").write(current_build() or \"?\")",
+        "53: def pristine_merge_path():",
+        "54:     live = os.path.join(AB, \"merge.json\"); bak = live + \".orig\"",
+        "55:     if backup_state(bak): return bak",
+        "56:     if os.path.exists(live):",
+        "57:         if '\"m_mod.m\"' in open(live, encoding=\"utf-8\").read():",
+        "58:             raise SystemExit(\"REFUSING to read bundles: merge.json contains modded entries and there is no backup for build \"",
+        "59:                              f\"{current_build()} to read pristine data from.\")",
+        "60:         return live",
+        "61:     return None"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/make_patch.py",
+      "line_start": 189,
+      "line_end": 194,
+      "lines": [
+        "189: def verify_table(name, raw):",
+        "190: ",
+        "191:     n = 0; i = 0",
+        "192:     while i + 4 <= len(raw):",
+        "193:         ln = struct.unpack_from(\"<I\", raw, i)[0]; i += 4 + ln; n += 1",
+        "194:     print(f\"  {name}: {n} rows, {len(raw)} bytes\")"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/make_patch.py",
+      "line_start": 232,
+      "line_end": 264,
+      "lines": [
+        "232: def encode_fixed_table(name, keyfields=None):",
+        "233:     \"\"\"splice edited rows (JSON vs JSON.orig) into the original fixed-point binary, leaving other rows byte-identical\"\"\"",
+        "234:     fcls = name + \"FixedPoint\"",
+        "235:     if fcls not in SCHEMA: raise SystemExit(f\"no FixedPoint schema for {name}\")",
+        "236:     fields = SCHEMA[fcls]; fnum = {v[0]: int(n) for n, v in fields.items()}",
+        "237:     cur = json.load(open(os.path.join(DEC, \"tables\", name + \".json\"), encoding=\"utf-8\"))",
+        "238:     orig = json.load(open(os.path.join(DEC, \"tables\", name + \".json.orig\"), encoding=\"utf-8\"))",
+        "239:     if keyfields is None:",
+        "240:         keyfields = tuple(k for k in ((\"Idx\",) if \"Idx\" in fnum else (\"Id\",)) + tuple(x for x in (\"Lvl\", \"Quality\") if x in fnum))",
+        "241:     keys = [fnum[k] for k in keyfields]",
+        "242:     kf = lambda r: tuple(int(r.get(k, 0)) for k in keyfields)",
+        "243:     oi = {kf(r): r for r in orig}; changed = {}; new_rows = []",
+        "244:     if len(oi) != len(orig):",
+        "245:         assert cur[:len(orig)] == orig, f\"{name}: key fields {keyfields} are not unique; only appending rows is supported for this table\"",
+        "246:         raw = open(os.path.join(RAW, \"data\", \"xlsxfixed\", name + \"FixedPointWrap.bin\"), \"rb\").read(); out = bytearray(raw)",
+        "247:         for a in cur[len(orig):]: body = encode(to_fixed_row(a, fcls), fcls); out += struct.pack(\"<I\", len(body)) + body",
+        "248:         print(f\"  {name}FixedPoint: positional mode, {len(cur) - len(orig)} rows appended\"); return bytes(out)",
+        "249:     for a in cur:",
+        "250:         k = kf(a); b = oi.get(k)",
+        "251:         if b is None: new_rows.append(encode(to_fixed_row(a, fcls), fcls))",
+        "252:         elif a != b: changed[k] = encode(to_fixed_row(a, fcls), fcls)",
+        "253:     deleted = set(oi) - {kf(a) for a in cur}",
+        "254:     raw = open(os.path.join(RAW, \"data\", \"xlsxfixed\", name + \"FixedPointWrap.bin\"), \"rb\").read()",
+        "255:     out = bytearray(); i = 0; hits = 0; dropped = 0",
+        "256:     while i + 4 <= len(raw):",
+        "257:         ln = struct.unpack_from(\"<I\", raw, i)[0]; body = raw[i+4:i+4+ln]; i += 4 + ln",
+        "258:         k = row_key(body, keys)",
+        "259:         if k in deleted: dropped += 1; continue",
+        "260:         if k in changed: body = changed[k]; hits += 1",
+        "261:         out += struct.pack(\"<I\", len(body)) + body",
+        "262:     for body in new_rows: out += struct.pack(\"<I\", len(body)) + body",
+        "263:     print(f\"  {name}FixedPoint: {len(changed)} changed rows, {hits} spliced, {len(new_rows)} added, {dropped} deleted\")",
+        "264:     return bytes(out)"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/make_patch.py",
+      "line_start": 271,
+      "line_end": 298,
+      "lines": [
+        "271: MERGE = os.path.join(AB, \"merge.json\"); MERGE_BAK = MERGE + \".orig\"; MODFILE = \"m_mod.m\"",
+        "272: def install_steam():",
+        "273:     require_usable_backup(MERGE_BAK, \"install\")",
+        "274:     if not os.path.exists(MERGE_BAK): make_backup(MERGE, MERGE_BAK)",
+        "275:     entries = json.load(open(MERGE_BAK, encoding=\"utf-8\"))",
+        "276:     idx = {e[\"r\"]: e for e in entries}",
+        "277:     blob = bytearray(); n = 0",
+        "278:     for dp, dn, fn in os.walk(OUT):",
+        "279:         for f in fn:",
+        "280:             if f.startswith(\"_\"): continue",
+        "281:             p = os.path.join(dp, f); logical = os.path.relpath(p, OUT).replace(\"\\\\\", \"/\")",
+        "282:             if logical not in idx:",
+        "283:                 e = {\"r\": logical, \"m\": MODFILE, \"s\": 0}; entries.append(e); idx[logical] = e; print(\"NEW bundle entry:\", logical)",
+        "284:             data = open(p, \"rb\").read()",
+        "285:             e = idx[logical]; e[\"m\"] = MODFILE; e[\"s\"] = type(e[\"s\"])(len(blob)) if not isinstance(e[\"s\"], str) else str(len(blob))",
+        "286:             blob += data; n += 1; print(f\"  {logical} -> {MODFILE}@{len(blob)-len(data)} ({len(data)} bytes)\")",
+        "287: ",
+        "288: ",
+        "289:     tmp_m, tmp_j = os.path.join(AB, MODFILE + \".new\"), MERGE + \".new\"",
+        "290:     with open(tmp_m, \"wb\") as f: f.write(blob)",
+        "291:     with open(tmp_j, \"w\", encoding=\"utf-8\") as f: json.dump(entries, f, separators=(\",\", \":\"), ensure_ascii=False)",
+        "292:     os.replace(tmp_m, os.path.join(AB, MODFILE)); os.replace(tmp_j, MERGE)",
+        "293:     print(f\"installed {n} bundles into {os.path.join(AB, MODFILE)}; merge.json updated (backup: merge.json.orig)\")",
+        "294: def uninstall_steam():",
+        "295:     require_usable_backup(MERGE_BAK, \"uninstall\")",
+        "296:     if os.path.exists(MERGE_BAK): shutil.copy2(MERGE_BAK, MERGE); print(\"merge.json restored\")",
+        "297:     p = os.path.join(AB, MODFILE)",
+        "298:     if os.path.exists(p): os.remove(p); print(\"removed\", p)"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/bbmod.py",
+      "line_start": 53,
+      "line_end": 59,
+      "lines": [
+        "53: sys.argv_backup = sys.argv; sys.argv = [\"make_patch.py\"]",
+        "54: _mp = {\"__file__\": os.path.join(ROOT, \"make_patch.py\")}",
+        "55: exec(open(_mp[\"__file__\"], encoding=\"utf-8\").read().split(\"\\ncmd = \")[0], _mp)",
+        "56: sys.argv = sys.argv_backup",
+        "57: encode_table, verify_table, encode_fixed_table = _mp[\"encode_table\"], _mp[\"verify_table\"], _mp[\"encode_fixed_table\"]",
+        "58: rebuild_bundle, slice_bundle, find_entry, noah_xor = _mp[\"rebuild_bundle\"], _mp[\"slice_bundle\"], _mp[\"find_entry\"], _mp[\"noah_xor\"]",
+        "59: SCHEMA, JSKEYS = _mp[\"SCHEMA\"], _mp[\"JSKEYS\"]"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/bbmod.py",
+      "line_start": 109,
+      "line_end": 171,
+      "lines": [
+        "109: KEY_OVERRIDES = {\"BlessScreenGridConf\": [\"BlessId\"], \"SkillActivate\": [\"ActorId\", \"Group\", \"Order\"], \"BaseActorAttrConf\": [\"ActorId\"],",
+        "110:                  \"PvpBaseActorAttrConf\": [\"ActorId\"], \"SkillDamage\": [\"ActorId\", \"HitTimes\"], \"SkillAttr\": [\"ActorId\", \"Order\"], \"FesActorAttrInheritConf\": [\"ActorId\"],",
+        "111:                  \"SkillSlotBanActions\": [\"ActorId\", \"SkillSlot\"], \"HeroPortraitOffsetConfigUI\": [\"Id\"],",
+        "112:                  \"SkillFromTeacher\": [\"TeacherSkillId\"]}",
+        "113: def table_keys(name, rows):",
+        "114:     if name in KEY_OVERRIDES: return list(KEY_OVERRIDES[name])",
+        "115:     f = rows[0] if rows else {}",
+        "116:     ks = [\"Idx\"] if \"Idx\" in f else [\"Id\"] if \"Id\" in f else []",
+        "117:     for extra in (\"Lvl\", \"Quality\"):",
+        "118:         if extra in f and ks: ks.append(extra)",
+        "119:     return ks",
+        "120: def rowkey(r, ks): return tuple(r.get(k, 1 if k == \"Lvl\" else 0) for k in ks)",
+        "121: def depends_on(mods, mid, target, seen=None):",
+        "122:     \"\"\"True if mod `mid` (transitively) declares `target` as a dependency -> it may override target's values.\"\"\"",
+        "123:     seen = seen or set()",
+        "124:     for d in mods.get(mid, {}).get(\"dependencies\", []):",
+        "125:         if d == target or (d not in seen and (seen.add(d) or depends_on(mods, d, target, seen))): return True",
+        "126:     return False",
+        "127: def ensure_orig(path):",
+        "128:     if not os.path.exists(path + \".orig\"): shutil.copy2(path, path + \".orig\")",
+        "129: def compose_tables(order, mods, report):",
+        "130:     touched = {}",
+        "131:     for mid in order:",
+        "132:         for tname, rows in mods[mid].get(\"content\", {}).get(\"tables\", {}).items():",
+        "133:             touched.setdefault(tname, []).append((mid, rows))",
+        "134:     for tname, edits in touched.items():",
+        "135:         p = os.path.join(TABLES, tname + \".json\"); assert os.path.exists(p), f\"unknown table {tname}\"",
+        "136:         ensure_orig(p); base = json.load(open(p + \".orig\", encoding=\"utf-8\")); ks = table_keys(tname, base)",
+        "137:         index = {rowkey(r, ks): r for r in base if rowkey(r, ks)[:1] not in ((None,), (0,))}; owner = {}",
+        "138:         for mid, rows in edits:",
+        "139:             for e in rows:",
+        "140:                 if \"$copyRows\" in e:",
+        "141:                     spec = e[\"$copyRows\"]; src = [r for r in base if all(r.get(f) == v for f, v in spec[\"where\"].items())]",
+        "142:                     for r in src:",
+        "143:                         n = json.loads(json.dumps(r)); n.update(spec.get(\"set\", {}))",
+        "144:                         for sw in spec.get(\"setWhere\", []):",
+        "145:                             if all(n.get(f) == v for f, v in sw[\"match\"].items()): n.update(sw[\"set\"])",
+        "146:                         if spec.get(\"idOffset\") and ks and ks[0] in n: n[ks[0]] = n[ks[0]] + spec[\"idOffset\"]",
+        "147:                         kk = rowkey(n, ks)",
+        "148:                         if ks and kk in index and kk[:1] not in ((None,), (0,)) and not spec.get(\"allowDuplicateKeys\"):",
+        "149:                             raise AssertionError(f\"{mid}: {tname} $copyRows would duplicate key {kk} (set allowDuplicateKeys for multi-row-per-id tables)\")",
+        "150:                         base.append(n); index[kk] = n; owner[(kk, \"*\")] = mid",
+        "151:                     print(f\"    {mid}: {tname} copied {len(src)} rows where {spec['where']} -> {spec.get('set')}\")",
+        "152:                     continue",
+        "153:                 k = rowkey(e, ks)",
+        "154:                 if e.get(\"$append\"):",
+        "155:                     r = {kk: v for kk, v in e.items() if not kk.startswith(\"$\")}; base.append(r); owner[(k, \"*\")] = mid; continue",
+        "156:                 if e.get(\"$new\"):",
+        "157:                     assert k not in index, f\"{mid}: {tname} row {k} already exists\"",
+        "158:                     r = {kk: v for kk, v in e.items() if not kk.startswith(\"$\")}; base.append(r); index[k] = r; owner[(k, \"*\")] = mid; continue",
+        "159:                 assert k in index, f\"{mid}: {tname} row {k} not found (use \\\"$new\\\": true to insert)\"",
+        "160:                 r = index[k]",
+        "161:                 if e.get(\"$delete\"): base.remove(r); del index[k]; owner[(k, \"*\")] = mid; continue",
+        "162:                 if e.get(\"$replace\"):",
+        "163:                     r.clear(); r.update({kk: v for kk, v in e.items() if not kk.startswith(\"$\")}); owner[(k, \"*\")] = mid; continue",
+        "164:                 for f, v in e.items():",
+        "165:                     if f.startswith(\"$\") or f in ks: continue",
+        "166:                     prev = owner.get((k, f))",
+        "167:                     if prev and prev != mid and r.get(f) != v and not depends_on(mods, mid, prev): report.append(f\"CONFLICT table {tname} row {k} field {f}: {prev} vs {mid} (declare {prev} as a dependency to override it)\")",
+        "168:                     r[f] = v; owner[(k, f)] = mid",
+        "169:         json.dump(base, open(p, \"w\", encoding=\"utf-8\"), ensure_ascii=False, indent=1)",
+        "170:         print(f\"  table {tname}: {sum(len(r) for _, r in edits)} row edits from {[m for m, _ in edits]}\")",
+        "171:     return list(touched)"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/bbmod.py",
+      "line_start": 232,
+      "line_end": 255,
+      "lines": [
+        "232: class _CachedTypeTrees:",
+        "233:     \"\"\"UnityPy typetree generator with a per-game-build cache (tools/typetrees/<build>/). With dump/DummyDll present",
+        "234:     (Il2CppDumper output) nodes are generated and the cache refreshed; without it -- an end user's machine -- the cached",
+        "235:     nodes are used, so installing never needs Il2CppDumper. Type layouts are metadata, not game content.\"\"\"",
+        "236:     def __init__(self):",
+        "237:         self.real = False; self.dir = os.path.join(ROOT, \"tools\", \"typetrees\", str(game_build()))",
+        "238:     def _real(self):",
+        "239:         if self.real is False:",
+        "240:             dll = os.path.join(ROOT, \"dump\", \"DummyDll\"); self.real = None",
+        "241:             if os.path.isdir(dll):",
+        "242:                 from UnityPy.helpers.TypeTreeGenerator import TypeTreeGenerator",
+        "243:                 self.real = TypeTreeGenerator(\"2022.3.62f3\"); self.real.load_local_dll_folder(dll)",
+        "244:         return self.real",
+        "245:     def get_nodes_up(self, assembly, fullname):",
+        "246:         f = os.path.join(self.dir, \"%s__%s.json\" % (assembly.replace(\".dll\", \"\"), fullname))",
+        "247:         g = self._real()",
+        "248:         if g is not None:",
+        "249:             node = g.get_nodes_up(assembly, fullname)",
+        "250:             os.makedirs(self.dir, exist_ok=True); json.dump(node.to_dict_list(), open(f, \"w\", encoding=\"utf-8\"))",
+        "251:             return node",
+        "252:         if os.path.exists(f):",
+        "253:             from UnityPy.helpers.TypeTreeNode import TypeTreeNode",
+        "254:             return TypeTreeNode.from_list(json.load(open(f, encoding=\"utf-8\")))",
+        "255:         raise SystemExit(\"no dump/DummyDll and no cached type tree for %s (build %s). See docs/boons-plus/README.md.\" % (fullname, game_build()))"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/bbmod.py",
+      "line_start": 483,
+      "line_end": 507,
+      "lines": [
+        "483: def install():",
+        "484:     if STAGING: print(\"refusing: BBMOD_PROFILE/BBMOD_OUT set (staging build); unset them to install\"); return",
+        "485:     blocked = gameslot_block()",
+        "486:     if blocked: print(\"REFUSING to install: \" + blocked); return",
+        "487:     if game_running(): print(\"REFUSING to install: the game is running. Close it completely, then run install again.\"); return",
+        "488:     if not build(): return",
+        "489:     if game_running():",
+        "490:         print(\"REFUSING to install: the game was started during the build. Nothing in the game folder was changed. \"",
+        "491:               \"Close the game completely, then run install again.\"); return",
+        "492:     if os.path.exists(os.path.join(OUT, \"_build.json\")): os.remove(os.path.join(OUT, \"_build.json\"))",
+        "493:     _mp[\"install_steam\"]()",
+        "494:     madd = os.path.join(OUT, \"_manifest_add.json\")",
+        "495:     import bbchar",
+        "496:     if os.path.exists(madd): bbchar.apply_manifest_additions(json.load(open(madd)))",
+        "497:     else: bbchar.restore_manifest()",
+        "498:     prof = load_profile(); json.dump({\"gameBuild\": game_build(), \"enabled\": prof[\"enabled\"], \"installed\": time.strftime(\"%Y-%m-%d %H:%M:%S\")}, open(INSTALLED, \"w\"), indent=1)",
+        "499:     print(\"installed; run the game and check\", os.path.join(ROOT, \"modlog.txt\"))",
+        "500: def uninstall():",
+        "501:     if STAGING: print(\"refusing: BBMOD_PROFILE/BBMOD_OUT set (staging build)\"); return",
+        "502:     blocked = gameslot_block()",
+        "503:     if blocked: print(\"REFUSING to uninstall: \" + blocked); return",
+        "504:     _mp[\"uninstall_steam\"]()",
+        "505:     import bbchar; bbchar.restore_manifest()",
+        "506:     if os.path.exists(INSTALLED): os.remove(INSTALLED)",
+        "507:     print(\"uninstalled (pristine merge.json restored, m_mod.m removed)\")"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/bbchar.py",
+      "line_start": 18,
+      "line_end": 51,
+      "lines": [
+        "18: def read_manifest():",
+        "19:     global _MAN",
+        "20:     if _MAN is None: _MAN = _read_manifest()",
+        "21:     return [list(_MAN[0]), [[i, list(d)] for i, d in _MAN[1]], [[i, list(g)] for i, g in _MAN[2]]]",
+        "22: def _read_manifest():",
+        "23:     use_bak = bbmod._mp[\"backup_state\"](MANIFEST_BAK)",
+        "24:     if use_bak is False: bbmod._mp[\"pristine_merge_path\"]()",
+        "25:     raw = lz4.frame.decompress(open(MANIFEST_BAK if use_bak else MANIFEST, \"rb\").read()).decode(\"utf-8\")",
+        "26:     L = raw.split(\"\\r\\n\"); assert L[0] == \"FastManifest V3\"",
+        "27:     n1 = int(L[1][2:]); names = L[2:2 + n1]; i = 2 + n1; n2 = int(L[i][2:]); i += 1; entries = []",
+        "28:     while i < len(L) and not L[i].startswith(\"N:\"):",
+        "29:         if L[i].startswith(\" \"): entries[-1][1].append(L[i].strip())",
+        "30:         else: entries.append([L[i], []])",
+        "31:         i += 1",
+        "32:     n3 = int(L[i][2:]); i += 1; guids = []",
+        "33:     while i < len(L) and L[i] != \"----\":",
+        "34:         if L[i].startswith(\" \"): guids[-1][1].append(L[i].strip())",
+        "35:         else: guids.append([L[i], []])",
+        "36:         i += 1",
+        "37:     return names, entries, guids",
+        "38: def write_manifest(names, entries, guids):",
+        "39:     global _MAN; _MAN = None",
+        "40:     bbmod._mp[\"require_usable_backup\"](MANIFEST_BAK, \"write the manifest\")",
+        "41:     if not os.path.exists(MANIFEST_BAK): bbmod._mp[\"make_backup\"](MANIFEST, MANIFEST_BAK)",
+        "42:     out = [\"FastManifest V3\", f\"N:{len(names)}\"] + names + [f\"N:{len(entries)}\"]",
+        "43:     for idx, deps in entries: out += [idx] + [\" \" + d for d in deps]",
+        "44:     out += [f\"N:{len(guids)}\"]",
+        "45:     for idx, gs in guids: out += [idx] + [\" \" + g for g in gs]",
+        "46:     out += [\"----\", \"\"]",
+        "47:     open(MANIFEST, \"wb\").write(lz4.frame.compress(\"\\r\\n\".join(out).encode(\"utf-8\")))",
+        "48: def restore_manifest():",
+        "49:     global _MAN; _MAN = None",
+        "50:     bbmod._mp[\"require_usable_backup\"](MANIFEST_BAK, \"restore the manifest\")",
+        "51:     if os.path.exists(MANIFEST_BAK): import shutil; shutil.copy2(MANIFEST_BAK, MANIFEST)"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/entry_point.py",
+      "line_start": 88,
+      "line_end": 135,
+      "lines": [
+        "88: def installed_build():",
+        "89:     \"\"\"the Steam build id of the linked game, or None if Steam's app manifest isn't next to it\"\"\"",
+        "90:     try:",
+        "91:         acf = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(GAME))), \"appmanifest_%s.acf\" % APPID)",
+        "92:         return re.search(r'\"buildid\"\\s+\"(\\d+)\"', open(acf, encoding=\"utf-8\", errors=\"replace\").read()).group(1)",
+        "93:     except Exception:",
+        "94:         return None",
+        "95: ",
+        "96: ",
+        "97: def setup(args):",
+        "98:     say(\"== The Zenith Terminal: setup ==\")",
+        "99:     if sys.version_info < (3, 10): fail(\"Python 3.10 or newer is needed (you have %s).\" % sys.version.split()[0])",
+        "100:     say(\"Python %s  ok\" % sys.version.split()[0])",
+        "101:     missing = []",
+        "102:     for mod, pkg in PKGS:",
+        "103:         try: __import__(mod)",
+        "104:         except ImportError: missing.append(pkg)",
+        "105:     if missing:",
+        "106:         say(\"Installing Python packages: \" + \", \".join(missing))",
+        "107:         r = subprocess.run([sys.executable, \"-m\", \"pip\", \"install\", \"--upgrade\"] + missing)",
+        "108:         if r.returncode != 0: fail(\"pip could not install %s. Try: py -m pip install %s\" % (\" \".join(missing), \" \".join(missing)))",
+        "109:     say(\"Python packages  ok\")",
+        "110:     if shutil.which(\"node\") is None:",
+        "111:         say(\"Node.js not found  (optional: only used to double-check scripts; you can skip it)\")",
+        "112: ",
+        "113:     if os.path.exists(os.path.join(GAME, EXE)):",
+        "114:         say(\"Game folder link  ok -> \" + os.path.realpath(GAME))",
+        "115:     else:",
+        "116:         g = args[0] if args else find_game()",
+        "117:         if not g or not os.path.exists(os.path.join(g, EXE)):",
+        "118:             fail(\"Couldn't find the game. Run:  python entry_point.py setup \\\"<your game folder>\\\"\\n\"",
+        "119:                  \"(the folder that contains %s; in Steam: right-click the game > Manage > Browse local files)\" % EXE)",
+        "120:         if os.path.lexists(GAME): fail(\"There is already a 'game' entry in %s that doesn't point to the game. Delete it and run setup again.\" % ROOT)",
+        "121:         r = subprocess.run([\"cmd\", \"/c\", \"mklink\", \"/J\", GAME, g], capture_output=True, text=True)",
+        "122:         if r.returncode != 0 or not os.path.exists(os.path.join(GAME, EXE)):",
+        "123:             fail(\"Couldn't create the folder link (%s). Put this folder on the same drive as your user folder, or run as administrator.\" % (r.stderr or r.stdout).strip())",
+        "124:         say(\"Game folder link  created -> \" + g)",
+        "125:     if not os.path.exists(os.path.join(os.path.realpath(GAME), \"..\", \"..\", \"appmanifest_%s.acf\" % APPID)):",
+        "126:         say(\"Note: Steam's app manifest wasn't found next to the game; the build check will say '?'.\")",
+        "127:     else:",
+        "128:         say(\"Game build  \" + str(installed_build()))",
+        "129:     need_closed()",
+        "130:     say(\"\"); say(\"Reading the game data (takes a few minutes, only needed once and after each game update)...\")",
+        "131:     r = subprocess.run([sys.executable, os.path.join(ROOT, \"pipeline.py\")], cwd=ROOT)",
+        "132:     if r.returncode != 0: fail(\"Reading the game data failed (see the messages above).\")",
+        "133:     if installed_build():",
+        "134:         open(BUILD_MARK, \"w\", encoding=\"utf-8\").write(installed_build())",
+        "135:     say(\"\"); say(\"Setup done. Next: close the game (if open) and run 2_INSTALL.bat  (or: python entry_point.py install)\")"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/entry_point.py",
+      "line_start": 170,
+      "line_end": 212,
+      "lines": [
+        "170: SAVE_ROOT = os.path.expandvars(r\"%USERPROFILE%\\AppData\\LocalLow\\91Act\\BlazblueEntropyEffect\")",
+        "171: ",
+        "172: ",
+        "173: def backup_save(tag):",
+        "174:     \"\"\"copy the whole save area (every account, its Save, Backup and ColdBackup) into save_backups/<time>_<tag>\"\"\"",
+        "175:     import shutil",
+        "176:     if not os.path.isdir(SAVE_ROOT): say(\"No save folder found yet (%s); nothing to back up.\" % SAVE_ROOT); return None",
+        "177:     dst = os.path.join(ROOT, \"save_backups\", time.strftime(\"%Y%m%d_%H%M%S\") + \"_\" + tag)",
+        "178:     for sub in (\"Steam\", \"XBoxPc\", \"Global\"):",
+        "179:         src = os.path.join(SAVE_ROOT, sub)",
+        "180:         if os.path.isdir(src): shutil.copytree(src, os.path.join(dst, sub))",
+        "181:     say(\"Save backed up to: \" + dst)",
+        "182:     return dst",
+        "183: ",
+        "184: ",
+        "185: def save_files():",
+        "186:     \"\"\"the files the game loads your progress from: <account>/Save/<slot> and Save/Backup/<slot>\"\"\"",
+        "187:     out = []",
+        "188:     for acc in glob.glob(os.path.join(SAVE_ROOT, \"Steam\", \"*\", \"Save\")) + glob.glob(os.path.join(SAVE_ROOT, \"XBoxPc\", \"*\", \"Save\")):",
+        "189:         for f in glob.glob(os.path.join(acc, \"*\")) + glob.glob(os.path.join(acc, \"Backup\", \"*\")):",
+        "190:             if os.path.isfile(f) and os.path.basename(f).isdigit(): out.append(f)",
+        "191:     return out",
+        "192: ",
+        "193: ",
+        "194: def repair_save(args, backup=True):",
+        "195:     \"\"\"remove every mod-added character from the save, so the normal game can",
+        "196:     load it. Everything else in the save stays exactly as it was.\"\"\"",
+        "197:     need_closed()",
+        "198:     sys.path.insert(0, os.path.join(ROOT, \"tools\"))",
+        "199:     import savefile",
+        "200:     files = save_files()",
+        "201:     if not files: say(\"No save files found under \" + SAVE_ROOT); return",
+        "202:     if backup and not backup_save(\"before_repair\"): fail(\"Couldn't back up the save; nothing was changed.\")",
+        "203:     changed = 0",
+        "204:     for f in files:",
+        "205:         try: rep_ = savefile.clean_file(f)",
+        "206:         except Exception as e: fail(\"Couldn't clean %s (%s). Your save is unchanged; the backup is in the save_backups folder.\" % (f, e))",
+        "207:         if rep_:",
+        "208:             changed += 1; say(\"\"); say(\"Cleaned \" + f + \":\")",
+        "209:             for line in rep_: say(\"  - \" + line)",
+        "210:     say(\"\")",
+        "211:     say(\"Save repaired: %d file(s) cleaned.\" % changed if changed else \"Your save has no mod-character data; nothing to change.\")",
+        "212:     say(\"If Steam asks about a cloud save conflict on the next launch, choose the LOCAL save (the repaired one).\")"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/entry_point.py",
+      "line_start": 247,
+      "line_end": 307,
+      "lines": [
+        "247: def drop_missing_characters():",
+        "248:     \"\"\"A save can hold a character that an earlier package installed and this one doesn't, for example (Izanami, the",
+        "249:     unfinished preview in 0.7.x). The game can't load a save that names a character it doesn't have, so before",
+        "250:     installing, those entries are removed. The save has just been backed up; everything else in it, Nine included,",
+        "251:     stays as it was.\"\"\"",
+        "252:     sys.path.insert(0, os.path.join(ROOT, \"tools\"))",
+        "253:     import savefile",
+        "254:     gone = set(savefile.MOD_ACTORS) - enabled_actor_ids()",
+        "255:     if not gone: return",
+        "256:     for f in save_files():",
+        "257:         try:",
+        "258:             new, rep_ = clean_missing(savefile, savefile.load(f), gone)",
+        "259:             if new is None: continue",
+        "260:             blob = savefile.compress(new)",
+        "261:             tmp = f + \".tmp\"; open(tmp, \"wb\").write(blob); os.replace(tmp, f)",
+        "262:         except Exception as e:",
+        "263:             fail(\"Your save has data for a character this package doesn't install, and it couldn't be removed (%s: %s).\\n\"",
+        "264:                  \"Nothing in the game was changed, and your save is backed up in the save_backups folder.\" % (f, e))",
+        "265:         say(\"\"); say(\"This package doesn't include a character your save has data for.\")",
+        "266:         say(\"Removed from \" + f + \":\")",
+        "267:         for line in rep_: say(\"  - \" + line)",
+        "268: ",
+        "269: ",
+        "270: def install(args):",
+        "271:     if not os.path.exists(os.path.join(GAME, EXE)): fail(\"Setup hasn't been run yet (no game folder link). Run 1_SETUP.bat first.\")",
+        "272:     if not os.path.isdir(os.path.join(ROOT, \"decoded\", \"tables\")): fail(\"The game data hasn't been read yet. Run 1_SETUP.bat first.\")",
+        "273:     need_closed()",
+        "274:     now = installed_build(); read = open(BUILD_MARK, encoding=\"utf-8\").read().strip() if os.path.exists(BUILD_MARK) else None",
+        "275:     if now and read != now:",
+        "276:         fail(\"The game data in this folder was read from %s, and the game is now build %s.\\n\"",
+        "277:              \"Run 1_SETUP.bat again, then 2_INSTALL.bat.\" % (\"game build \" + read if read else \"an earlier setup\", now))",
+        "278:     retire_stale_backups()",
+        "279:     backup_save(\"before_install\")",
+        "280:     drop_missing_characters()",
+        "281:     cf = find_bbcf()",
+        "282:     if cf:",
+        "283:         os.environ[\"BBCF_DIR\"] = cf",
+        "284:         say(\"BlazBlue Centralfiction found: \" + cf + \"  (used for her Centralfiction animations if this Steam account owns it)\")",
+        "285:     else:",
+        "286:         say(\"BlazBlue Centralfiction not found: her moves use her Entropy Effect animations (nothing is missing).\")",
+        "287:     say(\"== building and installing (1-5 minutes) ==\")",
+        "288:     t0 = time.time(); done = os.path.join(ROOT, \"mods\", \"installed.json\")",
+        "289:     if bbmod(\"install\") != 0: fail(\"The install stopped with an error (see above).\")",
+        "290:     if not os.path.exists(done) or os.path.getmtime(done) < t0 - 2:",
+        "291:         fail(\"The install did not finish (see the messages above; a line starting with REFUSING or BUILD ABORTED says why).\")",
+        "292:     say(\"\"); say(\"Installed. Start the game normally from Steam. Yhe new characters are at the end of the Prototype list.\")",
+        "293: ",
+        "294: ",
+        "295: def uninstall(args):",
+        "296:     \"\"\"SAFE uninstall. The normal game can't load a save that still has Modded Characters in it (their Evotypes, records,",
+        "297:     a run with them), so the save is backed up and cleaned FIRST, then the mods are removed.\"\"\"",
+        "298:     need_closed()",
+        "299:     say(\"== safe uninstall ==\")",
+        "300:     say(\"The Evotypes and records will be removed from your save (the normal game can't load them).\")",
+        "301:     say(\"Everything else stays. A full copy of your save goes to the save_backups folder first.\")",
+        "302:     repair_save(args)",
+        "303:     if os.path.exists(os.path.join(GAME, EXE)): retire_stale_backups()",
+        "304:     if bbmod(\"uninstall\") != 0: fail(\"Removing the mod stopped with an error (see above). Your save was already repaired.\")",
+        "305:     say(\"\"); say(\"All mods removed and your save is ready for the normal game.\")",
+        "306:     say(\"If anything still looks modded, use Steam > Verify integrity of game files.\")",
+        "307: "
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Gui/zenith_gui/controller.py",
+      "line_start": 450,
+      "line_end": 465,
+      "lines": [
+        "450:     def _python(self):",
+        "451:         bundled = os.path.join(self.launcher, \"..\", \"Interpreter\", \"pythoncore-3.14-64\", \"python.exe\")",
+        "452:         if os.path.exists(bundled): return os.path.abspath(bundled)",
+        "453:         exe = sys.executable",
+        "454:         console = os.path.join(os.path.dirname(exe), \"python.exe\")",
+        "455:         return console if os.path.basename(exe).lower() == \"pythonw.exe\" and os.path.exists(console) else exe",
+        "456: ",
+        "457:     def _next(self):",
+        "458:         if not self._queue:",
+        "459:             self._finish(True, self._done_text)",
+        "460:             return",
+        "461:         proc = QProcess(self)",
+        "462:         env = QProcessEnvironment.systemEnvironment()",
+        "463:         env.insert(\"PYTHONIOENCODING\", \"utf-8\"); env.insert(\"PYTHONUNBUFFERED\", \"1\")",
+        "464:         if self.profile_root: env.insert(\"USERPROFILE\", self.profile_root)",
+        "465:         proc.setProcessEnvironment(env)"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Gui/zenith_gui/controller.py",
+      "line_start": 511,
+      "line_end": 521,
+      "lines": [
+        "511:     def _needs_prepare(self, mod, first):",
+        "512:         \"\"\"a mod with `prepare` scripts is made again when it was never made, when the game's data is about to be",
+        "513:         read again, or when one of its own files or that data is newer than what was made\"\"\"",
+        "514:         if not mod.get(\"prepare\"): return False",
+        "515:         made = os.path.join(mod[\"folder\"], \"mod.json\")",
+        "516:         if first or not os.path.isfile(made): return True",
+        "517:         stamp = os.path.getmtime(made)",
+        "518:         newer = [self._work(\"inspect\", \"game_build.txt\")]",
+        "519:         for name in os.listdir(mod[\"folder\"]):",
+        "520:             if name.endswith((\".py\", \".json\")) and name != \"mod.json\": newer.append(os.path.join(mod[\"folder\"], name))",
+        "521:         return any(os.path.isfile(p) and os.path.getmtime(p) > stamp for p in newer)"
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/PACKAGE_MANIFEST.txt",
+      "line_start": 18,
+      "line_end": 39,
+      "lines": [
+        "18: Python (Interpreter\\): 3.14.8, the python.org runtime (https://www.python.org/ftp/python/3.14.8/python-3.14.8-amd64.zip), without its manual, C headers and tests.",
+        "19: Python packages, as published on PyPI:",
+        "20:   archspec 0.2.6",
+        "21:   astc-encoder-py 0.1.12",
+        "22:   attrs 26.1.0",
+        "23:   brotli 1.2.0",
+        "24:   etcpak 0.9.15",
+        "25:   fmod_toolkit stand-in",
+        "26:   fsspec 2026.7.0",
+        "27:   lz4 4.4.5",
+        "28:   numpy 2.5.1",
+        "29:   pillow 12.3.0",
+        "30:   PySide6 6.11.2",
+        "31:   PySide6_Addons 6.11.2",
+        "32:   PySide6_Essentials 6.11.2",
+        "33:   shiboken6 6.11.2",
+        "34:   texture2ddecoder 1.0.6",
+        "35:   tpk_ar 0.2.4",
+        "36:   UnityPy 1.25.3",
+        "37:   PySide6 holds only the Qt modules the window uses (PySide6\\TRIMMED.txt).",
+        "38:   fmod_toolkit is a stand-in written for the Terminal: the published one loads FMOD's own library,",
+        "39:   which is proprietary and is not in this package. Converting Unity audio stops with a message."
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/SETUP_GUIDE.md",
+      "line_start": 11,
+      "line_end": 16,
+      "lines": [
+        "11: ## What you need",
+        "12: ",
+        "13: - **Windows 10 or 11**, 64-bit.",
+        "14: - **BlazBlue Entropy Effect on Steam**, at build **25627491**. The Terminal shows the build you have. A newer build needs a newer Terminal (see \"After a game update\").",
+        "15: - About **1 GB** of free disk space on your system drive.",
+        "16: - Nothing else. Python and the three characters come inside the Terminal, so there is nothing to install and nothing to add."
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/SETUP_GUIDE.md",
+      "line_start": 95,
+      "line_end": 112,
+      "lines": [
+        "95: ## After a game update",
+        "96: ",
+        "97: A Steam update puts the game's own files back, which switches mods off. **The normal game can't load a save that still names a mod character.** It reports the save as corrupted. Your progress is still there.",
+        "98: ",
+        "99: This release works with game build **25627491**. After the game updates, before you play:",
+        "100: ",
+        "101: 1. If the game says the save is corrupted, close the game. Don't choose anything that resets, deletes or overwrites the save.",
+        "102: 2. Then do one of these:",
+        "103:    - **Keep playing your mods:** get the Terminal's release for the new build. This one stops at **SET UP AND INSTALL** with \"no schema snapshot for game build ...\", because the game is newer than it.",
+        "104:    - **Play without mods for now:** **Options > Saves and reports > REPAIR**. It copies your save, then takes the mod characters out of it so the normal game loads it.",
+        "105: ",
+        "106: If Steam updates games automatically, the update can arrive the moment you close the game.",
+        "107: ",
+        "108: ## Known limits",
+        "109: ",
+        "110: - The window has one size, **1280 x 720**, and is used with the mouse. On a screen with less room than that, for example a small laptop at 150 % display scaling, the bottom of the window is off screen. Until the window can be resized, lower the display scaling while you use the Terminal.",
+        "111: - An install uses about 2 GB of memory while it builds. Close heavy programs first if your PC is short.",
+        "112: - Single player only."
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/docs/INSTALL.md",
+      "line_start": 5,
+      "line_end": 13,
+      "lines": [
+        "5: ## What you need",
+        "6: ",
+        "7: - **Windows 10 or 11** and **BlazBlue Entropy Effect on Steam**, up to date. This package was made for Steam build **25627491**.",
+        "8: - **Python 3.10 or newer**, free from <https://www.python.org/downloads/>.",
+        "9:   - In the installer, tick **\"Add python.exe to PATH\"**.",
+        "10:   - To check it's installed, open Command Prompt and type `python --version` (or `py --version`).",
+        "11: - About **300 MB** of free disk space where you unzip the package.",
+        "12: - An internet connection the first time, so setup can download four Python packages (UnityPy, lz4, Pillow, numpy).",
+        "13: - Node.js is **not** needed. Setup mentions it; ignore that line."
+      ]
+    },
+    {
+      "zip_member": "ZenithTerminal/Launcher/1_SETUP.bat",
+      "line_start": 1,
+      "line_end": 14,
+      "lines": [
+        "1: @echo off",
+        "2: title The Zenith Terminal - setup",
+        "3: cd /d \"%~dp0\"",
+        "4: set \"PYTHON_EXE=\"",
+        "5: if exist \"%~dp0..\\Interpreter\\pythoncore-3.14-64\\python.exe\" set \"PYTHON_EXE=%~dp0..\\Interpreter\\pythoncore-3.14-64\\python.exe\"",
+        "6: if not defined PYTHON_EXE if exist \"%~dp0..\\Interpreter\\bin\\python.exe\" set \"PYTHON_EXE=%~dp0..\\Interpreter\\bin\\python.exe\"",
+        "7: if defined PYTHON_EXE (",
+        "8:     \"%PYTHON_EXE%\" entry_point.py setup %*",
+        "9: ) else (",
+        "10:     where py >nul 2>nul",
+        "11:     if %errorlevel%==0 (py -3 entry_point.py setup %*) else (python entry_point.py setup %*)",
+        "12: )",
+        "13: echo.",
+        "14: pause"
+      ]
+    }
+  ]
+}

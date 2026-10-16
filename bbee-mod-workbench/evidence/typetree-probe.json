@@ -1,0 +1,1145 @@
+{
+  "status": "passed",
+  "verified_route": "embedded-layout-cache",
+  "build_id": "25627491",
+  "inputs": {
+    "unity_version": "2022.3.62f2",
+    "globalgamemanagers_sha256": "f0f7d669b82a4bc689cb9dce0cdf23ffca08a3a8f728a9d9af352f4596fced1f",
+    "gameassembly_sha256": "5e08d1b5b97f288ac78a2192a200f968ef5551318dc25e87fd2e31acd166bdd9",
+    "metadata_sha256": "028d496ffbd6cf112187635da21fd88a9684594133f7b6725e1dd5a63b11343d"
+  },
+  "objects": [
+    {
+      "bundle": "actor/logicdata/ph.ab",
+      "path_id": -728934034383479359,
+      "fields": 18,
+      "identity": [
+        "Assembly-CSharp",
+        "GamePlay.ActionLogicGroup"
+      ],
+      "native_generation": {
+        "status": "generated",
+        "layout_differences": {
+          "embedded_nodes": 2190,
+          "generated_nodes": 2187,
+          "type_or_alignment_differences": [
+            {
+              "path": "Base",
+              "embedded_type": "MonoBehaviour",
+              "generated_type": "ActionLogicGroup",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/AnimationJsons",
+              "embedded_type": "vector",
+              "generated_type": "string",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/SkeletonDataAssetRefList/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/ActionSwitchs/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/ActionSwitchs/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/ActionSwitchs/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/ActionSwitchs/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/ActionTags/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/AddBuff/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/AddBuff/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/AddBuff/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/AddBuff/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/AddEffects/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/AddEffects/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/AddEffects/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/AddEffects/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/AddMotions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/AddMotions/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/AddMotions/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/AddMotions/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/AddMotions/Array/data/Motion/CurveXFp/m_keys/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/AddMotions/Array/data/Motion/CurveYFp/m_keys/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/AddRoles/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/AddRoles/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/AddRoles/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/AddRoles/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/AddRoles/Array/data/ExtParams/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/AddRoles/Array/data/StartActionEx/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/Armors/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/Audios/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/Audios/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/Audios/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/Audios/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/Aurora/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/Aurora/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/Aurora/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/Aurora/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/BehitBoxs/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/BehitBoxs/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/BehitBoxs/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/BehitBoxs/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/BehitNotify/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/BehitNotify/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/BehitNotify/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/BehitNotify/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/CDList/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/CameraShake/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/CameraShake/Array/data/ShakeStr",
+              "embedded_type": "Vector2f",
+              "generated_type": "Vector2",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/ChangeActorTag/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/CollideBoxs/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/CollisionSwitchList/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/CollisionSwitchList/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/CollisionSwitchList/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/CollisionSwitchList/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/DisableMoveInputs/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/ForceFields/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/ForceFields/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/ForceFields/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/ForceFields/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/FreeMoves/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/FreeMoves/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/FreeMoves/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/FreeMoves/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabControlFrames/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabDamages/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabStart/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabTimeRange/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabTimeRange/Array/data/GrabEndHit/HitData/AttackerCalls/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabTimeRange/Array/data/GrabEndHit/HitData/AttackerCalls/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabTimeRange/Array/data/GrabEndHit/HitData/AttackerCalls/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabTimeRange/Array/data/GrabEndHit/HitData/AttackerCalls/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabTimeRange/Array/data/GrabEndHit/HitData/CamShake/ShakeStr",
+              "embedded_type": "Vector2f",
+              "generated_type": "Vector2",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabTimeRange/Array/data/GrabEndHit/HitData/ExcludeTags",
+              "embedded_type": "vector",
+              "generated_type": "string",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabTimeRange/Array/data/GrabEndHit/HitData/Victim/BuffList/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabTimeRange/Array/data/GrabEndHit/HitData/Victim/BuffList/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabTimeRange/Array/data/GrabEndHit/HitData/Victim/BuffList/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabTimeRange/Array/data/GrabEndHit/HitData/Victim/BuffList/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabTimeRange/Array/data/GrabEndHit/HitData/Victim/RandomActions",
+              "embedded_type": "vector",
+              "generated_type": "string",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/GrabTimeRange/Array/data/GrabEndHit/HitData/Victim/ShakeBody/Delta",
+              "embedded_type": "Vector2f",
+              "generated_type": "Vector2",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/HitAudios/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/HitAudios/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/HitAudios/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/HitAudios/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/HitDataList/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/HitDataList/Array/data/AttackerCalls/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/HitDataList/Array/data/AttackerCalls/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/HitDataList/Array/data/AttackerCalls/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/HitDataList/Array/data/AttackerCalls/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/HitDataList/Array/data/CamShake/ShakeStr",
+              "embedded_type": "Vector2f",
+              "generated_type": "Vector2",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/HitDataList/Array/data/ExcludeTags",
+              "embedded_type": "vector",
+              "generated_type": "string",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/HitDataList/Array/data/Victim/BuffList/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/HitDataList/Array/data/Victim/BuffList/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/HitDataList/Array/data/Victim/BuffList/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/HitDataList/Array/data/Victim/BuffList/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/HitDataList/Array/data/Victim/RandomActions",
+              "embedded_type": "vector",
+              "generated_type": "string",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/HitDataList/Array/data/Victim/ShakeBody/Delta",
+              "embedded_type": "Vector2f",
+              "generated_type": "Vector2",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/HitEffects/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/HitEffects/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/HitEffects/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/HitEffects/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/InstructionMatchs/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/InstructionMatchs/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/InstructionMatchs/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/InstructionMatchs/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/Interrupt",
+              "embedded_type": "vector",
+              "generated_type": "string",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/Invincibility/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/Invincibility/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/Invincibility/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/Invincibility/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/JoystickVibrate/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/MobileVibrate/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/MuteSkills/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/MuteSkills/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/MuteSkills/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/MuteSkills/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/OthersBlockMove/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/OverridePhysics/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/PlatMoveLimit/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/RaycastList/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/RaycastList/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/RaycastList/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/RaycastList/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/RemoveBuff/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/RemoveEffect/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/RemoveEffect/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/RemoveEffect/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/RemoveEffect/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/ScriptCalls/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/ScriptCalls/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/ScriptCalls/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/ScriptCalls/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/SelfCollideBox/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/SetTarget/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/ShakeBody/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/ShakeBody/Array/data/Shake/Delta",
+              "embedded_type": "Vector2f",
+              "generated_type": "Vector2",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/SpeedChanges/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/StopMotions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/StopMotions/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/StopMotions/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/StopMotions/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/TimeScales/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/TurnList/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/TurnList/Array/data/ConditionGroup/Conditions",
+              "embedded_type": "ActionLogicCondition",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/TurnList/Array/data/ConditionGroup/Conditions/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/TurnList/Array/data/ConditionGroup/Conditions/Array/data",
+              "embedded_type": "managedRefArrayItem",
+              "generated_type": "managedReference",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/ValueCurve/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/ValueCurve/Array/data/CurveFp/m_keys/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/WaterInteract/Array",
+              "embedded_type": "Array",
+              "generated_type": "Array",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/_actions/Array/data/WaterInteract/Array/data/Force",
+              "embedded_type": "Vector2f",
+              "generated_type": "Vector2",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/_actions/Array/data/WaterInteract/Array/data/Offset",
+              "embedded_type": "Vector2f",
+              "generated_type": "Vector2",
+              "embedded_align4": false,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/m_Enabled",
+              "embedded_type": "UInt8",
+              "generated_type": "UInt8",
+              "embedded_align4": true,
+              "generated_align4": false
+            },
+            {
+              "path": "Base/m_GameObject",
+              "embedded_type": "PPtr<GameObject>",
+              "generated_type": "PPtr<GameObject>",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/m_Name",
+              "embedded_type": "string",
+              "generated_type": "string",
+              "embedded_align4": false,
+              "generated_align4": true
+            },
+            {
+              "path": "Base/m_Script",
+              "embedded_type": "PPtr<MonoScript>",
+              "generated_type": "PPtr<MonoScript>",
+              "embedded_align4": false,
+              "generated_align4": true
+            }
+          ],
+          "missing_generated_paths": [
+            "Base/m_Name/Array",
+            "Base/m_Name/Array/data",
+            "Base/m_Name/Array/size"
+          ],
+          "extra_generated_paths": []
+        },
+        "complete_read": "failed",
+        "error": {
+          "type": "EOFError",
+          "message": "read_str out of bounds"
+        }
+      },
+      "embedded_cache": {
+        "source": "embedded-verified",
+        "check_read": true,
+        "assembly": "Assembly-CSharp",
+        "fullname": "GamePlay.ActionLogicGroup",
+        "logical_bundle": "actor/logicdata/ph.ab",
+        "bundle_sha256": "fc90db0da1c52e9f0afeb923d77e5cb0086b50f7c0dd7a3e04a4c350d20fe5c2",
+        "path_id": -728934034383479359,
+        "object_sha256": "8106ee7ce628413dfcb777146ac66cba59a8d8c08c76a48c6f99515396b8f70b",
+        "semantic_sha256": "e77a8f34fe2fcac983690956db3a2ddd78749ecc5d2e97b7aca5319b7d5469cb",
+        "nodes": 2190
+      },
+      "offline_complete_read": "passed"
+    }
+  ],
+  "scope": {
+    "embedded_and_offline_full_object_read": "passed with check_read=True",
+    "native_generator": "independent per-object results above; not claimed generally compatible",
+    "other_types_or_game_versions": "not verified by this probe"
+  }
+}

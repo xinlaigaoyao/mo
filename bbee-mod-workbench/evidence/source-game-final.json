@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "files_verified": 2397,
+  "source_game": true,
+  "excluded_sensitive_configuration": [
+    "Juij_Steam.json"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "phase": "in_memory_compilation",
+  "captured_utc": "2026-10-15T13:19:54.056079+00:00",
+  "compiled_files": 2,
+  "source_sha256": {
+    "wandering_character_reference.py": "3419901b600c7caab98bd7ef2fee5f32785b2c899c7c7bc2029c878d1b028068",
+    "wandering_character_parser.py": "b6ce5019a7746e264da10997bef3b3315caee045255db07f41f4105cf22778a4"
+  },
+  "static_review": {
+    "exact_source_roots": true,
+    "fresh_exclusive_output_directory": true,
+    "no_overwrite": true,
+    "bounded_graph_and_pixel_allocation": true,
+    "unknown_or_external_layouts_refused": true,
+    "no_executable_or_plugin_loading": true
+  }
+}

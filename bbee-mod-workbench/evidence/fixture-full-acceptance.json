@@ -1,0 +1,15 @@
+{
+  "status": "failed",
+  "build_id": "25627491",
+  "phases": [
+    "static-tool-compile",
+    "compile",
+    "validated-existing-strict-baseline",
+    "prepare",
+    "typetree",
+    "regression"
+  ],
+  "reused_strict_baseline_sha256": "94f43ccb2851b2f1868d89638f6c8b6a93a61ebb0c333a7565f48b546e36a1d7",
+  "error": "Acceptance stopped at build: exit 1",
+  "elapsed_seconds": 535.29
+}

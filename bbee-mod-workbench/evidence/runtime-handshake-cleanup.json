@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "removed_transient_files": [
+    "expected-root.txt",
+    "run-id.txt",
+    "diag-before.json"
+  ],
+  "private_verified_backups_retained": true
+}

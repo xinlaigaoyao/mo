@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "captured_utc": "2026-10-15T13:30:35.449714+00:00",
+  "compiled_files": 2,
+  "source_sha256": {
+    "wandering_character_reference.py": "c22db8bb97605dd036debdfd8f40b217c32fe046fc0dabfba1cfe3855a165b4b",
+    "wandering_character_parser.py": "b6ce5019a7746e264da10997bef3b3315caee045255db07f41f4105cf22778a4"
+  },
+  "previous_failure_preserved": "body-reference-failed-v1-archive.json",
+  "fix_scope": "One visible state is static PNG with original timing in sidecar; multi-state APNG keeps full frame/timing/pixel checks."
+}

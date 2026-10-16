@@ -1,0 +1,20 @@
+{
+  "status": "preserved",
+  "files": [
+    {
+      "original_path": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-reference-collection.json",
+      "archived_path": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-reference-collection-failed-v1.json",
+      "sha256": "60c9d4b8812343b431300f3d73b577cfd5425dbde2ecec912775e987436f1f0b"
+    },
+    {
+      "original_path": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-reference-collection.log",
+      "archived_path": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-reference-collection-failed-v1.log",
+      "sha256": "584d764646246c7ff829a49f5c19a07f565a1c78696e1d049a9d7cf9cb873228"
+    },
+    {
+      "original_path": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-reference-compilation.json",
+      "archived_path": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-reference-compilation-v1.json",
+      "sha256": "63ee10288db3a1e0c9bef4b185473f70527c57896200c38e26f29ab1752e862e"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Interpreter\\pythoncore-3.14-64\\python.exe",
+    "-E",
+    "-s",
+    "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-ruby\\build_ruby.py"
+  ],
+  "cwd": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher",
+  "exit_code": 0,
+  "elapsed_seconds": 144.9,
+  "log": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\prepare-char-ruby-0.log",
+  "log_sha256": "15462b734a18ea529d78271fd6d3f9d0dbac5e0aa7d5279ef54f235042e5b090",
+  "game_target": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\game"
+}

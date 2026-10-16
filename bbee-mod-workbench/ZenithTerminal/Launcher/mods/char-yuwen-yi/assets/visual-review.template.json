@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "approved": false,
+  "source_row": "Hero_WuDang",
+  "faces_positive_x": false,
+  "body_manifest_sha256": "c53f67f143e03b8cbb598671368de13f241e2dcfb60870bc8c9a054c46f253dc",
+  "portrait_manifest_sha256": "REPLACE_AFTER_SOURCE_COLLECTION",
+  "authored_manifest_sha256": "REPLACE_AFTER_POSE_COLLECTION",
+  "portrait_landmarks": {
+    "face_x": null,
+    "top": null,
+    "floor": null
+  },
+  "evidence": [],
+  "scope": "Root visual review of exact blue Hero_WuDang original body/portraits and every generated reaction/extras pose. Portrait landmarks are measured on the original 900x835 TeamImage in source pixels. No structural check alone authorizes approved=true."
+}

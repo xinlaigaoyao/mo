@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "build_id": "25627491",
+  "status": "archived_and_removed",
+  "transaction_id": "2c92cf24742448a69c1b0ce0f4540b04",
+  "baseline_manifest_sha256": "b9be12b3bb1863446dbb596528ff061676d3139a0ad01b4346745bd13e40e7a6",
+  "indices": {
+    "BlazblueEntropyEffect_Data/StreamingAssets/ab/manifest": "a599becfa315c9151b02ef0d661f5e923b68830e6ac12d6b634d3f84cf7eb6f1",
+    "BlazblueEntropyEffect_Data/StreamingAssets/ab/merge.json": "21c176e944763b72a084f03f43fc66c9f54e4fa58c07f96ea26d2c2b0a5f86a6"
+  },
+  "files": [
+    {
+      "working": "BlazblueEntropyEffect_Data/StreamingAssets/ab/manifest.orig",
+      "archive": "private/task-owned-index-backups/25627491/2c92cf24742448a69c1b0ce0f4540b04/manifest.orig",
+      "sha256": "a599becfa315c9151b02ef0d661f5e923b68830e6ac12d6b634d3f84cf7eb6f1"
+    },
+    {
+      "working": "BlazblueEntropyEffect_Data/StreamingAssets/ab/manifest.orig.build",
+      "archive": "private/task-owned-index-backups/25627491/2c92cf24742448a69c1b0ce0f4540b04/manifest.orig.build",
+      "sha256": "23c88962b36498f5f6f565c70bd2f9fced2016a44f8db4599042060f4e838326"
+    },
+    {
+      "working": "BlazblueEntropyEffect_Data/StreamingAssets/ab/merge.json.orig",
+      "archive": "private/task-owned-index-backups/25627491/2c92cf24742448a69c1b0ce0f4540b04/merge.json.orig",
+      "sha256": "21c176e944763b72a084f03f43fc66c9f54e4fa58c07f96ea26d2c2b0a5f86a6"
+    },
+    {
+      "working": "BlazblueEntropyEffect_Data/StreamingAssets/ab/merge.json.orig.build",
+      "archive": "private/task-owned-index-backups/25627491/2c92cf24742448a69c1b0ce0f4540b04/merge.json.orig.build",
+      "sha256": "23c88962b36498f5f6f565c70bd2f9fced2016a44f8db4599042060f4e838326"
+    }
+  ],
+  "transaction": {
+    "status": "committed",
+    "transaction_id": "2c92cf24742448a69c1b0ce0f4540b04",
+    "file_count": 4,
+    "recovered": []
+  },
+  "immutable_plan": {
+    "path": "private/task-owned-index-backups/25627491/2c92cf24742448a69c1b0ce0f4540b04/plan.json",
+    "sha256": "243dddae4d258d04e824568a154dc1525221d7a456f548164dd05d14041c2852"
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "report_sha256": "7face148038baf69625c1595ea83cab953a6133b7fa5ca3bac46ed795bc7f0f1",
+  "wall": "2026-10-15T15:52:45.569Z",
+  "player": {
+    "id": 200901,
+    "uid": 6,
+    "action": "stand",
+    "logic": "ywy"
+  },
+  "settings": {
+    "simSpeed": 1,
+    "paused": false,
+    "overlay": 0,
+    "effectFilter": "own"
+  },
+  "warning_count": 61,
+  "event_counts": {
+    "in": 100,
+    "fx+": 93,
+    "act": 197,
+    "skill": 106,
+    "used": 81,
+    "mp": 48,
+    "chain": 132,
+    "hit": 36,
+    "fx-": 101,
+    "hurt": 2,
+    "WARN": 3,
+    "MARK": 1
+  },
+  "recent_actions": [
+    {
+      "t": 591.735,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.797,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 596.537,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.798,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 601.338,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.796,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 606.14,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.799,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 610.94,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.796,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 614.002,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 2.962,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 614.414,
+      "name": "runStart",
+      "from": "stand",
+      "ranFor": 0.409,
+      "of": 4.8,
+      "type": 4
+    },
+    {
+      "t": 614.516,
+      "name": "run",
+      "from": "runStart",
+      "ranFor": 0.099,
+      "of": 0.1,
+      "type": 4
+    },
+    {
+      "t": 615.852,
+      "name": "run",
+      "from": "run",
+      "ranFor": 1.332,
+      "of": 1.333,
+      "type": 4
+    },
+    {
+      "t": 616.106,
+      "name": "runBrake",
+      "from": "run",
+      "ranFor": 0.249,
+      "of": 1.333,
+      "type": 2
+    },
+    {
+      "t": 616.309,
+      "name": "stand",
+      "from": "runBrake",
+      "ranFor": 0.199,
+      "of": 0.2,
+      "type": 2
+    },
+    {
+      "t": 621.112,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.8,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 625.912,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.798,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 630.713,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.798,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 635.516,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.8,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 640.317,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.798,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 645.117,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.797,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 649.92,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.8,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 654.723,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.8,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 659.538,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.8,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 664.339,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.798,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 669.142,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.8,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 673.945,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.8,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 678.745,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.797,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 683.547,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.799,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 688.347,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.797,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 693.148,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.797,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 697.949,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.797,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 702.754,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.716,
+      "of": 4.8,
+      "type": 2
+    },
+    {
+      "t": 707.557,
+      "name": "stand",
+      "from": "stand",
+      "ranFor": 4.799,
+      "of": 4.8,
+      "type": 2
+    }
+  ],
+  "warnings": [
+    {
+      "t": 20.29,
+      "msg": "Jump press at t=19.79 (during dashAir) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 21.943,
+      "msg": "Skill press at t=21.443 (during ywy_sword1) never became a skill: Skill chain ready, no row matched after ywy_zhenwu (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 25.369,
+      "msg": "Jump press at t=24.867 (during ywy_chase) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 27.715,
+      "msg": "Jump press at t=27.213 (during ywy_air2) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 28.864,
+      "msg": "Jump press at t=28.364 (during dropend) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 29.704,
+      "msg": "Jump press at t=29.202 (during drop) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 29.926,
+      "msg": "Skill press at t=29.426 (during dropend) never became a skill: Skill chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 31.061,
+      "msg": "Jump press at t=30.56 (during drop) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 32.092,
+      "msg": "Jump press at t=31.591 (during ywy_air2) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 33.849,
+      "msg": "Jump press at t=33.347 (during dropend) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 34.972,
+      "msg": "Jump press at t=34.472 (during dropend) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 36.59,
+      "msg": "Jump press at t=36.09 (during ywy_chase) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 108.774,
+      "msg": "Skill press at t=108.273 (during ywy_sword1) never became a skill: Skill chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 114.223,
+      "msg": "Skill press at t=113.722 (during ywy_sword2) never became a skill: Skill chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 129.5,
+      "msg": "Attack press at t=128.998 (during run) never became a skill: Attack chain ready, no row matched (direction / ground-air / MP / follow-up); Air chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 145.253,
+      "msg": "Jump press at t=144.751 (during ywy_taiji_fist) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 148.168,
+      "msg": "Skill press at t=147.665 (during ywy_sword2) never became a skill: Skill chain ready, no row matched after ywy_zhenwu (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 149.564,
+      "msg": "Attack press at t=149.063 (during dash2) never became a skill: Attack chain ready, no row matched after ywy_sword1 (direction / ground-air / MP / follow-up); Air chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 158.237,
+      "msg": "Skill press at t=157.734 (during dash2) never became a skill: Skill chain ready, no row matched after ywy_zhenwu (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 159.576,
+      "msg": "Skill press at t=159.076 (during ywy_sword2) never became a skill: Skill chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 167.069,
+      "msg": "Jump press at t=166.567 (during drop) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 171.998,
+      "msg": "effect null disappeared 0.113s after spawning (stand -> runStart)"
+    },
+    {
+      "t": 183.323,
+      "msg": "Jump press at t=182.821 (during dropend2) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 185.099,
+      "msg": "Jump press at t=184.598 (during ywy_chase) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 186.76,
+      "msg": "Skill press at t=186.259 (during ywy_sword2) never became a skill: Skill chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 190.111,
+      "msg": "Skill press at t=189.61 (during ywy_sword2) never became a skill: Skill chain ready, no row matched after ywy_zhenwu (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 221.221,
+      "msg": "Jump press at t=220.718 (during dropend) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 222.55,
+      "msg": "Jump press at t=222.05 (during dropend) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 226.697,
+      "msg": "Skill press at t=226.196 (during dash) never became a skill: Skill chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 232.787,
+      "msg": "effect null disappeared 0.027s after spawning (runStart -> dash)"
+    },
+    {
+      "t": 232.787,
+      "msg": "effect null disappeared 0.027s after spawning (runStart -> dash)"
+    },
+    {
+      "t": 232.812,
+      "msg": "effect null disappeared 0.051s after spawning (runStart -> dash)"
+    },
+    {
+      "t": 235.849,
+      "msg": "skill summon started but the action is drop (transition failed or was replaced)"
+    },
+    {
+      "t": 237.746,
+      "msg": "Skill press at t=237.246 (during jump) never became a skill: Skill chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 238.823,
+      "msg": "Jump press at t=238.32 (during runBrake) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 240.754,
+      "msg": "effect null disappeared 0.025s after spawning (ywy_launcher -> ywy_sword1)"
+    },
+    {
+      "t": 240.754,
+      "msg": "effect null disappeared 0.025s after spawning (ywy_launcher -> ywy_sword1)"
+    },
+    {
+      "t": 240.781,
+      "msg": "effect null disappeared 0.052s after spawning (ywy_launcher -> ywy_sword1)"
+    },
+    {
+      "t": 248.265,
+      "msg": "Jump press at t=247.763 (during dropend) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 262.675,
+      "msg": "Jump press at t=262.174 (during run) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 279.934,
+      "msg": "Skill press at t=279.431 (during stand) never became a skill: Skill chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 299.666,
+      "msg": "effect null disappeared 0.108s after spawning (stand -> runStart)"
+    },
+    {
+      "t": 308.208,
+      "msg": "Skill press at t=307.707 (during run) never became a skill: Skill chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 311.068,
+      "msg": "Skill press at t=310.564 (during dash2) never became a skill: Skill chain ready, no row matched after ywy_zhenwu (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 311.444,
+      "msg": "Dash press at t=310.944 (during ywy_sword2) never became a skill: Dash chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 321.513,
+      "msg": "Skill press at t=321.009 (during ywy_sword2) never became a skill: Skill chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 325.798,
+      "msg": "Skill press at t=325.293 (during ywy_sword2) never became a skill: Skill chain ready, no row matched after ywy_zhenwu (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 332.171,
+      "msg": "Jump press at t=331.669 (during runStart) never became a skill: Jump chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 340.295,
+      "msg": "Skill press at t=339.793 (during dash2) never became a skill: Skill chain ready, no row matched after ywy_zhenwu (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 345.132,
+      "msg": "Skill press at t=344.63 (during ywy_sword2) never became a skill: Skill chain ready, no row matched after ywy_zhenwu (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 347.331,
+      "msg": "effect null disappeared 0.025s after spawning (ywy_sword1 -> push_back)"
+    },
+    {
+      "t": 347.331,
+      "msg": "effect null disappeared 0.025s after spawning (ywy_sword1 -> push_back)"
+    },
+    {
+      "t": 347.354,
+      "msg": "effect null disappeared 0.048s after spawning (ywy_sword1 -> ywy_escape)"
+    },
+    {
+      "t": 347.465,
+      "msg": "Skill press at t=346.964 (during ywy_sword1) never became a skill: Skill chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 348.791,
+      "msg": "Skill press at t=348.289 (during dash2) never became a skill: Skill chain ready, no row matched after ywy_zhenwu (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 349.667,
+      "msg": "Skill press at t=349.164 (during runStart) never became a skill: Skill chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 352.723,
+      "msg": "Skill press at t=352.221 (during ywy_sword1) never became a skill: Skill chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 363.871,
+      "msg": "Skill press at t=363.367 (during ywy_sword2) never became a skill: Skill chain ready, no row matched after ywy_zhenwu (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 370.837,
+      "msg": "Attack press at t=370.327 (during dash) never became a skill: Attack chain ready, no row matched (direction / ground-air / MP / follow-up); Air chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 372.437,
+      "msg": "Dash press at t=371.934 (during ywy_zhenwu) never became a skill: Dash chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    },
+    {
+      "t": 382.626,
+      "msg": "Dash press at t=382.126 (during ywy_sword2) never became a skill: Dash chain ready, no row matched (direction / ground-air / MP / follow-up)"
+    }
+  ]
+}

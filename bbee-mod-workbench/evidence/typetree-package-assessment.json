@@ -1,0 +1,9 @@
+{
+  "package": "TypeTreeGeneratorAPI",
+  "version": "0.0.10",
+  "filename": "typetreegeneratorapi-0.0.10-cp36-abi3-win_amd64.whl",
+  "url": "https://files.pythonhosted.org/packages/ed/bc/f911995cae93fa8fd882a677f6bc304965db6f066bbabdee6e761762d512/typetreegeneratorapi-0.0.10-cp36-abi3-win_amd64.whl",
+  "sha256": "e96003e973c8d52d221b4ae50f377bcaf7538f2098e437d5383a1b7f13fa72ba",
+  "assessment": "Optional UnityPy author-maintained binding; pinned PyPI artifact hash checked. Used only on generated DummyDll in isolated workbench. No dependency extras, no system install. Native package is not a general safety certification.",
+  "purpose": "Exercise and cache the previously missing TypeTree fallback against actual build metadata"
+}

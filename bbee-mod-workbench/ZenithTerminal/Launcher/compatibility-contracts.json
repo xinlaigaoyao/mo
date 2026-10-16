@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "build_id": "25627491",
+  "status": "reviewed",
+  "contracts": [
+    {
+      "mod": "bbee-actors",
+      "file": "data/js/core/PotentialUtil",
+      "baseline_module_sha256": "68ebe238d5bfad9b27b5cc5a460d1dda7a05eeb35487207644c2ae9f5e53b68e",
+      "anchor_sha256": "a17bf78f3535fbb1c4d6d939b35862f46232b26edb69ab42c7aacf007d52faf0",
+      "anchor": "PotentialComboConf.All.filter(t=>t.actorId==e)",
+      "expectedCount": 3,
+      "basis": "Reviewed each baseline context: same donor/potentialPool lookup in intended entry points; exact module/anchor/replacement/count binding, no global multiple-match allowance",
+      "baseline_contexts": [
+        {
+          "character_offset": 3733,
+          "before": "=>{PotentialUtil.TraverseActionTree(t,e)})}static GetColon(){return Util_1.U.GetLocale(\"Colon\")}static DrawCombo(t,a,c,s,d=null){let e=a[0].self.conf.actorId,f=new Map;Xlsx_1.Xlsx.",
+          "after": ".forEach(e=>{e.relationId.forEach(t=>f.set(t,e.addDamageRelation))}),UIUtil_1.default.ReserveChildren(t,a.length,(t,e)=>{let o=a[e];var e=o.self.conf,i=Util_1.U.GetSingleton(csharp"
+        },
+        {
+          "character_offset": 7580,
+          "before": "d):((r=new PotentialOrderGroup).order=e,r.ids=[i.id],o.push(r))}}return o}static GetPotentialComboActions(e){var t=PotentialUtil.GetActionTrees(e);let o=[],i=[];return Xlsx_1.Xlsx.",
+          "after": ".forEach(e=>{e.relationId.forEach(t=>o.push([e.id,t]))}),t.forEach(t=>{PotentialUtil.TraverseActionTree(t,t=>{let e=t.self.conf.id;t=o.find(t=>t[1]==e);t&&i.push(t[0])})}),i}static"
+        },
+        {
+          "character_offset": 7858,
+          "before": "))}),t.forEach(t=>{PotentialUtil.TraverseActionTree(t,t=>{let e=t.self.conf.id;t=o.find(t=>t[1]==e);t&&i.push(t[0])})}),i}static GetPotentialComboActionsCount(e){var t=Xlsx_1.Xlsx.",
+          "after": ";let o=new Set;return t.forEach(t=>{t.relationId.forEach(t=>{var e=Xlsx_1.Xlsx.ActorActionConf.Get(t);!e.close&&0<e.actorId&&o.add(t)})}),o.size}static getPotentialCombosWindow(){l"
+        }
+      ],
+      "replacement": "PotentialComboConf.All.filter(t=>t.actorId==(Xlsx_1.Xlsx.BaseActorConf.Get(e)?.potentialPoolId||e))"
+    },
+    {
+      "mod": "bbee-actors",
+      "file": "data/js/gameplay/battlebreedprepare/SceneUIHeroSelect",
+      "baseline_module_sha256": "90360565b369d2475c7276e30d3bfe88526efe8b84c8864e6173c5e6b7c9709f",
+      "anchor_sha256": "fbe6642cc52720f3ee585f1c70b80a89c6feb6190804e55f277a403f46110335",
+      "anchor": "Xlsx_1.Xlsx.ResourceConvertConf.Get(e.server.id)",
+      "expectedCount": 2,
+      "basis": "Reviewed each baseline context: same donor/potentialPool lookup in intended entry points; exact module/anchor/replacement/count binding, no global multiple-match allowance",
+      "baseline_contexts": [
+        {
+          "character_offset": 23303,
+          "before": "et(e.server.id).special?this.UnlockByLocal_mobileOhos():this.UnlockByServer_mobileOhos())}async UnlockByLocal_mobileOhos(){var e=this.listHero[HeroSelectRefHero.selectHeroIndex],t=",
+          "after": ".cost[0];ResourceUtil_1.default.GetCount(t.type,t.id)>=t.count?(Util_1.U.SetUIActionLock(!0),(t=new ClientRequestStruct_1.ClientApiResourceConvert.ApiResourceConvert.post.req).targ"
+        },
+        {
+          "character_offset": 36189,
+          "before": "haseDlc.gameObject.SetActive(!1),this.refreshHeroModel(!1),this.OnHeroSelectIndexChange&&this.OnHeroSelectIndexChange(HeroSelectRefHero.selectHeroIndex,e),this.R.BtnBuyDecoder&&(a=",
+          "after": ",t=ResourceUtil_1.default.GetCount(a.cost[0].type,a.cost[0].id),i=csharp_1.NOAH.Criteria.UseMobileData&&e.fake&&t<a.cost[0].count,this.R.BtnBuyDecoder.gameObject.SetActive(i))}OnBa"
+        }
+      ],
+      "replacement": "Xlsx_1.Xlsx.ResourceConvertConf.Get((e.server.id>=190000?(globalThis.BB_ACTOR_DONOR&&globalThis.BB_ACTOR_DONOR[e.server.id]||Xlsx_1.Xlsx.BaseActorConf.Get(e.server.id)?.potentialPoolId||e.server.id):e.server.id))"
+    },
+    {
+      "mod": "bbee-actors",
+      "file": "data/js/gameplay/battlebreedprepare/BattlePrepareUtil",
+      "baseline_module_sha256": "ebe750cae0c7d7111b1cf9c1e90ed8d789e755cf5aa4ef865db98f9441a05f7c",
+      "anchor_sha256": "39136ba66d1a0ff3aad9f62cfed2a4eee1696f4c2c15e01dfdc7dce2aa713631",
+      "anchor": "Xlsx_1.Xlsx.ResourceConvertConf.Get(e)",
+      "expectedCount": 2,
+      "basis": "Reviewed each baseline context: same donor/potentialPool lookup in intended entry points; exact module/anchor/replacement/count binding, no global multiple-match allowance",
+      "baseline_contexts": [
+        {
+          "character_offset": 3927,
+          "before": "g_1.DB.BaseActor.GetData(e)?l.locked=!1:csharp_1.NOAH.Predefine.IsOhos?(l.locked=!0,l.lockByDlc=!1,(a=Xlsx_1.Xlsx.ActorConfig.Get(e))&&(Xlsx_1.Xlsx.BaseActorConf.Get(e).special?(t=",
+          "after": ",l.reqDecoderItemType=t.cost[0].type,l.reqDecoderId=t.cost[0].id,l.hasDecoderCount=ResourceUtil_1.default.GetCount(csharp_1.EResourceType.Item,t.cost[0].count)):(l.reqDecoderItemTy"
+        },
+        {
+          "character_offset": 4484,
+          "before": "ount=a.paid.count)):(t=Xlsx_1.Xlsx.BaseActorConf.Get(e),l.lockByDlc=pbdef_1.EResourceUnlockType.Dlc==(csharp_1.NOAH.Criteria.ArcPlotAsMainPlot?t.unlockTypeConsole:t.unlockType),(a=",
+          "after": ")&&(l.reqDecoderItemType=csharp_1.EResourceType.Item,l.reqDecoderId=a.cost[0].id,l.hasDecoderCount=ResourceUtil_1.default.GetCount(csharp_1.EResourceType.Item,l.reqDecoderId),l.req"
+        }
+      ],
+      "replacement": "Xlsx_1.Xlsx.ResourceConvertConf.Get((e>=190000?(globalThis.BB_ACTOR_DONOR&&globalThis.BB_ACTOR_DONOR[e]||Xlsx_1.Xlsx.BaseActorConf.Get(e)?.potentialPoolId||e):e))"
+    },
+    {
+      "mod": "bbee-actors",
+      "file": "data/js/server/views/ResConverter",
+      "baseline_module_sha256": "587f59bab6c3d8916c03b95fbcb0b4ead70c1126e98b248f0934fbcf79766a32",
+      "anchor_sha256": "96714bf70cd201e7be03d77a20068759a9280ffac342acea59d1c2edded4ecb1",
+      "anchor": "Xlsx_1.Xlsx.ResourceConvertConf.Get(e.targetId)",
+      "expectedCount": 2,
+      "basis": "Reviewed each baseline context: same donor/potentialPool lookup in intended entry points; exact module/anchor/replacement/count binding, no global multiple-match allowance",
+      "baseline_contexts": [
+        {
+          "character_offset": 623,
+          "before": "ire(\"macros\");class HandleApiResourceConvert extends ViewBase_1.Views.ApiHandlerBase{post(e){var r=new ClientRequestStruct_1.ClientApiResourceConvert.ApiResourceConvert.post.res,t=",
+          "after": ";if(!t)return ViewBase_1.Views.MakeResponseScrollOrigin(pbdef_1.EErrorCode.ResNotFound,\"ResNotFound: \"+e.targetId);if(e.num<=0)return ViewBase_1.Views.MakeResponseScrollOrigin(pbde"
+        },
+        {
+          "character_offset": 2106,
+          "before": "s HandleApiResourceConvertStatus extends ViewBase_1.Views.ApiHandlerBase{post(e){var r=new ClientRequestStruct_1.ClientApiResourceConvertStatus.ApiResourceConvertStatus.post.res,t=",
+          "after": ";return t?(t.convertType===pbdef_1.EConvertType.StateLimit?r.ok=Player_1.ModelPlayer.Instance.GetLimitResourceConvertCount(e.targetId)<t.limitConvert.res[0].maxConvertNum:r.ok=!0,V"
+        }
+      ],
+      "replacement": "Xlsx_1.Xlsx.ResourceConvertConf.Get((e.targetId>=190000?(globalThis.BB_ACTOR_DONOR&&globalThis.BB_ACTOR_DONOR[e.targetId]||Xlsx_1.Xlsx.BaseActorConf.Get(e.targetId)?.potentialPoolId||e.targetId):e.targetId))"
+    }
+  ],
+  "reviewed_on": "2026-10-15 Asia/Shanghai"
+}

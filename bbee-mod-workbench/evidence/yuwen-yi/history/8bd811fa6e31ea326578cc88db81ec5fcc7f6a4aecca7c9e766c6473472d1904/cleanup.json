@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "removed": [
+    "ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\__pycache__",
+    "ZenithTerminal\\Launcher\\tools\\bbtag\\__pycache__",
+    "ZenithTerminal\\Launcher\\tests\\__pycache__",
+    "tools\\Il2CppDumper-6.7.46\\Il2CppDumper\\obj",
+    "ZenithTerminal\\Launcher\\__pycache__",
+    "private\\temp",
+    "private\\build-profile",
+    "scripts\\__pycache__",
+    "builds\\full-repeat",
+    "private\\dotnet-profile",
+    "builds\\withdrawal",
+    "private\\test-saves"
+  ],
+  "retained": [
+    "source",
+    "final builds",
+    "evidence",
+    "independent baseline",
+    "private verified backups"
+  ]
+}

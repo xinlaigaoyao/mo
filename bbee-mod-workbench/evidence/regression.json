@@ -1,0 +1,14 @@
+{
+  "command": [
+    "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Interpreter\\pythoncore-3.14-64\\python.exe",
+    "-E",
+    "-s",
+    "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\tests\\run_all.py"
+  ],
+  "cwd": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher",
+  "exit_code": 1,
+  "elapsed_seconds": 27.58,
+  "log": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\regression.log",
+  "log_sha256": "350cb1aebb39399a52d35c13f180e894935f58908a39b5cb36efacb13a58c84a",
+  "game_target": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\game"
+}

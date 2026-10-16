@@ -1,0 +1,198 @@
+{
+  "status": "passed",
+  "captured_utc": "2026-10-15T12:49:00.960754+00:00",
+  "checks_executed": 28,
+  "checks": [
+    {
+      "check": "compile:wandering_reference.py",
+      "status": "passed",
+      "sha256": "4d1294ed576472cd5bb238f9eb4e83cd98e7c2be2e63c05a5c39d4c701217e00"
+    },
+    {
+      "check": "compile:wandering_decode_reference.py",
+      "status": "passed",
+      "sha256": "9d6803c6e2cbbcf531351e92f1b7265223cd444e51ebea955f73fe1014037a7f"
+    },
+    {
+      "check": "source_pak_digest_binding",
+      "status": "passed",
+      "sha256": "5e049dc376c36dacadf6edb6fab133942679b54b1809d7f483728deec35beaff",
+      "source_pak_reopened": false
+    },
+    {
+      "check": "raw_manifest_binding",
+      "status": "passed",
+      "sha256": "2ffb76f77b67fde80e119f86d5b37abeabd38d4115e1a87165ccd04c2b78a1f3"
+    },
+    {
+      "check": "decoder_source_binding",
+      "status": "passed",
+      "sha256": "9d6803c6e2cbbcf531351e92f1b7265223cd444e51ebea955f73fe1014037a7f"
+    },
+    {
+      "check": "extractor_source_binding",
+      "status": "passed",
+      "sha256": "4d1294ed576472cd5bb238f9eb4e83cd98e7c2be2e63c05a5c39d4c701217e00"
+    },
+    {
+      "check": "raw_complete_selection",
+      "status": "passed",
+      "files": 9,
+      "bytes": 10050762
+    },
+    {
+      "check": "raw_hash:JH/Characters/Image/T_Hero_HeadImage.uasset",
+      "status": "passed",
+      "bytes": 768,
+      "sha256": "eee4ce5764178d06e96603cccf473073f1693791747846c906a5f7be139d8b52"
+    },
+    {
+      "check": "raw_hash:JH/Characters/Image/T_Hero_HeadImage.uexp",
+      "status": "passed",
+      "bytes": 84372,
+      "sha256": "720f6f2c7ae5923213e117d16dfdf8d56361267e86561371fe2fb4dd83e67f47"
+    },
+    {
+      "check": "raw_hash:JH/Characters/Image/T_Hero_WuDang_HeadImage.uasset",
+      "status": "passed",
+      "bytes": 782,
+      "sha256": "c22be78133e8c5150bb866b9a57df76b8d4cbec9c6589825c4d4e2847c14ce4e"
+    },
+    {
+      "check": "raw_hash:JH/Characters/Image/T_Hero_WuDang_HeadImage.uexp",
+      "status": "passed",
+      "bytes": 84372,
+      "sha256": "4f0b3220ca5d441a61b6f1e86b39ddd3f9f8791d2574ba172bfa6e14b1ce5c9f"
+    },
+    {
+      "check": "raw_hash:JH/Tables/NPCResources.uasset",
+      "status": "passed",
+      "bytes": 2224551,
+      "sha256": "dacbdb6ebb998e48f47bc40e9092eebc1f47765a7675c031ec691897031d9220"
+    },
+    {
+      "check": "raw_hash:JH/Tables/NPCResources.uexp",
+      "status": "passed",
+      "bytes": 7349295,
+      "sha256": "e872fd05305ec2a660623396132673c0fe9c157f2fc1a42274f2a2a935e453c3"
+    },
+    {
+      "check": "raw_hash:Localization/Skills技能表/zh-Hans/Skills技能表.locres",
+      "status": "passed",
+      "bytes": 301708,
+      "sha256": "e90093d2d12918d48040c3915ba19dd9fb2e3ef4087bba2ad8e275750883fec4"
+    },
+    {
+      "check": "raw_hash:JH/Skills/WD_N_LiuYunTaiJi/GA_WD_N_LiuYunTaiJi.uasset",
+      "status": "passed",
+      "bytes": 2986,
+      "sha256": "670fdb88d934cd409b078da13f481921ea91ee2e222b1a78301919119702ee78"
+    },
+    {
+      "check": "raw_hash:JH/Skills/WD_N_LiuYunTaiJi/GA_WD_N_LiuYunTaiJi.uexp",
+      "status": "passed",
+      "bytes": 1928,
+      "sha256": "6be358ed23789a7523b16386252fc3e5dc7f7b518eaad9f1f1d96f8cc28f35b8"
+    },
+    {
+      "check": "decoded_output_set",
+      "status": "passed",
+      "files": 5
+    },
+    {
+      "check": "output_hash:T_Hero_HeadImage.png",
+      "status": "passed",
+      "bytes": 33075,
+      "sha256": "b6857aca99de389ae4ae22958cd99e5f746f3d38a61b70377dc9272a45adc56c"
+    },
+    {
+      "check": "avatar_pixels:T_Hero_HeadImage.png",
+      "status": "passed",
+      "width": 145,
+      "height": 145,
+      "identity_confirmed": false
+    },
+    {
+      "check": "output_hash:T_Hero_WuDang_HeadImage.png",
+      "status": "passed",
+      "bytes": 32438,
+      "sha256": "c167a8a073c5f7f43915f5bb6b3e18ca31ae247b0c5d6c38c9e978cb2679e049"
+    },
+    {
+      "check": "avatar_pixels:T_Hero_WuDang_HeadImage.png",
+      "status": "passed",
+      "width": 145,
+      "height": 145,
+      "identity_confirmed": false
+    },
+    {
+      "check": "output_hash:hero-resource-mapping.json",
+      "status": "passed",
+      "bytes": 591319,
+      "sha256": "a9ef65610303f5c2a23565e5e63aa55e92997f5bc530915a25e94e1004cd1e9b"
+    },
+    {
+      "check": "output_hash:skill-text.json",
+      "status": "passed",
+      "bytes": 657553,
+      "sha256": "e5d68954fa239ebb9034af0fb9ede47db979ebdfb3432ed1ac235d0ea6daab3c"
+    },
+    {
+      "check": "output_hash:skill-text-focus.json",
+      "status": "passed",
+      "bytes": 20217,
+      "sha256": "6e81b35b0dc038ce93f0b696507d9cab6ace4cf1ced8f8a1c719620896055945"
+    },
+    {
+      "check": "reject_duplicate_extract_member",
+      "status": "passed",
+      "source_game_opened": false
+    },
+    {
+      "check": "reject_extract_parent_traversal",
+      "status": "passed",
+      "source_game_opened": false
+    },
+    {
+      "check": "reject_decoder_input_hash_drift",
+      "status": "passed",
+      "mutation": "one byte changed with original size",
+      "source_game_opened": false
+    },
+    {
+      "check": "temporary_fixture_cleanup",
+      "status": "passed",
+      "temporary_fixture_removed": true
+    }
+  ],
+  "scope": "Two in-memory source compilations, three negative safety cases, existing reference readback and exact digest/pixel bindings. No re-export or source-game access.",
+  "decoded_manifest": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261015T124534Z-a62a5e5c879d\\manifest.json",
+  "decoded_manifest_sha256": "6958f5830be3f76d70d6c5da8fcd0ee182cdd61d4832825e7510733db424d41d",
+  "raw_manifest": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261015T122045Z-a69abc003aec\\manifest.json",
+  "raw_manifest_sha256": "2ffb76f77b67fde80e119f86d5b37abeabd38d4115e1a87165ccd04c2b78a1f3",
+  "source_pak_sha256_binding": "5e049dc376c36dacadf6edb6fab133942679b54b1809d7f483728deec35beaff",
+  "source_pak_reopened": false,
+  "source_scripts": {
+    "wandering_reference.py": "4d1294ed576472cd5bb238f9eb4e83cd98e7c2be2e63c05a5c39d4c701217e00",
+    "wandering_decode_reference.py": "9d6803c6e2cbbcf531351e92f1b7265223cd444e51ebea955f73fe1014037a7f"
+  },
+  "raw_files_verified": 9,
+  "raw_total_bytes": 10050762,
+  "decoded_outputs_verified": 5,
+  "avatars_verified": 2,
+  "pillow_version": "12.3.0",
+  "npc_rows_read": 835,
+  "localized_skill_entries": 1506,
+  "visual_review": {
+    "source": "root agent visual observation; not independently repeated by this validator",
+    "observed": "Same black-haired young man in gold and blue clothing variants.",
+    "character_identity": "pending",
+    "full_body_or_animation_reviewed": false
+  },
+  "limits": [
+    "Source PAK digest is bound to the reviewed original manifests; source game was deliberately not reopened.",
+    "Original localized text does not establish runtime skill mechanics or BBEE balance.",
+    "Avatar structure and pixels do not independently confirm the character identity."
+  ],
+  "temporary_fixtures_removed": true
+}

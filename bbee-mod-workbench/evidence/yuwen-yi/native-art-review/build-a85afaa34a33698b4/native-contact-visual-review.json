@@ -1,0 +1,78 @@
+{
+  "status": "approved_for_runtime_candidate",
+  "reviewer": "root actual visual inspection",
+  "build_record_sha256": "a85afaa34a33698b2719e232d37e90ce6f9ce8520fa63c4aea180db58ddf4a49",
+  "native_receipt_sha256": "86dae19a53d7dc949ad1ab514a970eea8bf6a3ae1c2975f839bf1402da0cb2a1",
+  "evidence": [
+    {
+      "file": "body-sword1-contact.png",
+      "sha256": "21d7851269f68fee5f7c4fcb41aeec38e7f176070ed85c0539d396d5cb04e912"
+    },
+    {
+      "file": "body-sword2-contact.png",
+      "sha256": "f7acbb67efbf21383cfff729c3248cffd8efa47fef25453e95098cab3be1b41f"
+    },
+    {
+      "file": "body-sword3-contact.png",
+      "sha256": "9ae46fe2a9ddff119d0392ac28d4d08c9a64ba5973e9556102e4128416633e37"
+    },
+    {
+      "file": "body-air1-contact.png",
+      "sha256": "5d02ee216d46c14f604c84407f02e6f1f16392f13434ca0a0eb7867e5ee08328"
+    },
+    {
+      "file": "body-air2-contact.png",
+      "sha256": "4619ef2810209fb1cf70765335bd617ed088e342c9563f59034d3888b9d22092"
+    },
+    {
+      "file": "body-zhenwu-contact.png",
+      "sha256": "232aac431a75c253d93bb9aa923b6249cfe9c39e2c1a2d4e8de50ec35d39a632"
+    },
+    {
+      "file": "fx-sword_echo-contact.png",
+      "sha256": "d2a0dff8a77c59458bf997d4a718673e1989185cfa5f52ee52517f4e25833f22"
+    },
+    {
+      "file": "fx-zhenwu_wave-contact.png",
+      "sha256": "26b26c882c5d5201b792bf69e06d338f99da507686e743a161b7a0d7b701d413"
+    },
+    {
+      "file": "fx-qi_impact-contact.png",
+      "sha256": "4868f0f2289487724932cf8546b18c6fcef65ab6241463bd54bba54fcd3a56cf"
+    },
+    {
+      "file": "fx-taiji_counter-contact.png",
+      "sha256": "1f3796fc0e51c14f60fa94ebc73f6895023b450d1eab529670f7d8baf591bf89"
+    },
+    {
+      "file": "fx-wuxiang-contact.png",
+      "sha256": "399c1200f999404943ebcf2377bff2e3269a61852673c6aa32fc15f1b95058ac"
+    },
+    {
+      "file": "fx-taiji_charge-contact.png",
+      "sha256": "93fbd50d701a661dbdf8ad5df3cf9e379ea2f59226ef872408a29fdf50424e63"
+    },
+    {
+      "file": "fx-taiji_circle-contact.png",
+      "sha256": "c2c9337cc729454fc789b15b44ff724b5b9e29733c951f596a0dc55794be6194"
+    },
+    {
+      "file": "fx-ultra_field-contact.png",
+      "sha256": "eb6f4cb6d4aecddf6780c3fc8f350e0cd881f6ed494e09d32246c5fe56381d12"
+    },
+    {
+      "file": "contact-native-ui.png",
+      "sha256": "584371fd9d6a7e1fcb2e826e707eaa56c0706bc0975640888c65beb19837d442"
+    },
+    {
+      "file": "contact-native-icons.png",
+      "sha256": "7c3b9065476888bfa84b207616bb5b978bdf0d79b289d97b0dae83ce5ba25a33"
+    }
+  ],
+  "observations": [
+    "All six sword timelines display original forward-sword peak before declared chain point.",
+    "All eight original-texture adaptations show finite birth/peak/disappearance or declared charge cycle; no opaque black planes or empty frames seen.",
+    "All 24 native UI textures and 16 atlas sprites were viewed. Wide PvP banner keeps small source portrait composition; native screen layout still needs gameplay review."
+  ],
+  "scope": "Decoded native PNG/geometry/tick contact approval only. Unity shader, lighting, live playback, input, collision, performance and save-reopen pending."
+}

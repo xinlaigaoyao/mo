@@ -1,0 +1,42 @@
+The Zenith Terminal 0.3.0 alpha
+packaged 2026-10-10 18:34
+
+The loader (Launcher\): KittySkin's, commit f6770a6 of 2026-10-09 16:13:36 -0500, as it is in his repository at that commit.
+Added beside the loader's files, none of them replaced:
+  Launcher\mods\dr-party: DELTARUNE: Party 0.6.4, from DeltaruneParty-0.6.4-alpha.zip
+    (sha256 ab08a50f2e6f2fefaa109884ff0e4fd9b3364575ac9746a28ff52a488abd16c3), switched on in Launcher\mods\profile.json.
+  Launcher\tools\cri_acb.py: from the same package; the party's sound importer loads it.
+  Launcher\local_only\deltarune\audio\hca_cache: the party's 24 sounds, encoded (VGAudio), so that
+    installing it needs no .NET SDK.
+  Launcher\mods\char-ruby: Ruby Rose 0.9.0, from RubyRose-0.9.0-terminal.zip
+    (sha256 3b19bc0d88c5e4ca3157cad2932852d08a2e713d43c55aa3a2411212ded50803), switched on. She has no mod.json yet:
+    the first install makes her on the player's PC (terminal.json, prepare).
+Mods that come switched on: Nine 0.9.0 (char-nine, from the loader's repository), DELTARUNE: Party 0.6.4,
+  Ruby Rose 0.9.0.
+The window (Gui\): 0.3.0.
+package\: ID.txt, KEEP.txt and FILES.txt, read by the one-file release when it unpacks or updates.
+Python (Interpreter\): 3.14.8, the python.org runtime (https://www.python.org/ftp/python/3.14.8/python-3.14.8-amd64.zip), without its manual, C headers and tests.
+Python packages, as published on PyPI:
+  archspec 0.2.6
+  astc-encoder-py 0.1.12
+  attrs 26.1.0
+  brotli 1.2.0
+  etcpak 0.9.15
+  fmod_toolkit stand-in
+  fsspec 2026.7.0
+  lz4 4.4.5
+  numpy 2.5.1
+  pillow 12.3.0
+  PySide6 6.11.2
+  PySide6_Addons 6.11.2
+  PySide6_Essentials 6.11.2
+  shiboken6 6.11.2
+  texture2ddecoder 1.0.6
+  tpk_ar 0.2.4
+  UnityPy 1.25.3
+  PySide6 holds only the Qt modules the window uses (PySide6\TRIMMED.txt).
+  fmod_toolkit is a stand-in written for the Terminal: the published one loads FMOD's own library,
+  which is proprietary and is not in this package. Converting Unity audio stops with a message.
+
+Sizes: Interpreter 192 MB, Launcher 228 MB, Gui 1 MB
+4083 files.

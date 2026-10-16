@@ -1,0 +1,2 @@
+# Optional isolated TypeTree native API; cached embedded layouts work without it.
+TypeTreeGeneratorAPI==0.0.10 --hash=sha256:e96003e973c8d52d221b4ae50f377bcaf7538f2098e437d5383a1b7f13fa72ba

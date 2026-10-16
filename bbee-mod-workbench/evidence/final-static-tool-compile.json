@@ -1,0 +1,17 @@
+{
+  "command": [
+    "dotnet",
+    "build",
+    "E:\\AAA MOD\\bbee-mod-workbench\\tools\\Il2CppDumper-6.7.46\\Il2CppDumper\\Il2CppDumper.csproj",
+    "-c",
+    "Release",
+    "-p:TargetFrameworks=net6.0",
+    "--configfile",
+    "E:\\AAA MOD\\bbee-mod-workbench\\tools\\NuGet.Config",
+    "-o",
+    "E:\\AAA MOD\\bbee-mod-workbench\\tools\\Il2CppDumper-static"
+  ],
+  "exit_code": 0,
+  "log_sha256": "32def7be14a39450e9872c7e11f06c0b7de7a908f6e4c33b41822a983719ec4f",
+  "binary_sha256": "7607a981c34567c38dc53a9bdffff2e78c6c35035921ace564132c15263c48d0"
+}

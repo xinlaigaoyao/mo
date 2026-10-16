@@ -1,0 +1,6787 @@
+{
+  "scope": "static only; no game build, install, execution or malware certification",
+  "input": "ZenithTerminal-0.3.0-alpha (1).zip",
+  "file_count": 4083,
+  "uncompressed_bytes": 441912348,
+  "package_root": "ZenithTerminal/",
+  "errors": [],
+  "notes": [
+    "Replacement fragments are not complete modules; anchor compatibility requires the actual game baseline.",
+    "Ruby terminal.json without mod.json is expected before prepare; generated Ruby trees are not present yet."
+  ],
+  "mods": {
+    "char-nine": {
+      "descriptors": [
+        "Launcher/mods/char-nine/mod.json"
+      ],
+      "name": "Nine the Phantom (playable, alpha)",
+      "version": "0.9.0",
+      "gameBuilds": [
+        "25598842",
+        "25621352",
+        "25627491"
+      ],
+      "dependencies": [
+        "bbee-sdk",
+        "bbee-actors"
+      ],
+      "content_sections": [
+        "importers",
+        "tables",
+        "locale",
+        "spriteAliases",
+        "textureAliases",
+        "js",
+        "bundleClones",
+        "assets"
+      ],
+      "table_edits": {
+        "HeroConfig": 1,
+        "BaseActorConf": 1,
+        "BaseActorAttrConf": 1,
+        "PvpBaseActorAttrConf": 1,
+        "FesActorAttrInheritConf": 1,
+        "HeroPortraitOffsetConfigUI": 12,
+        "ActorConfig": 1,
+        "ClientSkinConf": 1,
+        "SkinUnlockConf": 1,
+        "BulletConfig": 3,
+        "SkillActivate": 49,
+        "SkillDamage": 110,
+        "BaseActorPotentialConf": 38,
+        "PlayerBattleTriggerDetail": 76,
+        "ActorActionConf": 85,
+        "BaseActorTalentQualityConf": 4,
+        "TalentEffectConf": 4,
+        "PotentialComboConf": 27,
+        "SkillFromTeacher": 2,
+        "SkillAttr": 4,
+        "FesActorSkillLevelConf": 18
+      },
+      "js_modules": [
+        "data/js/core/ActorUtil",
+        "data/js/window/battle/BattleUI",
+        "data/js/window/battle/BattleUI"
+      ],
+      "bundle_clones": 102,
+      "asset_patches": 9
+    },
+    "char-ruby": {
+      "descriptors": [
+        "Launcher/mods/char-ruby/terminal.json"
+      ],
+      "name": "Ruby Rose (Cross Effect, alpha)",
+      "version": "0.9.0",
+      "gameBuilds": [
+        "25478197",
+        "25598842",
+        "25621352",
+        "25627491"
+      ],
+      "dependencies": [
+        "bbee-sdk",
+        "bbee-actors"
+      ]
+    },
+    "dr-party": {
+      "descriptors": [
+        "Launcher/mods/dr-party/mod.json"
+      ],
+      "name": "DELTARUNE: Party (alpha test)",
+      "version": "0.6.4",
+      "gameBuilds": [
+        "25627491"
+      ],
+      "dependencies": [
+        "bbee-sdk",
+        "bbee-actors"
+      ],
+      "content_sections": [
+        "tables",
+        "locale",
+        "spriteAliases",
+        "textureAliases",
+        "js",
+        "importers",
+        "bundleClones",
+        "assets"
+      ],
+      "table_edits": {
+        "HeroConfig": 1,
+        "BaseActorConf": 1,
+        "BaseActorAttrConf": 1,
+        "PvpBaseActorAttrConf": 1,
+        "FesActorAttrInheritConf": 1,
+        "ActorConfig": 1,
+        "ClientSkinConf": 1,
+        "SkinUnlockConf": 1,
+        "BulletConfig": 1,
+        "SkillActivate": 24,
+        "SkillDamage": 47,
+        "HeroPortraitOffsetConfigUI": 12,
+        "BaseActorTalentQualityConf": 4,
+        "TalentEffectConf": 4,
+        "PlayerBattleTriggerDetail": 80,
+        "BaseActorPotentialConf": 37,
+        "ActorActionConf": 56,
+        "PotentialComboConf": 8
+      },
+      "js_modules": [
+        "data/js/core/ActorUtil",
+        "data/js/window/battle/BattleUI",
+        "data/js/window/battle/BattleUI",
+        "data/js/core/ActorUtil",
+        "data/js/window/battle/BattleUI",
+        "data/js/window/battle/BattleUI",
+        "data/js/window/battle/BattleUI",
+        "data/js/window/battle/BattleUI",
+        "data/js/window/battle/BattleUI",
+        "data/js/window/battle/BattleUI",
+        "data/js/window/battle/BattleUI",
+        "data/js/window/battle/BattleUI",
+        "data/js/window/battle/BattleUI",
+        "data/js/gameplay/playertrigger/PlayerTriggerFuncs"
+      ],
+      "bundle_clones": 3,
+      "asset_patches": 4
+    },
+    "bbee-actors": {
+      "descriptors": [
+        "Launcher/shared/bbee-actors/mod.json"
+      ],
+      "name": "BBEE Actors (added-character plumbing)",
+      "version": "0.2.1",
+      "gameBuilds": [
+        "25478197",
+        "25627491"
+      ],
+      "dependencies": [
+        "bbee-sdk"
+      ],
+      "content_sections": [
+        "js"
+      ],
+      "table_edits": {},
+      "js_modules": [
+        "data/js/core/ActorUtil",
+        "data/js/core/PotentialUtil",
+        "data/js/gameplay/battle/BattleExploreShopRoom",
+        "data/js/server/model/Player",
+        "data/js/server/module/Actor",
+        "data/js/sideloader/SLServer",
+        "data/js/window/PromptSkillDetail",
+        "data/js/window/battle/BattleChoosePotential",
+        "data/js/window/potential/DataActorAction",
+        "data/js/gameplay/battlebreedprepare/SceneUIHeroSelect",
+        "data/js/gameplay/battlebreedprepare/BattlePrepareUtil",
+        "data/js/gameplay/AvatarUtil",
+        "data/js/gameplay/battlebreedprepare/SceneUICoopHeroSelectBaseActorCard",
+        "data/js/gameplay/bossrush/BossRushCoopSelectActor",
+        "data/js/gameplay/bossrush/BossRushSelectActor",
+        "data/js/server/model/BattlelBossRush",
+        "data/js/server/views/ResConverter",
+        "data/js/window/HeroSelectMobile",
+        "data/js/window/payment/ExchangeProcess",
+        "data/js/gameplay/battle/BattleJs"
+      ],
+      "bundle_clones": 0,
+      "asset_patches": 0
+    },
+    "bbee-inspector": {
+      "descriptors": [
+        "Launcher/shared/bbee-inspector/mod.json"
+      ],
+      "name": "BBEE Inspector (developer tool)",
+      "version": "0.4.0",
+      "gameBuilds": [
+        "25478197",
+        "25598842",
+        "25627491"
+      ],
+      "dependencies": [],
+      "content_sections": [
+        "js"
+      ],
+      "table_edits": {},
+      "js_modules": [
+        "data/js/window/battle/BattleUI"
+      ],
+      "bundle_clones": 0,
+      "asset_patches": 0
+    },
+    "bbee-sdk": {
+      "descriptors": [
+        "Launcher/shared/bbee-sdk/mod.json"
+      ],
+      "name": "BBEE SDK runtime hooks",
+      "version": "0.3.3",
+      "gameBuilds": [
+        "24904166",
+        "25627491"
+      ],
+      "dependencies": [],
+      "content_sections": [
+        "tables",
+        "locale",
+        "js"
+      ],
+      "table_edits": {},
+      "js_modules": [
+        "data/js/core/DelegatedBehaviourWrapper",
+        "data/js/core/UIUtil",
+        "data/js/window/battle/BattleUI_Standalone",
+        "data/js/gameplay/battle/BattleJsExternCall",
+        "data/js/window/battle/BattleUI"
+      ],
+      "bundle_clones": 0,
+      "asset_patches": 0
+    }
+  },
+  "logic_trees": [
+    {
+      "file": "Launcher/mods/char-nine/gen/nin_tree.json",
+      "actions": 237,
+      "references": 884,
+      "duplicate_action_names": [],
+      "duplicate_rids": [],
+      "unresolved_rids": [],
+      "reference_classes": {
+        "ActionLogicCondition_FromAction": 14,
+        "ActionLogicCondition_Script": 15,
+        "ActionLogicCondition_GroundCheck": 94,
+        "ActionLogicCondition_Buff": 283,
+        "ActionLogicCondition_Input": 167,
+        "ActionLogicCondition_InputDir": 45,
+        "ActionLogicCondition_Trigger": 260,
+        "ActionLogicCondition_MP": 2,
+        "ActionLogicCondition_BulletCount": 4
+      }
+    },
+    {
+      "file": "Launcher/mods/char-nine/gen/ninb1_tree.json",
+      "actions": 3,
+      "references": 0,
+      "duplicate_action_names": [],
+      "duplicate_rids": [],
+      "unresolved_rids": [],
+      "reference_classes": {}
+    },
+    {
+      "file": "Launcher/mods/char-nine/gen/ninb2_tree.json",
+      "actions": 341,
+      "references": 136,
+      "duplicate_action_names": [],
+      "duplicate_rids": [],
+      "unresolved_rids": [],
+      "reference_classes": {
+        "ActionLogicCondition_ActorTag": 45,
+        "ActionLogicCondition_ActorDir": 10,
+        "ActionLogicCondition_Buff": 14,
+        "ActionLogicCondition_Hit": 2,
+        "ActionLogicCondition_FromAction": 1,
+        "ActionLogicCondition_CasterIsAttackState": 2,
+        "ActionLogicCondition_Script": 16,
+        "ActionLogicCondition_Trigger": 46
+      }
+    },
+    {
+      "file": "Launcher/mods/char-nine/gen/ninb3_tree.json",
+      "actions": 21,
+      "references": 2,
+      "duplicate_action_names": [],
+      "duplicate_rids": [],
+      "unresolved_rids": [],
+      "reference_classes": {
+        "ActionLogicCondition_ActorTag": 2
+      }
+    },
+    {
+      "file": "Launcher/mods/dr-party/gen/kris_tree.json",
+      "actions": 102,
+      "references": 448,
+      "duplicate_action_names": [],
+      "duplicate_rids": [],
+      "unresolved_rids": [],
+      "reference_classes": {
+        "ActionLogicCondition_Input": 121,
+        "ActionLogicCondition_GroundCheck": 83,
+        "ActionLogicCondition_InputDir": 24,
+        "ActionLogicCondition_Buff": 15,
+        "ActionLogicCondition_Script": 11,
+        "ActionLogicCondition_Trigger": 164,
+        "ActionLogicCondition_FromAction": 16,
+        "ActionLogicCondition_Hit": 14
+      }
+    },
+    {
+      "file": "Launcher/mods/dr-party/gen/krisbullet_tree.json",
+      "actions": 84,
+      "references": 135,
+      "duplicate_action_names": [],
+      "duplicate_rids": [],
+      "unresolved_rids": [],
+      "reference_classes": {
+        "ActionLogicCondition_Hit": 3,
+        "ActionLogicCondition_Trigger": 110,
+        "ActionLogicCondition_Buff": 22
+      }
+    }
+  ],
+  "python_files_checked": 75,
+  "python_index": {
+    "Gui/run_gui.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "settings",
+        "start": 25,
+        "end": 31
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "find_launcher",
+        "start": 34,
+        "end": 38
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 41,
+        "end": 123
+      }
+    ],
+    "Gui/zenith_gui/__init__.py": [],
+    "Gui/zenith_gui/controller.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_read_json",
+        "start": 74,
+        "end": 78
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "player_text",
+        "start": 81,
+        "end": 86
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Controller",
+        "start": 89,
+        "end": 741
+      }
+    ],
+    "Gui/zenith_gui/shell.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_whole",
+        "start": 13,
+        "end": 15
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fit_opening",
+        "start": 18,
+        "end": 44
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_qt_screens",
+        "start": 47,
+        "end": 53
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Shell",
+        "start": 56,
+        "end": 96
+      }
+    ],
+    "Launcher/animview.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "env_of",
+        "start": 37,
+        "end": 43
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clip",
+        "start": 46,
+        "end": 51
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "meshes",
+        "start": 54,
+        "end": 68
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "guid_index",
+        "start": 72,
+        "end": 81
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "sheets",
+        "start": 84,
+        "end": 100
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "role_of",
+        "start": 102,
+        "end": 110
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "render",
+        "start": 112,
+        "end": 142
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "frame_times",
+        "start": 144,
+        "end": 148
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "aligned",
+        "start": 150,
+        "end": 160
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 162,
+        "end": 195
+      }
+    ],
+    "Launcher/audit_build.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "noah_decode",
+        "start": 29,
+        "end": 34
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "live_textasset",
+        "start": 37,
+        "end": 44
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "old_js",
+        "start": 47,
+        "end": 51
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 54,
+        "end": 104
+      }
+    ],
+    "Launcher/bbchar.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "read_manifest",
+        "start": 18,
+        "end": 21
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_read_manifest",
+        "start": 22,
+        "end": 37
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "write_manifest",
+        "start": 38,
+        "end": 47
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "restore_manifest",
+        "start": 48,
+        "end": 51
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "guid_pack",
+        "start": 53,
+        "end": 56
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "guid_scheme_check",
+        "start": 57,
+        "end": 67
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clone_rig",
+        "start": 69,
+        "end": 112
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "apply_manifest_additions",
+        "start": 114,
+        "end": 124
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "recolor_rgb",
+        "start": 135,
+        "end": 148
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "recolor_tree",
+        "start": 149,
+        "end": 160
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "is_mask_format",
+        "start": 162,
+        "end": 168
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_hex3",
+        "start": 169,
+        "end": 170
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "band_map",
+        "start": 171,
+        "end": 191
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "recolor_image",
+        "start": 193,
+        "end": 209
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "stock_sprite_image",
+        "start": 211,
+        "end": 217
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "move_sprite",
+        "start": 219,
+        "end": 241
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clone_bundle",
+        "start": 243,
+        "end": 416
+      }
+    ],
+    "Launcher/bbmod.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_steam_manifest",
+        "start": 40,
+        "end": 47
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "game_build",
+        "start": 61,
+        "end": 64
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "load_profile",
+        "start": 67,
+        "end": 78
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "mdir",
+        "start": 80,
+        "end": 83
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "save_profile",
+        "start": 84,
+        "end": 84
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "load_mods",
+        "start": 85,
+        "end": 95
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "resolve_order",
+        "start": 96,
+        "end": 106
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "table_keys",
+        "start": 113,
+        "end": 119
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "rowkey",
+        "start": 120,
+        "end": 120
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "depends_on",
+        "start": 121,
+        "end": 126
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ensure_orig",
+        "start": 127,
+        "end": 128
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compose_tables",
+        "start": 129,
+        "end": 171
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "js_path",
+        "start": 174,
+        "end": 174
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "registry_code",
+        "start": 176,
+        "end": 186
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compose_js",
+        "start": 187,
+        "end": 224
+      },
+      {
+        "kind": "ClassDef",
+        "name": "_CachedTypeTrees",
+        "start": 232,
+        "end": 255
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "typetree_gen",
+        "start": 256,
+        "end": 259
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "resolve_path",
+        "start": 260,
+        "end": 271
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "apply_asset_ops",
+        "start": 272,
+        "end": 347
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compose_assets",
+        "start": 348,
+        "end": 367
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "tag_hash",
+        "start": 371,
+        "end": 374
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compose_locale",
+        "start": 375,
+        "end": 382
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_locale",
+        "start": 383,
+        "end": 398
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build",
+        "start": 401,
+        "end": 461
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "game_running",
+        "start": 463,
+        "end": 472
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "gameslot_block",
+        "start": 474,
+        "end": 481
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "install",
+        "start": 483,
+        "end": 499
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "uninstall",
+        "start": 500,
+        "end": 507
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "status",
+        "start": 509,
+        "end": 513
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "list_mods",
+        "start": 514,
+        "end": 518
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "doctor",
+        "start": 519,
+        "end": 527
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "report",
+        "start": 528,
+        "end": 550
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "new_mod",
+        "start": 551,
+        "end": 555
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_pid_alive",
+        "start": 562,
+        "end": 572
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "acquire_lock",
+        "start": 573,
+        "end": 595
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "release_lock",
+        "start": 596,
+        "end": 600
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "locked",
+        "start": 601,
+        "end": 604
+      }
+    ],
+    "Launcher/bbrig.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "expand",
+        "start": 15,
+        "end": 21
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build",
+        "start": 23,
+        "end": 34
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "inject",
+        "start": 36,
+        "end": 88
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "remap_actions",
+        "start": 90,
+        "end": 117
+      }
+    ],
+    "Launcher/entry_point.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "say",
+        "start": 29,
+        "end": 29
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fail",
+        "start": 30,
+        "end": 31
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "game_running",
+        "start": 34,
+        "end": 39
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "need_closed",
+        "start": 42,
+        "end": 43
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "steam_libraries",
+        "start": 46,
+        "end": 69
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "find_game",
+        "start": 72,
+        "end": 76
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "find_bbcf",
+        "start": 79,
+        "end": 85
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "installed_build",
+        "start": 88,
+        "end": 94
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "setup",
+        "start": 97,
+        "end": 135
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "bbmod",
+        "start": 138,
+        "end": 139
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "retire_stale_backups",
+        "start": 142,
+        "end": 167
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "backup_save",
+        "start": 173,
+        "end": 182
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "save_files",
+        "start": 185,
+        "end": 191
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "repair_save",
+        "start": 194,
+        "end": 212
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "enabled_actor_ids",
+        "start": 215,
+        "end": 228
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clean_missing",
+        "start": 231,
+        "end": 244
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "drop_missing_characters",
+        "start": 247,
+        "end": 267
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "install",
+        "start": 270,
+        "end": 292
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "uninstall",
+        "start": 295,
+        "end": 306
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "backup_only",
+        "start": 309,
+        "end": 310
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "status",
+        "start": 313,
+        "end": 314
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "feedback",
+        "start": 317,
+        "end": 331
+      }
+    ],
+    "Launcher/make_patch.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_steam_manifest",
+        "start": 25,
+        "end": 32
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "current_build",
+        "start": 34,
+        "end": 37
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "backup_state",
+        "start": 38,
+        "end": 42
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "require_usable_backup",
+        "start": 43,
+        "end": 50
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "make_backup",
+        "start": 51,
+        "end": 52
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "pristine_merge_path",
+        "start": 53,
+        "end": 61
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "slice_bundle",
+        "start": 67,
+        "end": 70
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "find_entry",
+        "start": 71,
+        "end": 72
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wv",
+        "start": 76,
+        "end": 81
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "tag",
+        "start": 82,
+        "end": 82
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "classify",
+        "start": 83,
+        "end": 91
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "enc_scalar",
+        "start": 92,
+        "end": 111
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "encode",
+        "start": 112,
+        "end": 158
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "encode_table",
+        "start": 160,
+        "end": 164
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "noah_xor",
+        "start": 167,
+        "end": 170
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "rebuild_bundle",
+        "start": 172,
+        "end": 187
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "verify_table",
+        "start": 189,
+        "end": 194
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "to_fixed_row",
+        "start": 199,
+        "end": 215
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "read_varint",
+        "start": 216,
+        "end": 220
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "row_key",
+        "start": 221,
+        "end": 231
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "encode_fixed_table",
+        "start": 232,
+        "end": 264
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "install_steam",
+        "start": 272,
+        "end": 293
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "uninstall_steam",
+        "start": 294,
+        "end": 298
+      }
+    ],
+    "Launcher/mods/char-nine/cf_arts.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "fx_name",
+        "start": 179,
+        "end": 180
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ticks",
+        "start": 183,
+        "end": 184
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "check",
+        "start": 187,
+        "end": 197
+      }
+    ],
+    "Launcher/mods/char-nine/cf_clips.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_loop",
+        "start": 19,
+        "end": 20
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ticks",
+        "start": 71,
+        "end": 72
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "check",
+        "start": 75,
+        "end": 82
+      }
+    ],
+    "Launcher/mods/char-nine/cf_fx.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "arm_alpha",
+        "start": 67,
+        "end": 71
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fire_at",
+        "start": 74,
+        "end": 80
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_hip",
+        "start": 85,
+        "end": 95
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compose",
+        "start": 98,
+        "end": 134
+      },
+      {
+        "kind": "ClassDef",
+        "name": "CF",
+        "start": 137,
+        "end": 158
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_paste",
+        "start": 167,
+        "end": 185
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "mauvette_frames",
+        "start": 188,
+        "end": 214
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "pack",
+        "start": 217,
+        "end": 246
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "mauvette_meta",
+        "start": 249,
+        "end": 259
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "mua",
+        "start": 267,
+        "end": 277
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "mua_frames",
+        "start": 280,
+        "end": 338
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fx2d_frames",
+        "start": 341,
+        "end": 352
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "arts_meta",
+        "start": 355,
+        "end": 399
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "arts_states",
+        "start": 402,
+        "end": 404
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build",
+        "start": 409,
+        "end": 421
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_fallback",
+        "start": 424,
+        "end": 432
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "make_template",
+        "start": 437,
+        "end": 476
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "preview",
+        "start": 481,
+        "end": 520
+      }
+    ],
+    "Launcher/mods/char-nine/import_cf.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "log",
+        "start": 33,
+        "end": 34
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_json",
+        "start": 37,
+        "end": 41
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cf_available",
+        "start": 44,
+        "end": 58
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cf_index",
+        "start": 66,
+        "end": 76
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "bbee_palette",
+        "start": 79,
+        "end": 129
+      },
+      {
+        "kind": "ClassDef",
+        "name": "CFSource",
+        "start": 132,
+        "end": 198
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ch_pal",
+        "start": 201,
+        "end": 203
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "disc_grow",
+        "start": 206,
+        "end": 217
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_cf",
+        "start": 220,
+        "end": 225
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_fallback",
+        "start": 230,
+        "end": 289
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 292,
+        "end": 340
+      }
+    ],
+    "Launcher/mods/char-nine/vfx/import_fx.py": [],
+    "Launcher/mods/char-ruby/build_ruby.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "source",
+        "start": 29,
+        "end": 41
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "tpl",
+        "start": 160,
+        "end": 161
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "buzz_dive",
+        "start": 164,
+        "end": 187
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clean",
+        "start": 190,
+        "end": 210
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "hit",
+        "start": 213,
+        "end": 224
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "with_hits",
+        "start": 227,
+        "end": 235
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "armor",
+        "start": 238,
+        "end": 239
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "sfx",
+        "start": 242,
+        "end": 244
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "launch",
+        "start": 247,
+        "end": 257
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "glide",
+        "start": 260,
+        "end": 266
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "no_motion",
+        "start": 269,
+        "end": 273
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "landing",
+        "start": 276,
+        "end": 285
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "movement",
+        "start": 288,
+        "end": 359
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "dust",
+        "start": 378,
+        "end": 399
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "dust_logic",
+        "start": 402,
+        "end": 416
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "dust_buffs",
+        "start": 419,
+        "end": 432
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "blasts_v3",
+        "start": 435,
+        "end": 489
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "blast_distances",
+        "start": 492,
+        "end": 523
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "moves",
+        "start": 526,
+        "end": 658
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "bullet_tree",
+        "start": 661,
+        "end": 681
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fx_entry",
+        "start": 733,
+        "end": 745
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "floor_reach",
+        "start": 802,
+        "end": 832
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "weight_of",
+        "start": 835,
+        "end": 839
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "hit_classes",
+        "start": 842,
+        "end": 853
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "weight_pass",
+        "start": 859,
+        "end": 898
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wire_effects",
+        "start": 929,
+        "end": 957
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "dedupe_effects",
+        "start": 960,
+        "end": 971
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "audit_refs",
+        "start": 974,
+        "end": 987
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "effects",
+        "start": 990,
+        "end": 1050
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "legacy",
+        "start": 1053,
+        "end": 1129
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "legacy_rows",
+        "start": 1132,
+        "end": 1149
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Port",
+        "start": 1153,
+        "end": 1181
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "foreign_triggers",
+        "start": 1197,
+        "end": 1217
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "strip_foreign_hooks",
+        "start": 1220,
+        "end": 1269
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_logic",
+        "start": 1272,
+        "end": 1442
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "split_hits",
+        "start": 1453,
+        "end": 1460
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "potentials",
+        "start": 1466,
+        "end": 1467
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "xrow",
+        "start": 1471,
+        "end": 1493
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "last_hit",
+        "start": 1496,
+        "end": 1497
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "first_hit",
+        "start": 1500,
+        "end": 1501
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "skill_blast",
+        "start": 1504,
+        "end": 1512
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "travel_end",
+        "start": 1515,
+        "end": 1522
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "blast_rows",
+        "start": 1527,
+        "end": 1579
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "input_rows",
+        "start": 1582,
+        "end": 1689
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "row_timing",
+        "start": 1696,
+        "end": 1715
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "icon_bytes",
+        "start": 1718,
+        "end": 1725
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "row_icons",
+        "start": 1728,
+        "end": 1738
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "port_note",
+        "start": 1747,
+        "end": 1747
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "damage_rows",
+        "start": 1750,
+        "end": 1782
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "write_mod",
+        "start": 1796,
+        "end": 1881
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 1884,
+        "end": 1890
+      }
+    ],
+    "Launcher/mods/char-ruby/fxcompile_ruby.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_cab",
+        "start": 49,
+        "end": 50
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_curve",
+        "start": 53,
+        "end": 64
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_texture_png",
+        "start": 67,
+        "end": 78
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_trail_texture",
+        "start": 81,
+        "end": 93
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_mesh_bytes",
+        "start": 96,
+        "end": 110
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_mesh_bytes_nocolor",
+        "start": 113,
+        "end": 120
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "write_meshes",
+        "start": 128,
+        "end": 172
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "rim_alpha",
+        "start": 175,
+        "end": 190
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_extent",
+        "start": 193,
+        "end": 195
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "drop_oversized",
+        "start": 198,
+        "end": 209
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "to_floor",
+        "start": 212,
+        "end": 224
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_lerp_keys",
+        "start": 227,
+        "end": 232
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_thin",
+        "start": 235,
+        "end": 239
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "revealed_area",
+        "start": 242,
+        "end": 254
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "animate",
+        "start": 260,
+        "end": 297
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_frames",
+        "start": 301,
+        "end": 306
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build",
+        "start": 309,
+        "end": 517
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_set_curve",
+        "start": 546,
+        "end": 548
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_slash_template",
+        "start": 551,
+        "end": 564
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_fill_slash",
+        "start": 567,
+        "end": 688
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_wave_mesh",
+        "start": 691,
+        "end": 697
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "slash_texture",
+        "start": 700,
+        "end": 723
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_slashes",
+        "start": 726,
+        "end": 784
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_tune_ps",
+        "start": 811,
+        "end": 820
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wave2_names",
+        "start": 823,
+        "end": 825
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_wave2_template",
+        "start": 828,
+        "end": 847
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_fill_wave2",
+        "start": 850,
+        "end": 912
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wave2_textures",
+        "start": 915,
+        "end": 929
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_waves2",
+        "start": 932,
+        "end": 956
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wave_on_template",
+        "start": 959,
+        "end": 962
+      }
+    ],
+    "Launcher/mods/char-ruby/hca_crypt.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "crc16",
+        "start": 33,
+        "end": 37
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "derive",
+        "start": 40,
+        "end": 44
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_row",
+        "start": 47,
+        "end": 54
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "table56",
+        "start": 57,
+        "end": 77
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "parse",
+        "start": 80,
+        "end": 101
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_header",
+        "start": 104,
+        "end": 119
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "encrypt",
+        "start": 122,
+        "end": 141
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "decrypt",
+        "start": 144,
+        "end": 158
+      }
+    ],
+    "Launcher/mods/char-ruby/import_ruby.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_development_checkout",
+        "start": 24,
+        "end": 34
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "require_ownership",
+        "start": 37,
+        "end": 70
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 73,
+        "end": 172
+      }
+    ],
+    "Launcher/mods/char-ruby/own/bossport.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_root",
+        "start": 20,
+        "end": 28
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_at",
+        "start": 30,
+        "end": 34
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fp",
+        "start": 36,
+        "end": 36
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fv",
+        "start": 37,
+        "end": 37
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "load",
+        "start": 38,
+        "end": 38
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "logic",
+        "start": 39,
+        "end": 50
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "rows",
+        "start": 51,
+        "end": 52
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "const",
+        "start": 53,
+        "end": 53
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "retime",
+        "start": 66,
+        "end": 86
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "hit_window",
+        "start": 88,
+        "end": 91
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "active_window",
+        "start": 93,
+        "end": 103
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "impact",
+        "start": 109,
+        "end": 120
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "strip_victim_buffs",
+        "start": 122,
+        "end": 129
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "projectile_impact",
+        "start": 131,
+        "end": 139
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "switch",
+        "start": 142,
+        "end": 146
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "call",
+        "start": 147,
+        "end": 150
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "buff",
+        "start": 151,
+        "end": 153
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Refs",
+        "start": 156,
+        "end": 179
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Port",
+        "start": 191,
+        "end": 355
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "flow_len",
+        "start": 357,
+        "end": 364
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "skill_row",
+        "start": 366,
+        "end": 402
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wait_action",
+        "start": 413,
+        "end": 419
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "role",
+        "start": 420,
+        "end": 432
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "root_action",
+        "start": 433,
+        "end": 435
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "next_of",
+        "start": 436,
+        "end": 443
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "target_spawn",
+        "start": 444,
+        "end": 452
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "release_waves",
+        "start": 453,
+        "end": 466
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "self_drive",
+        "start": 467,
+        "end": 506
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "anim_segment",
+        "start": 507,
+        "end": 517
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "quicken",
+        "start": 525,
+        "end": 546
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_role_events",
+        "start": 548,
+        "end": 556
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "flow_of",
+        "start": 557,
+        "end": 562
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "commit_on_press",
+        "start": 563,
+        "end": 611
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "tmpl_role",
+        "start": 612,
+        "end": 617
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_ROLE0",
+        "start": 618,
+        "end": 622
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "move_cancel",
+        "start": 623,
+        "end": 625
+      }
+    ],
+    "Launcher/mods/char-ruby/own/portraits.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_opaque",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fit",
+        "start": 20,
+        "end": 28
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "make",
+        "start": 29,
+        "end": 39
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "spec",
+        "start": 40,
+        "end": 52
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_motif",
+        "start": 55,
+        "end": 97
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "potential_icon",
+        "start": 98,
+        "end": 119
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "potential_icon_spec",
+        "start": 120,
+        "end": 130
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbscript_dump.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "states",
+        "start": 28,
+        "end": 35
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "args",
+        "start": 38,
+        "end": 48
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "decode",
+        "start": 51,
+        "end": 60
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "frames",
+        "start": 63,
+        "end": 64
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 67,
+        "end": 80
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_clips.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "segments",
+        "start": 19,
+        "end": 44
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "catalog",
+        "start": 47,
+        "end": 49
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 52,
+        "end": 61
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_formats.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "hip",
+        "start": 10,
+        "end": 28
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "hpl",
+        "start": 31,
+        "end": 36
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "jonbin",
+        "start": 42,
+        "end": 72
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "rgba",
+        "start": 75,
+        "end": 77
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compose",
+        "start": 80,
+        "end": 107
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_fxcompile.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "role_of",
+        "start": 44,
+        "end": 50
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_world",
+        "start": 53,
+        "end": 59
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compile_state",
+        "start": 62,
+        "end": 125
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "draw_png",
+        "start": 128,
+        "end": 156
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 159,
+        "end": 172
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_moves.py": [
+      {
+        "kind": "ClassDef",
+        "name": "Moves",
+        "start": 24,
+        "end": 108
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ruby",
+        "start": 111,
+        "end": 115
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 118,
+        "end": 126
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_mua.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_f",
+        "start": 47,
+        "end": 48
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_i",
+        "start": 51,
+        "end": 52
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Model",
+        "start": 55,
+        "end": 268
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_sample",
+        "start": 271,
+        "end": 288
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_quat",
+        "start": 291,
+        "end": 296
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_strip",
+        "start": 299,
+        "end": 307
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "models",
+        "start": 315,
+        "end": 321
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "model",
+        "start": 324,
+        "end": 329
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "texture",
+        "start": 332,
+        "end": 350
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "palette_colour",
+        "start": 353,
+        "end": 363
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "effect_tint",
+        "start": 366,
+        "end": 370
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Canvas",
+        "start": 375,
+        "end": 426
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_bilinear",
+        "start": 429,
+        "end": 437
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_args",
+        "start": 459,
+        "end": 466
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Script",
+        "start": 469,
+        "end": 506
+      },
+      {
+        "kind": "ClassDef",
+        "name": "EffectObject",
+        "start": 509,
+        "end": 515
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_flatten",
+        "start": 518,
+        "end": 525
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "run_effect",
+        "start": 528,
+        "end": 592
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "obj_params",
+        "start": 595,
+        "end": 643
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_integrate",
+        "start": 646,
+        "end": 652
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "project",
+        "start": 658,
+        "end": 664
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_default_blend",
+        "start": 667,
+        "end": 672
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_frame_box",
+        "start": 675,
+        "end": 681
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_finish",
+        "start": 684,
+        "end": 691
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "render_model",
+        "start": 694,
+        "end": 714
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "render_effect",
+        "start": 717,
+        "end": 752
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "sheet",
+        "start": 755,
+        "end": 773
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_opts",
+        "start": 777,
+        "end": 797
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 800,
+        "end": 838
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_owner.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "valve_signed",
+        "start": 41,
+        "end": 45
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "subscribed",
+        "start": 48,
+        "end": 71
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "check",
+        "start": 74,
+        "end": 77
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 80,
+        "end": 89
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_read.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "find_install",
+        "start": 31,
+        "end": 61
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "asset_name",
+        "start": 85,
+        "end": 86
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "decrypt",
+        "start": 89,
+        "end": 92
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "note_read",
+        "start": 95,
+        "end": 101
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "missing",
+        "start": 104,
+        "end": 108
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "read",
+        "start": 111,
+        "end": 118
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fpac_entries",
+        "start": 121,
+        "end": 136
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fpac_files",
+        "start": 139,
+        "end": 140
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 143,
+        "end": 164
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_rig.py": [
+      {
+        "kind": "ClassDef",
+        "name": "Source",
+        "start": 56,
+        "end": 138
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "mirror",
+        "start": 141,
+        "end": 144
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_components",
+        "start": 147,
+        "end": 164
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_dilate",
+        "start": 167,
+        "end": 171
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clean_mask",
+        "start": 174,
+        "end": 204
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "normalize",
+        "start": 207,
+        "end": 216
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "pack",
+        "start": 219,
+        "end": 233
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "quad_mesh",
+        "start": 236,
+        "end": 245
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_frames",
+        "start": 248,
+        "end": 274
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_unity",
+        "start": 283,
+        "end": 288
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_env",
+        "start": 291,
+        "end": 294
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_cab",
+        "start": 297,
+        "end": 298
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_guid",
+        "start": 301,
+        "end": 302
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_retarget",
+        "start": 305,
+        "end": 313
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_save",
+        "start": 316,
+        "end": 320
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_bundle_obj",
+        "start": 323,
+        "end": 324
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_grow",
+        "start": 327,
+        "end": 336
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "extra_page",
+        "start": 339,
+        "end": 348
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_sheet",
+        "start": 351,
+        "end": 371
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_family",
+        "start": 374,
+        "end": 386
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_rig",
+        "start": 389,
+        "end": 537
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_deps",
+        "start": 540,
+        "end": 543
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clone_texture",
+        "start": 546,
+        "end": 575
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clone_atlas",
+        "start": 578,
+        "end": 608
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "render_clip",
+        "start": 611,
+        "end": 646
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 649,
+        "end": 658
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_ui_dump.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "rd",
+        "start": 26,
+        "end": 33
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "table",
+        "start": 36,
+        "end": 52
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "walk",
+        "start": 55,
+        "end": 61
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "scan",
+        "start": 64,
+        "end": 74
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "hip",
+        "start": 77,
+        "end": 93
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "render",
+        "start": 96,
+        "end": 108
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_xact.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "read_fast",
+        "start": 27,
+        "end": 39
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "xwb",
+        "start": 42,
+        "end": 62
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "xsb",
+        "start": 65,
+        "end": 87
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "bank",
+        "start": 90,
+        "end": 97
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wav_bytes",
+        "start": 100,
+        "end": 108
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbtag/ruby_arcband.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_spawn_from_tree",
+        "start": 68,
+        "end": 80
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_interp",
+        "start": 83,
+        "end": 88
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_visible",
+        "start": 91,
+        "end": 103
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "blade_dir",
+        "start": 106,
+        "end": 117
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_smooth",
+        "start": 120,
+        "end": 126
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_fit",
+        "start": 133,
+        "end": 151
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_ellipse_edge",
+        "start": 157,
+        "end": 192
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_taper",
+        "start": 206,
+        "end": 209
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_smin",
+        "start": 212,
+        "end": 214
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_ellipse_params",
+        "start": 217,
+        "end": 245
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_clean_arc",
+        "start": 248,
+        "end": 287
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "band_from_bbtag",
+        "start": 290,
+        "end": 389
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "band_from_obj",
+        "start": 396,
+        "end": 423
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_fv",
+        "start": 441,
+        "end": 444
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "move_blade",
+        "start": 447,
+        "end": 469
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_edge",
+        "start": 472,
+        "end": 480
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_on_band",
+        "start": 483,
+        "end": 496
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "default_wipe",
+        "start": 502,
+        "end": 508
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "sync_window",
+        "start": 511,
+        "end": 515
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "sync_band",
+        "start": 518,
+        "end": 550
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "write_obj",
+        "start": 553,
+        "end": 560
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "draw_png",
+        "start": 563,
+        "end": 582
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbtag/ruby_blade.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_label",
+        "start": 40,
+        "end": 56
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "blade",
+        "start": 60,
+        "end": 100
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "rigid",
+        "start": 103,
+        "end": 114
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "sweep",
+        "start": 117,
+        "end": 132
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "frames_of",
+        "start": 135,
+        "end": 146
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Frames",
+        "start": 149,
+        "end": 161
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "orient",
+        "start": 164,
+        "end": 171
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "oriented",
+        "start": 174,
+        "end": 178
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "swings",
+        "start": 181,
+        "end": 197
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "swing_parts",
+        "start": 200,
+        "end": 240
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "swing_runs",
+        "start": 251,
+        "end": 264
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "swing_ribbon",
+        "start": 267,
+        "end": 331
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "swing_crescent",
+        "start": 344,
+        "end": 409
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_ease_out",
+        "start": 419,
+        "end": 420
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "stroke_from_swing",
+        "start": 423,
+        "end": 438
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "stroke_from_parts",
+        "start": 441,
+        "end": 473
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wave_ribbons",
+        "start": 476,
+        "end": 578
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_wave_smooth",
+        "start": 584,
+        "end": 631
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wave_from_plan",
+        "start": 634,
+        "end": 690
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "plan_swings",
+        "start": 693,
+        "end": 703
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "parts_from_plan",
+        "start": 706,
+        "end": 716
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "trail_parts",
+        "start": 719,
+        "end": 764
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbtag/ruby_crescent.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "taper",
+        "start": 42,
+        "end": 45
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "outline",
+        "start": 48,
+        "end": 68
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_ellipse_centre",
+        "start": 71,
+        "end": 92
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "silhouette",
+        "start": 96,
+        "end": 125
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "lens",
+        "start": 134,
+        "end": 148
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_rot",
+        "start": 151,
+        "end": 153
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_flips",
+        "start": 156,
+        "end": 163
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_grid",
+        "start": 166,
+        "end": 176
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_smin",
+        "start": 182,
+        "end": 184
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_circle_centre",
+        "start": 187,
+        "end": 191
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "crescent",
+        "start": 194,
+        "end": 254
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ink",
+        "start": 257,
+        "end": 282
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "boxes",
+        "start": 285,
+        "end": 325
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wave_spec",
+        "start": 344,
+        "end": 365
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_strip_grid",
+        "start": 368,
+        "end": 380
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wave_meshes",
+        "start": 383,
+        "end": 422
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/bbvfx.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "cab_of",
+        "start": 30,
+        "end": 30
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "game_env",
+        "start": 31,
+        "end": 31
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "obj_name",
+        "start": 32,
+        "end": 34
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "pack",
+        "start": 38,
+        "end": 80
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "container_path",
+        "start": 82,
+        "end": 85
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "do_import",
+        "start": 87,
+        "end": 163
+      }
+    ],
+    "Launcher/mods/char-ruby/own/tools/cri_acb.py": [
+      {
+        "kind": "ClassDef",
+        "name": "Column",
+        "start": 25,
+        "end": 40
+      },
+      {
+        "kind": "ClassDef",
+        "name": "UTF",
+        "start": 43,
+        "end": 154
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "afs2_read",
+        "start": 158,
+        "end": 172
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "afs2_build",
+        "start": 175,
+        "end": 190
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "hca_info",
+        "start": 194,
+        "end": 229
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cmd_ops",
+        "start": 233,
+        "end": 239
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cmd_blob",
+        "start": 242,
+        "end": 243
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cmd_get",
+        "start": 246,
+        "end": 247
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cmd_set",
+        "start": 250,
+        "end": 254
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Acb",
+        "start": 263,
+        "end": 310
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clone_acb",
+        "start": 313,
+        "end": 490
+      }
+    ],
+    "Launcher/mods/char-ruby/rrb_fx.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "classify",
+        "start": 48,
+        "end": 55
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compiled",
+        "start": 59,
+        "end": 63
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "muzzle_point",
+        "start": 66,
+        "end": 87
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "attach_point",
+        "start": 90,
+        "end": 95
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "mirror_detached",
+        "start": 98,
+        "end": 121
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "entry",
+        "start": 124,
+        "end": 127
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wire",
+        "start": 130,
+        "end": 218
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_wave_at",
+        "start": 303,
+        "end": 317
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_blade_frames",
+        "start": 320,
+        "end": 334
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "look_d",
+        "start": 337,
+        "end": 376
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "trails",
+        "start": 379,
+        "end": 564
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_stage_conds",
+        "start": 575,
+        "end": 579
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "port_root",
+        "start": 582,
+        "end": 583
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "children",
+        "start": 586,
+        "end": 588
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "is_ground",
+        "start": 591,
+        "end": 592
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "child_effects",
+        "start": 595,
+        "end": 612
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "place_rounds",
+        "start": 615,
+        "end": 635
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "dust_variants",
+        "start": 638,
+        "end": 666
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "finish_refs",
+        "start": 669,
+        "end": 677
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "round_effects",
+        "start": 680,
+        "end": 689
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "slash_kind",
+        "start": 700,
+        "end": 702
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_has_fx",
+        "start": 709,
+        "end": 711
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "gun_v2",
+        "start": 714,
+        "end": 739
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ground_hits",
+        "start": 742,
+        "end": 748
+      }
+    ],
+    "Launcher/mods/char-ruby/rrb_portrait.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "landmarks",
+        "start": 60,
+        "end": 64
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ref_landmarks",
+        "start": 67,
+        "end": 69
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "match_row",
+        "start": 72,
+        "end": 81
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "row_values",
+        "start": 84,
+        "end": 85
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "offset_rows",
+        "start": 88,
+        "end": 95
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "check_art",
+        "start": 98,
+        "end": 106
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compose_full",
+        "start": 109,
+        "end": 112
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "mb_layout",
+        "start": 115,
+        "end": 122
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compose_mb",
+        "start": 125,
+        "end": 136
+      }
+    ],
+    "Launcher/mods/char-ruby/rrb_pots.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "gate",
+        "start": 213,
+        "end": 216
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "T",
+        "start": 251,
+        "end": 253
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cg",
+        "start": 256,
+        "end": 257
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "mute_window",
+        "start": 260,
+        "end": 275
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "inv",
+        "start": 278,
+        "end": 281
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "attacker_call",
+        "start": 284,
+        "end": 286
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "grow",
+        "start": 289,
+        "end": 301
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "victim",
+        "start": 304,
+        "end": 308
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "push",
+        "start": 311,
+        "end": 316
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "chase_target",
+        "start": 319,
+        "end": 323
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "chase_dash",
+        "start": 326,
+        "end": 337
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "variant_matrix",
+        "start": 340,
+        "end": 354
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "moves_v2",
+        "start": 358,
+        "end": 505
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "recoil_shot",
+        "start": 508,
+        "end": 539
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "potentials_v2",
+        "start": 543,
+        "end": 1067
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "buzzsaw_090",
+        "start": 1081,
+        "end": 1101
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "rifle_refire",
+        "start": 1112,
+        "end": 1128
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "gunswing",
+        "start": 1131,
+        "end": 1191
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "reap_rise",
+        "start": 1194,
+        "end": 1210
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "extras_v2",
+        "start": 1217,
+        "end": 1316
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "final_v2",
+        "start": 1321,
+        "end": 1425
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "gravity_rounds",
+        "start": 1429,
+        "end": 1450
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "bullets_v2",
+        "start": 1453,
+        "end": 1607
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "rows_v2",
+        "start": 1611,
+        "end": 1813
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "content_v2",
+        "start": 1817,
+        "end": 1919
+      }
+    ],
+    "Launcher/mods/char-ruby/rrb_power.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_first_hit",
+        "start": 75,
+        "end": 77
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "moves",
+        "start": 80,
+        "end": 168
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_shot_parts",
+        "start": 185,
+        "end": 191
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_sequence",
+        "start": 194,
+        "end": 221
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_shift_after",
+        "start": 224,
+        "end": 233
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "gun_levels",
+        "start": 266,
+        "end": 293
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "air_jump_switch",
+        "start": 309,
+        "end": 316
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "jc_triple",
+        "start": 319,
+        "end": 381
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "stagger_rule",
+        "start": 389,
+        "end": 446
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "stag_scan",
+        "start": 449,
+        "end": 464
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_light_round",
+        "start": 467,
+        "end": 493
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "jc_light_round",
+        "start": 496,
+        "end": 503
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "gsw_rounds",
+        "start": 511,
+        "end": 517
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "jc_rounds",
+        "start": 520,
+        "end": 561
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "gun_level_zones",
+        "start": 564,
+        "end": 571
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "a4_gust",
+        "start": 589,
+        "end": 605
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_dist_adapt",
+        "start": 619,
+        "end": 632
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "launch_heights",
+        "start": 635,
+        "end": 680
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_held_hit",
+        "start": 684,
+        "end": 692
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_release_hit",
+        "start": 695,
+        "end": 699
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "hold_moves",
+        "start": 702,
+        "end": 788
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clash_bg",
+        "start": 816,
+        "end": 842
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "after_weight_moves",
+        "start": 845,
+        "end": 880
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clash_stage4",
+        "start": 893,
+        "end": 933
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "a4_gust_zone",
+        "start": 936,
+        "end": 955
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clash_storm_zone",
+        "start": 957,
+        "end": 965
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_retime",
+        "start": 985,
+        "end": 1007
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "sypod_held",
+        "start": 1010,
+        "end": 1068
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "guns",
+        "start": 1071,
+        "end": 1106
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "buzz_rings",
+        "start": 1134,
+        "end": 1149
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "buzzsaw_levels",
+        "start": 1152,
+        "end": 1221
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_box",
+        "start": 1239,
+        "end": 1240
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "finishers",
+        "start": 1243,
+        "end": 1316
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_later",
+        "start": 1319,
+        "end": 1342
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "guil_runup",
+        "start": 1350,
+        "end": 1363
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "air_reap_lift",
+        "start": 1371,
+        "end": 1375
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cine_moves",
+        "start": 1387,
+        "end": 1389
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cine_starts",
+        "start": 1392,
+        "end": 1414
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "after_sound",
+        "start": 1417,
+        "end": 1422
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_after_sound",
+        "start": 1425,
+        "end": 1447
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "after_weight",
+        "start": 1450,
+        "end": 1481
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wave_boxes",
+        "start": 1508,
+        "end": 1639
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "bullets",
+        "start": 1642,
+        "end": 1796
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "sypod_pierce",
+        "start": 1809,
+        "end": 1849
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "round_rules",
+        "start": 1870,
+        "end": 1903
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "hold_buffs",
+        "start": 1906,
+        "end": 1955
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "buffs",
+        "start": 1958,
+        "end": 2053
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "js_config",
+        "start": 2056,
+        "end": 2066
+      }
+    ],
+    "Launcher/mods/char-ruby/rrb_sound.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_walk",
+        "start": 151,
+        "end": 178
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "effect_moves",
+        "start": 182,
+        "end": 187
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "timeline",
+        "start": 190,
+        "end": 212
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clip_windows",
+        "start": 215,
+        "end": 239
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_base",
+        "start": 243,
+        "end": 248
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_entry",
+        "start": 251,
+        "end": 254
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "load_map",
+        "start": 257,
+        "end": 265
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_voice_key",
+        "start": 268,
+        "end": 269
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "voice_plan",
+        "start": 272,
+        "end": 278
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "voice_cue",
+        "start": 281,
+        "end": 284
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "plan_action",
+        "start": 287,
+        "end": 352
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wire",
+        "start": 355,
+        "end": 405
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "presentation_table",
+        "start": 408,
+        "end": 410
+      }
+    ],
+    "Launcher/mods/char-ruby/rrb_text.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "c",
+        "start": 41,
+        "end": 41
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "L",
+        "start": 45,
+        "end": 48
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_per",
+        "start": 51,
+        "end": 52
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "G",
+        "start": 60,
+        "end": 60
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "A",
+        "start": 61,
+        "end": 61
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "H",
+        "start": 62,
+        "end": 62
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "S",
+        "start": 63,
+        "end": 65
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_card",
+        "start": 1078,
+        "end": 1082
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_typo",
+        "start": 1504,
+        "end": 1512
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_sub",
+        "start": 1515,
+        "end": 1516
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_sub0",
+        "start": 1519,
+        "end": 1533
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_fill",
+        "start": 1536,
+        "end": 1553
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "texts",
+        "start": 1565,
+        "end": 1580
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "check",
+        "start": 1583,
+        "end": 1629
+      }
+    ],
+    "Launcher/mods/char-ruby/ruby_audio.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_log",
+        "start": 163,
+        "end": 164
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "script_cues",
+        "start": 168,
+        "end": 182
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "load_banks",
+        "start": 185,
+        "end": 191
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_pcm",
+        "start": 195,
+        "end": 199
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_entry",
+        "start": 202,
+        "end": 208
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_kweighted",
+        "start": 211,
+        "end": 229
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_loudness",
+        "start": 232,
+        "end": 255
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_oversampled",
+        "start": 258,
+        "end": 269
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_true_peak",
+        "start": 272,
+        "end": 274
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_minfilter",
+        "start": 277,
+        "end": 286
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_limit",
+        "start": 289,
+        "end": 310
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_tail",
+        "start": 313,
+        "end": 322
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_edges",
+        "start": 325,
+        "end": 339
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "level_banks",
+        "start": 342,
+        "end": 402
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_priority",
+        "start": 405,
+        "end": 411
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_class",
+        "start": 414,
+        "end": 417
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_takes",
+        "start": 420,
+        "end": 424
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_group_key",
+        "start": 427,
+        "end": 436
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "plan",
+        "start": 439,
+        "end": 542
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "write_map",
+        "start": 545,
+        "end": 555
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cue_for",
+        "start": 558,
+        "end": 573
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_run",
+        "start": 577,
+        "end": 582
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ensure_encoder",
+        "start": 585,
+        "end": 601
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "prebuilt_name",
+        "start": 604,
+        "end": 609
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_prebuilt_dir",
+        "start": 612,
+        "end": 618
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "encoded_waves",
+        "start": 621,
+        "end": 632
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "encode",
+        "start": 635,
+        "end": 677
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_template",
+        "start": 681,
+        "end": 685
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_voice_template",
+        "start": 688,
+        "end": 700
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_set_cue_limits",
+        "start": 703,
+        "end": 731
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_refuse_action_tracks",
+        "start": 734,
+        "end": 742
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_template_subkey",
+        "start": 745,
+        "end": 748
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_encrypt_waves",
+        "start": 751,
+        "end": 768
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_acbs",
+        "start": 774,
+        "end": 808
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "store_acb",
+        "start": 811,
+        "end": 819
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_collection_env",
+        "start": 822,
+        "end": 832
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_refuse_asset_conflicts",
+        "start": 835,
+        "end": 855
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "patch_collection",
+        "start": 858,
+        "end": 890
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build",
+        "start": 893,
+        "end": 912
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 915,
+        "end": 926
+      }
+    ],
+    "Launcher/mods/char-ruby/ruby_clashbg.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "prefab_of",
+        "start": 54,
+        "end": 55
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_log",
+        "start": 91,
+        "end": 92
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_pac",
+        "start": 96,
+        "end": 98
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_scene",
+        "start": 101,
+        "end": 112
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_evb",
+        "start": 115,
+        "end": 124
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_evb_curve",
+        "start": 127,
+        "end": 144
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_object_hint",
+        "start": 147,
+        "end": 155
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_uv_speed",
+        "start": 158,
+        "end": 170
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_clip_tris",
+        "start": 174,
+        "end": 194
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_camera_local",
+        "start": 197,
+        "end": 203
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_rim",
+        "start": 206,
+        "end": 217
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_part",
+        "start": 220,
+        "end": 242
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_backing",
+        "start": 245,
+        "end": 254
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_merge",
+        "start": 257,
+        "end": 267
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_quad",
+        "start": 270,
+        "end": 278
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_unity",
+        "start": 282,
+        "end": 284
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_env",
+        "start": 287,
+        "end": 290
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_cab",
+        "start": 293,
+        "end": 294
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_cab_of",
+        "start": 297,
+        "end": 298
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_save",
+        "start": 301,
+        "end": 303
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_ab_rename",
+        "start": 306,
+        "end": 315
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_texture",
+        "start": 318,
+        "end": 338
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_material",
+        "start": 341,
+        "end": 366
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_material_pid",
+        "start": 372,
+        "end": 376
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_mesh_bytes",
+        "start": 379,
+        "end": 389
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_meshes",
+        "start": 396,
+        "end": 436
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_key",
+        "start": 440,
+        "end": 442
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_curve",
+        "start": 445,
+        "end": 458
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_base",
+        "start": 464,
+        "end": 466
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_rgba",
+        "start": 469,
+        "end": 470
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_xyz",
+        "start": 473,
+        "end": 474
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "tint",
+        "start": 477,
+        "end": 486
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "scroll",
+        "start": 489,
+        "end": 501
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "move",
+        "start": 504,
+        "end": 509
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "grow",
+        "start": 512,
+        "end": 516
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "spin",
+        "start": 519,
+        "end": 523
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_refs",
+        "start": 526,
+        "end": 530
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_prefab",
+        "start": 534,
+        "end": 675
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_add",
+        "start": 678,
+        "end": 680
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_layer_set",
+        "start": 684,
+        "end": 702
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_clash",
+        "start": 705,
+        "end": 749
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_block_motion",
+        "start": 752,
+        "end": 769
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_finish",
+        "start": 772,
+        "end": 817
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_atlas_cells",
+        "start": 820,
+        "end": 828
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_start",
+        "start": 831,
+        "end": 874
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "grid_image",
+        "start": 877,
+        "end": 899
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_grid",
+        "start": 902,
+        "end": 917
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build",
+        "start": 920,
+        "end": 937
+      }
+    ],
+    "Launcher/mods/char-ruby/ruby_clips.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "sequences",
+        "start": 246,
+        "end": 264
+      }
+    ],
+    "Launcher/mods/char-ruby/ruby_fx.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "z_local",
+        "start": 50,
+        "end": 52
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_layers",
+        "start": 55,
+        "end": 58
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_clouds",
+        "start": 61,
+        "end": 78
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compose",
+        "start": 81,
+        "end": 133
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_cab_of",
+        "start": 136,
+        "end": 137
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_rename_bundle",
+        "start": 140,
+        "end": 151
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_astral",
+        "start": 154,
+        "end": 248
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_afterimage",
+        "start": 263,
+        "end": 292
+      }
+    ],
+    "Launcher/mods/char-ruby/ruby_ui.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_new",
+        "start": 57,
+        "end": 59
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "card_ids",
+        "start": 89,
+        "end": 94
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "potential_slots",
+        "start": 97,
+        "end": 103
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "metrics_rows",
+        "start": 106,
+        "end": 111
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "aliases",
+        "start": 114,
+        "end": 120
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "hud_sprites",
+        "start": 123,
+        "end": 126
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "portrait_rows",
+        "start": 129,
+        "end": 131
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "load_icons",
+        "start": 139,
+        "end": 169
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "stock_icon",
+        "start": 172,
+        "end": 178
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ui_images",
+        "start": 189,
+        "end": 214
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_slot",
+        "start": 217,
+        "end": 230
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compose",
+        "start": 233,
+        "end": 274
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "unleashed_image",
+        "start": 277,
+        "end": 283
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "hud_atlas_sprites",
+        "start": 286,
+        "end": 298
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clone_hud_atlas",
+        "start": 301,
+        "end": 362
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build",
+        "start": 365,
+        "end": 389
+      }
+    ],
+    "Launcher/mods/char-ruby/terminal_art.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 19,
+        "end": 27
+      }
+    ],
+    "Launcher/mods/dr-party/audio/dr_sfx.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "chapter5_data",
+        "start": 17,
+        "end": 33
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_chunks",
+        "start": 36,
+        "end": 45
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_plist",
+        "start": 48,
+        "end": 50
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_str",
+        "start": 53,
+        "end": 57
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wav_info",
+        "start": 60,
+        "end": 75
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Sounds",
+        "start": 78,
+        "end": 119
+      }
+    ],
+    "Launcher/mods/dr-party/audio/hca_crypt.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "crc16",
+        "start": 33,
+        "end": 37
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "derive",
+        "start": 40,
+        "end": 44
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_row",
+        "start": 47,
+        "end": 54
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "table56",
+        "start": 57,
+        "end": 77
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "parse",
+        "start": 80,
+        "end": 101
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_header",
+        "start": 104,
+        "end": 119
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "encrypt",
+        "start": 122,
+        "end": 141
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "decrypt",
+        "start": 144,
+        "end": 158
+      }
+    ],
+    "Launcher/mods/dr-party/audio/import_audio.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_log",
+        "start": 114,
+        "end": 116
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "load_waves",
+        "start": 120,
+        "end": 160
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ensure_encoder",
+        "start": 164,
+        "end": 175
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "encode",
+        "start": 178,
+        "end": 208
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "template",
+        "start": 212,
+        "end": 216
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_top_cmd",
+        "start": 219,
+        "end": 221
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "retune",
+        "start": 224,
+        "end": 248
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "template_subkey",
+        "start": 251,
+        "end": 254
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "encrypt_waves",
+        "start": 257,
+        "end": 271
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "refuse_action_tracks",
+        "start": 274,
+        "end": 280
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_acbs",
+        "start": 283,
+        "end": 311
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "store_acb",
+        "start": 314,
+        "end": 322
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_unity",
+        "start": 326,
+        "end": 333
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_collection_env",
+        "start": 336,
+        "end": 348
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_save",
+        "start": 351,
+        "end": 355
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_refuse_asset_conflicts",
+        "start": 358,
+        "end": 378
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "patch_collection",
+        "start": 381,
+        "end": 410
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build",
+        "start": 414,
+        "end": 435
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 438,
+        "end": 451
+      }
+    ],
+    "Launcher/mods/dr-party/dr_pack.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "folder",
+        "start": 25,
+        "end": 30
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "active",
+        "start": 33,
+        "end": 34
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "manifest",
+        "start": 37,
+        "end": 38
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "stamp",
+        "start": 41,
+        "end": 43
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "path",
+        "start": 46,
+        "end": 47
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "missing",
+        "start": 50,
+        "end": 52
+      }
+    ],
+    "Launcher/mods/dr-party/dr_source.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_components",
+        "start": 86,
+        "end": 100
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "character_of",
+        "start": 103,
+        "end": 108
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Frames",
+        "start": 111,
+        "end": 174
+      },
+      {
+        "kind": "ClassDef",
+        "name": "DRSource",
+        "start": 177,
+        "end": 211
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ticks",
+        "start": 214,
+        "end": 227
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "strip",
+        "start": 230,
+        "end": 238
+      }
+    ],
+    "Launcher/mods/dr-party/fx/import_fx.py": [],
+    "Launcher/mods/dr-party/import_kris.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "check_sources",
+        "start": 25,
+        "end": 39
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 42,
+        "end": 65
+      }
+    ],
+    "Launcher/mods/dr-party/kris_clips.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "held",
+        "start": 40,
+        "end": 41
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cycle",
+        "start": 44,
+        "end": 51
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "kris_clips",
+        "start": 54,
+        "end": 71
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "companion_extra",
+        "start": 74,
+        "end": 84
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "effect_clips",
+        "start": 92,
+        "end": 107
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "sequences",
+        "start": 110,
+        "end": 128
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "lengths",
+        "start": 131,
+        "end": 134
+      }
+    ],
+    "Launcher/mods/dr-party/kris_portraits.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "available",
+        "start": 105,
+        "end": 106
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "art",
+        "start": 109,
+        "end": 116
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "landmarks",
+        "start": 120,
+        "end": 123
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ref_rows",
+        "start": 126,
+        "end": 131
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "match_row",
+        "start": 134,
+        "end": 143
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "row_values",
+        "start": 146,
+        "end": 147
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "offset_rows",
+        "start": 150,
+        "end": 157
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compose_full",
+        "start": 161,
+        "end": 163
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "place",
+        "start": 166,
+        "end": 178
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compose_mb",
+        "start": 181,
+        "end": 189
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "window",
+        "start": 192,
+        "end": 200
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "diamond",
+        "start": 203,
+        "end": 210
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "crest",
+        "start": 213,
+        "end": 224
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "images",
+        "start": 227,
+        "end": 260
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build",
+        "start": 263,
+        "end": 275
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "spec",
+        "start": 278,
+        "end": 287
+      }
+    ],
+    "Launcher/mods/dr-party/party_clips.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "kris",
+        "start": 22,
+        "end": 50
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "merge_first",
+        "start": 53,
+        "end": 55
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "swap",
+        "start": 58,
+        "end": 60
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "hold",
+        "start": 63,
+        "end": 65
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "susie",
+        "start": 68,
+        "end": 91
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ralsei",
+        "start": 94,
+        "end": 115
+      }
+    ],
+    "Launcher/mods/dr-party/party_ui.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_L",
+        "start": 73,
+        "end": 74
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "icon_image",
+        "start": 100,
+        "end": 124
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "paint_hud_cells",
+        "start": 127,
+        "end": 152
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "images",
+        "start": 177,
+        "end": 196
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "pad4",
+        "start": 199,
+        "end": 206
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_gm",
+        "start": 210,
+        "end": 216
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_stamp",
+        "start": 219,
+        "end": 225
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_reader",
+        "start": 231,
+        "end": 237
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "font_source",
+        "start": 240,
+        "end": 270
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "font_atlas",
+        "start": 273,
+        "end": 305
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "font_metrics",
+        "start": 308,
+        "end": 310
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_code_strings",
+        "start": 313,
+        "end": 337
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "labels",
+        "start": 340,
+        "end": 365
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build",
+        "start": 368,
+        "end": 385
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "spec",
+        "start": 388,
+        "end": 393
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "sizes",
+        "start": 396,
+        "end": 399
+      }
+    ],
+    "Launcher/pipeline.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "slice_bundle",
+        "start": 32,
+        "end": 35
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "noah_xor",
+        "start": 54,
+        "end": 57
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_steam_manifest",
+        "start": 78,
+        "end": 85
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_build_id",
+        "start": 86,
+        "end": 90
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "rv",
+        "start": 118,
+        "end": 122
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "classify",
+        "start": 123,
+        "end": 131
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "dmsg",
+        "start": 132,
+        "end": 179
+      }
+    ],
+    "Launcher/tools/bbcf/bbcf_read.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "unwrap",
+        "start": 26,
+        "end": 34
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fpac_entries",
+        "start": 37,
+        "end": 51
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "path",
+        "start": 54,
+        "end": 55
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "files",
+        "start": 58,
+        "end": 61
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "leaves",
+        "start": 64,
+        "end": 71
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Character",
+        "start": 74,
+        "end": 91
+      }
+    ],
+    "Launcher/tools/bbtag/bbscript_dump.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "states",
+        "start": 28,
+        "end": 35
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "args",
+        "start": 38,
+        "end": 48
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "decode",
+        "start": 51,
+        "end": 60
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "frames",
+        "start": 63,
+        "end": 64
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 67,
+        "end": 80
+      }
+    ],
+    "Launcher/tools/bbtag/bbtag_formats.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "hip",
+        "start": 10,
+        "end": 28
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "hpl",
+        "start": 31,
+        "end": 36
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "jonbin",
+        "start": 42,
+        "end": 72
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "rgba",
+        "start": 75,
+        "end": 77
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compose",
+        "start": 80,
+        "end": 107
+      }
+    ],
+    "Launcher/tools/bbtag/bbtag_fxport.py": [
+      {
+        "kind": "ClassDef",
+        "name": "Buf",
+        "start": 50,
+        "end": 109
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_down",
+        "start": 112,
+        "end": 116
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Renderer",
+        "start": 120,
+        "end": 326
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_pack",
+        "start": 330,
+        "end": 360
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "port",
+        "start": 363,
+        "end": 411
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_cab",
+        "start": 415,
+        "end": 416
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "make_bundles",
+        "start": 419,
+        "end": 514
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "preview",
+        "start": 518,
+        "end": 542
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 545,
+        "end": 559
+      }
+    ],
+    "Launcher/tools/bbtag/bbtag_mua.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "_f",
+        "start": 47,
+        "end": 48
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_i",
+        "start": 51,
+        "end": 52
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Model",
+        "start": 55,
+        "end": 268
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_sample",
+        "start": 271,
+        "end": 288
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_quat",
+        "start": 291,
+        "end": 296
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_strip",
+        "start": 299,
+        "end": 307
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "models",
+        "start": 315,
+        "end": 321
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "model",
+        "start": 324,
+        "end": 329
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "texture",
+        "start": 332,
+        "end": 348
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "palette_colour",
+        "start": 351,
+        "end": 361
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "effect_tint",
+        "start": 364,
+        "end": 368
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Canvas",
+        "start": 373,
+        "end": 424
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_bilinear",
+        "start": 427,
+        "end": 435
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_args",
+        "start": 457,
+        "end": 464
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Script",
+        "start": 467,
+        "end": 504
+      },
+      {
+        "kind": "ClassDef",
+        "name": "EffectObject",
+        "start": 507,
+        "end": 513
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_flatten",
+        "start": 516,
+        "end": 523
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "run_effect",
+        "start": 526,
+        "end": 590
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "obj_params",
+        "start": 593,
+        "end": 641
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_integrate",
+        "start": 644,
+        "end": 650
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "project",
+        "start": 656,
+        "end": 662
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_default_blend",
+        "start": 665,
+        "end": 670
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_frame_box",
+        "start": 673,
+        "end": 679
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_finish",
+        "start": 682,
+        "end": 689
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "render_model",
+        "start": 692,
+        "end": 712
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "render_effect",
+        "start": 715,
+        "end": 750
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "sheet",
+        "start": 753,
+        "end": 771
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_opts",
+        "start": 775,
+        "end": 795
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 798,
+        "end": 836
+      }
+    ],
+    "Launcher/tools/bbtag/bbtag_owner.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "valve_signed",
+        "start": 38,
+        "end": 42
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "subscribed",
+        "start": 45,
+        "end": 68
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "check",
+        "start": 71,
+        "end": 74
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 77,
+        "end": 86
+      }
+    ],
+    "Launcher/tools/bbtag/bbtag_ptl.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "pdat_dir",
+        "start": 150,
+        "end": 154
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "pull",
+        "start": 157,
+        "end": 171
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "ensure",
+        "start": 174,
+        "end": 177
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "names_of",
+        "start": 180,
+        "end": 182
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "uvanime",
+        "start": 185,
+        "end": 197
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Bank",
+        "start": 200,
+        "end": 232
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Emitter",
+        "start": 235,
+        "end": 269
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "argb",
+        "start": 272,
+        "end": 273
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fmt_field",
+        "start": 276,
+        "end": 284
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "script_uses",
+        "start": 293,
+        "end": 321
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "palette_colours",
+        "start": 324,
+        "end": 331
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Rng",
+        "start": 336,
+        "end": 365
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "spawn_offset",
+        "start": 368,
+        "end": 404
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "direction",
+        "start": 407,
+        "end": 427
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "rand_size",
+        "start": 430,
+        "end": 435
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Particle",
+        "start": 438,
+        "end": 439
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Group",
+        "start": 442,
+        "end": 670
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "orbit_offset",
+        "start": 673,
+        "end": 677
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wrap_flip",
+        "start": 680,
+        "end": 687
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "colour_reset",
+        "start": 690,
+        "end": 695
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Sim",
+        "start": 698,
+        "end": 801
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "texture",
+        "start": 809,
+        "end": 825
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "raster",
+        "start": 828,
+        "end": 873
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "straight",
+        "start": 876,
+        "end": 882
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "over_bg",
+        "start": 885,
+        "end": 886
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cmd_list",
+        "start": 890,
+        "end": 896
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "describe",
+        "start": 899,
+        "end": 925
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cmd_info",
+        "start": 928,
+        "end": 934
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "resolve_tint",
+        "start": 937,
+        "end": 949
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cmd_render",
+        "start": 952,
+        "end": 1044
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "chain_ids",
+        "start": 1047,
+        "end": 1056
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cmd_atlas",
+        "start": 1059,
+        "end": 1105
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cmd_stats",
+        "start": 1108,
+        "end": 1124
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 1127,
+        "end": 1173
+      }
+    ],
+    "Launcher/tools/bbtag/bbtag_read.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "find_install",
+        "start": 19,
+        "end": 46
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "asset_name",
+        "start": 69,
+        "end": 70
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "decrypt",
+        "start": 73,
+        "end": 76
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "read",
+        "start": 79,
+        "end": 85
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fpac_entries",
+        "start": 88,
+        "end": 103
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fpac_files",
+        "start": 106,
+        "end": 107
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 110,
+        "end": 131
+      }
+    ],
+    "Launcher/tools/bbtag/bbtag_rig.py": [
+      {
+        "kind": "ClassDef",
+        "name": "Source",
+        "start": 51,
+        "end": 133
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "mirror",
+        "start": 136,
+        "end": 139
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_components",
+        "start": 142,
+        "end": 159
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_dilate",
+        "start": 162,
+        "end": 166
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clean_mask",
+        "start": 169,
+        "end": 199
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "normalize",
+        "start": 202,
+        "end": 211
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "pack",
+        "start": 214,
+        "end": 228
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "quad_mesh",
+        "start": 231,
+        "end": 240
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_frames",
+        "start": 243,
+        "end": 269
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_unity",
+        "start": 278,
+        "end": 283
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_env",
+        "start": 286,
+        "end": 289
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_cab",
+        "start": 292,
+        "end": 293
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_guid",
+        "start": 296,
+        "end": 297
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_retarget",
+        "start": 300,
+        "end": 308
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_save",
+        "start": 311,
+        "end": 315
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_bundle_obj",
+        "start": 318,
+        "end": 319
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_grow",
+        "start": 322,
+        "end": 331
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "extra_page",
+        "start": 334,
+        "end": 343
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_sheet",
+        "start": 346,
+        "end": 366
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_family",
+        "start": 369,
+        "end": 381
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "build_rig",
+        "start": 384,
+        "end": 532
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_deps",
+        "start": 535,
+        "end": 538
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clone_texture",
+        "start": 541,
+        "end": 570
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clone_atlas",
+        "start": 573,
+        "end": 603
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "render_clip",
+        "start": 606,
+        "end": 641
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "main",
+        "start": 644,
+        "end": 653
+      }
+    ],
+    "Launcher/tools/bbvfx.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "cab_of",
+        "start": 27,
+        "end": 27
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "game_env",
+        "start": 28,
+        "end": 28
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "obj_name",
+        "start": 29,
+        "end": 31
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "pack",
+        "start": 35,
+        "end": 77
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "container_path",
+        "start": 79,
+        "end": 82
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "do_import",
+        "start": 84,
+        "end": 160
+      }
+    ],
+    "Launcher/tools/cri_acb.py": [
+      {
+        "kind": "ClassDef",
+        "name": "Column",
+        "start": 25,
+        "end": 40
+      },
+      {
+        "kind": "ClassDef",
+        "name": "UTF",
+        "start": 43,
+        "end": 154
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "afs2_read",
+        "start": 158,
+        "end": 172
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "afs2_build",
+        "start": 175,
+        "end": 190
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "hca_info",
+        "start": 194,
+        "end": 229
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cmd_ops",
+        "start": 233,
+        "end": 239
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cmd_blob",
+        "start": 242,
+        "end": 243
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cmd_get",
+        "start": 246,
+        "end": 247
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "cmd_set",
+        "start": 250,
+        "end": 254
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Acb",
+        "start": 263,
+        "end": 310
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clone_acb",
+        "start": 313,
+        "end": 490
+      }
+    ],
+    "Launcher/tools/gameslot.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "now",
+        "start": 22,
+        "end": 23
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "hm",
+        "start": 26,
+        "end": 27
+      },
+      {
+        "kind": "ClassDef",
+        "name": "Mutex",
+        "start": 30,
+        "end": 47
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "load",
+        "start": 50,
+        "end": 59
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "save",
+        "start": 62,
+        "end": 65
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "holder",
+        "start": 68,
+        "end": 71
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "check",
+        "start": 74,
+        "end": 79
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "status",
+        "start": 82,
+        "end": 88
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "acquire",
+        "start": 91,
+        "end": 116
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "renew",
+        "start": 119,
+        "end": 124
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "release",
+        "start": 127,
+        "end": 133
+      }
+    ],
+    "Launcher/tools/savefile.py": [
+      {
+        "kind": "FunctionDef",
+        "name": "rv",
+        "start": 15,
+        "end": 19
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "wv",
+        "start": 22,
+        "end": 27
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fields",
+        "start": 30,
+        "end": 41
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "load",
+        "start": 44,
+        "end": 45
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "messages",
+        "start": 48,
+        "end": 58
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "info",
+        "start": 61,
+        "end": 71
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_mod_actor_ids",
+        "start": 84,
+        "end": 97
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "custom",
+        "start": 99,
+        "end": 99
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "key_of",
+        "start": 102,
+        "end": 105
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fes_id",
+        "start": 108,
+        "end": 113
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "fes_score",
+        "start": 116,
+        "end": 122
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "prune",
+        "start": 125,
+        "end": 130
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "unpacked",
+        "start": 133,
+        "end": 139
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "prune_packed",
+        "start": 142,
+        "end": 155
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "strip_inherited",
+        "start": 158,
+        "end": 179
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "strip_pack",
+        "start": 182,
+        "end": 190
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "pattern_hits",
+        "start": 193,
+        "end": 195
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "edit",
+        "start": 198,
+        "end": 204
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "scan_custom",
+        "start": 207,
+        "end": 215
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clean",
+        "start": 218,
+        "end": 270
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_prune_map",
+        "start": 284,
+        "end": 285
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_prune_packed_pred",
+        "start": 288,
+        "end": 299
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "_scan_range",
+        "start": 302,
+        "end": 309
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clean_grim",
+        "start": 312,
+        "end": 338
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "compress",
+        "start": 341,
+        "end": 343
+      },
+      {
+        "kind": "FunctionDef",
+        "name": "clean_file",
+        "start": 346,
+        "end": 354
+      }
+    ]
+  },
+  "json_files_checked": 38,
+  "javascript_checked": 21,
+  "javascript_failures": [],
+  "source_hashes": {
+    "DELTARUNE_PARTY_GUIDE.md": "0d471548e1f3d69b656ae4d6673e4099c064b188016e6d2499871ce120b9a0a8",
+    "Gui/NOTICES.md": "1de170dae355a255e20342530866b2e7854ce728df4f70f8914691fd70e89243",
+    "Gui/launcher/ZenithTerminal.cs": "b7d482f45df4da05b41b7171f21a08eedc1236d4ab13ea31be150748643a3d62",
+    "Gui/run_gui.py": "ab9b15b7b61039530126af684be215df10d878899a9821ee72e76cb2e3fa40f8",
+    "Gui/zenith_gui/__init__.py": "2533a9aec440f05450d6b721f4a13e9d227b4780e4f258d52df01cd5bd184df1",
+    "Gui/zenith_gui/controller.py": "f7b47930211abe475abf552a5e456260c33ad7e57ad379c53209f19657b998d5",
+    "Gui/zenith_gui/known_mods.json": "07e7cd2759b3cb4b93d37ca71c833420e79d3627a6e3a0de9092e9fec0a141b8",
+    "Gui/zenith_gui/links.json": "e9e251b74eb861fbe5a61c7002ae703694bad86189ed81e32bddc24ba31a6a41",
+    "Gui/zenith_gui/shell.py": "0f56db0272b41c6d02ffa4740e4129963acd032b0410ba26f9fc123e3075248c",
+    "Launcher/1_SETUP.bat": "961ee43f5a66a165ab7657ee4d833cb753b946dfb081a5edd48d8d98374c0b99",
+    "Launcher/2_INSTALL.bat": "7dc8fc3cc0c57f89f2006c26fd6a7473e2721ac87784ad614885ed08cda82b08",
+    "Launcher/BACKUP_SAVE.bat": "75b8784add2730447b317fa1cd2e23602fc13242692c7b339642d15c7122e06c",
+    "Launcher/CHANGELOG.md": "672010a3a3eeb79ea5a4f78dbd259cfa98c599c7a74888740d67ba6da9127526",
+    "Launcher/MAKE_FEEDBACK_ZIP.bat": "edeefeb68fa4019ba0c2b17897033b85409d2dcaf5897fc0f074e55d99d5ef63",
+    "Launcher/README.md": "4029b6803289c2b76b9b3c50f82dd9b38ed42e6f54f972650fcef055b9e3f1a6",
+    "Launcher/REPAIR_SAVE.bat": "9f6cdbebc845d56225b6a8d133c9a1bfb5e6d46de75d2bd3b0f78ab2c3d0c2e4",
+    "Launcher/STATUS.bat": "ad4a7a59d16b173d0c1fd7d0d9e499069e408baa24f5c96671f6f36c3a628a4b",
+    "Launcher/UNINSTALL.bat": "9035cd46d51b721ef6781c58c95a17b7cefb8d9477d29c396f81ceb4148de283",
+    "Launcher/animview.py": "e4b2ad83620730a29f1a5a3af5ea680fa2de5444e70f5ab5f04142e1a9066dc5",
+    "Launcher/audit_build.py": "9ebe76d6873f9303a4357df3f9c26a33d01e41ac2486d703423d425b8ff63b9c",
+    "Launcher/bbchar.py": "b3ecf8a995ddc4b6d886fa2fb485d0688e4d14a3156a8906c0573882c946a6bc",
+    "Launcher/bbmod.py": "89cde5d98d5cbb69b058b2125f767583c66d18c7a421cf612976d8dffe49eb77",
+    "Launcher/bbrig.py": "dc294ead0b8e6a415e463faab7178e6bf24ddcc589bb8252f60aa066200dda8a",
+    "Launcher/docs/BUILD_UPDATE.md": "4e46e5ad79a3f190d19d732924520fdd918c202606b3d476e406b2dc47f79637",
+    "Launcher/docs/INSTALL.md": "77cda91e40ba46a6c07ce1c25d0f637747034af57c68bd4bc62ffaa87e02ff3d",
+    "Launcher/docs/NINE_GUIDE.md": "4b9f377ef9a657fcea882ee4c69cc8d09becaaadc9c58cb31baf11e36c59677b",
+    "Launcher/docs/TROUBLESHOOTING.md": "2a59f82809a3362d47d1795943fb6cdbb5af0eaa7967e73cf531842c62e627ea",
+    "Launcher/docs/UNINSTALL.md": "ef92f687332c2b574f63a12b9a1408f6eaca30952dca99ba909f1313244d8973",
+    "Launcher/docs/UPDATE.md": "9a388e3a59ec16ad6bffa87aad3816dd2c320a8017e9dc973c54d887dcac2c2f",
+    "Launcher/entry_point.py": "046e8ae4eb92ef7eea64a5fc6bf335fc61848d4ea951d0639a34288fd59ef1a6",
+    "Launcher/make_patch.py": "01889193e0d9ffefc6334aac737141ec3c967ec9e2ddc35f9e35e4db2a104d94",
+    "Launcher/mods/char-nine/cf_arts.py": "87cba1493efdd32db0e1b3701c99e255b38170c740818f16246a3f6bc3addd07",
+    "Launcher/mods/char-nine/cf_clips.py": "95f4aefd9d6172b9bc8328dc5dfcd2e0502dc9218747aca94614faf1ab3625f5",
+    "Launcher/mods/char-nine/cf_fx.py": "ff84e16924cddb22a10611b37c0e461c2404013ad9ce5d45b4bdf489340807d7",
+    "Launcher/mods/char-nine/gen/nin_tree.json": "7f11c14044886d41f4f0f073b2c79725c2bd71b9b305ea4ec428738e36be7f7d",
+    "Launcher/mods/char-nine/gen/ninb1_tree.json": "57f299eb61d568b02b95dee4e56f0b850d68d8f17d987e9e2cd1e42cebc6fe1c",
+    "Launcher/mods/char-nine/gen/ninb2_tree.json": "a09712cbac16d0f6ce9a22c62ba70d55f5d517f64cc53073e645e80eb8b3eb2a",
+    "Launcher/mods/char-nine/gen/ninb3_tree.json": "97fc0614b42a971ff47090e02150fa6f809e53042941304472e28117b38697a4",
+    "Launcher/mods/char-nine/import_cf.py": "2e19c5c64c0eaf08faff23e7aba2267e41f1f3d69cb4f67397d318d248dd5639",
+    "Launcher/mods/char-nine/js/arts_chord.js": "88495ce4f1ba939ca0ff6805bb11f00980ad662743b36f07a402513f09c33dc5",
+    "Launcher/mods/char-nine/js/spell_hud.js": "6524cf904ea8ba956dbbb3778fb45f48dfadc28957449f6f848b7ae8294c684f",
+    "Launcher/mods/char-nine/mod.json": "318fe79ce39fea64c044170213c8cb9272aee55cbf7e3cfdc37da49af67429ee",
+    "Launcher/mods/char-nine/vfx/clones.json": "0f54949beef804e40cd835078e18adf7592a99dfff8faf681b46603514cdec53",
+    "Launcher/mods/char-nine/vfx/fxmap.json": "7d7a4b96e1b1e094c4ec46dce246b669e6e784c573841d3d5423ba298b46ae66",
+    "Launcher/mods/char-nine/vfx/import_fx.py": "d8403c9947deaf24cf09c7529d399982e222a42d39218a8301f7536622afe21c",
+    "Launcher/mods/char-ruby/art/icons/icons.json": "f0c1bf9019fe09168a6ccbd1e0bc012870a57046c7758407ee159866e5de81b9",
+    "Launcher/mods/char-ruby/build_ruby.py": "f0e544d52e785567d378636c02279f6c7f89f5a3f0d3fe872e45b2e768a955a8",
+    "Launcher/mods/char-ruby/docs/BUILD_UPDATE.md": "4e46e5ad79a3f190d19d732924520fdd918c202606b3d476e406b2dc47f79637",
+    "Launcher/mods/char-ruby/docs/CHANGELOG.md": "ac0bb9fed384fdfcbf4ddbd825c4cb49fb8a8caa74bddc84a1e6a008a89fe178",
+    "Launcher/mods/char-ruby/docs/COMPATIBILITY.md": "6d7cb40c440ba45d7828114e85a2578689a80b6cc701fbb5f20559defc661041",
+    "Launcher/mods/char-ruby/docs/LIMITATIONS.md": "3c3fd3ef9dfc2eb679683e804beb3390a25fe5db8e4f38076680872931b8e7b9",
+    "Launcher/mods/char-ruby/docs/README.md": "6838644c7fa56736a8bed8a1b469a787f6132e3f9ce19dbd6dc9277c0c4d8e80",
+    "Launcher/mods/char-ruby/fx/clones.json": "db505d28e719805ebc4f608f91c7327e074a0a6e0c8cdb31246b2183f19af656",
+    "Launcher/mods/char-ruby/fx/fxmap.json": "fe8ecca7b3381c87c1ea01485959be9c31c34aa1a536c55b5b537935da37c4ff",
+    "Launcher/mods/char-ruby/fx_wave/clones.json": "fd74a7641ee52f7c70de1e61d19ef7546d5cb145a476d059dd6639539ffd9012",
+    "Launcher/mods/char-ruby/fx_wave/fxmap.json": "1344ddd2491383e4567cbfa2587a611dd9c36bba606be7bbdebbfef1efa9506f",
+    "Launcher/mods/char-ruby/fxcompile_ruby.py": "615cdba386b935aec97b38134d31ce20ce11a4185e51b11ef5fb6029308ceb23",
+    "Launcher/mods/char-ruby/hca_crypt.py": "4a44e939625d0ba5b490fd67d78429564751d624fc1b7faf703c2ae5c99e714b",
+    "Launcher/mods/char-ruby/import_ruby.py": "3785296e81230f6db7d0e16a50ce47d56d00eb6f47ac0342528721dce0a509cf",
+    "Launcher/mods/char-ruby/own/bossport.py": "81cee570fe48f271a4987be7a33670b68a5952a4570e48f00f6c8cc4f77ea225",
+    "Launcher/mods/char-ruby/own/portraits.py": "45aaa6cefec8e7c22dd8b7c0a47a5972087176ac39eca19084be235613f20468",
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbscript_dump.py": "717f6f6d6571400ff686553912e6ecc5350a3a88ae987e66ef45b1f2bf04c4cb",
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbscript_names.json": "e4f89cb581bcee293ee004602a6c7c3c283d758004e9e33025cf8d99574249cc",
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbscript_sizes.json": "60b2fdb6f14ef22fb68a093d211741d4499f28f4e7d05ab632f9594440141cc2",
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_clips.py": "476d5478596e3718aebe0022747ea694eb39af0a8a6e9ba38a43b3903661d6f5",
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_formats.py": "d95bbed1607b9744d30bfa21cedf3ea33389197f54df3618ffbf8efa5ccea1f1",
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_fxcompile.py": "51eb462231126aa505b6c9ef0c8e2999cb15ea9378e3339a136bf6dd9dec3793",
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_moves.py": "9e5a12cba38074ff5d97f2762fb623d9d2fd12e2188f48213fe15253d988f67d",
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_mua.py": "2a1bf8f883081d2bb8c9ccd2d74cd85acc70567d69cb9b304d0eda185ad2fc6a",
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_owner.py": "7fc4bce787ef398869ef9ecac2a739adef28e1c7f884abb5e5fd730f596fe38d",
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_read.py": "2440a1320c95c982eadd9a09d64b81f48c273024d640cfe682ca63a918672573",
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_rig.py": "b86ac2eb7326193bb0fcedb476237157ec712e536fbfa76e6a01971a4d67db41",
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_ui_dump.py": "69b710d40fb7fc7f7aeefa6d7d043b7ab55c780aa5d3083d331dc32db47eab4c",
+    "Launcher/mods/char-ruby/own/tools/bbtag/bbtag_xact.py": "c61742975b66edc70c6ffe30613575d71992dac94c7bfc055913be4d48059fb1",
+    "Launcher/mods/char-ruby/own/tools/bbtag/ruby_arcband.py": "09d457249679c218d57ea6f6523dfcb84ca690bdbc4a6d6d3bbed9809144c521",
+    "Launcher/mods/char-ruby/own/tools/bbtag/ruby_blade.py": "15116e5bb1f4cb8ee302fc3e5b3978f2f4f5a8a7b841428d51e54b61128fdcf1",
+    "Launcher/mods/char-ruby/own/tools/bbtag/ruby_crescent.py": "7e439623a2b69380ccbe9efad6f6ce54124d1188baf2c311b35693cedb21592e",
+    "Launcher/mods/char-ruby/own/tools/bbvfx.py": "de0ab622f067deccbedd5f8d597e02be6800371b672add6c787904bbfc7345bc",
+    "Launcher/mods/char-ruby/own/tools/cri_acb.py": "074eea172b9b6c1d602a9b3da2dd639ffd40624ad585f38f905370c75688967b",
+    "Launcher/mods/char-ruby/own/tools/hca/Program.cs": "5affa3c1a514f1421b2b7272ea726617b1295972c305a443be15748c97fc064c",
+    "Launcher/mods/char-ruby/rrb_fx.py": "82eb04f29fcf5db32f09a416639793aec757c6f09fbae923f3ee83316d72df6c",
+    "Launcher/mods/char-ruby/rrb_portrait.py": "0fffd11b389d91c773c833bc7a11df0c8d87a9ce64234dc63e2b37f42b937aad",
+    "Launcher/mods/char-ruby/rrb_pots.py": "cf6a107a6289f05c25abf285dd5ec1cbe2eed7f4b1389af54042e68b7163c56d",
+    "Launcher/mods/char-ruby/rrb_power.py": "50e499f1bc1f3d5ff33c744a150d05ffd2dea1b953eddd51e076c8bb311194ee",
+    "Launcher/mods/char-ruby/rrb_sound.py": "b58102746c392a6176b16c5185de3ddcca820862b4a0eb233962f126ee4a7e63",
+    "Launcher/mods/char-ruby/rrb_text.py": "495574097be175814e36bb07a3bc8e4be2ca87a5392fd07b4f4a66584ddbacbc",
+    "Launcher/mods/char-ruby/ruby_audio.py": "3af46c331fe8b3c6452c3c5867653be31577883f13db52227be8b51866712f60",
+    "Launcher/mods/char-ruby/ruby_clashbg.py": "975aead31408dc169f4fb75709dac24bc568772786b806ce3b6814cd3ddb5c86",
+    "Launcher/mods/char-ruby/ruby_clips.py": "fb6983eb6429643245a4cd27b7d65231b022c26af186840ff994890adbb553b1",
+    "Launcher/mods/char-ruby/ruby_fx.py": "16233553dd9bfad0fd1762713d363e2821f0084c3fa21cd58756686fec5686e5",
+    "Launcher/mods/char-ruby/ruby_ui.py": "f50894f6b1c49cf67fc4f433a9e2190463406e24eac47b7e40c421364b27ab22",
+    "Launcher/mods/char-ruby/src/rrb_hud.js": "ec4f273993f66631f902691685feb9ccf64e618c13d14889b615cc518b904a87",
+    "Launcher/mods/char-ruby/src/rrb_runtime.js": "353e61b89abdbba6e5f6b5851dde6d63be19617451cba45fd9342db9d879090e",
+    "Launcher/mods/char-ruby/terminal.json": "3259fd91209050aaf2294af60bf624bb17233a79f4457fbecf67b64589721363",
+    "Launcher/mods/char-ruby/terminal_art.py": "d96d61bedbb007f20461db07e030e5cd7e49a0fbf210a6d80785b1eef4817dc1",
+    "Launcher/mods/dr-party/audio/dr_sfx.py": "4f7c503136d122254e28e623535af77db71ae1f01d7a150e811846c6ae0ea139",
+    "Launcher/mods/dr-party/audio/hca_crypt.py": "4a44e939625d0ba5b490fd67d78429564751d624fc1b7faf703c2ae5c99e714b",
+    "Launcher/mods/dr-party/audio/import_audio.py": "f1549577328baa37c6e60415e3a5dc6e6a5f787858e25a3db135435b18bfe08f",
+    "Launcher/mods/dr-party/dr_pack.py": "628e60d78f028028ea258a104ebfcd3674a2bed101fb84c9599f1d543883118b",
+    "Launcher/mods/dr-party/dr_source.py": "175f2735ae3b979a6428504b97bda74f13b605a6ad3dac9b49fd67e3df5b20ec",
+    "Launcher/mods/dr-party/fx/clones.json": "82d9a50fc5645cdc771b6aa985fec4f35e728a7298e745c0a3251ce47feee786",
+    "Launcher/mods/dr-party/fx/fxmap.json": "176d429aa4f8aaf1356a57ff30d54ca6a0cc8fdd647bab0920dde63d590cbe07",
+    "Launcher/mods/dr-party/fx/import_fx.py": "e03b73c657c72f97692cd70552d02753bc00c14b1911af556d46d62e652752b7",
+    "Launcher/mods/dr-party/gen/command_cfg.json": "37b04129427cb025db8ab9fbe976639ae436d31cc2697ad75f1d9ad4165c7b0a",
+    "Launcher/mods/dr-party/gen/kit_fx.json": "8c2f83d320e0a7563892b5ea7b69c710e8612b02ca8778d4a9cfdd02ba973d1f",
+    "Launcher/mods/dr-party/gen/kris_tree.json": "c7fa8fb02acb8e933491093bb4efa6fa6b1bd7dc881455d9e5aca15b6e2c2e8e",
+    "Launcher/mods/dr-party/gen/krisbullet_tree.json": "cd812e940b9b6488fca2912de33df1f72aa909c00f16e2e8b2e4715cd956ef73",
+    "Launcher/mods/dr-party/gen/potentials.json": "f96d8acb5d7de9b05fd4cc5895cd4014c44e81a333be1e603f4393ab83711b63",
+    "Launcher/mods/dr-party/gen/retimed.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "Launcher/mods/dr-party/import_kris.py": "dafec79da91bd111dcbfee8f98477f8f83b22f96ea04ec6be58c037dc606718f",
+    "Launcher/mods/dr-party/js/command.js": "95d37913eca2a64cbda5ad4bfbb28df02d217439f2bd8b08debd1c2dfa0ade53",
+    "Launcher/mods/dr-party/js/potentials.js": "bc971e405bfaf7139457b3e4d33466bf170d6ae61a692742ed8f5b9ceb73ac6c",
+    "Launcher/mods/dr-party/js/potentials_trig.js": "bc13cd7cb049f25168b7d76384b687c0732a8d17f82fff799d872567414aa7a6",
+    "Launcher/mods/dr-party/js/pots_fireshock.js": "d11a8d6fdcddffd5e1cf65331347e3f680a5564b2d09ee64592d28185e5875fe",
+    "Launcher/mods/dr-party/js/pots_move.js": "c54e92a870ff80cfe6c84baadd737e5c1c49d7e1fa2fae705d032eab366c6c5c",
+    "Launcher/mods/dr-party/js/pots_party.js": "976f3fcdacbb2ffaf09755f9d3b5db1e209ee154fff54413140277a264897e9a",
+    "Launcher/mods/dr-party/js/pots_pen.js": "32aeb92b83740a89c3a704abc7f8d367deb015bd5c81fb8b3c1e9afe7c419a1a",
+    "Launcher/mods/dr-party/js/pots_rudebuster.js": "4e0d6d4f708a1365481e5433906b1cac7fd54ca3b903edb57c682e3aecd8f914",
+    "Launcher/mods/dr-party/js/pots_slash.js": "c1c30bd618d5665ec2893fe5d553250f7bb200924c4e1f36991b48c7e1b7c0b0",
+    "Launcher/mods/dr-party/js/pots_tension.js": "c49db428ac9632d091135166493c76af77d2d4c19b438111cdef0a501ad5a823",
+    "Launcher/mods/dr-party/kris_clips.py": "0d0f571f7eee57b214511d99bca1275a72f3ad16ba9701bc36aebc0f9a505b37",
+    "Launcher/mods/dr-party/kris_portraits.py": "774757b987ec31f2c2481a8f9926e56341956c4e1274898401b24d7ac2624718",
+    "Launcher/mods/dr-party/mod.json": "237f8e6c2f46c211452b785092716b041008c9634d3af1941b3ac3836ee90a52",
+    "Launcher/mods/dr-party/pack/audio/info.json": "10d35fd54ce44dfa207cdfda549c00cd327f36365547d91362a6cee62f44c0ac",
+    "Launcher/mods/dr-party/pack/frames/font_fnt_main.json": "3f560473d979d86a6e5930b9796a39ee9d16cc06ee4754b8d4476045ebc70c49",
+    "Launcher/mods/dr-party/pack/frames/font_fnt_mainbig.json": "c73a1a7011218ed330cba2dba7ebd8149c6e4cd15a8766f4f2fb82194024e1e3",
+    "Launcher/mods/dr-party/pack/frames/meta.json": "ef61785fc80a976e5afa0693ba459281bc7b6cb0fdb9ac24a0e0eacb7366286e",
+    "Launcher/mods/dr-party/pack/frames/ui_labels.json": "4f0f4d40f39710060d34d307eacde2ddad5b5e391c180054e2bfe48f80517634",
+    "Launcher/mods/dr-party/pack/pack.json": "cb691d506de7b057db35bbf0d08837bbccafc499aa64b8862df7894e2a7e3672",
+    "Launcher/mods/dr-party/party_clips.py": "f1d1cc96b5936da11f3213cf4841bb5063d447ea0110a12d473fe01b4f022ada",
+    "Launcher/mods/dr-party/party_ui.py": "4b09b7753a494befbdb910ca358c23d01f97c057696b6be4e3018be33975c79e",
+    "Launcher/mods/profile.json": "60db63ac672f547adc36015e2798a7541d7da309d5a0097eae9afebd41345f7b",
+    "Launcher/pipeline.py": "a91e417d0bc15050ab85766991b09df3d12b83f8ccaae94ff8ba37caad4d16ce",
+    "Launcher/shared/bbee-actors/mod.json": "38bea436e32dafffae846fc3c0a4fd723692faef3811c79bf26e6db14eb43fa0",
+    "Launcher/shared/bbee-inspector/mod.json": "8e55ee1266cc74981460194ef7cfddb3fd1a24805d4f75afaa7f42b66f327f0a",
+    "Launcher/shared/bbee-sdk/mod.json": "fbc14ba9f66c603f4d51e249a42f055492fb0a8bda51e747dafcf04f0d62bab4",
+    "Launcher/shared/profile.json": "cfe815018cc6b1d95a3e6ff5e856213c05e6517c6ae7940b7010b284e481de8c",
+    "Launcher/tools/bbcf/bbcf_read.py": "875415b08c2d8dc808ef237a0168b5f8934d6be4acd1415b941bfaed0a3c0a62",
+    "Launcher/tools/bbtag/bbscript_dump.py": "de8de1eaa97248205b391823fb5b88438de4067907ee3abd83843bc1a3ae08ae",
+    "Launcher/tools/bbtag/bbtag_formats.py": "825526a00356f4d3f31e3425421eee4cd5c5520309ce9980968a234687d34553",
+    "Launcher/tools/bbtag/bbtag_fxport.py": "df8a3c6cebf84b85bdff118a296d6f462b1c01c0b1b9d6a45703ed2de69726a8",
+    "Launcher/tools/bbtag/bbtag_mua.py": "cfc255fceaf846fbd2bf6583c4d36ff3ad6fda456c6fd4761168c79c2b94d363",
+    "Launcher/tools/bbtag/bbtag_owner.py": "5f88ef264e7a5a02a9e4319323987b2f2ee34c858c013e8bdaa0647f705f552f",
+    "Launcher/tools/bbtag/bbtag_ptl.py": "0caf09ffddbfafb0979cd8bfc72af14bcc531fc944fe8a5648a32ea4e0b4baee",
+    "Launcher/tools/bbtag/bbtag_read.py": "1c2cda25f7298d6415fd6d9b6a43a55749ca631fea4d2ba1c6a880eadbc3249c",
+    "Launcher/tools/bbtag/bbtag_rig.py": "9017371b06136183430db84b9e2b892ca4c5c24952c51c0c7959ffae95a36386",
+    "Launcher/tools/bbvfx.py": "3f298c15250f51b38ae8afc77da0e805742b69f0284f4d72afe2b33e340e067b",
+    "Launcher/tools/cri_acb.py": "074eea172b9b6c1d602a9b3da2dd639ffd40624ad585f38f905370c75688967b",
+    "Launcher/tools/gameslot.py": "53406978684c3cc0ffe4ebb2a3d0edce4b5c6d1554428159278c5ba3c284324e",
+    "Launcher/tools/savefile.py": "39cc85a4fc8f3c5d0a4f00b348fe860d2272d859c0ba205a28d3a89e8a6d065d",
+    "Launcher/tools/schema/25627491/proto_schema_snapshot.json": "7799e135ea0c40fa2f3e9e1b9c7b683d9ce05c10b16947c001192ec8268fe9aa",
+    "NOTICES.md": "02822ec784b970028b6d8ad45dc84b4fa248758d8c199880c61cc94a086c97e4",
+    "RUBY_ROSE_GUIDE.md": "f38ea34f7b143d41141f17cc4c96dd1ee44476a620f69fd61e9cf25987f4aeea",
+    "SETUP_GUIDE.md": "d00ecabc67822f94d6583a6b7a1bf3f19cbaf978b0ee833def0dec93558b67bc",
+    "Start The Zenith Terminal.bat": "ec710cbc94265bcf66d5dac941f1e8c8a70421a8f0631798fd9c9805f46c3aa4"
+  },
+  "archive_sha256": "b5b3c2548ab61259c6f757b0cbf450a1d3490345ae9172915a5d7a303c36e150",
+  "script_path_checks": [
+    {
+      "mod": "char-nine",
+      "kind": "importer",
+      "path": "Launcher/mods/char-nine/import_cf.py",
+      "exists": true
+    },
+    {
+      "mod": "char-nine",
+      "kind": "importer",
+      "path": "Launcher/mods/char-nine/vfx/import_fx.py",
+      "exists": true
+    },
+    {
+      "mod": "char-nine",
+      "kind": "appendFile",
+      "path": "Launcher/mods/char-nine/js/spell_hud.js",
+      "exists": true
+    },
+    {
+      "mod": "char-nine",
+      "kind": "appendFile",
+      "path": "Launcher/mods/char-nine/js/arts_chord.js",
+      "exists": true
+    },
+    {
+      "mod": "char-nine",
+      "kind": "treeFile",
+      "path": "Launcher/mods/char-nine/gen/nin_tree.json",
+      "exists": true
+    },
+    {
+      "mod": "char-nine",
+      "kind": "treeFile",
+      "path": "Launcher/mods/char-nine/gen/ninb1_tree.json",
+      "exists": true
+    },
+    {
+      "mod": "char-nine",
+      "kind": "treeFile",
+      "path": "Launcher/mods/char-nine/gen/ninb2_tree.json",
+      "exists": true
+    },
+    {
+      "mod": "char-nine",
+      "kind": "treeFile",
+      "path": "Launcher/mods/char-nine/gen/ninb3_tree.json",
+      "exists": true
+    },
+    {
+      "mod": "char-ruby",
+      "kind": "prepare",
+      "path": "Launcher/mods/char-ruby/build_ruby.py",
+      "exists": true
+    },
+    {
+      "mod": "char-ruby",
+      "kind": "prepare",
+      "path": "Launcher/mods/char-ruby/terminal_art.py",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "importer",
+      "path": "Launcher/mods/dr-party/import_kris.py",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "importer",
+      "path": "Launcher/mods/dr-party/fx/import_fx.py",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "importer",
+      "path": "Launcher/mods/dr-party/audio/import_audio.py",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "appendFile",
+      "path": "Launcher/mods/dr-party/js/command.js",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "appendFile",
+      "path": "Launcher/mods/dr-party/js/potentials.js",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "appendFile",
+      "path": "Launcher/mods/dr-party/js/pots_fireshock.js",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "appendFile",
+      "path": "Launcher/mods/dr-party/js/pots_move.js",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "appendFile",
+      "path": "Launcher/mods/dr-party/js/pots_party.js",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "appendFile",
+      "path": "Launcher/mods/dr-party/js/pots_pen.js",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "appendFile",
+      "path": "Launcher/mods/dr-party/js/pots_rudebuster.js",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "appendFile",
+      "path": "Launcher/mods/dr-party/js/pots_slash.js",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "appendFile",
+      "path": "Launcher/mods/dr-party/js/pots_tension.js",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "appendFile",
+      "path": "Launcher/mods/dr-party/js/potentials_trig.js",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "treeFile",
+      "path": "Launcher/mods/dr-party/gen/kris_tree.json",
+      "exists": true
+    },
+    {
+      "mod": "dr-party",
+      "kind": "treeFile",
+      "path": "Launcher/mods/dr-party/gen/krisbullet_tree.json",
+      "exists": true
+    }
+  ]
+}

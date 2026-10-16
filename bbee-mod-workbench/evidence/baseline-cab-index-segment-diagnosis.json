@@ -1,0 +1,40 @@
+{
+  "build_id": "25627491",
+  "scope": "readonly baseline merge segment-prefix census; not a staged-output validation",
+  "logical_entries": 60410,
+  "distinct_physical_slices": 60410,
+  "counts": {
+    "UnityFS": 60407,
+    "other": 3
+  },
+  "invalid_slice_bounds": [],
+  "non_unityfs_slices": [
+    {
+      "r": "manifest",
+      "m": "m_65.m",
+      "start": 13473602,
+      "length": 5847998,
+      "prefix_hex": "04224d18484071619f000000000010c7320000fc26466173744d616e69666573",
+      "prefix_text": "\u0004\"M\u0018H@qa�\u0000\u0000\u0000\u0000\u0000\u0010�2\u0000\u0000�&FastManifes",
+      "kind": "other"
+    },
+    {
+      "r": "shadervariantinfos",
+      "m": "m_103.m",
+      "start": 13617866,
+      "length": 531701,
+      "prefix_hex": "733a636f6e736f6c65636f6e74656e74732f6566666563742f73686164657261",
+      "prefix_text": "s:consolecontents/effect/shadera",
+      "kind": "other"
+    },
+    {
+      "r": "buildlogtep.json",
+      "m": "m_664.m",
+      "start": 597802,
+      "length": 59165827,
+      "prefix_hex": "7b0d0a2244617465223a2022323032362f392f33302031383a33393a3538222c",
+      "prefix_text": "{\r\n\"Date\": \"2026/9/30 18:39:58\",",
+      "kind": "other"
+    }
+  ]
+}

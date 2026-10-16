@@ -1,0 +1,24 @@
+{
+  "exit_code": 0,
+  "elapsed_seconds": 21.57,
+  "command": [
+    "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Interpreter\\pythoncore-3.14-64\\python.exe",
+    "-B",
+    "-E",
+    "-s",
+    "E:\\AAA MOD\\bbee-mod-workbench\\scripts\\wandering_character_reference.py",
+    "--raw-manifest",
+    "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261015T122045Z-a69abc003aec\\manifest.json",
+    "--row",
+    "Hero",
+    "--row",
+    "Hero_WuDang"
+  ],
+  "log": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-reference-collection.log",
+  "log_sha256": "d8c616f85c98a0de24aa225ba26324c9b7aa2e12474f2f983b91eab6995b7f77",
+  "source_sha256": {
+    "wandering_character_reference.py": "c22db8bb97605dd036debdfd8f40b217c32fe046fc0dabfba1cfe3855a165b4b",
+    "wandering_character_parser.py": "b6ce5019a7746e264da10997bef3b3315caee045255db07f41f4105cf22778a4"
+  },
+  "previous_failure": "body-reference-collection-failed-v1.json"
+}

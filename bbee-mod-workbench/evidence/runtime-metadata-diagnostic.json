@@ -1,0 +1,92 @@
+{
+  "scope": "generated_fixture_only",
+  "python": "3.14.8",
+  "outcome": "RuntimeGuardError",
+  "nodes": [
+    {
+      "synthetic_node": "Player.log",
+      "expected": {
+        "mode": 438,
+        "atime_ns": 1600000000000000000,
+        "mtime_ns": 1600000001000000000
+      },
+      "actual": {
+        "mode": 438,
+        "atime_ns": 1600000000000000000,
+        "mtime_ns": 1600000001000000000
+      },
+      "direct_stat_atime_ns": 1600000000000000000,
+      "differences": {}
+    },
+    {
+      "synthetic_node": "Save/1",
+      "expected": {
+        "mode": 438,
+        "atime_ns": 1600000000000000000,
+        "mtime_ns": 1600000001000000000
+      },
+      "actual": {
+        "mode": 438,
+        "atime_ns": 1600000000000000000,
+        "mtime_ns": 1600000001000000000
+      },
+      "direct_stat_atime_ns": 1600000000000000000,
+      "differences": {}
+    },
+    {
+      "synthetic_node": "<root>",
+      "expected": {
+        "mode": 511,
+        "atime_ns": 1600000000000000000,
+        "mtime_ns": 1600000001000000000
+      },
+      "actual": {
+        "mode": 511,
+        "atime_ns": 1792060722991709100,
+        "mtime_ns": 1600000001000000000
+      },
+      "direct_stat_atime_ns": 1792060722991709100,
+      "differences": {
+        "atime_ns": {
+          "expected": 1600000000000000000,
+          "actual": 1792060722991709100
+        }
+      }
+    },
+    {
+      "synthetic_node": "Save",
+      "expected": {
+        "mode": 511,
+        "atime_ns": 1600000000000000000,
+        "mtime_ns": 1600000001000000000
+      },
+      "actual": {
+        "mode": 511,
+        "atime_ns": 1792060722992745200,
+        "mtime_ns": 1600000001000000000
+      },
+      "direct_stat_atime_ns": 1792060722992745200,
+      "differences": {
+        "atime_ns": {
+          "expected": 1600000000000000000,
+          "actual": 1792060722992745200
+        }
+      }
+    },
+    {
+      "synthetic_node": "original-empty",
+      "expected": {
+        "mode": 511,
+        "atime_ns": 1600000000000000000,
+        "mtime_ns": 1600000001000000000
+      },
+      "actual": {
+        "mode": 511,
+        "atime_ns": 1600000000000000000,
+        "mtime_ns": 1600000001000000000
+      },
+      "direct_stat_atime_ns": 1600000000000000000,
+      "differences": {}
+    }
+  ]
+}

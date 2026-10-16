@@ -1,0 +1,33 @@
+{
+  "id": "framework-validation-probe",
+  "name": "Framework roundtrip and runtime probe",
+  "version": "0.3.0",
+  "gameBuilds": [
+    "25627491"
+  ],
+  "content": {
+    "js": [
+      {
+        "file": "data/js/Example",
+        "append": "(function(){try{var C=require('csharp'),D='@ROOT@/../../private/runtime';function norm(p){return C.System.IO.Path.GetFullPath(p).replace(/\\\\/g,'/').replace(/\\/+$/,'').toLowerCase();}var expected=norm(C.System.IO.File.ReadAllText(D+'/expected-root.txt').trim()),runId=C.System.IO.File.ReadAllText(D+'/run-id.txt').trim();if(!/^[a-f0-9]{32}$/.test(runId)){throw new Error('missing current run identity');}C.System.IO.File.WriteAllText(D+'/probe.json',JSON.stringify({status:'loaded',run_id:runId,observed_ms:Date.now(),save_root_matches:norm(C.UnityEngine.Application.persistentDataPath)===expected,working_directory_matches:norm(C.System.Environment.CurrentDirectory)===norm('@ROOT@/game'),unity_version:C.UnityEngine.Application.unityVersion,is_playing:C.UnityEngine.Application.isPlaying}));console.log('BBEE_FRAMEWORK_PROBE loaded');}catch(e){console.error('BBEE_FRAMEWORK_PROBE failed');}})();"
+      }
+    ],
+    "tables": {
+      "SkillActivate": [
+        {
+          "ActorId": 1000,
+          "Group": 5,
+          "Order": 1,
+          "Preinputtime": 0
+        }
+      ]
+    },
+    "importers": [
+      {
+        "script": "import_stock_probe.py",
+        "args": []
+      }
+    ]
+  },
+  "description": "Infrastructure-only table, JS, stock-resource clone and dependency validation; no character creation."
+}

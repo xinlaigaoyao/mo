@@ -1,0 +1,196 @@
+{
+  "status": "passed",
+  "captured_utc": "2026-10-15T13:34:02.021867+00:00",
+  "scope": "Bounded original body reference only; no BBEE character production or runtime validation.",
+  "checks_executed": 21,
+  "negative_cases": 2,
+  "checks": [
+    {
+      "check": "compiled_source_still_frozen:wandering_character_reference.py",
+      "status": "passed",
+      "sha256": "c22db8bb97605dd036debdfd8f40b217c32fe046fc0dabfba1cfe3855a165b4b"
+    },
+    {
+      "check": "compiled_source_still_frozen:wandering_character_parser.py",
+      "status": "passed",
+      "sha256": "b6ce5019a7746e264da10997bef3b3315caee045255db07f41f4105cf22778a4"
+    },
+    {
+      "check": "source_pak_and_root_fixture_binding",
+      "status": "passed",
+      "source_pak_reopened_for_validation": false
+    },
+    {
+      "check": "producer_source_binding:wandering_character_reference.py",
+      "status": "passed",
+      "sha256": "c22db8bb97605dd036debdfd8f40b217c32fe046fc0dabfba1cfe3855a165b4b"
+    },
+    {
+      "check": "producer_source_binding:wandering_character_parser.py",
+      "status": "passed",
+      "sha256": "b6ce5019a7746e264da10997bef3b3315caee045255db07f41f4105cf22778a4"
+    },
+    {
+      "check": "producer_source_binding:wandering_reference.py",
+      "status": "passed",
+      "sha256": "4d1294ed576472cd5bb238f9eb4e83cd98e7c2be2e63c05a5c39d4c701217e00"
+    },
+    {
+      "check": "producer_source_binding:wandering_decode_reference.py",
+      "status": "passed",
+      "sha256": "9d6803c6e2cbbcf531351e92f1b7265223cd444e51ebea955f73fe1014037a7f"
+    },
+    {
+      "check": "selected_rows_and_explicit_slots",
+      "status": "passed"
+    },
+    {
+      "check": "complete_exclusive_output_set",
+      "status": "passed",
+      "outputs": 569
+    },
+    {
+      "check": "every_output_hash_and_declared_size",
+      "status": "passed",
+      "files": 569,
+      "kinds": {
+        "raw_member": 378,
+        "atlas_png": 11,
+        "sprite_png": 142,
+        "animation_apng": 30,
+        "static_preview_png": 6,
+        "source_graph_json": 1,
+        "offline_preview": 1
+      }
+    },
+    {
+      "check": "all_raw_member_receipts",
+      "status": "passed",
+      "files": 378,
+      "bytes": 6784626
+    },
+    {
+      "check": "atlas_raw_decode_and_exact_png_pixels",
+      "status": "passed",
+      "textures": 11
+    },
+    {
+      "check": "all_sprite_raw_structures_crops_and_measured_anchors",
+      "status": "passed",
+      "sprites": 142
+    },
+    {
+      "check": "all_raw_flipbooks_and_exact_frame_timing",
+      "status": "passed",
+      "flipbooks": 36,
+      "keyframes": 146
+    },
+    {
+      "check": "all_preview_pixels_order_anchors_and_timing",
+      "status": "passed",
+      "previews": 36,
+      "representations": {
+        "apng": 30,
+        "static_png": 6
+      },
+      "static_png_timing": "exact source duration retained in sidecar"
+    },
+    {
+      "check": "root_action_and_gap_binding",
+      "status": "passed",
+      "action_roots": 36,
+      "gaps": 6
+    },
+    {
+      "check": "visual_and_integration_claims_remain_pending",
+      "status": "passed"
+    },
+    {
+      "check": "reject_graph_dependency_outside_selected_row",
+      "status": "passed",
+      "no_source_pak_opened": true
+    },
+    {
+      "check": "reject_output_overwrite",
+      "status": "passed",
+      "old_reference_preserved": true
+    },
+    {
+      "check": "temporary_negative_fixture_cleanup",
+      "status": "passed"
+    },
+    {
+      "check": "source_still_frozen_after_validation",
+      "status": "passed"
+    }
+  ],
+  "manifest": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261015T133053Z-487eeab89890\\manifest.json",
+  "manifest_sha256": "c53f67f143e03b8cbb598671368de13f241e2dcfb60870bc8c9a054c46f253dc",
+  "source_pak_sha256": "5e049dc376c36dacadf6edb6fab133942679b54b1809d7f483728deec35beaff",
+  "source_code": {
+    "wandering_character_reference.py": "c22db8bb97605dd036debdfd8f40b217c32fe046fc0dabfba1cfe3855a165b4b",
+    "wandering_character_parser.py": "b6ce5019a7746e264da10997bef3b3315caee045255db07f41f4105cf22778a4",
+    "wandering_reference.py": "4d1294ed576472cd5bb238f9eb4e83cd98e7c2be2e63c05a5c39d4c701217e00",
+    "wandering_decode_reference.py": "9d6803c6e2cbbcf531351e92f1b7265223cd444e51ebea955f73fe1014037a7f"
+  },
+  "counts": {
+    "action_roots": 36,
+    "flipbooks": 36,
+    "sprites": 142,
+    "textures": 11,
+    "raw_members": 378,
+    "raw_bytes": 6784626,
+    "keyframes": 146,
+    "encoded_previews": 36,
+    "animation_previews": 30,
+    "static_previews": 6
+  },
+  "output_files_verified": 569,
+  "raw_members_verified": 378,
+  "raw_bytes_verified": 6784626,
+  "exact_frame_durations_and_measured_pivots_verified": true,
+  "preview_pixels_and_durations_verified": true,
+  "visual_acceptance": "pending",
+  "character_identity": "pending",
+  "bbmod_ready": false,
+  "unavailable_actions": [
+    {
+      "row": "Hero",
+      "field": "DiedLeftFlipbook",
+      "reason": "No source death/knockdown clip mapped"
+    },
+    {
+      "row": "Hero",
+      "field": "DiedRightFlipbook",
+      "reason": "No source death/knockdown clip mapped"
+    },
+    {
+      "row": "Hero",
+      "field": "hit_reaction",
+      "reason": "No hit-reaction field in the decoded NPCResourceSetting layout; no QT slot guessed"
+    },
+    {
+      "row": "Hero_WuDang",
+      "field": "DiedLeftFlipbook",
+      "reason": "No source death/knockdown clip mapped"
+    },
+    {
+      "row": "Hero_WuDang",
+      "field": "DiedRightFlipbook",
+      "reason": "No source death/knockdown clip mapped"
+    },
+    {
+      "row": "Hero_WuDang",
+      "field": "hit_reaction",
+      "reason": "No hit-reaction field in the decoded NPCResourceSetting layout; no QT slot guessed"
+    }
+  ],
+  "temporary_fixtures_removed": true,
+  "first_failed_batch_preserved": "body-reference-failed-v1-archive.json",
+  "limits": [
+    "Only Hero and Hero_WuDang explicit default weapon slots and actual dependency chains.",
+    "No mapped source death/hit-reaction clips were invented.",
+    "Raw source rectangles and pivots are references; source shaders, physics, combat timing and BBEE integration are not evaluated.",
+    "Single-state PNG stores no codec duration; exact source timing remains in the JSON sidecar."
+  ]
+}

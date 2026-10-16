@@ -1,0 +1,30 @@
+{
+  "status": "reopened_and_restored",
+  "run_id": "502113b3109a421e96504b4edacdd3a2",
+  "first_process_id": 54156,
+  "second_process_id": 112148,
+  "second_process_path_matches_working_copy": true,
+  "first_process_closed_before_reopen": true,
+  "observed_reopened_scene": "native_trial_scene",
+  "second_probe_observed_ms": 1792068964134,
+  "second_probe_fresh": true,
+  "second_probe_conditions": {
+    "status": "loaded",
+    "save_root_matches": true,
+    "working_directory_matches": true,
+    "is_playing": true
+  },
+  "second_f9_report_observed": false,
+  "reason_second_f9_not_observed": "physical_Escape_interrupted_computer_use",
+  "basic_actions_observed": [
+    "movement",
+    "jump",
+    "normal_attack",
+    "dash"
+  ],
+  "current_game_closed": true,
+  "launcher_restored": true,
+  "save_root_restored_exactly": true,
+  "diagnostic_reports_archived_private": true,
+  "remaining_platform_gap": "inspector_effect_subscription_initialization_fix_not_yet_verified"
+}

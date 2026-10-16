@@ -1,0 +1,27 @@
+{
+  "status": "pending_after_desktop_interruption",
+  "actor_id": 200901,
+  "build_record_sha256": "4a11c43b047db4b44dd068da24b5886ff5bdfb41aa9caccb617f241a4e9d62ff",
+  "profile_sha256": "cd7763272595eb7e9f9f6cb4693f9acef2c336e7baa1f1b20482f611fd5baed8",
+  "run_id": "67946a5463a5467786d4b548e3a498b5",
+  "process_id": 117464,
+  "runtime_probe": {
+    "status": "current",
+    "loaded": true,
+    "save_root_matches": true,
+    "working_directory_matches": true,
+    "is_playing": true
+  },
+  "checks": {
+    "character_selection": "pending",
+    "combat": "pending",
+    "reopen": "pending"
+  },
+  "restoration_pending": true,
+  "observation": "User was navigating to Yuwen Yi battle; no role battle evidence read after handoff. Close game before restoration.",
+  "stop_reason": "Computer Use reported physical Escape during read-only state capture",
+  "save_guard_active": true,
+  "runtime_launcher_session_active": true,
+  "game_process_observed_running": 117464,
+  "character_battle_observed": false
+}

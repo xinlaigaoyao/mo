@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "prior_test_inputs_sha256": "17818f80e7eac373bd0e83a2f047b1e3ff321a8285c5275292e7944f1cc02795",
+  "prior_regression_summary_sha256": "209c1850c2387886ce31f8966bf8c08743737cb3449fde94cae07f02770c2f5a",
+  "tests_run": 291,
+  "unchanged_covered_source_and_fixture_files": 137,
+  "exclusions": [
+    "role-owned sources have their own native events and complete build acceptance",
+    "this orchestration entry point is validated by its complete execution"
+  ],
+  "scope": "reuse of exact previous passed framework suite; not a new test execution"
+}

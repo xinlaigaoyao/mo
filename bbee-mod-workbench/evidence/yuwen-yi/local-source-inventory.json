@@ -1,0 +1,892 @@
+{
+  "captured_utc": "2026-10-15T12:04:20.692086+00:00",
+  "source_root": "E:\\SteamLibrary\\steamapps\\common\\Wandering Sword",
+  "operation": "read-only footer/index/source hash inventory; no extraction or executable launch",
+  "file_count": 51,
+  "total_bytes": 6202659534,
+  "engine_branch_strings": [
+    "++UE4+Release-4.26"
+  ],
+  "exact_engine_patch_version": "not established",
+  "files": [
+    {
+      "path": "Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+      "bytes": 1868736,
+      "sha256": "9a02133854ff9f06c3b23a70f8c2a4814b2ed4eef613244b485e3737259ddf9e"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+      "bytes": 117760,
+      "sha256": "41e6d6e6b691b8aca94aa35bf04e7a204f02ec843e192cc4d28f421ec517934a"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+      "bytes": 49152,
+      "sha256": "284a6e70a6dce01f8a02d93e1bb78baf0efb6140459c587d8986d59fb6bd675b"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Clothing_x64.dll",
+      "bytes": 1219072,
+      "sha256": "12e2803bca4a46990b6a00d2cb0869931181d82942e3a7853afb4ff795def072"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Legacy_x64.dll",
+      "bytes": 3329536,
+      "sha256": "58ac9873ad9f1a4b6c7e607a86980fe00d992ec08138c16a5021b4890ef25b1c"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFramework_x64.dll",
+      "bytes": 1043968,
+      "sha256": "cce437454486fd7fdeb7b24ae2afc3e3b5123a1b739c7de0061b313bfff88e3b"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/NvCloth_x64.dll",
+      "bytes": 265728,
+      "sha256": "46bc7ad33191c1fc72192002e6a432c1b9399d42c8849bcbd6a9487a777fc254"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3_x64.dll",
+      "bytes": 2105344,
+      "sha256": "09c50ddccf9b31dcf97e57505f0b4616c8a963b6d4502ce10d836f0c460a1b00"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Common_x64.dll",
+      "bytes": 1598976,
+      "sha256": "1ed491817611f251cdea84d438ccd9d9ab8cb7cf42a1ecd7476834b7bbe53be4"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Cooking_x64.dll",
+      "bytes": 244736,
+      "sha256": "bff31ef9eaded496fecdb1e2f89f3108b9529d6e221e56d53c7321cf2575bcd4"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundation_x64.dll",
+      "bytes": 54784,
+      "sha256": "7690c1572c74cf8029258fa1feeb00ba938d6a6c4b5fea34b9fb421224672dbe"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDK_x64.dll",
+      "bytes": 188928,
+      "sha256": "39a7088bb1cb810fc2d6e461d3517339b34769d61ae5447df9ec3a629e048cf5"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Steamworks/Steamv155/Win64/steam_api64.dll",
+      "bytes": 298384,
+      "sha256": "1db3fd414039d3e5815a5721925dd2e0a3a9f2549603c6cab7c49b84966a1af3"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+      "bytes": 1714176,
+      "sha256": "0f66dcb5837e9b59c499277fd272b862043356aa9145802cf0a63e00a1bcca59"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+      "bytes": 37888,
+      "sha256": "a9d6f5538f44011c1f65d7ace64216a237636717cb0c8c59f4f89cc08dd3d24f"
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+      "bytes": 847440,
+      "sha256": "0e01f400baa09694cacfd2cfbff0d721c17b56785d2d6e29b6fdd117f70ccc1e"
+    },
+    {
+      "path": "Engine/Binaries/Win64/CrashReportClient.exe",
+      "bytes": 18457088,
+      "sha256": "421c01e16f08305bfe22fd9793cda79a5ce72cccd130a5073c6bc48290882476"
+    },
+    {
+      "path": "Engine/Binaries/Win64/turbojpeg.dll",
+      "bytes": 726016,
+      "sha256": "0b495e34b421b82ccc6fb784e92797a6aef9ee07a6510b45469581d2773cf707"
+    },
+    {
+      "path": "Engine/Content/SlateDebug/Fonts/LastResort.tps",
+      "bytes": 930,
+      "sha256": "0f775fa99d05e21d43d2d06d55982b23dcdccdb512a9a5a07aff674f212c41b8"
+    },
+    {
+      "path": "Engine/Content/SlateDebug/Fonts/LastResort.ttf",
+      "bytes": 5395052,
+      "sha256": "fff0f8de0b868b964950fe97c9b60f893e9bc85a4f90b3629c5693db058b97b9"
+    },
+    {
+      "path": "Engine/Extras/Redist/en-us/UE4PrereqSetup_x64.exe",
+      "bytes": 41033784,
+      "sha256": "145f4e4d11e76a2612db5ffbfae8f9ab8e4385ff7660802ffd2f473c9dcb2a0d"
+    },
+    {
+      "path": "Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak",
+      "bytes": 11530697,
+      "sha256": "435dfde59849ed369b202144981290896748c290d8cb1599ad9b2dcfe083c05b"
+    },
+    {
+      "path": "JH.exe",
+      "bytes": 479232,
+      "sha256": "f47073a30096ca8315d69658f2f31554e3a5551359e882934f0f8b523d07c61e"
+    },
+    {
+      "path": "Manifest_DebugFiles_Win64.txt",
+      "bytes": 295,
+      "sha256": "675dd109d1c136efb423cc0aa253b900b2fd05b93255b48b6bac6e2524fbf28b"
+    },
+    {
+      "path": "Manifest_NonUFSFiles_Win64.txt",
+      "bytes": 1862,
+      "sha256": "831b3b1655d437afd0ce37a2762025c26e40258dfc077d8b92ae209bc5d1c57b"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/JH-Win64-Shipping.exe",
+      "bytes": 96598088,
+      "sha256": "946bba89314d1f614a43485856f6e00beb265fbbbdf9d256a7e96c80e745c76c"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/turbojpeg.dll",
+      "bytes": 726016,
+      "sha256": "0b495e34b421b82ccc6fb784e92797a6aef9ee07a6510b45469581d2773cf707"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/LICENSE",
+      "bytes": 1085,
+      "sha256": "99e1d8f8b7cb68e8b2313380ae3b0c8115e39dfbc443fcf21fd67ab74ce1d57e"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/BPML_GenericFunctions/Scripts/main.lua",
+      "bytes": 2950,
+      "sha256": "df87c361cdfc231ac8017ff9b930c323fac09f436ca4c41d48e952ff4b38d38f"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/BPModLoaderMod/load_order.txt",
+      "bytes": 265,
+      "sha256": "e260b9b0d8d472ee3ebab77204c838f3d2aad8a9d5f08b9b8cb6b42b7b5418b9"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/BPModLoaderMod/Scripts/main.lua",
+      "bytes": 11254,
+      "sha256": "c4d6602dc57559029e0e709650e43f33354bcb23f1a5df2ebe84d4651ebd08a3"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/CheatManagerEnablerMod/Scripts/main.lua",
+      "bytes": 1439,
+      "sha256": "15c7722168eb8966ed454e900e04de4b0ade42657905d8016c0e0660c119cd9e"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/CompareDropAll/enabled.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/CompareDropAll/Scripts/main.lua",
+      "bytes": 723,
+      "sha256": "6160e7119d31e9277e2d13c7a236038d1b6d17fae124269760ffda1efeb1ef96"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/ConsoleCommandsMod/Scripts/dump_object.lua",
+      "bytes": 13093,
+      "sha256": "365b7e8a803f8ae917f54f6c852854c681e388227dd1f94b0ea3f6fb938b5086"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/ConsoleCommandsMod/Scripts/main.lua",
+      "bytes": 297,
+      "sha256": "5bf33cd4ef9f6a155fe5f7842218a6486c2c227858ffd99806e75d81d0da9f27"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/ConsoleCommandsMod/Scripts/set.lua",
+      "bytes": 2056,
+      "sha256": "876e7de49f0e30a4329c081472bc7d5e1948459c774b7abbb8be4b6323f16ec8"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/ConsoleCommandsMod/Scripts/summon_unloaded_assets.lua",
+      "bytes": 489,
+      "sha256": "194b557404b6078767f8b57b836aa44d084cf6f3f2cbde71a6831857567f8103"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/ConsoleEnablerMod/Scripts/main.lua",
+      "bytes": 3238,
+      "sha256": "e30ea7650c7807683bd0b0a6da22aaa12c20e0b8d356820a550e7ad9e1488079"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/Keybinds/Scripts/main.lua",
+      "bytes": 4025,
+      "sha256": "560e8ffffe3b7e0378c63db8a8f8da6465397a098d554b3a1d38e95794e3eb48"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/LineTraceMod/Scripts/main.lua",
+      "bytes": 2721,
+      "sha256": "05c181a5cc3cb24e0bd7496d6bbc14a1111d0a1e731a2526203b41b07d972dae"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/mods.json",
+      "bytes": 683,
+      "sha256": "b09bd14e654e5e8caa0af4348e547196bcc05ebe9d2ff183e579cccbe9c63371"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/mods.txt",
+      "bytes": 220,
+      "sha256": "7b186575d19dbbddb7e357c6458fa5223bf1cd565cba03f52a49ddf2de3994b9"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/shared/UEHelpers/UEHelpers.lua",
+      "bytes": 10237,
+      "sha256": "7476f02eef0c87bfeab169f2ffe2e704363faeaae4bf9f1bda574b1e34f4a0e9"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/Mods/SplitScreenMod/Scripts/main.lua",
+      "bytes": 4380,
+      "sha256": "05094ab61f016ebfcb651a0271a4c614884881b847090e6a74e6a51754e088db"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/UE4SS-settings.ini",
+      "bytes": 7635,
+      "sha256": "123c814c4b7aa308401986db43fa6bad43189bf59577a7fb5e9dc76800925d78"
+    },
+    {
+      "path": "Wandering_Sword/Binaries/Win64/ue4ss/UE4SS.dll",
+      "bytes": 16242688,
+      "sha256": "083eb6bbdd6220cb4890aba0d1126d4065773ca79f345f50dfaacc54a2c5becf"
+    },
+    {
+      "path": "Wandering_Sword/Content/Paks/Wandering_Sword-WindowsNoEditor.pak",
+      "bytes": 5954388501,
+      "sha256": "5e049dc376c36dacadf6edb6fab133942679b54b1809d7f483728deec35beaff"
+    },
+    {
+      "path": "Wandering_Sword/Content/Paks/Wandering_Sword-WindowsNoEditor_XunYaoYao_P.pak",
+      "bytes": 106658,
+      "sha256": "2399bf1ec882221726943f8c34bc8a95d2b4787441baa8d000dd130a3498f7e3"
+    },
+    {
+      "path": "Wandering_Sword/Content/Paks/Wandering_Sword-WindowsNoEditor_ZiYongLiHui_P.pak",
+      "bytes": 41918080,
+      "sha256": "288fe3f40527734dccd7dae8674747bb0a27c3facc8902cf555899ce5d25c838"
+    },
+    {
+      "path": "Wandering_Sword/Content/Paks/《伏龙MODv2.9》说明.txt",
+      "bytes": 3149,
+      "sha256": "67f5531662720ffff8d38bd456960150b4506a4ea895f376fc3fd634c89bf9dd"
+    }
+  ],
+  "paks": [
+    {
+      "pak": "Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak",
+      "bytes": 11530697,
+      "sha256": "435dfde59849ed369b202144981290896748c290d8cb1599ad9b2dcfe083c05b",
+      "pak_version": 11,
+      "encrypted_index": false,
+      "encryption_guid": "00000000000000000000000000000000",
+      "compression_slots": [
+        "Zlib",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "index": {
+        "offset": 11381898,
+        "bytes": 36853,
+        "sha1": "e0eae97cc48e4105b6742cedc599f41b3cb2c191",
+        "sha1_matches": true
+      },
+      "secondary_indices": {
+        "path_hash": {
+          "offset": 11418751,
+          "bytes": 64606,
+          "sha1": "e767d18880c092ab0f15a74f4419aac3b8ac3674",
+          "sha1_matches": true
+        },
+        "full_directory": {
+          "offset": 11483357,
+          "bytes": 47119,
+          "sha1": "e075da132150fc30a23ad664c4bc5f5c062ce050",
+          "sha1_matches": true
+        }
+      },
+      "mount_point": "../../../Engine/",
+      "declared_entries": 2285,
+      "listed_entries": 2285,
+      "directory_count": 44,
+      "encrypted_payload_entries": 0,
+      "payload_compression_slot_counts": {
+        "1": 2061,
+        "0": 224
+      },
+      "path_list_sha256": "59ddce0259f879ad74348243f196541e313176adf2f8d0f8ee5d532da2d5e85e",
+      "extensions": {
+        ".icu": 7,
+        ".cfu": 2,
+        ".res": 1934,
+        ".cnv": 2,
+        ".nrm": 7,
+        ".brk": 19,
+        ".dict": 2,
+        ".png": 282,
+        ".tps": 3,
+        ".ttf": 14,
+        ".psd": 5,
+        ".ini": 1,
+        ".hlsl": 3,
+        ".glsl": 4
+      },
+      "top_directory_counts": {
+        "Content/Slate/Old/Tiles/pin": 10,
+        "Content/Slate/Old/Tiles/selectionbar": 3,
+        "Content/Internationalization/icudt53l/cnvalias.icu": 1,
+        "Content/Internationalization/icudt53l/confusables.cfu": 1,
+        "Content/Internationalization/icudt53l/de.res": 1,
+        "Content/Internationalization/icudt53l/de_AT.res": 1,
+        "Content/Internationalization/icudt53l/de_BE.res": 1,
+        "Content/Internationalization/icudt53l/de_CH.res": 1,
+        "Content/Internationalization/icudt53l/de_DE.res": 1,
+        "Content/Internationalization/icudt53l/de_LI.res": 1,
+        "Content/Internationalization/icudt53l/de_LU.res": 1,
+        "Content/Internationalization/icudt53l/en.res": 1,
+        "Content/Internationalization/icudt53l/en_001.res": 1,
+        "Content/Internationalization/icudt53l/en_150.res": 1,
+        "Content/Internationalization/icudt53l/en_AG.res": 1,
+        "Content/Internationalization/icudt53l/en_AI.res": 1,
+        "Content/Internationalization/icudt53l/en_AS.res": 1,
+        "Content/Internationalization/icudt53l/en_AU.res": 1,
+        "Content/Internationalization/icudt53l/en_BB.res": 1,
+        "Content/Internationalization/icudt53l/en_BE.res": 1,
+        "Content/Internationalization/icudt53l/en_BM.res": 1,
+        "Content/Internationalization/icudt53l/en_BS.res": 1,
+        "Content/Internationalization/icudt53l/en_BW.res": 1,
+        "Content/Internationalization/icudt53l/en_BZ.res": 1,
+        "Content/Internationalization/icudt53l/en_CA.res": 1,
+        "Content/Internationalization/icudt53l/en_CC.res": 1,
+        "Content/Internationalization/icudt53l/en_CK.res": 1,
+        "Content/Internationalization/icudt53l/en_CM.res": 1,
+        "Content/Internationalization/icudt53l/en_CX.res": 1,
+        "Content/Internationalization/icudt53l/en_DG.res": 1
+      },
+      "candidate_counts": {
+        "yuwen_name": 0,
+        "martial_data": 11,
+        "character_root": 0,
+        "audio": 0
+      },
+      "candidate_samples": {
+        "yuwen_name": [],
+        "martial_data": [
+          "Content/Internationalization/icudt53l/coll/ucadata.icu",
+          "Content/Internationalization/icudt53l/curr/supplementalData.res",
+          "Content/Internationalization/icudt64l/keyTypeData.res",
+          "Content/Internationalization/icudt64l/metadata.res",
+          "Content/Internationalization/icudt64l/supplementalData.res",
+          "Content/Internationalization/icudt64l/coll/ucadata.icu",
+          "Content/Internationalization/icudt64l/curr/supplementalData.res",
+          "Content/Slate/Common/EditableTextSelectionBackground.png",
+          "Content/Slate/Common/TableViewHeader.png",
+          "Content/Slate/Common/TableViewMajorColumn.png",
+          "Programs/CrashReportClient/Config/DefaultEngine.ini"
+        ],
+        "character_root": [],
+        "audio": []
+      }
+    },
+    {
+      "pak": "Wandering_Sword/Content/Paks/Wandering_Sword-WindowsNoEditor.pak",
+      "bytes": 5954388501,
+      "sha256": "5e049dc376c36dacadf6edb6fab133942679b54b1809d7f483728deec35beaff",
+      "pak_version": 11,
+      "encrypted_index": false,
+      "encryption_guid": "00000000000000000000000000000000",
+      "compression_slots": [
+        "Zlib",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "index": {
+        "offset": 5935743672,
+        "bytes": 5929610,
+        "sha1": "bb9defc448a0bec010d439bc83157f6d7c7b91b6",
+        "sha1_matches": true
+      },
+      "secondary_indices": {
+        "path_hash": {
+          "offset": 5941673282,
+          "bytes": 3515862,
+          "sha1": "1d5b249c85b201b45fcb0d6af73152f779e46bf0",
+          "sha1_matches": true
+        },
+        "full_directory": {
+          "offset": 5945189144,
+          "bytes": 9199136,
+          "sha1": "3acaa4916815722d4a41b9490a5769c9000a8ecb",
+          "sha1_matches": true
+        }
+      },
+      "mount_point": "../../../",
+      "declared_entries": 289441,
+      "listed_entries": 289441,
+      "directory_count": 4936,
+      "encrypted_payload_entries": 0,
+      "payload_compression_slot_counts": {
+        "1": 288260,
+        "0": 1181
+      },
+      "path_list_sha256": "635e128298ac9fc9b5edb7e46dd6722c71265100761fe982a2922449d463713e",
+      "extensions": {
+        ".bin": 2,
+        ".uasset": 141812,
+        ".uexp": 142563,
+        ".ubulk": 2732,
+        ".ufont": 13,
+        ".ini": 32,
+        ".icu": 4,
+        ".cfu": 1,
+        ".res": 1079,
+        ".nrm": 3,
+        ".brk": 12,
+        ".dict": 1,
+        ".locmeta": 13,
+        ".locres": 35,
+        ".png": 283,
+        ".tps": 3,
+        ".ttf": 14,
+        ".psd": 5,
+        ".uplugin": 79,
+        ".uproject": 1,
+        ".umap": 751,
+        ".uptnl": 2,
+        ".upluginmanifest": 1
+      },
+      "top_directory_counts": {
+        "Wandering_Sword/Content/JH/Characters/TongYong": 106204,
+        "Wandering_Sword/Content/JH/Characters/DongWu": 23039,
+        "Wandering_Sword/Content/JH/ParticleSystem/Effects": 18525,
+        "Wandering_Sword/Content/JH/Characters/WuDangPai": 10520,
+        "Wandering_Sword/Content/JH/Characters/ERenGu": 8332,
+        "Wandering_Sword/Content/JH/Characters/ShaoLingShi": 7188,
+        "Wandering_Sword/Content/JH/Characters/LiuShanMen": 7152,
+        "Wandering_Sword/Content/JH/Characters/WuDuJiao": 6972,
+        "Wandering_Sword/Content/JH/Characters/XuanHuoJiao": 6142,
+        "Wandering_Sword/Content/JH/MapEditor/HouseS": 5536,
+        "Wandering_Sword/Content/JH/Characters/ChangShengDian": 5414,
+        "Wandering_Sword/Content/JH/UI/Icon": 5172,
+        "Wandering_Sword/Content/JH/Characters/QiTa": 4996,
+        "Wandering_Sword/Content/JH/Maps/JiangNan": 4945,
+        "Wandering_Sword/Content/JH/Characters/GaiBang": 4018,
+        "Wandering_Sword/Content/JH/JHNeoUI/UIAssets": 4017,
+        "Wandering_Sword/Content/JH/UI_Console/Icon": 3968,
+        "Wandering_Sword/Content/JH/Characters/MingJianShanZhuang": 3058,
+        "Wandering_Sword/Content/JH/Maps/NangJiang": 3043,
+        "Wandering_Sword/Content/JH/Characters/TianLongBang": 2836,
+        "Wandering_Sword/Content/JH/Characters/ShenYinMen": 2658,
+        "Wandering_Sword/Content/JH/Characters/Image": 2644,
+        "Wandering_Sword/Content/JH/Maps/DaMo": 2615,
+        "Wandering_Sword/Content/JH/ParticleSystem/DZ_Effects": 2535,
+        "Wandering_Sword/Content/JH/MapEditor/Tree": 2465,
+        "Wandering_Sword/Content/JH/Characters/Image_Mobile": 2156,
+        "Wandering_Sword/Content/JH/MapEditor/Foliages": 2116,
+        "Wandering_Sword/Content/JH/Characters/ZhanQi": 2076,
+        "Wandering_Sword/Content/JH/Audio/Ambience": 1557,
+        "Wandering_Sword/Content/L10N/en/JH": 1452
+      },
+      "candidate_counts": {
+        "yuwen_name": 547,
+        "martial_data": 13670,
+        "character_root": 201351,
+        "audio": 5032
+      },
+      "candidate_samples": {
+        "yuwen_name": [
+          "Engine/Plugins/Runtime/WebMMoviePlayer/WebMMoviePlayer.uplugin",
+          "Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin",
+          "Wandering_Sword/Content/JH/AI/Animal/WuGui/BTTask_CheckPlayerDistance.uasset",
+          "Wandering_Sword/Content/JH/AI/Animal/WuGui/BTTask_CheckPlayerDistance.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiLiuZhang/6-4_5_YuWen_fall.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiLiuZhang/6-4_5_YuWen_fall.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-1_3_QingXu_YuWen_battle_end.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-1_3_QingXu_YuWen_battle_end.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-1_3_QingXu_YuWen_battle_loop.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-1_3_QingXu_YuWen_battle_loop.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-1_3_QingXu_YuWen_battle_start.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-1_3_QingXu_YuWen_battle_start.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-1_7_ShaoLin_YuWen_battle_end.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-1_7_ShaoLin_YuWen_battle_end.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-1_7_ShaoLin_YuWen_battle_loop.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-1_7_ShaoLin_YuWen_battle_loop.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-1_7_ShaoLin_YuWen_battle_start.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-1_7_ShaoLin_YuWen_battle_start.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-3_3_YuWenYi_power_loop.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-3_3_YuWenYi_power_loop.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-3_3_YuWenYi_power_start.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-3_3_YuWenYi_power_start.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-3_3_YuWenYi_power_start1.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7-3_3_YuWenYi_power_start1.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7Y_YuWenYi_MoWen_battle.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/7Y_YuWenYi_MoWen_battle.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/Ending2_YuWenYi_drink.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/Ending2_YuWenYi_drink.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/Ending2_YuWenYi_practice.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/Ending2_YuWenYi_practice.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/Ending9_YuWenYi_practice.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiQiZhang/Ending9_YuWenYi_practice.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiYiZhang/宇文逸喝酒后起身.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiYiZhang/宇文逸喝酒后起身.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiYiZhang/宇文逸大练功.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiYiZhang/宇文逸大练功.ubulk",
+          "Wandering_Sword/Content/JH/Audio/CG/DiYiZhang/宇文逸大练功.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiYiZhang/宇文逸毒发.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiYiZhang/宇文逸毒发.uexp",
+          "Wandering_Sword/Content/JH/Audio/CG/DiYiZhang/宇文逸起身.uasset",
+          "Wandering_Sword/Content/JH/Audio/CG/DiYiZhang/宇文逸起身.uexp",
+          "Wandering_Sword/Content/JH/Characters/Image/T_DiaoYuWen_HeadImage.uasset",
+          "Wandering_Sword/Content/JH/Characters/Image/T_DiaoYuWen_HeadImage.uexp",
+          "Wandering_Sword/Content/JH/Characters/Image/T_DiaoYuWen_HeadImage1.uasset",
+          "Wandering_Sword/Content/JH/Characters/Image/T_DiaoYuWen_HeadImage1.uexp",
+          "Wandering_Sword/Content/JH/Characters/Image/T_DiaoYuWen_HeadImage2.uasset",
+          "Wandering_Sword/Content/JH/Characters/Image/T_DiaoYuWen_HeadImage2.uexp",
+          "Wandering_Sword/Content/JH/Characters/Image/T_DiaoYuWen_HeadImage3.uasset",
+          "Wandering_Sword/Content/JH/Characters/Image/T_DiaoYuWen_HeadImage3.uexp",
+          "Wandering_Sword/Content/JH/Characters/Image_Mobile/T_DiaoYuWen_HeadImage.uasset"
+        ],
+        "martial_data": [
+          "Engine/Content/EditorLandscapeResources/DataLayer.uasset",
+          "Engine/Content/EditorLandscapeResources/DataLayer.uexp",
+          "Engine/Config/Base.ini",
+          "Engine/Config/BaseCompat.ini",
+          "Engine/Config/BaseDeviceProfiles.ini",
+          "Engine/Config/BaseEngine.ini",
+          "Engine/Config/BaseGame.ini",
+          "Engine/Config/BaseGameUserSettings.ini",
+          "Engine/Config/BaseHardware.ini",
+          "Engine/Config/BaseInput.ini",
+          "Engine/Config/BaseInstallBundle.ini",
+          "Engine/Config/BaseRuntimeOptions.ini",
+          "Engine/Config/BaseScalability.ini",
+          "Engine/Config/Layouts/DefaultLayout.ini",
+          "Engine/Config/Windows/BaseWindowsEngine.ini",
+          "Engine/Config/Windows/DataDrivenPlatformInfo.ini",
+          "Engine/Config/Windows/WindowsEngine.ini",
+          "Engine/Config/Windows/WindowsGame.ini",
+          "Engine/Content/Internationalization/icudt64l/keyTypeData.res",
+          "Engine/Content/Internationalization/icudt64l/metadata.res",
+          "Engine/Content/Internationalization/icudt64l/supplementalData.res",
+          "Engine/Content/Internationalization/icudt64l/coll/ucadata.icu",
+          "Engine/Content/Internationalization/icudt64l/curr/supplementalData.res",
+          "Engine/Content/Slate/Common/EditableTextSelectionBackground.png",
+          "Engine/Content/Slate/Common/TableViewHeader.png",
+          "Engine/Content/Slate/Common/TableViewMajorColumn.png",
+          "Engine/Plugins/2D/Paper2D/Config/BasePaper2D.ini",
+          "Engine/Plugins/Editor/EditorScriptingUtilities/Config/BaseEditorScriptingUtilities.ini",
+          "Engine/Plugins/Enterprise/DatasmithContent/DatasmithContent.uplugin",
+          "Engine/Plugins/Enterprise/VariantManagerContent/Config/BaseVariantManagerContent.ini",
+          "Engine/Plugins/Experimental/MotoSynth/Config/BaseMotoSynth.ini",
+          "Engine/Plugins/FX/Niagara/Config/BaseNiagara.ini",
+          "Engine/Plugins/Online/OnlineSubsystem/Config/Localization/OnlineSubsystem.ini",
+          "Engine/Plugins/Online/OnlineSubsystemSteam/Config/Localization/OnlineSubsystemSteam.ini",
+          "Engine/Plugins/Online/OnlineSubsystemUtils/Config/Localization/OnlineSubsystemUtils.ini",
+          "Engine/Plugins/Runtime/EditableMesh/EditableMesh.uplugin",
+          "Engine/Plugins/Runtime/PhysXVehicles/Config/BasePhysXVehicles.ini",
+          "Engine/Plugins/Runtime/Synthesis/Config/BaseSynthesis.ini",
+          "Wandering_Sword/Config/DefaultEngine.ini",
+          "Wandering_Sword/Config/DefaultGame.ini",
+          "Wandering_Sword/Config/DefaultGameplayTags.ini",
+          "Wandering_Sword/Config/DefaultInput.ini",
+          "Wandering_Sword/Config/DefaultNiagara.ini",
+          "Wandering_Sword/Content/JH/AI/Combat/ADC/BTD_CheckIsNeiGongToSelf.uasset",
+          "Wandering_Sword/Content/JH/AI/Combat/ADC/BTD_CheckIsNeiGongToSelf.uexp",
+          "Wandering_Sword/Content/JH/AI/Combat/ADC/BTD_CheckNeiGong123.uasset",
+          "Wandering_Sword/Content/JH/AI/Combat/ADC/BTD_CheckNeiGong123.uexp",
+          "Wandering_Sword/Content/JH/AI/Combat/ADC/BTD_CheckNeiGong4.uasset",
+          "Wandering_Sword/Content/JH/AI/Combat/ADC/BTD_CheckNeiGong4.uexp",
+          "Wandering_Sword/Content/JH/AI/Combat/ADC/BTT_ReleaseNeiGong.uasset"
+        ],
+        "character_root": [
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_A_L.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_A_L.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_A_R.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_A_R.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_FI_L.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_FI_L.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_FI_R.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_FI_R.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_FR_L.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_FR_L.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_FR_R.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_FR_R.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_I_D.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_I_D.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_I_L.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_I_L.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_I_R.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_I_R.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_I_U.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_I_U.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT105_L.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT105_L.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT105_R.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT105_R.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT14_L.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT14_L.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT14_R.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT14_R.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT1_L.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT1_L.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT1_L1.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT1_L1.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT1_LR.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT1_LR.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT1_R.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT1_R.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT22_L.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT22_L.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT22_R.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT22_R.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT39_L.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT39_L.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT39_R.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT39_R.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT3_L.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT3_L.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT3_R.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT3_R.uexp",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT49_D.uasset",
+          "Wandering_Sword/Content/JH/Characters/ChangShengDian/BaiWeiYi_1/PFB_CSD_BWY_1_QT49_D.uexp"
+        ],
+        "audio": [
+          "Engine/Content/EngineSounds/Normal_Attack.uasset",
+          "Engine/Content/EngineSounds/Master.uasset",
+          "Engine/Content/EngineSounds/Duck_Normal_Attack_MixMod.uasset",
+          "Engine/Content/EngineSounds/Special_Attack_PSM.uasset",
+          "Engine/Content/EngineSounds/SFX.uasset",
+          "Engine/Content/EngineSounds/Duck_Normal_Attack_MixMod.uexp",
+          "Engine/Content/EngineSounds/Master.uexp",
+          "Engine/Content/EngineSounds/Normal_Attack.uexp",
+          "Engine/Content/EngineSounds/SFX.uexp",
+          "Engine/Content/EngineSounds/Special_Attack_PSM.uexp",
+          "Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset",
+          "Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset",
+          "Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uexp",
+          "Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uexp",
+          "Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset",
+          "Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset",
+          "Engine/Content/EditorResources/AudioIcons/S_AudioComponent.ubulk",
+          "Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uexp",
+          "Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.ubulk",
+          "Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uexp",
+          "Engine/Content/EngineSounds/Submixes/MasterEQEffectPreset.uasset",
+          "Engine/Content/EngineSounds/Submixes/MasterEQEffectPreset.uexp",
+          "Engine/Content/EngineSounds/Submixes/MasterEQSubmixDefault.uasset",
+          "Engine/Content/EngineSounds/Submixes/MasterEQSubmixDefault.uexp",
+          "Engine/Content/EngineSounds/Submixes/MasterReverbEffectPreset.uasset",
+          "Engine/Content/EngineSounds/Submixes/MasterReverbEffectPreset.uexp",
+          "Engine/Content/EngineSounds/Submixes/MasterReverbSubmixDefault.uasset",
+          "Engine/Content/EngineSounds/Submixes/MasterReverbSubmixDefault.uexp",
+          "Engine/Content/EngineSounds/Submixes/MasterSubmixDefault.uasset",
+          "Engine/Content/EngineSounds/Submixes/MasterSubmixDefault.uexp",
+          "Engine/Plugins/Runtime/AudioCapture/AudioCapture.uplugin",
+          "Engine/Plugins/Runtime/AudioSynesthesia/AudioSynesthesia.uplugin",
+          "Engine/Plugins/Runtime/SoundFields/SoundFields.uplugin",
+          "Wandering_Sword/Content/JH/Audio/SA_PuBu.uasset",
+          "Wandering_Sword/Content/JH/Audio/SA_PuBu.uexp",
+          "Wandering_Sword/Content/JH/Audio/SC_Baofengxue.uasset",
+          "Wandering_Sword/Content/JH/Audio/SC_Baofengxue.uexp",
+          "Wandering_Sword/Content/JH/Audio/SC_Bianfu.uasset",
+          "Wandering_Sword/Content/JH/Audio/SC_Bianfu.uexp",
+          "Wandering_Sword/Content/JH/Audio/SC_buguniaojiao.uasset",
+          "Wandering_Sword/Content/JH/Audio/SC_buguniaojiao.uexp",
+          "Wandering_Sword/Content/JH/Audio/SC_buguniaojiao1.uasset",
+          "Wandering_Sword/Content/JH/Audio/SC_buguniaojiao1.uexp",
+          "Wandering_Sword/Content/JH/Audio/SC_CangYing.uasset",
+          "Wandering_Sword/Content/JH/Audio/SC_CangYing.uexp",
+          "Wandering_Sword/Content/JH/Audio/SC_chanjiaosheng.uasset",
+          "Wandering_Sword/Content/JH/Audio/SC_chanjiaosheng.uexp",
+          "Wandering_Sword/Content/JH/Audio/SC_chanjiaosheng1.uasset",
+          "Wandering_Sword/Content/JH/Audio/SC_chanjiaosheng1.uexp",
+          "Wandering_Sword/Content/JH/Audio/SC_chanjiaosheng2.uasset"
+        ]
+      }
+    },
+    {
+      "pak": "Wandering_Sword/Content/Paks/Wandering_Sword-WindowsNoEditor_XunYaoYao_P.pak",
+      "bytes": 106658,
+      "sha256": "2399bf1ec882221726943f8c34bc8a95d2b4787441baa8d000dd130a3498f7e3",
+      "pak_version": 11,
+      "encrypted_index": false,
+      "encryption_guid": "00000000000000000000000000000000",
+      "compression_slots": [
+        "Zlib",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "index": {
+        "offset": 104489,
+        "bytes": 1038,
+        "sha1": "fbf909e235f072b7975fcb275ad0a606fbe06a5e",
+        "sha1_matches": true
+      },
+      "secondary_indices": {
+        "path_hash": {
+          "offset": 105527,
+          "bytes": 344,
+          "sha1": "7a651017533bd766f3501ece01d52c8bd4b1c34e",
+          "sha1_matches": true
+        },
+        "full_directory": {
+          "offset": 105871,
+          "bytes": 566,
+          "sha1": "a84078569bd69b06c4a72648a7b2570e13b9f9b1",
+          "sha1_matches": true
+        }
+      },
+      "mount_point": "../../../Wandering_Sword/Content/JH/Characters/ERenGu/XunYaoYao/Textures/",
+      "declared_entries": 28,
+      "listed_entries": 28,
+      "directory_count": 1,
+      "encrypted_payload_entries": 0,
+      "payload_compression_slot_counts": {
+        "1": 28
+      },
+      "path_list_sha256": "ff559d0cd589d2896d342dc3f10e673115e0c01b60acfe0c74a6ecf2d4196c58",
+      "extensions": {
+        ".uasset": 14,
+        ".uexp": 14
+      },
+      "top_directory_counts": {
+        "att.uasset": 1,
+        "bao.uasset": 1,
+        "changxi.uasset": 1,
+        "dazuo.uasset": 1,
+        "duibo.uasset": 1,
+        "give.uasset": 1,
+        "hurt.uasset": 1,
+        "jump.uasset": 1,
+        "run.uasset": 1,
+        "xingli.uasset": 1,
+        "xyy.uasset": 1,
+        "xyycezuo.uasset": 1,
+        "yifu.uasset": 1,
+        "yongbao.uasset": 1,
+        "att.uexp": 1,
+        "bao.uexp": 1,
+        "changxi.uexp": 1,
+        "dazuo.uexp": 1,
+        "duibo.uexp": 1,
+        "give.uexp": 1,
+        "hurt.uexp": 1,
+        "jump.uexp": 1,
+        "run.uexp": 1,
+        "xingli.uexp": 1,
+        "xyy.uexp": 1,
+        "xyycezuo.uexp": 1,
+        "yifu.uexp": 1,
+        "yongbao.uexp": 1
+      },
+      "candidate_counts": {
+        "yuwen_name": 0,
+        "martial_data": 0,
+        "character_root": 0,
+        "audio": 0
+      },
+      "candidate_samples": {
+        "yuwen_name": [],
+        "martial_data": [],
+        "character_root": [],
+        "audio": []
+      }
+    },
+    {
+      "pak": "Wandering_Sword/Content/Paks/Wandering_Sword-WindowsNoEditor_ZiYongLiHui_P.pak",
+      "bytes": 41918080,
+      "sha256": "288fe3f40527734dccd7dae8674747bb0a27c3facc8902cf555899ce5d25c838",
+      "pak_version": 11,
+      "encrypted_index": false,
+      "encryption_guid": "00000000000000000000000000000000",
+      "compression_slots": [
+        "Zlib",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "index": {
+        "offset": 41887121,
+        "bytes": 17518,
+        "sha1": "0e20e569a54cd38b634e3da6074b22d11b78e1ba",
+        "sha1_matches": true
+      },
+      "secondary_indices": {
+        "path_hash": {
+          "offset": 41904639,
+          "bytes": 3296,
+          "sha1": "6a65f82a2cc3dbdd317a0bbc3713a9ba02779cae",
+          "sha1_matches": true
+        },
+        "full_directory": {
+          "offset": 41907935,
+          "bytes": 9924,
+          "sha1": "1f5637b51162acde038fde0302eefd51ab27e5d4",
+          "sha1_matches": true
+        }
+      },
+      "mount_point": "../../../Wandering_Sword/Content/JH/Characters/Image/",
+      "declared_entries": 274,
+      "listed_entries": 274,
+      "directory_count": 1,
+      "encrypted_payload_entries": 0,
+      "payload_compression_slot_counts": {
+        "1": 274
+      },
+      "path_list_sha256": "631ed180af8d00df3589ca92bc17b4ae177645bae684e63c043f96c72cc0a038",
+      "extensions": {
+        ".uasset": 137,
+        ".uexp": 137
+      },
+      "top_directory_counts": {
+        "ss.uasset": 1,
+        "T_BaiWuYan_HeadImage2.uasset": 1,
+        "T_BaiYiRen_2_HeadImage2.uasset": 1,
+        "T_BuWeiYue_HeadImage1.uasset": 1,
+        "T_BuWeiYue_HeadImage2.uasset": 1,
+        "T_ChiLongNv_HeadImage2.uasset": 1,
+        "T_DuanChaoChen_HeadImage.uasset": 1,
+        "T_DuanChaoChen_HeadImage1.uasset": 1,
+        "T_DuanChaoChen_HeadImage2.uasset": 1,
+        "T_DuanChaoChen_HeadImage3.uasset": 1,
+        "T_Girl_1_HeadImage1.uasset": 1,
+        "T_Girl_1_HeadImage2.uasset": 1,
+        "T_Girl_2_HeadImage1.uasset": 1,
+        "T_Girl_2_HeadImage2.uasset": 1,
+        "T_Girl_4_HeadImage1.uasset": 1,
+        "T_Girl_4_HeadImage2.uasset": 1,
+        "T_Girl_6_HeadImage1.uasset": 1,
+        "T_Girl_6_HeadImage2.uasset": 1,
+        "T_HuaMeiRen_HeadImage2.uasset": 1,
+        "T_HuangHou_HeadImage2.uasset": 1,
+        "T_JiangXiaoTong_1_HeadImage1.uasset": 1,
+        "T_JiangXiaoTong_1_HeadImage2.uasset": 1,
+        "T_LanKongQue_HeadImage1.uasset": 1,
+        "T_LanKongQue_HeadImage2.uasset": 1,
+        "T_LaoBanNiang_HeadImage2.uasset": 1,
+        "T_LeiLei_HeadImage1.uasset": 1,
+        "T_LeiLei_HeadImage2.uasset": 1,
+        "T_LengYue_1_HeadImage1.uasset": 1,
+        "T_LengYue_1_HeadImage2.uasset": 1,
+        "T_LiQiuYue_HeadImage1.uasset": 1
+      },
+      "candidate_counts": {
+        "yuwen_name": 0,
+        "martial_data": 0,
+        "character_root": 0,
+        "audio": 0
+      },
+      "candidate_samples": {
+        "yuwen_name": [],
+        "martial_data": [],
+        "character_root": [],
+        "audio": []
+      }
+    }
+  ],
+  "existing_unreal_readers_in_scoped_tool_folders": [],
+  "notes": [
+    "Source is locally modified: two overlay P_PAK files and UE4SS/CompareDropAll are present.",
+    "All listed entry flags were read from unencrypted encoded index metadata; payload decompression and assets have not been validated."
+  ]
+}

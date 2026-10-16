@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "run_id": "9a95cfaa547b4837868243de38886267",
+  "inspector_version": "0.4.1",
+  "runtime_acceptance_passed": true,
+  "f9_report_observed": true,
+  "effect_hook_verified": true,
+  "effect_spawn_events": 118,
+  "warning_count": 0,
+  "reopen_verified": true,
+  "save_guard_active": false,
+  "runtime_launcher_session_active": false,
+  "restoration_pending": false,
+  "original_save_root_restored_exactly": true,
+  "source_and_working_inputs_verified": true,
+  "authoritative_runtime_evidence": "evidence/inspector-fixed-runtime.json",
+  "acceptance_scope": "non-character framework readiness; new character branches require separate acceptance"
+}

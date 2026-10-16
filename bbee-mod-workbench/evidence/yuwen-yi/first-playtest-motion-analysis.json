@@ -1,0 +1,290 @@
+{
+  "scope": "derived read-only first-playtest evidence; no test execution",
+  "source_report_sha256": "7face148038baf69625c1595ea83cab953a6133b7fa5ca3bac46ed795bc7f0f1",
+  "actor_id": 200901,
+  "third_to_first_count": 18,
+  "third_to_first": [
+    {
+      "k": "act",
+      "t": 369.813,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.084,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 371.494,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.082,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 373.391,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.083,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 373.844,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.081,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 375.045,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.083,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 375.499,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.083,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 375.949,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.081,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 376.682,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.161,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 378.15,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.08,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 379.24,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.083,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 382.779,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.082,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 383.204,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.082,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 383.659,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.084,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 384.688,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.081,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 385.122,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.083,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 385.574,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.081,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 386.029,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.083,
+      "of": 0.6
+    },
+    {
+      "k": "act",
+      "t": 386.618,
+      "name": "ywy_sword1",
+      "from": "ywy_sword3",
+      "ranFor": 0.081,
+      "of": 0.6
+    }
+  ],
+  "zhenwu_self_restart_count": 8,
+  "zhenwu_self_restarts": [
+    {
+      "k": "act",
+      "t": 369.144,
+      "name": "ywy_zhenwu",
+      "from": "ywy_zhenwu",
+      "ranFor": 0.16,
+      "of": 0.533
+    },
+    {
+      "k": "act",
+      "t": 372.46,
+      "name": "ywy_zhenwu",
+      "from": "ywy_zhenwu",
+      "ranFor": 0.16,
+      "of": 0.533
+    },
+    {
+      "k": "act",
+      "t": 376.278,
+      "name": "ywy_zhenwu",
+      "from": "ywy_zhenwu",
+      "ranFor": 0.164,
+      "of": 0.533
+    },
+    {
+      "k": "act",
+      "t": 377.275,
+      "name": "ywy_zhenwu",
+      "from": "ywy_zhenwu",
+      "ranFor": 0.158,
+      "of": 0.533
+    },
+    {
+      "k": "act",
+      "t": 381.162,
+      "name": "ywy_zhenwu",
+      "from": "ywy_zhenwu",
+      "ranFor": 0.159,
+      "of": 0.533
+    },
+    {
+      "k": "act",
+      "t": 381.325,
+      "name": "ywy_zhenwu",
+      "from": "ywy_zhenwu",
+      "ranFor": 0.164,
+      "of": 0.533
+    },
+    {
+      "k": "act",
+      "t": 384.066,
+      "name": "ywy_zhenwu",
+      "from": "ywy_zhenwu",
+      "ranFor": 0.164,
+      "of": 0.533
+    },
+    {
+      "k": "act",
+      "t": 386.454,
+      "name": "ywy_zhenwu",
+      "from": "ywy_zhenwu",
+      "ranFor": 0.16,
+      "of": 0.533
+    }
+  ],
+  "input_reuse_observation_windows": [
+    [
+      {
+        "k": "act",
+        "t": 375.868,
+        "name": "ywy_sword3",
+        "from": "ywy_sword2",
+        "ranFor": 0.161,
+        "of": 0.467
+      },
+      {
+        "k": "skill",
+        "t": 375.868
+      },
+      {
+        "k": "used",
+        "t": 375.868,
+        "cmd": "Attack"
+      },
+      {
+        "k": "act",
+        "t": 375.949,
+        "name": "ywy_sword1",
+        "from": "ywy_sword3",
+        "ranFor": 0.081,
+        "of": 0.6
+      },
+      {
+        "k": "skill",
+        "t": 375.949
+      }
+    ],
+    [
+      {
+        "k": "act",
+        "t": 376.115,
+        "name": "ywy_zhenwu",
+        "from": "ywy_sword1",
+        "ranFor": 0.142,
+        "of": 0.4
+      },
+      {
+        "k": "skill",
+        "t": 376.115
+      },
+      {
+        "k": "in",
+        "t": 376.115,
+        "of": 0.533,
+        "cmd": "Skill",
+        "during": "ywy_zhenwu"
+      },
+      {
+        "k": "used",
+        "t": 376.115,
+        "cmd": "Skill"
+      },
+      {
+        "k": "act",
+        "t": 376.278,
+        "name": "ywy_zhenwu",
+        "from": "ywy_zhenwu",
+        "ranFor": 0.164,
+        "of": 0.533
+      },
+      {
+        "k": "skill",
+        "t": 376.278
+      }
+    ]
+  ]
+}

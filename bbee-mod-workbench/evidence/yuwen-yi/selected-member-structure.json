@@ -1,0 +1,98 @@
+{
+  "captured_date": "2026-10-15",
+  "selected_manifest": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261015T122045Z-a69abc003aec\\manifest.json",
+  "evidence_level": "Read-only package-header, import/export table, property-tag boundary and native-layout investigation. New decoder has not been executed by this agent.",
+  "source_pak_sha256": "5e049dc376c36dacadf6edb6fab133942679b54b1809d7f483728deec35beaff",
+  "package_profile": {
+    "legacy_file_version": -7,
+    "stored_ue4_version": 0,
+    "stored_licensee_version": 0,
+    "custom_version_count": 0,
+    "package_flags": "0x80000000",
+    "unversioned_properties_flag_set": false,
+    "observed_property_serialization": "Tagged FName/type/size/array-index/property-guid fields",
+    "interpretation": "Unversioned package-version fields do not imply unversioned properties. These four assets do not require a usmap for the observed tagged fields."
+  },
+  "avatars": [
+    {
+      "asset": "T_Hero_HeadImage",
+      "class_from_import": "/Script/Engine.Texture2D",
+      "uasset_bytes": 768,
+      "uexp_bytes": 84372,
+      "export_bytes": 84368,
+      "width": 145,
+      "height": 145,
+      "pixel_format": "PF_B8G8R8A8",
+      "mip_count": 1,
+      "bulk_flags": "0x48",
+      "pixel_bytes": 84100,
+      "pixel_storage": "Inline uncompressed BGRA8",
+      "visual_identity": "Unreviewed; not a full portrait or body animation"
+    },
+    {
+      "asset": "T_Hero_WuDang_HeadImage",
+      "class_from_import": "/Script/Engine.Texture2D",
+      "uasset_bytes": 782,
+      "uexp_bytes": 84372,
+      "export_bytes": 84368,
+      "width": 145,
+      "height": 145,
+      "pixel_format": "PF_B8G8R8A8",
+      "mip_count": 1,
+      "bulk_flags": "0x48",
+      "pixel_bytes": 84100,
+      "pixel_storage": "Inline uncompressed BGRA8",
+      "visual_identity": "Unreviewed; not a full portrait or body animation"
+    }
+  ],
+  "npc_resources": {
+    "class_from_import": "/Script/Engine.DataTable",
+    "row_struct_from_import_and_RowStruct_property": "/Script/JH.NPCResourceSetting",
+    "row_count": 835,
+    "observed_export_end": 7349291,
+    "tag_walk_end": 7349291,
+    "property_kind_counts": {
+      "IntProperty": 835,
+      "SoftObjectProperty": 45925,
+      "BoolProperty": 3340,
+      "ArrayProperty": 71810
+    },
+    "all_array_inner_types": "SoftObjectProperty",
+    "observed_hero_rows": ["Hero", "Hero_WuDang", "Hero_Boy", "Hero_WuDang_K", "Hero_MengZhu", "Hero_ZongShi", "Hero_GongZhu"],
+    "scalar_soft_reference_examples": [
+      {
+        "row": "Hero",
+        "field": "HeadSprite",
+        "asset": "/Game/JH/Characters/TongYong/Hero/SPR_Char_Hero_HeadImage.SPR_Char_Hero_HeadImage"
+      },
+      {
+        "row": "Hero_WuDang",
+        "field": "IdleLeftFlipbook",
+        "asset": "/Game/JH/Characters/TongYong/Hero_WuDang/PFB_TY_Hero_WD_I_L.PFB_TY_Hero_WD_I_L"
+      }
+    ],
+    "scope": "Tag boundaries and scalar soft references read; array inner types/counts examined. New formal decoder will validate/decode complete selected Hero/Hero_WuDang values. Referenced flipbooks/frames not loaded."
+  },
+  "skill_locres": {
+    "version": 3,
+    "declared_entries": 1506,
+    "namespace_count": 1,
+    "namespace": "Skills",
+    "localized_string_array_offset": 50152,
+    "declared_localized_strings": 1435,
+    "scope": "Header/namespace/string-array layout identified against CUE4Parse. Complete new decoder remains unexecuted."
+  },
+  "liuyuntaiji_blueprint": {
+    "first_export_class_from_import": "/Script/Engine.BlueprintGeneratedClass",
+    "export_count": 2,
+    "imported_particle": "/Game/JH/ParticleSystem/DZ_Effects/TaiJi/particle/xuli1",
+    "imported_audio": "/Game/JH/Audio/Skill/XinFa/802",
+    "scope": "Import names and class metadata only. No Blueprint bytecode executed or mechanics inferred from imports."
+  },
+  "new_dependency_assessment": {
+    "needed_for_two_avatars_and_locres": false,
+    "route": "Existing Python standard library plus workbench Pillow; exact locked raw fixture SHA256 and known serialization profile",
+    "cue4parse_role": "Read-only upstream source reference; no download/install/execution of the package",
+    "remaining_asset_scope": "General Texture2D formats, external bulk data, Paper2D sprite/flipbook frame metadata and further GA/CDO layouts remain unsupported"
+  }
+}

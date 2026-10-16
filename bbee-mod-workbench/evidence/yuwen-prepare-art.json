@@ -1,0 +1,23 @@
+{
+  "command": [
+    "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Interpreter\\pythoncore-3.14-64\\python.exe",
+    "-E",
+    "-s",
+    "-c",
+    "import faulthandler,os,runpy,sys; sys.stdout.reconfigure(encoding='utf-8',errors='replace',line_buffering=True,write_through=True); sys.stderr.reconfigure(encoding='utf-8',errors='replace',line_buffering=True,write_through=True); faulthandler.enable(); faulthandler.dump_traceback_later(600,repeat=True); p=sys.argv[1]; sys.argv=sys.argv[1:]; sys.path.insert(0,os.path.dirname(p)); runpy.run_path(p,run_name='__main__')",
+    "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\import_yuwen.py",
+    "--prepare",
+    "--portrait-manifest",
+    "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261015T134637Z-890830ca3a1f\\manifest.json",
+    "--authored-manifest",
+    "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\authored-poses.json",
+    "--visual-review",
+    "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\complete-art-visual-review-first-playtest-repair.json"
+  ],
+  "cwd": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher",
+  "exit_code": 0,
+  "elapsed_seconds": 4.2,
+  "log": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-prepare-art.log",
+  "log_sha256": "e573dc00a44617ac54a8f9f592655f9a70ed7697d70a3c98fd40bc061279229e",
+  "game_target": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\game"
+}

@@ -1,0 +1,3 @@
+{
+  "enabled": ["bbee-sdk", "bbee-actors", "bbee-inspector", "framework-validation-probe", "char-yuwen-yi"]
+}

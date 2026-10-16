@@ -1,0 +1,11 @@
+{
+  "actual_working_directory_verified": false,
+  "appid_hint_created": true,
+  "arguments": "-screen-fullscreen 0 -screen-width 1280 -screen-height 720",
+  "launch_performed": false,
+  "proxies_isolated": 3,
+  "run_id": "67946a5463a5467786d4b548e3a498b5",
+  "shortcut": "runtime-bbee-67946a5463a5467786d4b548e3a498b5.lnk",
+  "shortcut_working_directory": "copied_game",
+  "status": "prepared"
+}

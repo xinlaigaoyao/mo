@@ -1,0 +1,7 @@
+{
+  "id": "char-yuwen-yi",
+  "name": "宇文逸 · 流云太极",
+  "version": "0.1.0-dev",
+  "dependencies": ["bbee-sdk", "bbee-actors"],
+  "prepare": ["mods/char-yuwen-yi/build_yuwen.py"]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "f9_observed_with_diagnostic_gap",
+  "run_id": "502113b3109a421e96504b4edacdd3a2",
+  "captured_ms": 1792068912153,
+  "report_wall": "2026-10-15T12:53:51.064Z",
+  "game_build": "25627491",
+  "module_ids": [
+    "bbee-sdk",
+    "bbee-actors",
+    "bbee-inspector",
+    "framework-validation-probe"
+  ],
+  "new_json_reports": 1,
+  "new_text_reports": 1,
+  "reports": [
+    {
+      "suffix": ".json",
+      "bytes": 23945,
+      "sha256": "2a7f901d31c620e4755236c87a15d55fe497be99cb479a07b466edb0353d0740"
+    },
+    {
+      "suffix": ".txt",
+      "bytes": 5047,
+      "sha256": "59445f05974b3eabb9dd0643784c140200ad4900c3a6267fba001244a033830c"
+    }
+  ],
+  "player_present": true,
+  "samples_count": 240,
+  "history_count": 44,
+  "warning_count": 1,
+  "diagnostic_gap": "effect hook unavailable",
+  "basic_ui_observations": [
+    "native_trial_scene",
+    "movement",
+    "jump",
+    "normal_attack"
+  ],
+  "source_build_receipt_sha256": {
+    "_build.json": "4f71d440665554daeb119a37c4d1eb87b3a5dba2e12c3b5e16ca01c5986ab7b7",
+    "_verification.json": "992b72c76a347fd50a0eada6412bbe0562b4db12587f257cf43c106d25f0077f"
+  },
+  "inspector_version_observed": "0.4.0"
+}

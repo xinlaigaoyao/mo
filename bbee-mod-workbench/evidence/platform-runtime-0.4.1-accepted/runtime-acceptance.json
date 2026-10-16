@@ -1,0 +1,27 @@
+{
+  "acceptance_scope": "startup_script_save_path_working_directory_and_f9_checks",
+  "access_time_restore_policy": "best_effort",
+  "access_times_restore_attempted": true,
+  "access_times_verified_exactly": false,
+  "backup_verified": true,
+  "original_save_root_restored_exactly": true,
+  "restoration_scope": "file_bytes_names_directories_mode_mtime",
+  "restore_status": "restored",
+  "run_id": "9a95cfaa547b4837868243de38886267",
+  "runtime_acceptance_passed": true,
+  "runtime_changed_files": true,
+  "runtime_checks": {
+    "f9_report_observed": true,
+    "f9_triggered": true,
+    "process_started": true,
+    "window_observed": true
+  },
+  "runtime_probe": {
+    "is_playing": true,
+    "loaded": true,
+    "save_root_matches": true,
+    "status": "current",
+    "working_directory_matches": true
+  },
+  "status": "restored_with_runtime_acceptance"
+}

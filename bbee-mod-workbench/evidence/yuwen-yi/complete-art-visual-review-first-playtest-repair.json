@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "approved": true,
+  "source_row": "Hero_WuDang",
+  "faces_positive_x": true,
+  "body_manifest_sha256": "c53f67f143e03b8cbb598671368de13f241e2dcfb60870bc8c9a054c46f253dc",
+  "portrait_manifest_sha256": "aae6004559b0fa63b16e2ecfa7ffe1f24d5e25cf02561bc191012234ddb43df5",
+  "authored_manifest_sha256": "54050fc64e5436217a8687e0f16fd311d91ca77ccc2d1ab2589a3beae81b6696",
+  "portrait_landmarks": {
+    "face_x": 458,
+    "top": 65,
+    "floor": 793
+  },
+  "portrait_landmark_basis": {
+    "face_x": "Manual visual center of face on original 900x835 TeamImage",
+    "top": "first alpha>=128 row",
+    "floor": "exclusive lower extent at alpha>=4, retaining the original fade"
+  },
+  "evidence": [
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-native-wudang-contact-sheet.png",
+      "sha256": "9c7c17d475bd00274ce8880571492b5d2128b7218bab22315b445fed60d17314"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-native-wudang-flipbooks.png",
+      "sha256": "5f3d2d06ee2c40dd390b68f2ef1773847841ca3393dac80063c8bf995a04ecdc"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\portrait-composite-review.png",
+      "sha256": "edfd5b8cf696e5c1aeb5bc41f588ac5487f07136caad69780f6bc433e2754795"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\authored-poses-contact-sheet.png",
+      "sha256": "e51bc66592b3b28dd2de3cf8552594d46cfa22089eb50736b22bf54c1b63b457"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\authored-poses-visual-review.json",
+      "sha256": "5f804957fbcfee90b7b754654cefd9d0e0778c59d0f1a171050fe3283a3ed6f3"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\body-reference-validation.json",
+      "sha256": "7285e44549a7cbe7fb37729920e3e6f833a8827c0b2b142cae487198415666ab"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\portrait-reference-validation.json",
+      "sha256": "6c5da4a3da6110de651c8908a47b6ccfe184e69bfee50521c3d2d646242af3de"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\original-vfx\\adapted\\qi_impact-contact.png",
+      "sha256": "c015941cfeef08c845816d8185b387d4140f2aaacc463e2eeb5707ad59cc71ef"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\original-vfx\\adapted\\sword_echo-contact.png",
+      "sha256": "c3ebed249c6851d91844f6ff042d93382ea4ec113cb8c5d74df60b3bb2073a49"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\original-vfx\\adapted\\taiji_charge-contact.png",
+      "sha256": "8c25d1dbcbfef570684fa292e33096f800e3181df820f9817df17e1667684ece"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\original-vfx\\adapted\\taiji_circle-contact.png",
+      "sha256": "cd32081e6c3767d87cd6b971c7b4b968c6217a7523f162e094bf3943386b7c2f"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\original-vfx\\adapted\\taiji_counter-contact.png",
+      "sha256": "caba54fa0e2094a434f4aaff7a29a2c40f498cc1727d91cbfb4d06eda5d31ce8"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\original-vfx\\adapted\\ultra_field-contact.png",
+      "sha256": "5038f0ed5f25331df048ab82fb17a5da0a002bcdb6a9d0375381de0f376f1a83"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\original-vfx\\adapted\\wuxiang-contact.png",
+      "sha256": "f3d3a857687f6187865f4d8b709b88a050f53eeb52d114cc4cc748a3f92ab895"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\original-vfx\\adapted\\zhenwu_wave-contact.png",
+      "sha256": "e7ec012d05a6d3ec615dca89d4aacdaf145dd71a0636c0361292efa4d53fedda"
+    },
+    {
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\source-sword-six-poses.png",
+      "sha256": "5971c1eac77b9683bb9cacb383dac95eeaece33257b804c46a3a51f80a8ffb0b"
+    }
+  ],
+  "observations": [
+    "Root viewed all 64 unique original blue-clothed sprites and 18 ordered native flipbooks in contact sheets. Bodies and swords/palm effects are complete and the selected Right mappings face positive x. Original feet pivots are visibly consistent within their original atlas families.",
+    "Root viewed all three original blue Hero_WuDang portraits and a correctly alpha-composited TeamImage. Identity and blue/white outfit match. TeamImage is a half-length composition with a bottom fade, not a full-body artwork. Hidden RGB at alpha0 is not an opaque background.",
+    "Root viewed every one of the 40 newly authored reaction/extras frames. Hair, hands and feet are not cut off, row semantics are identifiable, poses face right and share the declared foot baseline. Each source sheet has one calibrated scale; no per-frame height normalization.",
+    "Root viewed all eight final original-texture effect contact sheets. Sword leading arc/tail and ink/taiji birth, rotation and disappearance are visible. Rejected black RGB planes and rectangular leading plates were corrected before this candidate. Alpha/material blending, world size, readability and performance in Unity remain unverified.",
+    "Root viewed the six unchanged original sword poses: 0/1/2 wind up, 3/4/5 extend the sword. All six corrected source-based action timelines use explicit exposure ticks and preserve original source weights. This is BBEE retiming, not a newly drawn original animation."
+  ],
+  "scope": "Approval to prepare/build the exact original-texture VFX and retimed body candidate. Original Cascade shaders, distortion/mesh deformation and particle collisions are not ported losslessly. Final Unity playback, combat, UI readability, persistent progress and character acceptance remain pending.",
+  "original_vfx_manifest_sha256": "e95837cd1023abf8b0453237ddf8671eaf3d493556b30569c4eae56b4e829f94",
+  "approved_original_vfx": true,
+  "previous_source_review": {
+    "file": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\complete-art-visual-review.json",
+    "sha256": "ad4f21461512dc7db0997dcd862af3116dcc8cb72b75fcf0e161dbde019c7a3b",
+    "basis": "Same hash-bound original body/portrait/authored pixels; previous root visual approval retained."
+  }
+}

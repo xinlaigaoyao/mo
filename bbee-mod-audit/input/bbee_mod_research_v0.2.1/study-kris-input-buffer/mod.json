@@ -1,0 +1,25 @@
+{
+  "id": "study-kris-input-buffer",
+  "name": "Study - Kris input buffer (offline-validated example)",
+  "version": "0.1.0",
+  "author": "Learning example",
+  "description": "Target baseline 25627491. Changes only Kris first ground Attack Preinputtime from 0.20 to 0.30. Not tested in game.",
+  "gameBuilds": [
+    "25627491"
+  ],
+  "dependencies": [
+    "dr-party"
+  ],
+  "content": {
+    "tables": {
+      "SkillActivate": [
+        {
+          "ActorId": 200801,
+          "Group": 1,
+          "Order": 1,
+          "Preinputtime": 0.3
+        }
+      ]
+    }
+  }
+}

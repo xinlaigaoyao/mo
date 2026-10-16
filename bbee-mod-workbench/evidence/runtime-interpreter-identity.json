@@ -1,0 +1,10 @@
+{
+  "python_version": "3.11.9",
+  "identity_matches": false,
+  "device_matches": false,
+  "inode_matches": true,
+  "portable_python": "3.14.8",
+  "portable_identity_matches": true,
+  "unknown_identity_replacement_not_bypassed": true,
+  "resolution": "use the same pinned portable interpreter for runtime launcher and guard"
+}

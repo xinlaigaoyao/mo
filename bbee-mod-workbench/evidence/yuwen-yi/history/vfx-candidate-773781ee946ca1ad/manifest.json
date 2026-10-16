@@ -1,0 +1,7051 @@
+{
+  "schema": 1,
+  "kind": "yuwen_original_texture_vfx_adaptation",
+  "source_pak_sha256": "5e049dc376c36dacadf6edb6fab133942679b54b1809d7f483728deec35beaff",
+  "reference_manifest": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261016T005054Z-5a4768831a59\\manifest.json",
+  "reference_manifest_sha256": "81c9be40ba29154614ae81a1f11b8e5406265290f04cec0f53d83f8378c94a3a",
+  "source_contract": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\original-vfx\\source-contract.json",
+  "source_contract_sha256": "e2a970596041c4383d1f865de14c0facf421b93c8abad1b11acaff256cb6c4ba",
+  "producer": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\original_vfx.py",
+  "producer_sha256": "b8212903527e228ca982adf3d7e9761f517df52e6edfd39bc2d1902c66df4830",
+  "used_original_textures": {
+    "/Game/JH/ParticleSystem/Effects/AdvancedMagicFX09/Textures/T_ky_fire01_4x8": {
+      "package": "/Game/JH/ParticleSystem/Effects/AdvancedMagicFX09/Textures/T_ky_fire01_4x8",
+      "object": "T_ky_fire01_4x8",
+      "png": "textures/921daf0a56d98511_T_ky_fire01_4x8.png",
+      "bytes": 1807150,
+      "sha256": "80fb21690f38ecc651d7592bc9cfa3acfd9de808a64633a4312b3baaccc96bad",
+      "format": "PF_DXT1",
+      "width": 2048,
+      "height": 2048,
+      "first_mip": 0,
+      "mips": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10501",
+          "offset": 0,
+          "bytes": 2097152,
+          "sha256": "a9e31318d188df59df04fd7f2a3d928c1e75dae5a7f87cc33a19e620d47c6470"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10501",
+          "offset": 2097152,
+          "bytes": 524288,
+          "sha256": "0a0625ac22057e154354d1613bf1d639ab3c730896032009e74607eec5a0917f"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "flags": "0x10501",
+          "offset": 2621440,
+          "bytes": 131072,
+          "sha256": "357255e6bd4332bdc3edb2128d611890b8fbf604487970a447272869321b9500"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "flags": "0x10501",
+          "offset": 2752512,
+          "bytes": 32768,
+          "sha256": "3c85651bf484b5d4634a989a24e70aa4a3780f9217d93912b7784c6a30a3719f"
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "flags": "0x10501",
+          "offset": 2785280,
+          "bytes": 8192,
+          "sha256": "30ac81eda2e195b728d0ef908902357f474865cd8ccd8c88bfb8efcd420598cc"
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "flags": "0x48",
+          "offset": 1337,
+          "bytes": 2048,
+          "sha256": "d1a27808299b57986d5c0345a1395a2bca6877fd492fa1998e515bafb27c3c1d"
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "flags": "0x48",
+          "offset": 3421,
+          "bytes": 512,
+          "sha256": "237467b6ef0a23f716fa0267f48072c337fc7b3881dd34112ce85dfa9c22eff9"
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "flags": "0x48",
+          "offset": 3969,
+          "bytes": 128,
+          "sha256": "7d2b2b40ce29ea5e144d1d618171111a6f22f980aae1c680c451e87e942dd3a5"
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "flags": "0x48",
+          "offset": 4133,
+          "bytes": 32,
+          "sha256": "7fc286c1a648cda4b8595fafb992b79ec3584c02ae914573b750e83a8f2ba2fe"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 4201,
+          "bytes": 8,
+          "sha256": "1ca78f61b00847336f66c793dfeabb995dca9d8bcf67bc40aa87f66791ccc616"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 4245,
+          "bytes": 8,
+          "sha256": "1a5d1c20b2bf4724a74580f4e320a9f38c592065c9f12751f836601be23f1142"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 4289,
+          "bytes": 8,
+          "sha256": "9dac9eb19a973bebe496ce9bf6d78205824450eeb960669527e2d6be6328613a"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ImportedSize",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "IntPoint",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 8,
+          "raw_sha256": "e72491dcb24135d5f27387834449aa94fd96ed38c506d37e0ba7db253fa23db8",
+          "raw_hex": "0008000000080000"
+        },
+        {
+          "name": "LightingGuid",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "Guid",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 16,
+          "raw_sha256": "e81e78810bc2b34c1a589c6d6322c2a4a83010d0ec982433252a0c5ccf5c1d2a",
+          "raw_hex": "c30ec208fd2b41bfb55c303111736531"
+        },
+        {
+          "name": "LODGroup",
+          "kind": "ByteProperty",
+          "array_index": 0,
+          "enum": "TextureGroup",
+          "bytes": 8,
+          "raw_sha256": "0c27700c82d333aa295692f1814040a962d7bc530253af661d97635dd5ed7af9",
+          "value": "TEXTUREGROUP_Effects"
+        },
+        {
+          "name": "SRGB",
+          "kind": "BoolProperty",
+          "array_index": 0,
+          "boolean": 0,
+          "bytes": 0,
+          "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "raw_hex": ""
+        }
+      ],
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261016T005054Z-5a4768831a59\\textures\\921daf0a56d98511_T_ky_fire01_4x8.png"
+    },
+    "/Game/JH/ParticleSystem/Effects/AdvancedMagicFX09/Textures/T_ky_dust_longStar": {
+      "package": "/Game/JH/ParticleSystem/Effects/AdvancedMagicFX09/Textures/T_ky_dust_longStar",
+      "object": "T_ky_dust_longStar",
+      "png": "textures/0a2beedcad76b4fd_T_ky_dust_longStar.png",
+      "bytes": 106835,
+      "sha256": "0727bf0091e5de6741678a5559f9583c7d1a0b55e66c479016ed5f827401ed74",
+      "format": "PF_DXT1",
+      "width": 512,
+      "height": 512,
+      "first_mip": 0,
+      "mips": [
+        {
+          "width": 512,
+          "height": 512,
+          "flags": "0x10501",
+          "offset": 0,
+          "bytes": 131072,
+          "sha256": "7603a947d118dbd57702c1f04a05ddd5eb81667335c7bf0aa6e3b67745fe2483"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "flags": "0x10501",
+          "offset": 131072,
+          "bytes": 32768,
+          "sha256": "5dd556e8139f47312820c8d907679881c45ac6e806259f04baf80f32514a617f"
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "flags": "0x10501",
+          "offset": 163840,
+          "bytes": 8192,
+          "sha256": "a5f75eeaf92ae6f981e8b6e4d7d55d3591d18fd819e8bd39d801807bdd0f2118"
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "flags": "0x48",
+          "offset": 1211,
+          "bytes": 2048,
+          "sha256": "0b00040e18beb573f6eaaa5fe2ea2c0c6e41f121cbc06c7f9349a6c6d44f4284"
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "flags": "0x48",
+          "offset": 3295,
+          "bytes": 512,
+          "sha256": "7e02e3021529f9ff190f7ee34c8bafc0bddc3f516509b5078c8568ffff3d2bf9"
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "flags": "0x48",
+          "offset": 3843,
+          "bytes": 128,
+          "sha256": "e83d59983d1830ef27c876248f29c8ad56f38057d669c81d792eef1b7d503a0d"
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "flags": "0x48",
+          "offset": 4007,
+          "bytes": 32,
+          "sha256": "f0eff8a03a021f471af8d5ea777f468ca1c775ed507158e80753bed79572ba1d"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 4075,
+          "bytes": 8,
+          "sha256": "432828f7fd44cc037aac041dd3c749d61be236e795309b816417e21a7fb313d2"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 4119,
+          "bytes": 8,
+          "sha256": "cef211d955786ca7a18451765c27099cde8035a2253c29a2d1f4fbad05335d59"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 4163,
+          "bytes": 8,
+          "sha256": "d259a187093f5674359043bfcf9bcfcabf3dfc16a3e0c44308e30c63714fa2f7"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ImportedSize",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "IntPoint",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 8,
+          "raw_sha256": "bac95cc64206b14b009cf0331b3555aef75d5969ac9e347be37f0fc168e33410",
+          "raw_hex": "0002000000020000"
+        },
+        {
+          "name": "LightingGuid",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "Guid",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 16,
+          "raw_sha256": "16bd1120f57380716373b2ab35be36e352524af18e0057d549e0aec8e7b1a75b",
+          "raw_hex": "bf47881908e34d89986c9e2cb0d0f6f8"
+        },
+        {
+          "name": "LODGroup",
+          "kind": "ByteProperty",
+          "array_index": 0,
+          "enum": "TextureGroup",
+          "bytes": 8,
+          "raw_sha256": "e48d939f60d90eb530fe27e3605e548e51c7232e13baddfdfeaa4e04fb478319",
+          "value": "TEXTUREGROUP_Effects"
+        }
+      ],
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261016T005054Z-5a4768831a59\\textures\\0a2beedcad76b4fd_T_ky_dust_longStar.png"
+    },
+    "/Game/JH/ParticleSystem/Effects/AdvancedMagicFX09/Textures/T_ky_smoke2": {
+      "package": "/Game/JH/ParticleSystem/Effects/AdvancedMagicFX09/Textures/T_ky_smoke2",
+      "object": "T_ky_smoke2",
+      "png": "textures/59d683f1cf8dccee_T_ky_smoke2.png",
+      "bytes": 435654,
+      "sha256": "fa2dec3620248f085b81143f20f903a3249b46bd46e0e4a49e4ff73b008088fb",
+      "format": "PF_DXT5",
+      "width": 1024,
+      "height": 1024,
+      "first_mip": 0,
+      "mips": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10501",
+          "offset": 0,
+          "bytes": 1048576,
+          "sha256": "09b46dcd08a85f6d9d00a8b0ec444c9631b38895d2e7317e4692d7250095d60f"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "flags": "0x10501",
+          "offset": 1048576,
+          "bytes": 262144,
+          "sha256": "2351d5bfbe2c6a3a27844cc6893ccae02fe77cce4ba1817d0adf869e7deb1c37"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "flags": "0x10501",
+          "offset": 1310720,
+          "bytes": 65536,
+          "sha256": "4acee6da7f3d5bfec8f5165e4fbc2460e6aca50dd9896a9b66ff7137ddfa59f8"
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "flags": "0x10501",
+          "offset": 1376256,
+          "bytes": 16384,
+          "sha256": "09cc5bc2a4e8c1f4048a0451ba543bc27ed1aea1fdb3a5d822f79a8264783ec0"
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "flags": "0x48",
+          "offset": 1233,
+          "bytes": 4096,
+          "sha256": "d405514ea9fdae742e9eb5fa58dcf613e9b1ae472e9e97e881acaaad15e1578e"
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "flags": "0x48",
+          "offset": 5365,
+          "bytes": 1024,
+          "sha256": "158de363e0c5bce2fc74d271267a4cd923f61e44186a63d528faa65be5ee300a"
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "flags": "0x48",
+          "offset": 6425,
+          "bytes": 256,
+          "sha256": "46a4076b469ea7362e01814d9e8ab5e18c5581d6a084aeabaae163c9157a7bda"
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "flags": "0x48",
+          "offset": 6717,
+          "bytes": 64,
+          "sha256": "7466d3860bdcc15fdf674ca93171b13790b312521b591178f6907325fe747195"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6817,
+          "bytes": 16,
+          "sha256": "66f4a7f65971aa8b0204944dd87720bcdfae67ebca87e2c216860c40a7828df5"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6869,
+          "bytes": 16,
+          "sha256": "bd21811e4b3197395bac27d2e153a9e26bfb282727e78aa85174607f9cae45d9"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6921,
+          "bytes": 16,
+          "sha256": "e9831861df843846671fe07240408e755477bfbe15afde99c2a8f319114e3dd8"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ImportedSize",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "IntPoint",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 8,
+          "raw_sha256": "a16f3bb23d3f7f3a561f9d33f03e62205f458823f1cdc7d44edd50e19486955c",
+          "raw_hex": "0004000000040000"
+        },
+        {
+          "name": "LightingGuid",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "Guid",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 16,
+          "raw_sha256": "4a6b35fa55dd783337771ad649f3a7904d63cd106f1ee863bed94b7dcc4a97d3",
+          "raw_hex": "68712610f5864d788895394a5889f759"
+        },
+        {
+          "name": "LODGroup",
+          "kind": "ByteProperty",
+          "array_index": 0,
+          "enum": "TextureGroup",
+          "bytes": 8,
+          "raw_sha256": "e48d939f60d90eb530fe27e3605e548e51c7232e13baddfdfeaa4e04fb478319",
+          "value": "TEXTUREGROUP_Effects"
+        }
+      ],
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261016T005054Z-5a4768831a59\\textures\\59d683f1cf8dccee_T_ky_smoke2.png"
+    },
+    "/Game/JH/ParticleSystem/Effects/AdvancedMagicFX09/Textures/T_ky_flare_a": {
+      "package": "/Game/JH/ParticleSystem/Effects/AdvancedMagicFX09/Textures/T_ky_flare_a",
+      "object": "T_ky_flare_a",
+      "png": "textures/724b1d2b50f73a29_T_ky_flare_a.png",
+      "bytes": 139197,
+      "sha256": "beb8595f6bd4e2c3fbb4bd99348634d22082ca5810051470343a1f17ca2ca12c",
+      "format": "PF_DXT5",
+      "width": 512,
+      "height": 512,
+      "first_mip": 0,
+      "mips": [
+        {
+          "width": 512,
+          "height": 512,
+          "flags": "0x10501",
+          "offset": 0,
+          "bytes": 262144,
+          "sha256": "e3c17680a044c73fef4d36a11b066112424ed2f041f99b1ec2cb9aebe7105195"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "flags": "0x10501",
+          "offset": 262144,
+          "bytes": 65536,
+          "sha256": "c0750e7a422831ff339c86cae6242d9216dd2703470d245b6546f238f1eeb996"
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "flags": "0x10501",
+          "offset": 327680,
+          "bytes": 16384,
+          "sha256": "c1b850f90881a20d99a364ec316d980a6b1d5f566e11bbcb6f064ac66149a589"
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "flags": "0x48",
+          "offset": 1199,
+          "bytes": 4096,
+          "sha256": "baf9f456b954827e46c282ed1451f13569e1d487213b75435b7258a73c9e3ec5"
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "flags": "0x48",
+          "offset": 5331,
+          "bytes": 1024,
+          "sha256": "9ea32b6e947885e3f4feacad162fbb57cd5ed63755b5d863c6ef10c393e26cb5"
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "flags": "0x48",
+          "offset": 6391,
+          "bytes": 256,
+          "sha256": "7b55047bed23af9bc402e123ca3806ef7f3908eef8684752f2324981603b54a0"
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "flags": "0x48",
+          "offset": 6683,
+          "bytes": 64,
+          "sha256": "f857b737fabb98b3dcb2b06d9469efc9d8ab15c5c4a7ff8d26b051c6c41cc7b6"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6783,
+          "bytes": 16,
+          "sha256": "ee1d6b7eaba1484132e3c4f2290d4793d2360fff3309d781413094a957d666cb"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6835,
+          "bytes": 16,
+          "sha256": "645bf2524f0e754e2b7d0cb082bc38488d26e505f4e46a9e7135c8f3d384de4c"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6887,
+          "bytes": 16,
+          "sha256": "f0eb6ff9d0190748bf0208176749a5ce7e60d0c237587e90337a48f933a78709"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ImportedSize",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "IntPoint",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 8,
+          "raw_sha256": "bac95cc64206b14b009cf0331b3555aef75d5969ac9e347be37f0fc168e33410",
+          "raw_hex": "0002000000020000"
+        },
+        {
+          "name": "LightingGuid",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "Guid",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 16,
+          "raw_sha256": "3a3de18c690ecab70ed91fa3cb87f567d11a3db47c73d80fe977678bcb53da8a",
+          "raw_hex": "fc2798dd51924deca8ef79663fdb71a5"
+        },
+        {
+          "name": "LODGroup",
+          "kind": "ByteProperty",
+          "array_index": 0,
+          "enum": "TextureGroup",
+          "bytes": 8,
+          "raw_sha256": "e48d939f60d90eb530fe27e3605e548e51c7232e13baddfdfeaa4e04fb478319",
+          "value": "TEXTUREGROUP_Effects"
+        }
+      ],
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261016T005054Z-5a4768831a59\\textures\\724b1d2b50f73a29_T_ky_flare_a.png"
+    },
+    "/Game/JH/ParticleSystem/Effects/AdvancedMagicFX15/Textures/T_ky_shine01_4x4": {
+      "package": "/Game/JH/ParticleSystem/Effects/AdvancedMagicFX15/Textures/T_ky_shine01_4x4",
+      "object": "T_ky_shine01_4x4",
+      "png": "textures/cf29bc75d5e6a315_T_ky_shine01_4x4.png",
+      "bytes": 2504421,
+      "sha256": "c6ce2656ee112619855d115ec6c4a2906dbd9bc2fdbba3cf7a0b4f1e7fa136e7",
+      "format": "PF_DXT1",
+      "width": 2048,
+      "height": 2048,
+      "first_mip": 0,
+      "mips": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10501",
+          "offset": 0,
+          "bytes": 2097152,
+          "sha256": "f53de08265ac4648f359658250fba17843751ee2078cb97b385e42d4e117c1fd"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10501",
+          "offset": 2097152,
+          "bytes": 524288,
+          "sha256": "724a81c1de1c4f4f79ec7d5608ce723d6403cf3f4426cffa44e267f36f6edb1b"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "flags": "0x10501",
+          "offset": 2621440,
+          "bytes": 131072,
+          "sha256": "05ac6e9ff9ac4611752adb4ccc83b9d182f9d124070643b77058e1d9a1393134"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "flags": "0x10501",
+          "offset": 2752512,
+          "bytes": 32768,
+          "sha256": "7e045992a26014aef67afd20d3527b2c4594dda62f9c9ce6a49d35686bcd040a"
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "flags": "0x10501",
+          "offset": 2785280,
+          "bytes": 8192,
+          "sha256": "a015ab0e1ee7d1239891386e9118d18b38ccaeedd3b1f2f888bfad0b88582e99"
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "flags": "0x48",
+          "offset": 1339,
+          "bytes": 2048,
+          "sha256": "6a128561e2fd86f1e9ed54442e9b57b208b79d7d22f8ea4fbf84105f493a410b"
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "flags": "0x48",
+          "offset": 3423,
+          "bytes": 512,
+          "sha256": "1a622c396d4962f4367611d3619f8a99dab6b76b83eebbaabbb7a85c3d9cf95b"
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "flags": "0x48",
+          "offset": 3971,
+          "bytes": 128,
+          "sha256": "0e66e1d6d4eb7c780f0e22f487925aad9183b23dbda936014839060e80687ee2"
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "flags": "0x48",
+          "offset": 4135,
+          "bytes": 32,
+          "sha256": "6abbdbf395760a1095c4632881e94985f7806f9c430cbd7732c60172fec36a39"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 4203,
+          "bytes": 8,
+          "sha256": "687210ce5cb73f5aa2ce8ff840767e5c254552640965f41421632d092b8a9903"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 4247,
+          "bytes": 8,
+          "sha256": "52e41f9e791357418b304f353648193206ec7e51aa4540b16b00a78648519a15"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 4291,
+          "bytes": 8,
+          "sha256": "3b8ff7e2aa8b5783a145f9f53d206c3217cfba3442b0ebbaac798a894343d571"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ImportedSize",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "IntPoint",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 8,
+          "raw_sha256": "e72491dcb24135d5f27387834449aa94fd96ed38c506d37e0ba7db253fa23db8",
+          "raw_hex": "0008000000080000"
+        },
+        {
+          "name": "LightingGuid",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "Guid",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 16,
+          "raw_sha256": "b3bed68025a8e85cc66fd4a46ec9a8b5e227615f9f09373411b5d7a7e98a5695",
+          "raw_hex": "0d469b2fb210415cbdb6d60d5fada8db"
+        },
+        {
+          "name": "LODGroup",
+          "kind": "ByteProperty",
+          "array_index": 0,
+          "enum": "TextureGroup",
+          "bytes": 8,
+          "raw_sha256": "0c27700c82d333aa295692f1814040a962d7bc530253af661d97635dd5ed7af9",
+          "value": "TEXTUREGROUP_Effects"
+        },
+        {
+          "name": "SRGB",
+          "kind": "BoolProperty",
+          "array_index": 0,
+          "boolean": 0,
+          "bytes": 0,
+          "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "raw_hex": ""
+        }
+      ],
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261016T005054Z-5a4768831a59\\textures\\cf29bc75d5e6a315_T_ky_shine01_4x4.png"
+    },
+    "/Game/JH/ParticleSystem/Effects/AdvancedMagicFX15/Textures/T_ky_shockwave04_4x4": {
+      "package": "/Game/JH/ParticleSystem/Effects/AdvancedMagicFX15/Textures/T_ky_shockwave04_4x4",
+      "object": "T_ky_shockwave04_4x4",
+      "png": "textures/d2515de5f60bd6f1_T_ky_shockwave04_4x4.png",
+      "bytes": 1127103,
+      "sha256": "da549ca4393376907da9663779d1600a6a5c1b9ded6ee85d102cf0870ebb7650",
+      "format": "PF_DXT1",
+      "width": 2048,
+      "height": 2048,
+      "first_mip": 0,
+      "mips": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10501",
+          "offset": 0,
+          "bytes": 2097152,
+          "sha256": "72ff1bdad6355716cefbfdf2ef708334700ff0f2b913acc0c5042fd525bad43d"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10501",
+          "offset": 2097152,
+          "bytes": 524288,
+          "sha256": "89ff9172e90fdd163bbd1346edc01ce979577f22f9b8011757ff9c84bd8a63f0"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "flags": "0x10501",
+          "offset": 2621440,
+          "bytes": 131072,
+          "sha256": "ce5ae787ada035597fe1f69d8ce8dd95da79b4e1ea7957ff4fe9354b8e3b65fd"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "flags": "0x10501",
+          "offset": 2752512,
+          "bytes": 32768,
+          "sha256": "aed915b0b791b69cd65942400a85ce47fea9db1edd73f0586cf01ce68d2c3738"
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "flags": "0x10501",
+          "offset": 2785280,
+          "bytes": 8192,
+          "sha256": "503d005316225d36e7c2159e783fcefd34a5336ee92928b87f317103590523ea"
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "flags": "0x48",
+          "offset": 1347,
+          "bytes": 2048,
+          "sha256": "3cde74274fe030ddb74329ba1ab5ad52695146821401a6d35ed438bad2a8df5a"
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "flags": "0x48",
+          "offset": 3431,
+          "bytes": 512,
+          "sha256": "e4de915ab5ff1060e2576605cd52febfede357883535225c2c671725e3b669eb"
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "flags": "0x48",
+          "offset": 3979,
+          "bytes": 128,
+          "sha256": "4a5695de75c2b5e941cfd1b469d6992da816ebf9aa57f2e8005bef72306640f9"
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "flags": "0x48",
+          "offset": 4143,
+          "bytes": 32,
+          "sha256": "17b1b6f1c25f5c1e14f2c4977d7e1aa7ce6d26e6b7b67094af8da1bd72a49d1a"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 4211,
+          "bytes": 8,
+          "sha256": "25e801e2aca2c17dca6af9908ffa80ce9e04a60c7a308cc1a5360ed63c708e99"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 4255,
+          "bytes": 8,
+          "sha256": "6988e476f3941b3400f5e095bc1a5a4c90f82e59d6e9937316b1c56ef99e7ed2"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 4299,
+          "bytes": 8,
+          "sha256": "f19e6bcd1bf66bc81f113ec5596b88d12a6189f238db386cc3728b95889d4a86"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ImportedSize",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "IntPoint",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 8,
+          "raw_sha256": "e72491dcb24135d5f27387834449aa94fd96ed38c506d37e0ba7db253fa23db8",
+          "raw_hex": "0008000000080000"
+        },
+        {
+          "name": "LightingGuid",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "Guid",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 16,
+          "raw_sha256": "61f304fe1c64e1596224e746b4a8e73d17723d9da896bc767740805deb386ead",
+          "raw_hex": "96976d00bbc44e2ebd832825947bc796"
+        },
+        {
+          "name": "LODGroup",
+          "kind": "ByteProperty",
+          "array_index": 0,
+          "enum": "TextureGroup",
+          "bytes": 8,
+          "raw_sha256": "0c27700c82d333aa295692f1814040a962d7bc530253af661d97635dd5ed7af9",
+          "value": "TEXTUREGROUP_Effects"
+        },
+        {
+          "name": "SRGB",
+          "kind": "BoolProperty",
+          "array_index": 0,
+          "boolean": 0,
+          "bytes": 0,
+          "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "raw_hex": ""
+        }
+      ],
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261016T005054Z-5a4768831a59\\textures\\d2515de5f60bd6f1_T_ky_shockwave04_4x4.png"
+    },
+    "/Game/JH/ParticleSystem/DZ_Effects/TaiJi/Texture/fx_Ink_A61": {
+      "package": "/Game/JH/ParticleSystem/DZ_Effects/TaiJi/Texture/fx_Ink_A61",
+      "object": "fx_Ink_A61",
+      "png": "textures/dc89e2e566164a56_fx_Ink_A61.png",
+      "bytes": 26483,
+      "sha256": "dc5f0b7438e8c9bd0c4f77ad1a1aeb9b6f70634e55d356e4f3fe1d1e3b216b91",
+      "format": "PF_B8G8R8A8",
+      "width": 256,
+      "height": 201,
+      "first_mip": 0,
+      "mips": [
+        {
+          "width": 256,
+          "height": 201,
+          "flags": "0x48",
+          "offset": 1023,
+          "bytes": 205824,
+          "sha256": "e9d33002e5ed0a536414864f175c6fb268c6f2d484b2d42d9ba393fe0f877106"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ImportedSize",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "IntPoint",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 8,
+          "raw_sha256": "22e922deadef770a3373447ccd5402fd240db07dee01d9574538e68968da18ab",
+          "raw_hex": "00010000c9000000"
+        },
+        {
+          "name": "LightingGuid",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "Guid",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 16,
+          "raw_sha256": "04798273cf70f0c226b659f142747e662dbe8616223c2397a1fa6d52b7f4ba3f",
+          "raw_hex": "689876212501a9428f7665c896dea417"
+        },
+        {
+          "name": "NeverStream",
+          "kind": "BoolProperty",
+          "array_index": 0,
+          "boolean": 1,
+          "bytes": 0,
+          "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "raw_hex": ""
+        }
+      ],
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261016T005054Z-5a4768831a59\\textures\\dc89e2e566164a56_fx_Ink_A61.png"
+    },
+    "/Game/JH/ParticleSystem/DZ_Effects/TaiJi/Texture/fx_Ink_A51": {
+      "package": "/Game/JH/ParticleSystem/DZ_Effects/TaiJi/Texture/fx_Ink_A51",
+      "object": "fx_Ink_A51",
+      "png": "textures/8984bb612b0502bb_fx_Ink_A51.png",
+      "bytes": 155374,
+      "sha256": "9d8c0d5aee516dd94e2c618a5a5b045fab37ffd602cd2c7aef271aecb87e7665",
+      "format": "PF_DXT5",
+      "width": 512,
+      "height": 512,
+      "first_mip": 0,
+      "mips": [
+        {
+          "width": 512,
+          "height": 512,
+          "flags": "0x10501",
+          "offset": 0,
+          "bytes": 262144,
+          "sha256": "cf8ad3c7a2d5c34736b37e5d1279046c07f6d4693371c4869ea98b1505de1480"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "flags": "0x10501",
+          "offset": 262144,
+          "bytes": 65536,
+          "sha256": "12619d97965780e8668c9b3b21dfb01fc8100074032140094b00f6529d2274eb"
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "flags": "0x10501",
+          "offset": 327680,
+          "bytes": 16384,
+          "sha256": "9c3264d297393057407cc5c7ff9721f69ce86cf36d254ed27673301b164b6509"
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "flags": "0x48",
+          "offset": 1056,
+          "bytes": 4096,
+          "sha256": "8f920b3cafd1b08049606939a0796d70376d5e0efd365af636fd1fa87df5ca43"
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "flags": "0x48",
+          "offset": 5188,
+          "bytes": 1024,
+          "sha256": "4aad594d6052ba9286745b53e0508e3463390476bb29e7385fbf7ec2ad8f13d1"
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "flags": "0x48",
+          "offset": 6248,
+          "bytes": 256,
+          "sha256": "e8aa5ecc98ca68fae7b1320e87f6049f5f425954b8d11f7170b7468a746007f0"
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "flags": "0x48",
+          "offset": 6540,
+          "bytes": 64,
+          "sha256": "e58b305d4a93d18d57de42ce63d7c8a9b0f06b4f17f683d83eb468964d7c2587"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6640,
+          "bytes": 16,
+          "sha256": "a93dd3c6744a5d8e1d6f2c1be2d6887419a3b631426213c5bda157cbe34973ce"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6692,
+          "bytes": 16,
+          "sha256": "7ca8895034df2349d17c9490d24d1718a7b4d837b7229399c0899d9df2786e8e"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6744,
+          "bytes": 16,
+          "sha256": "7f0c5269f12882e892b6597c2c812b1ef859afaf4a4d1b782dc38163c316aa33"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ImportedSize",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "IntPoint",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 8,
+          "raw_sha256": "bac95cc64206b14b009cf0331b3555aef75d5969ac9e347be37f0fc168e33410",
+          "raw_hex": "0002000000020000"
+        },
+        {
+          "name": "LightingGuid",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "Guid",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 16,
+          "raw_sha256": "b7fd32cb00bfd6f26b56693fa5e865bb18bd21676513c89373db54fb438132b6",
+          "raw_hex": "8249390aa99ef041b9993712ca517ddd"
+        }
+      ],
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261016T005054Z-5a4768831a59\\textures\\8984bb612b0502bb_fx_Ink_A51.png"
+    },
+    "/Game/JH/ParticleSystem/DZ_Effects/TaiJi/Texture/fx_Ink_A7": {
+      "package": "/Game/JH/ParticleSystem/DZ_Effects/TaiJi/Texture/fx_Ink_A7",
+      "object": "fx_Ink_A7",
+      "png": "textures/8459a1f75cb5249d_fx_Ink_A7.png",
+      "bytes": 141213,
+      "sha256": "afae7c2ad1eda6b1265e7adaabf1538f21334720cb05cac0ccec8042c70a866d",
+      "format": "PF_DXT5",
+      "width": 512,
+      "height": 512,
+      "first_mip": 0,
+      "mips": [
+        {
+          "width": 512,
+          "height": 512,
+          "flags": "0x10501",
+          "offset": 0,
+          "bytes": 262144,
+          "sha256": "879ad8c5e6f26bd9b93f243df314496381d6aa83b6af26649cfe201547e067fc"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "flags": "0x10501",
+          "offset": 262144,
+          "bytes": 65536,
+          "sha256": "bdd0aca78607a29f22c8e851cab573b0a103576298c0152223dc03c350747f85"
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "flags": "0x10501",
+          "offset": 327680,
+          "bytes": 16384,
+          "sha256": "dca8a574464177f83008e2868ed512329609e0b04ab032e92e0c6689292eaa88"
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "flags": "0x48",
+          "offset": 1054,
+          "bytes": 4096,
+          "sha256": "5402bf5ce928da931458072f5f814c643aae1f30100f807ec518a49819752f9b"
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "flags": "0x48",
+          "offset": 5186,
+          "bytes": 1024,
+          "sha256": "edae7b61b4fdc76e1a03b95ca1752e299e3668bf02f4e10aab7ef99eeb912e1b"
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "flags": "0x48",
+          "offset": 6246,
+          "bytes": 256,
+          "sha256": "670bc1033f32d91f05f07f721227a62be6c124e01c2fc0d232da86335a48b8fc"
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "flags": "0x48",
+          "offset": 6538,
+          "bytes": 64,
+          "sha256": "d9b84f9d69b8e04cbf67b1ad0648ff83778bf3d7dd97550de13b40b19f9e6912"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6638,
+          "bytes": 16,
+          "sha256": "3f8d81c102d43ac737cfa2a0fdb5fbc8ab75ec77c7b86d757d6507244d96fce6"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6690,
+          "bytes": 16,
+          "sha256": "67018654215b84154ab03a0da43fe1105467b137e13f6151fd1d0afacdd65c37"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6742,
+          "bytes": 16,
+          "sha256": "dcd62ee7c7c0793a6070e41eaea06cdf19f5ea968b80596674b01420aef5bb7f"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ImportedSize",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "IntPoint",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 8,
+          "raw_sha256": "bac95cc64206b14b009cf0331b3555aef75d5969ac9e347be37f0fc168e33410",
+          "raw_hex": "0002000000020000"
+        },
+        {
+          "name": "LightingGuid",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "Guid",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 16,
+          "raw_sha256": "7de9285fe2f50119820f7b39e631045da58270beb41dcfc796b990f1f57893cb",
+          "raw_hex": "3226dccb2a922148a4717ff2da0e4925"
+        }
+      ],
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261016T005054Z-5a4768831a59\\textures\\8459a1f75cb5249d_fx_Ink_A7.png"
+    },
+    "/Game/JH/ParticleSystem/DZ_Effects/TaiJi/Texture/fx_Ink_A17": {
+      "package": "/Game/JH/ParticleSystem/DZ_Effects/TaiJi/Texture/fx_Ink_A17",
+      "object": "fx_Ink_A17",
+      "png": "textures/194c3bdaaf39103f_fx_Ink_A17.png",
+      "bytes": 43091,
+      "sha256": "60b83f2f1d92fe682fb4a22cd1dcef88b4de8384fde71d64d81a5f4825198b46",
+      "format": "PF_DXT5",
+      "width": 256,
+      "height": 256,
+      "first_mip": 0,
+      "mips": [
+        {
+          "width": 256,
+          "height": 256,
+          "flags": "0x10501",
+          "offset": 0,
+          "bytes": 65536,
+          "sha256": "d35c0e93a703e26518ff8745d1a2977cec72132a7b32ed71c07d1195e567cd99"
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "flags": "0x10501",
+          "offset": 65536,
+          "bytes": 16384,
+          "sha256": "519110dc12356cf5463e257bc4edc831e3e7104c542232e78d8c14984784fc2c"
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "flags": "0x48",
+          "offset": 1020,
+          "bytes": 4096,
+          "sha256": "0209a374f5f9f045248a739bb502001f7a0ed390359b7525c0d0ead87c306f4a"
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "flags": "0x48",
+          "offset": 5152,
+          "bytes": 1024,
+          "sha256": "095e8e4f01751c1d3e84cdada5c37a76be99a94371436feb855ae197a47634ef"
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "flags": "0x48",
+          "offset": 6212,
+          "bytes": 256,
+          "sha256": "64204df57e68a9e91dc073cb6f1c18601d77666202d932c3f217dc6c6f0b84b9"
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "flags": "0x48",
+          "offset": 6504,
+          "bytes": 64,
+          "sha256": "f14e324c4cfe8749a6b45159e57855e44b2ef774ca0c8567efa7cdeb1e064dc9"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6604,
+          "bytes": 16,
+          "sha256": "e60dd3e609e83dbde2ee8c5e7a750802adc6a3047e41e990cc3b7b19f37e2be6"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6656,
+          "bytes": 16,
+          "sha256": "f5867ec69895aa596bd656f10dc99a7b8a761c20d34fbb48a95d6a883247a356"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6708,
+          "bytes": 16,
+          "sha256": "b0c66c281394bed1d134480ac609b45c7f83a261865044631cfe6061229ef792"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ImportedSize",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "IntPoint",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 8,
+          "raw_sha256": "6192e6ba8849ddb446c1d9d704988c537ff7ff21258de4016a62ef39e1286435",
+          "raw_hex": "0001000000010000"
+        },
+        {
+          "name": "LightingGuid",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "Guid",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 16,
+          "raw_sha256": "4772345f9952d849db5595b6f2a188f755544984c775104154f2585e8d02a5d0",
+          "raw_hex": "1c029f476d754e43b8cb7f7f4707e7d5"
+        }
+      ],
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261016T005054Z-5a4768831a59\\textures\\194c3bdaaf39103f_fx_Ink_A17.png"
+    },
+    "/Game/JH/ParticleSystem/Effects/AdvancedMagicFX01/Textures/T_circle9_4x4": {
+      "package": "/Game/JH/ParticleSystem/Effects/AdvancedMagicFX01/Textures/T_circle9_4x4",
+      "object": "T_circle9_4x4",
+      "png": "textures/fff42313a767fcec_T_circle9_4x4.png",
+      "bytes": 3216259,
+      "sha256": "eb208c84e1f3a17721b633f24aa9275562a1c556b91444d5330286a262a80ec0",
+      "format": "PF_DXT5",
+      "width": 2048,
+      "height": 2048,
+      "first_mip": 0,
+      "mips": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "flags": "0x10501",
+          "offset": 0,
+          "bytes": 4194304,
+          "sha256": "6c2a6c9e1a192fd97c3e9791d094d2000ab2b4d426254c40cf3549801d2f5dce"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10501",
+          "offset": 4194304,
+          "bytes": 1048576,
+          "sha256": "e19a76f23b9894b793583eb6c5fc9872d8d64fff152afce1d8fc44ea9786d26f"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "flags": "0x10501",
+          "offset": 5242880,
+          "bytes": 262144,
+          "sha256": "8fea85244a285447ba37006f8a6068544c729211f5595d6099252a7b647ef3f7"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "flags": "0x10501",
+          "offset": 5505024,
+          "bytes": 65536,
+          "sha256": "f85bebefa5f89ebe3b4d23447e007cdb9aa457bc908e8b8e165c1bfe6d6e3655"
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "flags": "0x10501",
+          "offset": 5570560,
+          "bytes": 16384,
+          "sha256": "156a3564f12ed422b24e8154d2099ed8321fb2e838399402b029f4bba1420e68"
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "flags": "0x48",
+          "offset": 1273,
+          "bytes": 4096,
+          "sha256": "fa710a455c4fb64b6a47517820129269e85194a6e4a0bff65ef29fa57f4aea72"
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "flags": "0x48",
+          "offset": 5405,
+          "bytes": 1024,
+          "sha256": "593e9e679aa64c98046c7e727c4006545f7d8aa7d0012fda79554d4b12b87924"
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "flags": "0x48",
+          "offset": 6465,
+          "bytes": 256,
+          "sha256": "b2568b55f57df4b1b7cafccab0628005128b5bf7c6d580b9ed953cc11760ccd8"
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "flags": "0x48",
+          "offset": 6757,
+          "bytes": 64,
+          "sha256": "3a260ea6cc6918d76b0a6fec3b17efbb48394497dc0118215f7e60ab6b5f9c9a"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6857,
+          "bytes": 16,
+          "sha256": "c8369bffd13b20a91e9a3769394fb195b10c657a0c38fe9ce166f98be51f630c"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6909,
+          "bytes": 16,
+          "sha256": "62b2603c3fb3ed14bce4eb6955b315a2326d903900ee6e57f395a0d9fecd1b75"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6961,
+          "bytes": 16,
+          "sha256": "12b8aaad79a5c6d21399217e777b61e4e2ba15988f9eb669717b9507474645a6"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ImportedSize",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "IntPoint",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 8,
+          "raw_sha256": "e72491dcb24135d5f27387834449aa94fd96ed38c506d37e0ba7db253fa23db8",
+          "raw_hex": "0008000000080000"
+        },
+        {
+          "name": "LightingGuid",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "Guid",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 16,
+          "raw_sha256": "3fca5f895454323fe82174b0b50ba422c70f492f87e814158a8bcc03d29b404a",
+          "raw_hex": "5587a56e819e427e899901ad5d6e6836"
+        },
+        {
+          "name": "LODGroup",
+          "kind": "ByteProperty",
+          "array_index": 0,
+          "enum": "TextureGroup",
+          "bytes": 8,
+          "raw_sha256": "e48d939f60d90eb530fe27e3605e548e51c7232e13baddfdfeaa4e04fb478319",
+          "value": "TEXTUREGROUP_Effects"
+        }
+      ],
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261016T005054Z-5a4768831a59\\textures\\fff42313a767fcec_T_circle9_4x4.png"
+    },
+    "/Game/JH/ParticleSystem/Effects/MagicFxCollection01/Textures/T_ky_decoLinesC": {
+      "package": "/Game/JH/ParticleSystem/Effects/MagicFxCollection01/Textures/T_ky_decoLinesC",
+      "object": "T_ky_decoLinesC",
+      "png": "textures/9170c16c7b1bd18f_T_ky_decoLinesC.png",
+      "bytes": 559554,
+      "sha256": "a7464b750941427391c136b23d04d8df41abe58edfa0a4945440e3c9a6eb932a",
+      "format": "PF_DXT5",
+      "width": 1024,
+      "height": 1024,
+      "first_mip": 0,
+      "mips": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "flags": "0x10501",
+          "offset": 0,
+          "bytes": 1048576,
+          "sha256": "38cd34f527ba9991a18f90e3a6b9738f9fc3c4db1fe60924d6493cfe6deb74f2"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "flags": "0x10501",
+          "offset": 1048576,
+          "bytes": 262144,
+          "sha256": "88b56b21f98faa79ed04890d1f6c2926cd755ed09faa2001bee7901d87d74d4a"
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "flags": "0x10501",
+          "offset": 1310720,
+          "bytes": 65536,
+          "sha256": "ebbdc8c6d23fee96f45754c2a40c781d77baffe86bbdd43a6c21872dd1e23e71"
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "flags": "0x10501",
+          "offset": 1376256,
+          "bytes": 16384,
+          "sha256": "57ba709e640688feef454993025dfad9e20ce14ba1aa334dd43aed9f9f0d1caa"
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "flags": "0x48",
+          "offset": 1243,
+          "bytes": 4096,
+          "sha256": "6e5decf3fae886174723debe20e416377469b67a45214a851e75a1bc701294aa"
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "flags": "0x48",
+          "offset": 5375,
+          "bytes": 1024,
+          "sha256": "4937a1e29b9e4228fbd9b838681aff9384632053484380c4ecd20fb9f7ee4f2a"
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "flags": "0x48",
+          "offset": 6435,
+          "bytes": 256,
+          "sha256": "2c19e10e5cb3d2be3d5c57809919aacfb6066854c0258b6035e0ef87233aec20"
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "flags": "0x48",
+          "offset": 6727,
+          "bytes": 64,
+          "sha256": "3576da9a6a1b877534d206ad90f3f66d72c354892bd8b80df3337bb8f7663085"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6827,
+          "bytes": 16,
+          "sha256": "3842ba79fb0c785ca05e4f0d6e09e4dc87f8a09ce5cb6a0399d854f319874f72"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6879,
+          "bytes": 16,
+          "sha256": "005507f18be03301ecaa570bfbabfe7d29a3b2e51654e5517cf7fdc8359fd4e9"
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "flags": "0x48",
+          "offset": 6931,
+          "bytes": 16,
+          "sha256": "d4909cda8393bcaf5598e57d55e29219293880dbcd27ef30dea6b425d7c64083"
+        }
+      ],
+      "properties": [
+        {
+          "name": "ImportedSize",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "IntPoint",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 8,
+          "raw_sha256": "a16f3bb23d3f7f3a561f9d33f03e62205f458823f1cdc7d44edd50e19486955c",
+          "raw_hex": "0004000000040000"
+        },
+        {
+          "name": "LightingGuid",
+          "kind": "StructProperty",
+          "array_index": 0,
+          "struct": "Guid",
+          "struct_guid": "00000000000000000000000000000000",
+          "bytes": 16,
+          "raw_sha256": "f4d8c413ed1b6cc29f83db4e4762d04757d891cf8912c47b75605a241c3c71f7",
+          "raw_hex": "8456efb9a0f64a118f142159196ee8a1"
+        },
+        {
+          "name": "LODGroup",
+          "kind": "ByteProperty",
+          "array_index": 0,
+          "enum": "TextureGroup",
+          "bytes": 8,
+          "raw_sha256": "e48d939f60d90eb530fe27e3605e548e51c7232e13baddfdfeaa4e04fb478319",
+          "value": "TEXTUREGROUP_Effects"
+        }
+      ],
+      "file": "E:\\AAA MOD\\bbee-mod-workbench\\references\\wandering-sword\\20261016T005054Z-5a4768831a59\\textures\\9170c16c7b1bd18f_T_ky_decoLinesC.png"
+    }
+  },
+  "clips": {
+    "sword_echo": {
+      "frames": 24,
+      "ticks": 24,
+      "loop": false,
+      "canvas": [
+        128,
+        96
+      ],
+      "anchor": [
+        64,
+        48
+      ],
+      "sequence": [
+        {
+          "file": "frames/sword_echo/000.png",
+          "sha256": "07a901760e41707b56d830f8e25620d735857c102dee9f7bb18c8abffc4dd14c",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 0,
+          "alpha_bbox": [
+            6,
+            26,
+            96,
+            71
+          ]
+        },
+        {
+          "file": "frames/sword_echo/001.png",
+          "sha256": "45190230b36f795c8709f6fa4c7bae78de874ea29d21061be53b04a49d896b03",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 1,
+          "alpha_bbox": [
+            6,
+            23,
+            96,
+            73
+          ]
+        },
+        {
+          "file": "frames/sword_echo/002.png",
+          "sha256": "687e8b04cf201e5e577b62a564cae17beb7f73cb9177434edaed69d76b847e8d",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 2,
+          "alpha_bbox": [
+            6,
+            18,
+            99,
+            78
+          ]
+        },
+        {
+          "file": "frames/sword_echo/003.png",
+          "sha256": "da3a8a1578b58221ca81cfa3e4f587b8d1156d07a670787e400ecbecc8128700",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 3,
+          "alpha_bbox": [
+            6,
+            16,
+            109,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/004.png",
+          "sha256": "b2177241436542feb8e71a96def937dcaf0689993d7f53fa1a63083098821c9f",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 4,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/005.png",
+          "sha256": "527d580d39854285266d9fe0db5cac5a881fcd4daf3c3b5cf308c7e060810588",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 5,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/006.png",
+          "sha256": "ec6736acef4e72648612cfbdf6d6145e02f57a4a2f923509e3b7e56aeadb5f35",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 6,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/007.png",
+          "sha256": "f7f1329d0ff42302c8c963d64ee1bf1ba27fed858fafb9c65b2fefe0a95f8a6b",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 7,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/008.png",
+          "sha256": "f4cadf98f24886bed5f77d0282bd7b5ccda63edaf767cc289075bfb318f171be",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 8,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/009.png",
+          "sha256": "16ddb3bdc1d9131d5c75171020252ac87ba520ba5df8b3c8116e8e4bd5628c6a",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 9,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/010.png",
+          "sha256": "d2390174fa6d5e29b2cf10058432293ec809f94716eb3654588e747bb2c3ba19",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 10,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/011.png",
+          "sha256": "5f46193ed29b5cea4e1975a84581e0dc9f3bda764ba89a083fcd6f4b91c06e2f",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 11,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/012.png",
+          "sha256": "81b76ea065a47dd9e2878d3fedf8a94fb134017f1a3f6725887b6fe4b8387285",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 12,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/013.png",
+          "sha256": "6a1f350058b749788f1f21e1232dbb5ae8efbcbc70b9ce98efd7a3cd5508f184",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 13,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/014.png",
+          "sha256": "72947e45ca2d37e0ededab4053ef3d737be8a6d08288f3d26b2888cd762ebe92",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 14,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/015.png",
+          "sha256": "fdd941e738bd3b3045e6a05d8055d4cd01fe6ba447363b4fef7c57df566e9349",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 15,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/016.png",
+          "sha256": "5f83492360f9a8e40b43029dcb611a4cd41e9d7939baa818944df8763719932d",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 16,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/017.png",
+          "sha256": "f59c286ef83e1da656744c05b66f6a9aba27f9d47446f7598d670f6f811823b0",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 17,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/018.png",
+          "sha256": "cfe0292f463bdd464d2b6022644cf8957304de3ef9744575d8b600fb7e04c85a",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 18,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/019.png",
+          "sha256": "ddd1c443e4fb81863fec14583e9c02d19c2da088223869c889c511923cdcfa60",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 19,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/020.png",
+          "sha256": "4cac5edeb9c0fc889050a9da24f87925db01c8012513368b7748c336ffcd4bfe",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 20,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/021.png",
+          "sha256": "93941aa881274f8a51b8d9b45087007106c7a63c514db2dbecb39d9acb0f89f8",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 21,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/022.png",
+          "sha256": "2f2207ebf61c45f9b2a93d891106092b8b8e2da30d6fe4f131c35783b83fe9fc",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 22,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/sword_echo/023.png",
+          "sha256": "9d72c26708e5d5a4e50e3fc906d3691ba3b025ea2c3e091555c4041218d63a05",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 1,
+          "index": 23,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        }
+      ],
+      "scope": "Original texture/SubUV pixels with declared 2D projection, recolour and timing adaptation."
+    },
+    "zhenwu_wave": {
+      "frames": 30,
+      "ticks": 90,
+      "loop": false,
+      "canvas": [
+        128,
+        96
+      ],
+      "anchor": [
+        64,
+        48
+      ],
+      "sequence": [
+        {
+          "file": "frames/zhenwu_wave/000.png",
+          "sha256": "07a901760e41707b56d830f8e25620d735857c102dee9f7bb18c8abffc4dd14c",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 0,
+          "alpha_bbox": [
+            6,
+            26,
+            96,
+            71
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/001.png",
+          "sha256": "33383907d582f5d866238b50c4ba781a44819858dbcc63dda24499a81d9c354b",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 1,
+          "alpha_bbox": [
+            6,
+            24,
+            96,
+            72
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/002.png",
+          "sha256": "e482b2c830b832e1ff4df06e1ada7f13e5a97485b9c412c7d16bb0b377ff2268",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 2,
+          "alpha_bbox": [
+            6,
+            20,
+            98,
+            76
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/003.png",
+          "sha256": "958ef2f9932c427cd82e05b3a44db114422c4519a80d458d9eeb50903a4551bf",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 3,
+          "alpha_bbox": [
+            6,
+            16,
+            103,
+            79
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/004.png",
+          "sha256": "f6d509e39b62b1557aeba098c06fd3953b52ded09c1091a7e0f4fb66a2d61296",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 4,
+          "alpha_bbox": [
+            6,
+            16,
+            109,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/005.png",
+          "sha256": "77735e2c2cebae6a6e48d36c31071dde4aae1c69017bddd26a2b05844805038a",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 5,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/006.png",
+          "sha256": "f2c9e6a916acc0e04c7284471f61604489b637bba422ed26bc6af439af9895fe",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 6,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/007.png",
+          "sha256": "22105257574fedb61715e414119933576ab956dc66f80619ae667d1e19ed2b38",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 7,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/008.png",
+          "sha256": "9ccc9bf60e4cbe5bfab9c1585ab640601421b071ade3ae5049b176ef34cfa362",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 8,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/009.png",
+          "sha256": "fd8a61fc5e8a4ac2f3b4267c3b4c9d018bb9ece0968650b04b6c2b9bd317765b",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 9,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/010.png",
+          "sha256": "826ff6eeae5df03124c7a163d807033f335d6a1ff328866bb63a364b5e9b6904",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 10,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/011.png",
+          "sha256": "cfd2962506f8644df095c287cf363bfe907915ca82484b585595244c0243a439",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 11,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/012.png",
+          "sha256": "bd46808f0b042f43d1708f3feb1b77315cfb2f19421a4c617f30d57fd9aa3fa2",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 12,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/013.png",
+          "sha256": "b1a0726b6b14a44c8c779331df8982c1622206e831263877e30e75df83b54da8",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 13,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/014.png",
+          "sha256": "af828477f372057b9bd0cae96d23df8c904d91e9ecce1fe1977173e9c941bf18",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 14,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/015.png",
+          "sha256": "a7ab439818ebdbe3ef90a54e5a95d17012a5812a74b72279d1b1fd975bd67239",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 15,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/016.png",
+          "sha256": "6e87d95280179a1b101b067c16d189ddfb728bfa35b694b2c2d36d8ccd41f28c",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 16,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/017.png",
+          "sha256": "1abc5d6e954b3c44b5782972f65ff5dc00af30b68d57e1963752ab7f78bd9966",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 17,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/018.png",
+          "sha256": "e038d843ce50de0b380cc47fa29c2111728cc69be679a1ce63cea7231d14c0fd",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 18,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/019.png",
+          "sha256": "c8231322259b24abb027177859762894996bce3e389672cc21af33ce8318ee2a",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 19,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/020.png",
+          "sha256": "9276ae6a9431fb30682cabf69b322ab7079d7a78909328c11f950ff44d4292d7",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 20,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/021.png",
+          "sha256": "d4b6732f953d6ae4572eedf2a40813f77745ade8fbb0709cf66876e5bf75ecf3",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 21,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/022.png",
+          "sha256": "e6c5850e3b984aeabaee46f7c9ec85ad849733230a5f460a7ff022f1b8fa6e3a",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 22,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/023.png",
+          "sha256": "5da0099a233e280d32d9ef57846f3baeaa483e816532e2af72d81c65a5c82c5c",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 23,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/024.png",
+          "sha256": "0aa87e9aac4708528cf7f5e3874595d8772aca988e22a04af77393c26288c59c",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 24,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/025.png",
+          "sha256": "e57629e8607d5cee81c07a88468b6610e2e1f97fd8ba386edb205f9537dd441e",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 25,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/026.png",
+          "sha256": "00bee2255fd00d56af8cc65bb7f58a91c1a5b401fdcbfda64e7b0cb0e737cb11",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 26,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/027.png",
+          "sha256": "3ca0e565ab5ccc53d49473ec2f1b66d0a9f47fd721640a01ea71d086c912fcd6",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 27,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/028.png",
+          "sha256": "f301a3f7a4d27f319719f6ffddb307a347b1150e9f1550f1e46a585b5e74a96f",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 28,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        },
+        {
+          "file": "frames/zhenwu_wave/029.png",
+          "sha256": "9d72c26708e5d5a4e50e3fc906d3691ba3b025ea2c3e091555c4041218d63a05",
+          "size": [
+            128,
+            96
+          ],
+          "anchor": [
+            64,
+            48
+          ],
+          "ticks": 3,
+          "index": 29,
+          "alpha_bbox": [
+            6,
+            16,
+            110,
+            81
+          ]
+        }
+      ],
+      "scope": "Original texture/SubUV pixels with declared 2D projection, recolour and timing adaptation."
+    },
+    "qi_impact": {
+      "frames": 24,
+      "ticks": 24,
+      "loop": false,
+      "canvas": [
+        112,
+        112
+      ],
+      "anchor": [
+        56,
+        56
+      ],
+      "sequence": [
+        {
+          "file": "frames/qi_impact/000.png",
+          "sha256": "f054cce720b0f0d8b4498589c641b3d0fc8ca2fb3178d31743103447307d3943",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 0,
+          "alpha_bbox": [
+            47,
+            47,
+            65,
+            65
+          ]
+        },
+        {
+          "file": "frames/qi_impact/001.png",
+          "sha256": "b0d302764b844c12ce31e6a9c21b5f36115d1ffa5dab0257997598deec475ae8",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 1,
+          "alpha_bbox": [
+            47,
+            47,
+            66,
+            67
+          ]
+        },
+        {
+          "file": "frames/qi_impact/002.png",
+          "sha256": "2361af4041a5acfb39cabba04b41d74c6a5e155d67019756ea0828d11acd9636",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 2,
+          "alpha_bbox": [
+            44,
+            44,
+            67,
+            67
+          ]
+        },
+        {
+          "file": "frames/qi_impact/003.png",
+          "sha256": "75d7657afe29d2fd7c27185c74be63501b68ea2be72e31c74bc9210c9a638c03",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 3,
+          "alpha_bbox": [
+            43,
+            43,
+            69,
+            69
+          ]
+        },
+        {
+          "file": "frames/qi_impact/004.png",
+          "sha256": "d66c160ac4c62fdfe70af74471e202d5d661f0c5a844a57762844b0114729c91",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 4,
+          "alpha_bbox": [
+            40,
+            40,
+            71,
+            71
+          ]
+        },
+        {
+          "file": "frames/qi_impact/005.png",
+          "sha256": "9ad2f03598de2482d579c5e1bdbd221574726c2d8ca0aa555809aa0708f80e10",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 5,
+          "alpha_bbox": [
+            38,
+            38,
+            73,
+            74
+          ]
+        },
+        {
+          "file": "frames/qi_impact/006.png",
+          "sha256": "817eeb112a1027bd3de38784011bd56bbfa46ab1e55fd27de0ffdd6b9a3ab661",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 6,
+          "alpha_bbox": [
+            36,
+            36,
+            76,
+            76
+          ]
+        },
+        {
+          "file": "frames/qi_impact/007.png",
+          "sha256": "3bb40f8716d6289c1b84d787af64362138e0da5c615fbb74643a5b5fb782fd60",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 7,
+          "alpha_bbox": [
+            33,
+            33,
+            78,
+            79
+          ]
+        },
+        {
+          "file": "frames/qi_impact/008.png",
+          "sha256": "2704f3a8f23a79f6e90fbc8140bfcc9b22162dd3eb747955428de2a7165a2c95",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 8,
+          "alpha_bbox": [
+            30,
+            30,
+            81,
+            81
+          ]
+        },
+        {
+          "file": "frames/qi_impact/009.png",
+          "sha256": "a716f3368364164b00b17951f1009c095cfea397d7939a7bd52bb349d02b097a",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 9,
+          "alpha_bbox": [
+            27,
+            27,
+            85,
+            85
+          ]
+        },
+        {
+          "file": "frames/qi_impact/010.png",
+          "sha256": "fe4b0cbb1668adb06c1ed65a1238832b17d8e000469830493e975df9558e9d17",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 10,
+          "alpha_bbox": [
+            24,
+            25,
+            87,
+            87
+          ]
+        },
+        {
+          "file": "frames/qi_impact/011.png",
+          "sha256": "69b828f85f3980d2ac9904d9923a1f90d1c6e730f1f1c3e4a5a8fce28e3134a6",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 11,
+          "alpha_bbox": [
+            22,
+            21,
+            90,
+            90
+          ]
+        },
+        {
+          "file": "frames/qi_impact/012.png",
+          "sha256": "8843a67ec4c5d7aed6fe8b8e922eb0c77a55a32b45c3de4b76ee69773af5d52e",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 12,
+          "alpha_bbox": [
+            19,
+            21,
+            93,
+            92
+          ]
+        },
+        {
+          "file": "frames/qi_impact/013.png",
+          "sha256": "e94e5422000eee6e7389638ef5a4a6003b6541f4d08c3edac16e2b23b17f0f8a",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 13,
+          "alpha_bbox": [
+            16,
+            17,
+            95,
+            94
+          ]
+        },
+        {
+          "file": "frames/qi_impact/014.png",
+          "sha256": "f920a61afa60f252a2205f26aaaf87b6d6883255a7109e26bd6f3159319f43fe",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 14,
+          "alpha_bbox": [
+            14,
+            14,
+            98,
+            95
+          ]
+        },
+        {
+          "file": "frames/qi_impact/015.png",
+          "sha256": "fc1006bb058294e896bc31d70c33d3a2a31842d0ad09efc9d54e68b4c540c132",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 15,
+          "alpha_bbox": [
+            13,
+            15,
+            98,
+            95
+          ]
+        },
+        {
+          "file": "frames/qi_impact/016.png",
+          "sha256": "b1d3a5420fc08ecc1b34ca3b17f73cc19b18a2ad4fece983f536b6184d2c534f",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 16,
+          "alpha_bbox": [
+            12,
+            14,
+            100,
+            97
+          ]
+        },
+        {
+          "file": "frames/qi_impact/017.png",
+          "sha256": "18f884d9b07c72180a9cd30096b39a99cc7edbec24b9438fe0b9d949834e3f4e",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 17,
+          "alpha_bbox": [
+            11,
+            13,
+            101,
+            98
+          ]
+        },
+        {
+          "file": "frames/qi_impact/018.png",
+          "sha256": "86ac78acac89f6f80d1170ecadafd3cb7ed02e1d0539197ceeda6e4654bc26cc",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 18,
+          "alpha_bbox": [
+            11,
+            13,
+            101,
+            99
+          ]
+        },
+        {
+          "file": "frames/qi_impact/019.png",
+          "sha256": "ec074ca8b2f076865c32bc9858f0430e8099f3d8ad218a06297b6dc2e1c92582",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 19,
+          "alpha_bbox": [
+            11,
+            13,
+            101,
+            99
+          ]
+        },
+        {
+          "file": "frames/qi_impact/020.png",
+          "sha256": "35879157a5030b7f5f3853c685436bbfd50791a3f1f863a3120f38b127a73f8a",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 20,
+          "alpha_bbox": [
+            11,
+            13,
+            101,
+            99
+          ]
+        },
+        {
+          "file": "frames/qi_impact/021.png",
+          "sha256": "9cd674a6c1400e508e3419bb742e2b66580bb94bd19072237e816d32c491c92c",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 21,
+          "alpha_bbox": [
+            11,
+            14,
+            101,
+            99
+          ]
+        },
+        {
+          "file": "frames/qi_impact/022.png",
+          "sha256": "259a677e0d32b99802797afcf1ed4d6031a132326db1d7e0386de47d54ef7c82",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 22,
+          "alpha_bbox": [
+            11,
+            14,
+            101,
+            98
+          ]
+        },
+        {
+          "file": "frames/qi_impact/023.png",
+          "sha256": "263bad6458694af127d5d47a20f99bbd3cda4aaec44c2f1e78d03566c7d25787",
+          "size": [
+            112,
+            112
+          ],
+          "anchor": [
+            56,
+            56
+          ],
+          "ticks": 1,
+          "index": 23,
+          "alpha_bbox": [
+            11,
+            15,
+            101,
+            96
+          ]
+        }
+      ],
+      "scope": "Original texture/SubUV pixels with declared 2D projection, recolour and timing adaptation."
+    },
+    "taiji_counter": {
+      "frames": 30,
+      "ticks": 30,
+      "loop": false,
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        64,
+        64
+      ],
+      "sequence": [
+        {
+          "file": "frames/taiji_counter/000.png",
+          "sha256": "fa58e304be22283cb7f0568f60ab5a6f1fa12f5abf7a8791d10bc42cdda787ce",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 0,
+          "alpha_bbox": [
+            43,
+            44,
+            86,
+            84
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/001.png",
+          "sha256": "0f4d6c0c03fdd673b434327304613dadede20d8dbef0428bfc4d3aab58124f02",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 1,
+          "alpha_bbox": [
+            40,
+            42,
+            87,
+            86
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/002.png",
+          "sha256": "9127d1f4eefce1e366b1fc73a555d0494f3979bcac9eae3aade7aae122897126",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 2,
+          "alpha_bbox": [
+            37,
+            39,
+            90,
+            89
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/003.png",
+          "sha256": "c05f11ea0cba7fca1858f4b1d8491096c7419b02d295951250d9915a9e619a01",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 3,
+          "alpha_bbox": [
+            33,
+            34,
+            96,
+            95
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/004.png",
+          "sha256": "c03af7cefc49deef155d29ed5a57ac81a1ec1e4e6c5f772aa5a84b75c09f3709",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 4,
+          "alpha_bbox": [
+            25,
+            27,
+            102,
+            103
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/005.png",
+          "sha256": "5ec1d8199be409e39f16a3f1e3a93eef605b0fa6760c4a06174fee7fb1af4c89",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 5,
+          "alpha_bbox": [
+            18,
+            21,
+            107,
+            110
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/006.png",
+          "sha256": "09741da1bb3ef63264e6826257822766ebce9557139dbfcf6f5e67872e64aeac",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 6,
+          "alpha_bbox": [
+            10,
+            15,
+            112,
+            118
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/007.png",
+          "sha256": "fbe52feab8ac924e04b6a03d13640566b402f679fe1561404e23c71cad9f3cd2",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 7,
+          "alpha_bbox": [
+            13,
+            10,
+            119,
+            125
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/008.png",
+          "sha256": "c3ad8a221d42ef8b0907bdb9fa8d91436a51b97b27d4a3da55f05ab99fab9cfe",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 8,
+          "alpha_bbox": [
+            0,
+            7,
+            118,
+            128
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/009.png",
+          "sha256": "a5f0b118e4a66ad6d02df6964ae8064293fda5b3307d9c42b6f7a2327307742f",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 9,
+          "alpha_bbox": [
+            0,
+            7,
+            118,
+            128
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/010.png",
+          "sha256": "deb1f8afa64d1106a3a77c01a6edd558e8b0aea535ad73ab1cc1faed373d4b25",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 10,
+          "alpha_bbox": [
+            0,
+            6,
+            116,
+            128
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/011.png",
+          "sha256": "23acf6e7c63655af0e1e9d1033e5008290dbcba7d9cda3a325f66b1b11e7bc90",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 11,
+          "alpha_bbox": [
+            1,
+            7,
+            114,
+            127
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/012.png",
+          "sha256": "c1748bca0094f83975be4e9c2a9556539c0e1f2128469aa785d53ee7f8131088",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 12,
+          "alpha_bbox": [
+            4,
+            9,
+            114,
+            125
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/013.png",
+          "sha256": "c58f3aeed1cfcbb75cdd2c4e47127cde492376e3490a14e6d8db655ebae98273",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 13,
+          "alpha_bbox": [
+            6,
+            8,
+            113,
+            122
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/014.png",
+          "sha256": "e5511fd5a18329ed07d72386dc0fc5c571940b12ff91fbf4c72cedc9560db6c5",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 14,
+          "alpha_bbox": [
+            9,
+            10,
+            113,
+            119
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/015.png",
+          "sha256": "49b36bccf780d50035d85f472e6e4fb8490f4a180d7160577dbebce8cae470c7",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 15,
+          "alpha_bbox": [
+            13,
+            10,
+            113,
+            117
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/016.png",
+          "sha256": "5d12accf131427790b4846d4567e093764a2f7a943ededa446413b1ca92b81c4",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 16,
+          "alpha_bbox": [
+            15,
+            13,
+            113,
+            116
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/017.png",
+          "sha256": "a18b7db08d5bcbef4fe6f9adbbeea963df7a2c5fdd5f367bc94de4e35da7ee2f",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 17,
+          "alpha_bbox": [
+            13,
+            13,
+            113,
+            115
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/018.png",
+          "sha256": "59b88102c12d2046c8d672e3d8bfec3d738c8284fe2f81a8f718802863d93a2e",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 18,
+          "alpha_bbox": [
+            9,
+            10,
+            108,
+            116
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/019.png",
+          "sha256": "762aee7f1bba29332ff4ba6b7ce1a0f2b4e2533108313af5ed880f6276d0529e",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 19,
+          "alpha_bbox": [
+            6,
+            6,
+            113,
+            118
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/020.png",
+          "sha256": "37bf45b2a6710aa2f7b77b6f41ffed4eb11ca7fd52c912f1a5d4aa08baef6bb7",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 20,
+          "alpha_bbox": [
+            3,
+            4,
+            112,
+            119
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/021.png",
+          "sha256": "450712c3f1fb60a8d1daaf0243a4c9af908792b5fb2233a8413e356b9c561961",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 21,
+          "alpha_bbox": [
+            1,
+            1,
+            112,
+            117
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/022.png",
+          "sha256": "8c0adb8db109fcea0a48c3d53bc4605b42875f5e28e86ad4319767910b572c88",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 22,
+          "alpha_bbox": [
+            0,
+            0,
+            114,
+            118
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/023.png",
+          "sha256": "0bce0e8de060d9c7277c65e953e0f34c0dd0926ee8db18fad1d8f12c6072f698",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 23,
+          "alpha_bbox": [
+            0,
+            0,
+            116,
+            119
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/024.png",
+          "sha256": "dff7c79f8b1f203bbc835aca00cd8e05137a53dafe784c7269ce26d13346d3cf",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 24,
+          "alpha_bbox": [
+            0,
+            11,
+            115,
+            118
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/025.png",
+          "sha256": "6958b721afbf07c975943d4663b7b566892370df3441e83fb9329023316b217e",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 25,
+          "alpha_bbox": [
+            0,
+            0,
+            115,
+            118
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/026.png",
+          "sha256": "cbf347aba7565a1e11d997eed3c57492230c23d71c4f08d14fc09b0981a87869",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 26,
+          "alpha_bbox": [
+            2,
+            9,
+            114,
+            120
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/027.png",
+          "sha256": "a624969df3c2d9464e79ea1f3b27078c0de40ed41c9d1334f38ff41718e245d5",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 27,
+          "alpha_bbox": [
+            13,
+            8,
+            115,
+            121
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/028.png",
+          "sha256": "81e1953288d796c015ea70f5bae61be186e31ff6379815cc821fe34a32af709a",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 28,
+          "alpha_bbox": [
+            13,
+            7,
+            116,
+            120
+          ]
+        },
+        {
+          "file": "frames/taiji_counter/029.png",
+          "sha256": "6081000b8c731633d09d74b84a99400e1e09b6577b8f8a03c43148e3926f0f7c",
+          "size": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            64
+          ],
+          "ticks": 1,
+          "index": 29,
+          "alpha_bbox": [
+            10,
+            7,
+            117,
+            122
+          ]
+        }
+      ],
+      "scope": "Original texture/SubUV pixels with declared 2D projection, recolour and timing adaptation."
+    },
+    "wuxiang": {
+      "frames": 30,
+      "ticks": 60,
+      "loop": false,
+      "canvas": [
+        144,
+        144
+      ],
+      "anchor": [
+        72,
+        72
+      ],
+      "sequence": [
+        {
+          "file": "frames/wuxiang/000.png",
+          "sha256": "941f2b8d1eb34421005e044e0b526b51e50dca84293c9339244182f535e8bafd",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 0,
+          "alpha_bbox": [
+            51,
+            52,
+            93,
+            93
+          ]
+        },
+        {
+          "file": "frames/wuxiang/001.png",
+          "sha256": "e2e589958090f1332cf93120ce456e65c5483e72e7fb9508cf2ee938d67f7558",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 1,
+          "alpha_bbox": [
+            48,
+            49,
+            97,
+            94
+          ]
+        },
+        {
+          "file": "frames/wuxiang/002.png",
+          "sha256": "2a0ff432557e3d91d1589be1bf8b5a72a9c04635852b72692fa06d9c6cc5a84a",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 2,
+          "alpha_bbox": [
+            43,
+            44,
+            102,
+            103
+          ]
+        },
+        {
+          "file": "frames/wuxiang/003.png",
+          "sha256": "89d448754086b4a46be8feb25faca675ebbf338369b1b1bcfcd1faf254495899",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 3,
+          "alpha_bbox": [
+            38,
+            39,
+            105,
+            112
+          ]
+        },
+        {
+          "file": "frames/wuxiang/004.png",
+          "sha256": "1ec4b25443333407664778d371a5109b0f3e3b408b4e03f77c112a5a1dd1df5c",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 4,
+          "alpha_bbox": [
+            23,
+            35,
+            114,
+            121
+          ]
+        },
+        {
+          "file": "frames/wuxiang/005.png",
+          "sha256": "a9c0830d44c1b77e58a33b88ad8e9c82455cb15e8dce8368049452f3dfdf84c6",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 5,
+          "alpha_bbox": [
+            14,
+            29,
+            121,
+            130
+          ]
+        },
+        {
+          "file": "frames/wuxiang/006.png",
+          "sha256": "028ba58e55d88afbdf6198b61674fd1faedd6d71502650665dad69a275a57036",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 6,
+          "alpha_bbox": [
+            6,
+            23,
+            128,
+            139
+          ]
+        },
+        {
+          "file": "frames/wuxiang/007.png",
+          "sha256": "30064b678c2a9cf7b1c491305576ad2d4b9c557c656bca08d60ace06ffd7f7cb",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 7,
+          "alpha_bbox": [
+            2,
+            18,
+            128,
+            144
+          ]
+        },
+        {
+          "file": "frames/wuxiang/008.png",
+          "sha256": "c98ce0f25c1ee7a9235da9f7080797467fcf5264d0af5c2d2279384d1a61a476",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 8,
+          "alpha_bbox": [
+            1,
+            12,
+            128,
+            144
+          ]
+        },
+        {
+          "file": "frames/wuxiang/009.png",
+          "sha256": "ada014e068f47c326ebbc5d316b0e1df37c7372442d228cef473242676244480",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 9,
+          "alpha_bbox": [
+            5,
+            9,
+            129,
+            139
+          ]
+        },
+        {
+          "file": "frames/wuxiang/010.png",
+          "sha256": "558a72e34a28185afd79b48543856bb64c02c53fd529635a0388f8c5dfd48c27",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 10,
+          "alpha_bbox": [
+            11,
+            12,
+            130,
+            133
+          ]
+        },
+        {
+          "file": "frames/wuxiang/011.png",
+          "sha256": "1bd57f35068ba81e95099332ed746a2f6c6e8ac009c472e175ab870ea0a4a073",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 11,
+          "alpha_bbox": [
+            14,
+            13,
+            131,
+            131
+          ]
+        },
+        {
+          "file": "frames/wuxiang/012.png",
+          "sha256": "00bc0e74c0e9fc038cc796b999da9c597c95925db5fce2a666258cd6882ca76e",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 12,
+          "alpha_bbox": [
+            8,
+            8,
+            130,
+            134
+          ]
+        },
+        {
+          "file": "frames/wuxiang/013.png",
+          "sha256": "967a262c0996cc10fa36392de423e9ea75409cf88a62579b79bed91f83445679",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 13,
+          "alpha_bbox": [
+            2,
+            2,
+            129,
+            136
+          ]
+        },
+        {
+          "file": "frames/wuxiang/014.png",
+          "sha256": "011346ab93dffd3640d87bb1b78da7f76d1a079dca3804190af43793b7ea1e8c",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 14,
+          "alpha_bbox": [
+            0,
+            0,
+            128,
+            140
+          ]
+        },
+        {
+          "file": "frames/wuxiang/015.png",
+          "sha256": "cdc062803b6c314ac47eaaaedbed2aea9772b002e24b2b28617fca85a5c19cf1",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 15,
+          "alpha_bbox": [
+            0,
+            12,
+            131,
+            141
+          ]
+        },
+        {
+          "file": "frames/wuxiang/016.png",
+          "sha256": "e84e051c0fa284c9a8ad2dc94215ba9893c642dc4bd150025a5c49ad2d0fb001",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 16,
+          "alpha_bbox": [
+            0,
+            14,
+            133,
+            140
+          ]
+        },
+        {
+          "file": "frames/wuxiang/017.png",
+          "sha256": "d30154423ee8175cb3cd84574527d1928e376df5bfbef1bb966c7f5631d72e24",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 17,
+          "alpha_bbox": [
+            0,
+            0,
+            134,
+            135
+          ]
+        },
+        {
+          "file": "frames/wuxiang/018.png",
+          "sha256": "8ea2f5a3b7f11e6f38f51e61f83d0483fffa659c732bb17d6988a96190596d22",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 18,
+          "alpha_bbox": [
+            0,
+            0,
+            130,
+            134
+          ]
+        },
+        {
+          "file": "frames/wuxiang/019.png",
+          "sha256": "8d15c721c30f8c185c3a4a6b514354b02b093154ce0f158be8f7cf5372b0e91e",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 19,
+          "alpha_bbox": [
+            3,
+            3,
+            127,
+            128
+          ]
+        },
+        {
+          "file": "frames/wuxiang/020.png",
+          "sha256": "d6e92b4daed0e0ac25b0743ca8945f597c39682556ed64dddf63e01c1ac200ae",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 20,
+          "alpha_bbox": [
+            9,
+            9,
+            129,
+            129
+          ]
+        },
+        {
+          "file": "frames/wuxiang/021.png",
+          "sha256": "7875b11da41d3509c1e230cf243bc43fd0f5602347c1498574dfd9d93d42acce",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 21,
+          "alpha_bbox": [
+            13,
+            14,
+            131,
+            130
+          ]
+        },
+        {
+          "file": "frames/wuxiang/022.png",
+          "sha256": "1238a2eff015f761c940fbed5c01382a9993bcbb02b1fda8b34d5ec26c73f3de",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 22,
+          "alpha_bbox": [
+            12,
+            10,
+            134,
+            131
+          ]
+        },
+        {
+          "file": "frames/wuxiang/023.png",
+          "sha256": "f8246f316cdf22ad76bf11d6e3e57b5305cd59c50c4cbff0d8fd06e0b0a7e967",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 23,
+          "alpha_bbox": [
+            7,
+            4,
+            140,
+            133
+          ]
+        },
+        {
+          "file": "frames/wuxiang/024.png",
+          "sha256": "2a3fc8098be57043a3054ea89b36f27897a10859a351bc2cbfb30c92c6f67732",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 24,
+          "alpha_bbox": [
+            12,
+            0,
+            132,
+            133
+          ]
+        },
+        {
+          "file": "frames/wuxiang/025.png",
+          "sha256": "10ab5625a066ddabb70e8ce07813021f7aa5c3f84adc8ed17af50c506004686d",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 25,
+          "alpha_bbox": [
+            12,
+            0,
+            130,
+            130
+          ]
+        },
+        {
+          "file": "frames/wuxiang/026.png",
+          "sha256": "5615e2d9b35c552e0ce60f7b52707a257dc8427a7f7acb5ffa7cbb3938b33682",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 26,
+          "alpha_bbox": [
+            18,
+            1,
+            130,
+            126
+          ]
+        },
+        {
+          "file": "frames/wuxiang/027.png",
+          "sha256": "b53dc750752ea931accbfc1e26d0e8ed6004a1b17151f7c927a18e42e69a2c01",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 27,
+          "alpha_bbox": [
+            18,
+            13,
+            129,
+            126
+          ]
+        },
+        {
+          "file": "frames/wuxiang/028.png",
+          "sha256": "de42b8bbe5bf6b043018e24a52a9c8c13c9d005e2ef81b9ee51307e6ec6f27dd",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 28,
+          "alpha_bbox": [
+            19,
+            16,
+            128,
+            125
+          ]
+        },
+        {
+          "file": "frames/wuxiang/029.png",
+          "sha256": "22e976a9a6306e7e54b69cbaefa770e07c2db033b5319b89e8b5b64975e0db9a",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 29,
+          "alpha_bbox": [
+            17,
+            18,
+            128,
+            123
+          ]
+        }
+      ],
+      "scope": "Original texture/SubUV pixels with declared 2D projection, recolour and timing adaptation."
+    },
+    "taiji_charge": {
+      "frames": 30,
+      "ticks": 60,
+      "loop": true,
+      "canvas": [
+        96,
+        96
+      ],
+      "anchor": [
+        48,
+        48
+      ],
+      "sequence": [
+        {
+          "file": "frames/taiji_charge/000.png",
+          "sha256": "bcf8e494de0608b193a0ebe7314f40ca4109e896dbbe3f9cfe513b5ef2053140",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 0,
+          "alpha_bbox": [
+            13,
+            14,
+            83,
+            83
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/001.png",
+          "sha256": "bed568ae1554676bc0d99161717bf986d0a7541261c7fdbac7c35cb0be0d33b3",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 1,
+          "alpha_bbox": [
+            12,
+            13,
+            86,
+            86
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/002.png",
+          "sha256": "0d8f0e1029f617a6572c0641165b101ee3aee5b3c74df3cce068596e2f579fec",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 2,
+          "alpha_bbox": [
+            10,
+            12,
+            85,
+            91
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/003.png",
+          "sha256": "bc3e4eb387f1e8e80d998ebbfa01a7e450ec1aa977b840752bd93fe1633248d4",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 3,
+          "alpha_bbox": [
+            11,
+            12,
+            85,
+            85
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/004.png",
+          "sha256": "dd7f3cd8c8f76c5dcd062f2fb0cdf54b64639e3c71be279227eab0ee50228790",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 4,
+          "alpha_bbox": [
+            13,
+            14,
+            83,
+            95
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/005.png",
+          "sha256": "ed76d5d5e0c1fd4e9ba1bb76a3d3d2ca53b3d4a87fca775246555b540343dbff",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 5,
+          "alpha_bbox": [
+            12,
+            15,
+            79,
+            86
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/006.png",
+          "sha256": "ed3d2493d296a4d4e552ec23c9cd946054b06dd863139db4a218e1b983ebfbb4",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 6,
+          "alpha_bbox": [
+            13,
+            14,
+            81,
+            90
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/007.png",
+          "sha256": "03b5ba70dbe06777629aa916f12125461a22de5d37897599d03cfde552bba269",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 7,
+          "alpha_bbox": [
+            13,
+            12,
+            83,
+            84
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/008.png",
+          "sha256": "d7a091dad5a2156cf65ff5b34df8cac5a1225494987b1df591fa65e259ca2216",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 8,
+          "alpha_bbox": [
+            11,
+            11,
+            84,
+            86
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/009.png",
+          "sha256": "3b431cfa42669d38cb8dae18456a3e6817b9ff8f15a166ef7bfb618457eb5220",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 9,
+          "alpha_bbox": [
+            12,
+            9,
+            84,
+            86
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/010.png",
+          "sha256": "414f49cd792be57a68ff880873007bdce40dc159e3f4d2b395b9bcbdca1e7b91",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 10,
+          "alpha_bbox": [
+            11,
+            11,
+            84,
+            85
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/011.png",
+          "sha256": "4688b65f89d2d6646cc19b96b5d0f957d4aec8162bb3dfdf77d3fdb8d971c20d",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 11,
+          "alpha_bbox": [
+            11,
+            13,
+            83,
+            83
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/012.png",
+          "sha256": "f85063a7e87ccc4aeb444e35c2c2cce097336c21a9edbc297fc662f3edad63a7",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 12,
+          "alpha_bbox": [
+            11,
+            12,
+            80,
+            80
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/013.png",
+          "sha256": "36650b963f48a307a31a2ab2789ce13460f65ba873ab2e75551fc3a58544f548",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 13,
+          "alpha_bbox": [
+            6,
+            13,
+            80,
+            79
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/014.png",
+          "sha256": "ec61971a1b4368c0a9bfdb8441257bb1a29588a1bad30fd03fc50665fdf96274",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 14,
+          "alpha_bbox": [
+            12,
+            15,
+            83,
+            81
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/015.png",
+          "sha256": "88078f2c851f9929281903c051ef7aca7c550c23e873fb84ed98c349d16e372e",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 15,
+          "alpha_bbox": [
+            12,
+            14,
+            84,
+            82
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/016.png",
+          "sha256": "66667231faa72895da83064130f5b7e672b5b8d94d3b800b6b1e3b92036cff97",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 16,
+          "alpha_bbox": [
+            12,
+            9,
+            85,
+            83
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/017.png",
+          "sha256": "5eb953d0f9facd44ab567c4b890e92baf468731bc07ac264db22c7b394aae217",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 17,
+          "alpha_bbox": [
+            12,
+            6,
+            84,
+            82
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/018.png",
+          "sha256": "05e72622b6c35e185c2af0b884d72725090f51ace78bd39e625ca59c807e89e3",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 18,
+          "alpha_bbox": [
+            14,
+            15,
+            82,
+            81
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/019.png",
+          "sha256": "275ef2f20463a5324fe9b21a147f1d31a81340001c5ac0189a9507f55b034be5",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 19,
+          "alpha_bbox": [
+            17,
+            13,
+            81,
+            79
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/020.png",
+          "sha256": "d637aefdc9c4a26b292b56fd62450bf8db36b542c7bf68ddfd36504d92ab7acd",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 20,
+          "alpha_bbox": [
+            19,
+            13,
+            81,
+            78
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/021.png",
+          "sha256": "580ef7da0cbcd1976dd796b85d57e667ecc996214f018d18d0a58995ba3959fe",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 21,
+          "alpha_bbox": [
+            17,
+            14,
+            81,
+            80
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/022.png",
+          "sha256": "fe7e64a0d199302ba743cc89ac56c9fc9b8b4bd288ff23b578fdf15bd9d7c35d",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 22,
+          "alpha_bbox": [
+            15,
+            13,
+            80,
+            82
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/023.png",
+          "sha256": "bbcb50d4b205433b902c281c8103057aad4129d174375babfdaedc44f66a3b45",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 23,
+          "alpha_bbox": [
+            14,
+            12,
+            81,
+            83
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/024.png",
+          "sha256": "eab239235927718e626e214de09143a00b5c0b9f14eedea884e1e356f8e3a82a",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 24,
+          "alpha_bbox": [
+            13,
+            12,
+            80,
+            83
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/025.png",
+          "sha256": "1805f36c09a48fac75979fcfe163785f33ed905623eac9bd28758df9adf8197d",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 25,
+          "alpha_bbox": [
+            14,
+            13,
+            80,
+            82
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/026.png",
+          "sha256": "ee145afb68b4536fe73a11b90e846a9ebd656a469fd6bc33920cff4be29f9330",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 26,
+          "alpha_bbox": [
+            16,
+            16,
+            82,
+            81
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/027.png",
+          "sha256": "94eb45695783a328d57de9f81faf217ca1b41708fbb029f54a02d464b1304e19",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 27,
+          "alpha_bbox": [
+            17,
+            19,
+            84,
+            82
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/028.png",
+          "sha256": "cee8f8bc45eb69bd4f3064abb3912be4f889ef4939307bf69baf3c40dc027890",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 28,
+          "alpha_bbox": [
+            15,
+            17,
+            84,
+            82
+          ]
+        },
+        {
+          "file": "frames/taiji_charge/029.png",
+          "sha256": "bcf8e494de0608b193a0ebe7314f40ca4109e896dbbe3f9cfe513b5ef2053140",
+          "size": [
+            96,
+            96
+          ],
+          "anchor": [
+            48,
+            48
+          ],
+          "ticks": 2,
+          "index": 29,
+          "alpha_bbox": [
+            13,
+            14,
+            83,
+            83
+          ]
+        }
+      ],
+      "scope": "Original texture/SubUV pixels with declared 2D projection, recolour and timing adaptation."
+    },
+    "taiji_circle": {
+      "frames": 24,
+      "ticks": 48,
+      "loop": false,
+      "canvas": [
+        144,
+        144
+      ],
+      "anchor": [
+        72,
+        72
+      ],
+      "sequence": [
+        {
+          "file": "frames/taiji_circle/000.png",
+          "sha256": "ff5d4d16b2026a0c7cd32cb45118ffcb735e90e114e803333bac5eadc777fa04",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 0,
+          "alpha_bbox": [
+            50,
+            51,
+            94,
+            93
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/001.png",
+          "sha256": "a3cd3b43e67392b07ab16bdba7a72dcecb2c82d787190d2543b2bee97d169ece",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 1,
+          "alpha_bbox": [
+            46,
+            47,
+            98,
+            97
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/002.png",
+          "sha256": "203722b6bd296830b3add8deb662a1190195bc23b6e4e368497f818308b79e59",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 2,
+          "alpha_bbox": [
+            40,
+            41,
+            106,
+            107
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/003.png",
+          "sha256": "dee0da1abed9e53b73264f63bef977815aea9120ba500fec9db254ab00bbe529",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 3,
+          "alpha_bbox": [
+            32,
+            34,
+            114,
+            118
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/004.png",
+          "sha256": "123893860a6d503d8d284da3b94517fb9643cd3ce45b374396010653fcbc32a4",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 4,
+          "alpha_bbox": [
+            25,
+            28,
+            124,
+            131
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/005.png",
+          "sha256": "2ccf1f9162c252fc1ba8f79bdf65e33172f7c124b725e116443220cd7d02c322",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 5,
+          "alpha_bbox": [
+            2,
+            21,
+            132,
+            142
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/006.png",
+          "sha256": "d42aee94eedd6f1e5853e268a0f91766c4fcc3a2fb7ae87be8db3ec0977143bd",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 6,
+          "alpha_bbox": [
+            11,
+            15,
+            141,
+            144
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/007.png",
+          "sha256": "d4984959a68d990f71449ca7cdea68264042c0844d41dbc1b85f85ab8f4c97d7",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 7,
+          "alpha_bbox": [
+            12,
+            14,
+            138,
+            144
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/008.png",
+          "sha256": "6b6bbd2903d59903940067eb6b3be7386eb078c08caf044f44236cfda9a60ddd",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 8,
+          "alpha_bbox": [
+            0,
+            13,
+            130,
+            144
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/009.png",
+          "sha256": "e1cfc941cbf58476b2b5f69d74b9d2286282518b5cd3a9df5969af29e5f6b178",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 9,
+          "alpha_bbox": [
+            1,
+            10,
+            138,
+            144
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/010.png",
+          "sha256": "9af4a0cc3a66f0bb61e2f0b5f91b29bc2dd863178327d3172fc443dd7c08ccc0",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 10,
+          "alpha_bbox": [
+            7,
+            9,
+            132,
+            139
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/011.png",
+          "sha256": "6d3115c966b26837f0fd0876770db5d77e18b9e39eee6f87436a309034e58b8c",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 11,
+          "alpha_bbox": [
+            12,
+            11,
+            132,
+            133
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/012.png",
+          "sha256": "9e7e1bd72a191cd02cbcf80260a89506abfa7f0dc32541c80ddd0723418fc05b",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 12,
+          "alpha_bbox": [
+            10,
+            10,
+            133,
+            133
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/013.png",
+          "sha256": "971858dec2a607b4456e571093281fd45ad2ef5d10199eddb9d395a831108d9d",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 13,
+          "alpha_bbox": [
+            3,
+            4,
+            136,
+            139
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/014.png",
+          "sha256": "47a22afac752deb293cd962c437bf51a858150103ea7d0baacd960378cd982d0",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 14,
+          "alpha_bbox": [
+            0,
+            0,
+            138,
+            139
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/015.png",
+          "sha256": "8e852a2f5daca3f1866a83390f6e173c7667660853d399dceca67f5302a8a5b3",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 15,
+          "alpha_bbox": [
+            0,
+            6,
+            138,
+            142
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/016.png",
+          "sha256": "77affefb8e7938e2f62c26141b08b7a3cf77430ed753a506c8ee579130bc7be5",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 16,
+          "alpha_bbox": [
+            0,
+            10,
+            135,
+            142
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/017.png",
+          "sha256": "80d7bf6b9c7d16f19490987001a2b5cc1e12501e25e7d660ca6b76cfd029b547",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 17,
+          "alpha_bbox": [
+            1,
+            9,
+            137,
+            138
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/018.png",
+          "sha256": "71d8eb8b9be85fd4b062540cc31d6750fad223bc68e870b153d735c3266710f9",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 18,
+          "alpha_bbox": [
+            0,
+            12,
+            136,
+            138
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/019.png",
+          "sha256": "e9c23392fd1f31b39f10c8900cc36c5c70a11dffe337ec92e5192e4fa3793151",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 19,
+          "alpha_bbox": [
+            1,
+            13,
+            131,
+            130
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/020.png",
+          "sha256": "d3f2eeab5c53ae89e784e968a2133ec72de473bbe45158af22db28c7fd4eb100",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 20,
+          "alpha_bbox": [
+            0,
+            13,
+            129,
+            129
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/021.png",
+          "sha256": "be94c1bad455c51412ed5122f617db23defd7e2572cf82238dc17f5bb5fd0da5",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 21,
+          "alpha_bbox": [
+            8,
+            13,
+            131,
+            128
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/022.png",
+          "sha256": "70132026cac8e4b3f41d07fee38c59f2cf4f8ebb6ed2f6d01178e5ee1b03cdc0",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 22,
+          "alpha_bbox": [
+            14,
+            17,
+            129,
+            127
+          ]
+        },
+        {
+          "file": "frames/taiji_circle/023.png",
+          "sha256": "a27069f190593503ba451465f6ed32a3477d3b1b28cd64afb810bbc724976e77",
+          "size": [
+            144,
+            144
+          ],
+          "anchor": [
+            72,
+            72
+          ],
+          "ticks": 2,
+          "index": 23,
+          "alpha_bbox": [
+            17,
+            15,
+            127,
+            129
+          ]
+        }
+      ],
+      "scope": "Original texture/SubUV pixels with declared 2D projection, recolour and timing adaptation."
+    },
+    "ultra_field": {
+      "frames": 30,
+      "ticks": 90,
+      "loop": false,
+      "canvas": [
+        160,
+        160
+      ],
+      "anchor": [
+        80,
+        80
+      ],
+      "sequence": [
+        {
+          "file": "frames/ultra_field/000.png",
+          "sha256": "4633318c9874ca35cce139cb7523c242dc1ea292d5a8d6947ac9f045d4d5dc24",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 0,
+          "alpha_bbox": [
+            48,
+            51,
+            111,
+            108
+          ]
+        },
+        {
+          "file": "frames/ultra_field/001.png",
+          "sha256": "5b680231f35fd48f34ac91d695f2b231e3bfdfafa6b3d8988a34cbdcea09730b",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 1,
+          "alpha_bbox": [
+            47,
+            49,
+            113,
+            110
+          ]
+        },
+        {
+          "file": "frames/ultra_field/002.png",
+          "sha256": "1a697e232a0b2a49692ac8488c7980ece3aad4c476e941c5508e0b75ee0c7bf9",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 2,
+          "alpha_bbox": [
+            42,
+            44,
+            118,
+            120
+          ]
+        },
+        {
+          "file": "frames/ultra_field/003.png",
+          "sha256": "f365e1d4fd2c2c971da0e132fbd99f23c334b5cc14aa4e3dea8a9657ceb6063c",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 3,
+          "alpha_bbox": [
+            34,
+            36,
+            125,
+            132
+          ]
+        },
+        {
+          "file": "frames/ultra_field/004.png",
+          "sha256": "23618d597db468c3c4e2cb023f81481e409be76585896c2218fc91efbbb692c4",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 4,
+          "alpha_bbox": [
+            20,
+            28,
+            134,
+            141
+          ]
+        },
+        {
+          "file": "frames/ultra_field/005.png",
+          "sha256": "a25b738e51474592e6bf5274940a241ac9e9995faf9a1867000fac6f4956319c",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 5,
+          "alpha_bbox": [
+            13,
+            18,
+            142,
+            148
+          ]
+        },
+        {
+          "file": "frames/ultra_field/006.png",
+          "sha256": "068d12bd00ae3de28bcc79edb7cf6f1108e368a334c08c54ff1488fa9a04783a",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 6,
+          "alpha_bbox": [
+            11,
+            10,
+            149,
+            150
+          ]
+        },
+        {
+          "file": "frames/ultra_field/007.png",
+          "sha256": "a4cdf46745558d8197a67e043e8872be5cd9dd04fc46c568dcc71fbc226a3c3c",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 7,
+          "alpha_bbox": [
+            5,
+            3,
+            154,
+            157
+          ]
+        },
+        {
+          "file": "frames/ultra_field/008.png",
+          "sha256": "4fce8659b3b7ddb05ac9f961edebe339c12fb572d984f67ea00bc8ba5ddeb92b",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 8,
+          "alpha_bbox": [
+            3,
+            0,
+            156,
+            160
+          ]
+        },
+        {
+          "file": "frames/ultra_field/009.png",
+          "sha256": "bce346f8b333bc96704169ae7b73c6037a17283f9ccaa816e2cb1d009c3a62ab",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 9,
+          "alpha_bbox": [
+            0,
+            0,
+            157,
+            160
+          ]
+        },
+        {
+          "file": "frames/ultra_field/010.png",
+          "sha256": "1935c900d2955930486d41617eb50f610346f856f1bd15e1e0ed29c2a200cb62",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 10,
+          "alpha_bbox": [
+            1,
+            0,
+            154,
+            160
+          ]
+        },
+        {
+          "file": "frames/ultra_field/011.png",
+          "sha256": "89318b88a93466f02e2f369c06e64df8b5ddff6c6adf23e0a7283a0b7ea3638d",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 11,
+          "alpha_bbox": [
+            0,
+            0,
+            153,
+            160
+          ]
+        },
+        {
+          "file": "frames/ultra_field/012.png",
+          "sha256": "c0eab96a6aa1a71c63bef3fe7ef8fcfb7c1d19df66e461d19f117bc0869a0611",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 12,
+          "alpha_bbox": [
+            0,
+            0,
+            150,
+            160
+          ]
+        },
+        {
+          "file": "frames/ultra_field/013.png",
+          "sha256": "c8d6ebeb49b59beaf6f2ba1dd3e1df4f42f1def6798cf951993400d440729517",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 13,
+          "alpha_bbox": [
+            0,
+            0,
+            148,
+            159
+          ]
+        },
+        {
+          "file": "frames/ultra_field/014.png",
+          "sha256": "6a0126eda2389b629acbd88f75c89ad04aca0fbfc497c301c5b5effef1fab3f4",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 14,
+          "alpha_bbox": [
+            10,
+            2,
+            150,
+            158
+          ]
+        },
+        {
+          "file": "frames/ultra_field/015.png",
+          "sha256": "b64e05c4e08caee5d4e926de26e22c9ed1d9d35ed86ce7e4afb6859b6244413d",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 15,
+          "alpha_bbox": [
+            4,
+            1,
+            159,
+            156
+          ]
+        },
+        {
+          "file": "frames/ultra_field/016.png",
+          "sha256": "d72c400d864ab9e3a8288d51cb2cc6c4452b1f0d56b2a0d8f8a3cf108cb67c11",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 16,
+          "alpha_bbox": [
+            1,
+            0,
+            157,
+            157
+          ]
+        },
+        {
+          "file": "frames/ultra_field/017.png",
+          "sha256": "c1cee6fe1edd963112fcaa5100b6821adc29f4d4bb6f2d5e8b0f90cc04c383c8",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 17,
+          "alpha_bbox": [
+            1,
+            1,
+            157,
+            157
+          ]
+        },
+        {
+          "file": "frames/ultra_field/018.png",
+          "sha256": "c80e157901546e0f643503e67feaf4679d0bc38a4b89343a09646d47b8c51641",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 18,
+          "alpha_bbox": [
+            2,
+            0,
+            152,
+            152
+          ]
+        },
+        {
+          "file": "frames/ultra_field/019.png",
+          "sha256": "5232a0e7457cce7b4cfce7f819edc71aada92940a13d94ad9d0d556d565f7b56",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 19,
+          "alpha_bbox": [
+            6,
+            0,
+            159,
+            147
+          ]
+        },
+        {
+          "file": "frames/ultra_field/020.png",
+          "sha256": "5e6108c2ac9a7d252a3439f188c353e54e171c20c1afb9fde7bc61814db561a7",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 20,
+          "alpha_bbox": [
+            8,
+            1,
+            159,
+            153
+          ]
+        },
+        {
+          "file": "frames/ultra_field/021.png",
+          "sha256": "f21a295e15e6a0ac7352b4b9d73414bd7272861b6080d54496f4f7f60f0402ad",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 21,
+          "alpha_bbox": [
+            6,
+            9,
+            153,
+            151
+          ]
+        },
+        {
+          "file": "frames/ultra_field/022.png",
+          "sha256": "f1452c0e6c5b92a93597c8e02de426f5b91ee0c6b1477adc9e4c80d6476167b6",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 22,
+          "alpha_bbox": [
+            5,
+            2,
+            160,
+            160
+          ]
+        },
+        {
+          "file": "frames/ultra_field/023.png",
+          "sha256": "406bb8c0b780021588f5428f10ebd339a85ef4c8af3d0403b8e670f834ccaed0",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 23,
+          "alpha_bbox": [
+            6,
+            1,
+            160,
+            156
+          ]
+        },
+        {
+          "file": "frames/ultra_field/024.png",
+          "sha256": "b82d59146a80f668ed472462d3234c408f3ccea0f9c9ace2fe2f65835137526c",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 24,
+          "alpha_bbox": [
+            13,
+            4,
+            153,
+            156
+          ]
+        },
+        {
+          "file": "frames/ultra_field/025.png",
+          "sha256": "ebd17559bc48c76dae474e0ef15a43dfe87ba20d292bbaa300538a0eea66f2b7",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 25,
+          "alpha_bbox": [
+            13,
+            2,
+            160,
+            158
+          ]
+        },
+        {
+          "file": "frames/ultra_field/026.png",
+          "sha256": "a4eff0350bb788122f65d1264da9decc9c1eb7092e1355c4cee8e6c7338e78ce",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 26,
+          "alpha_bbox": [
+            10,
+            1,
+            160,
+            159
+          ]
+        },
+        {
+          "file": "frames/ultra_field/027.png",
+          "sha256": "62e6b903b80b9e3746e13d7367e312ffef301e93e782f64859497f85e9083489",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 27,
+          "alpha_bbox": [
+            9,
+            0,
+            152,
+            160
+          ]
+        },
+        {
+          "file": "frames/ultra_field/028.png",
+          "sha256": "c30580c452a04759db9dc30d31cbbacbf5fdc0729080d137368c37e13ddb43a3",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 28,
+          "alpha_bbox": [
+            7,
+            0,
+            154,
+            160
+          ]
+        },
+        {
+          "file": "frames/ultra_field/029.png",
+          "sha256": "1b4f0df178a5272dc735641f05f26500baee6d43ac7d32234757f907900a72b7",
+          "size": [
+            160,
+            160
+          ],
+          "anchor": [
+            80,
+            80
+          ],
+          "ticks": 3,
+          "index": 29,
+          "alpha_bbox": [
+            5,
+            0,
+            156,
+            160
+          ]
+        }
+      ],
+      "scope": "Original texture/SubUV pixels with declared 2D projection, recolour and timing adaptation."
+    }
+  },
+  "outputs": [
+    {
+      "file": "frames/sword_echo/000.png",
+      "sha256": "07a901760e41707b56d830f8e25620d735857c102dee9f7bb18c8abffc4dd14c"
+    },
+    {
+      "file": "frames/sword_echo/001.png",
+      "sha256": "45190230b36f795c8709f6fa4c7bae78de874ea29d21061be53b04a49d896b03"
+    },
+    {
+      "file": "frames/sword_echo/002.png",
+      "sha256": "687e8b04cf201e5e577b62a564cae17beb7f73cb9177434edaed69d76b847e8d"
+    },
+    {
+      "file": "frames/sword_echo/003.png",
+      "sha256": "da3a8a1578b58221ca81cfa3e4f587b8d1156d07a670787e400ecbecc8128700"
+    },
+    {
+      "file": "frames/sword_echo/004.png",
+      "sha256": "b2177241436542feb8e71a96def937dcaf0689993d7f53fa1a63083098821c9f"
+    },
+    {
+      "file": "frames/sword_echo/005.png",
+      "sha256": "527d580d39854285266d9fe0db5cac5a881fcd4daf3c3b5cf308c7e060810588"
+    },
+    {
+      "file": "frames/sword_echo/006.png",
+      "sha256": "ec6736acef4e72648612cfbdf6d6145e02f57a4a2f923509e3b7e56aeadb5f35"
+    },
+    {
+      "file": "frames/sword_echo/007.png",
+      "sha256": "f7f1329d0ff42302c8c963d64ee1bf1ba27fed858fafb9c65b2fefe0a95f8a6b"
+    },
+    {
+      "file": "frames/sword_echo/008.png",
+      "sha256": "f4cadf98f24886bed5f77d0282bd7b5ccda63edaf767cc289075bfb318f171be"
+    },
+    {
+      "file": "frames/sword_echo/009.png",
+      "sha256": "16ddb3bdc1d9131d5c75171020252ac87ba520ba5df8b3c8116e8e4bd5628c6a"
+    },
+    {
+      "file": "frames/sword_echo/010.png",
+      "sha256": "d2390174fa6d5e29b2cf10058432293ec809f94716eb3654588e747bb2c3ba19"
+    },
+    {
+      "file": "frames/sword_echo/011.png",
+      "sha256": "5f46193ed29b5cea4e1975a84581e0dc9f3bda764ba89a083fcd6f4b91c06e2f"
+    },
+    {
+      "file": "frames/sword_echo/012.png",
+      "sha256": "81b76ea065a47dd9e2878d3fedf8a94fb134017f1a3f6725887b6fe4b8387285"
+    },
+    {
+      "file": "frames/sword_echo/013.png",
+      "sha256": "6a1f350058b749788f1f21e1232dbb5ae8efbcbc70b9ce98efd7a3cd5508f184"
+    },
+    {
+      "file": "frames/sword_echo/014.png",
+      "sha256": "72947e45ca2d37e0ededab4053ef3d737be8a6d08288f3d26b2888cd762ebe92"
+    },
+    {
+      "file": "frames/sword_echo/015.png",
+      "sha256": "fdd941e738bd3b3045e6a05d8055d4cd01fe6ba447363b4fef7c57df566e9349"
+    },
+    {
+      "file": "frames/sword_echo/016.png",
+      "sha256": "5f83492360f9a8e40b43029dcb611a4cd41e9d7939baa818944df8763719932d"
+    },
+    {
+      "file": "frames/sword_echo/017.png",
+      "sha256": "f59c286ef83e1da656744c05b66f6a9aba27f9d47446f7598d670f6f811823b0"
+    },
+    {
+      "file": "frames/sword_echo/018.png",
+      "sha256": "cfe0292f463bdd464d2b6022644cf8957304de3ef9744575d8b600fb7e04c85a"
+    },
+    {
+      "file": "frames/sword_echo/019.png",
+      "sha256": "ddd1c443e4fb81863fec14583e9c02d19c2da088223869c889c511923cdcfa60"
+    },
+    {
+      "file": "frames/sword_echo/020.png",
+      "sha256": "4cac5edeb9c0fc889050a9da24f87925db01c8012513368b7748c336ffcd4bfe"
+    },
+    {
+      "file": "frames/sword_echo/021.png",
+      "sha256": "93941aa881274f8a51b8d9b45087007106c7a63c514db2dbecb39d9acb0f89f8"
+    },
+    {
+      "file": "frames/sword_echo/022.png",
+      "sha256": "2f2207ebf61c45f9b2a93d891106092b8b8e2da30d6fe4f131c35783b83fe9fc"
+    },
+    {
+      "file": "frames/sword_echo/023.png",
+      "sha256": "9d72c26708e5d5a4e50e3fc906d3691ba3b025ea2c3e091555c4041218d63a05"
+    },
+    {
+      "file": "sword_echo.png",
+      "sha256": "2dcdb8653e8eaed4ef31902d86dadd10090e5db685238a6f8757c8fbbe61cc52"
+    },
+    {
+      "file": "sword_echo-contact.png",
+      "sha256": "5888cf34a50241d7c60293bee02123d79b81d357768d78d1406be7e377ed31c2"
+    },
+    {
+      "file": "frames/zhenwu_wave/000.png",
+      "sha256": "07a901760e41707b56d830f8e25620d735857c102dee9f7bb18c8abffc4dd14c"
+    },
+    {
+      "file": "frames/zhenwu_wave/001.png",
+      "sha256": "33383907d582f5d866238b50c4ba781a44819858dbcc63dda24499a81d9c354b"
+    },
+    {
+      "file": "frames/zhenwu_wave/002.png",
+      "sha256": "e482b2c830b832e1ff4df06e1ada7f13e5a97485b9c412c7d16bb0b377ff2268"
+    },
+    {
+      "file": "frames/zhenwu_wave/003.png",
+      "sha256": "958ef2f9932c427cd82e05b3a44db114422c4519a80d458d9eeb50903a4551bf"
+    },
+    {
+      "file": "frames/zhenwu_wave/004.png",
+      "sha256": "f6d509e39b62b1557aeba098c06fd3953b52ded09c1091a7e0f4fb66a2d61296"
+    },
+    {
+      "file": "frames/zhenwu_wave/005.png",
+      "sha256": "77735e2c2cebae6a6e48d36c31071dde4aae1c69017bddd26a2b05844805038a"
+    },
+    {
+      "file": "frames/zhenwu_wave/006.png",
+      "sha256": "f2c9e6a916acc0e04c7284471f61604489b637bba422ed26bc6af439af9895fe"
+    },
+    {
+      "file": "frames/zhenwu_wave/007.png",
+      "sha256": "22105257574fedb61715e414119933576ab956dc66f80619ae667d1e19ed2b38"
+    },
+    {
+      "file": "frames/zhenwu_wave/008.png",
+      "sha256": "9ccc9bf60e4cbe5bfab9c1585ab640601421b071ade3ae5049b176ef34cfa362"
+    },
+    {
+      "file": "frames/zhenwu_wave/009.png",
+      "sha256": "fd8a61fc5e8a4ac2f3b4267c3b4c9d018bb9ece0968650b04b6c2b9bd317765b"
+    },
+    {
+      "file": "frames/zhenwu_wave/010.png",
+      "sha256": "826ff6eeae5df03124c7a163d807033f335d6a1ff328866bb63a364b5e9b6904"
+    },
+    {
+      "file": "frames/zhenwu_wave/011.png",
+      "sha256": "cfd2962506f8644df095c287cf363bfe907915ca82484b585595244c0243a439"
+    },
+    {
+      "file": "frames/zhenwu_wave/012.png",
+      "sha256": "bd46808f0b042f43d1708f3feb1b77315cfb2f19421a4c617f30d57fd9aa3fa2"
+    },
+    {
+      "file": "frames/zhenwu_wave/013.png",
+      "sha256": "b1a0726b6b14a44c8c779331df8982c1622206e831263877e30e75df83b54da8"
+    },
+    {
+      "file": "frames/zhenwu_wave/014.png",
+      "sha256": "af828477f372057b9bd0cae96d23df8c904d91e9ecce1fe1977173e9c941bf18"
+    },
+    {
+      "file": "frames/zhenwu_wave/015.png",
+      "sha256": "a7ab439818ebdbe3ef90a54e5a95d17012a5812a74b72279d1b1fd975bd67239"
+    },
+    {
+      "file": "frames/zhenwu_wave/016.png",
+      "sha256": "6e87d95280179a1b101b067c16d189ddfb728bfa35b694b2c2d36d8ccd41f28c"
+    },
+    {
+      "file": "frames/zhenwu_wave/017.png",
+      "sha256": "1abc5d6e954b3c44b5782972f65ff5dc00af30b68d57e1963752ab7f78bd9966"
+    },
+    {
+      "file": "frames/zhenwu_wave/018.png",
+      "sha256": "e038d843ce50de0b380cc47fa29c2111728cc69be679a1ce63cea7231d14c0fd"
+    },
+    {
+      "file": "frames/zhenwu_wave/019.png",
+      "sha256": "c8231322259b24abb027177859762894996bce3e389672cc21af33ce8318ee2a"
+    },
+    {
+      "file": "frames/zhenwu_wave/020.png",
+      "sha256": "9276ae6a9431fb30682cabf69b322ab7079d7a78909328c11f950ff44d4292d7"
+    },
+    {
+      "file": "frames/zhenwu_wave/021.png",
+      "sha256": "d4b6732f953d6ae4572eedf2a40813f77745ade8fbb0709cf66876e5bf75ecf3"
+    },
+    {
+      "file": "frames/zhenwu_wave/022.png",
+      "sha256": "e6c5850e3b984aeabaee46f7c9ec85ad849733230a5f460a7ff022f1b8fa6e3a"
+    },
+    {
+      "file": "frames/zhenwu_wave/023.png",
+      "sha256": "5da0099a233e280d32d9ef57846f3baeaa483e816532e2af72d81c65a5c82c5c"
+    },
+    {
+      "file": "frames/zhenwu_wave/024.png",
+      "sha256": "0aa87e9aac4708528cf7f5e3874595d8772aca988e22a04af77393c26288c59c"
+    },
+    {
+      "file": "frames/zhenwu_wave/025.png",
+      "sha256": "e57629e8607d5cee81c07a88468b6610e2e1f97fd8ba386edb205f9537dd441e"
+    },
+    {
+      "file": "frames/zhenwu_wave/026.png",
+      "sha256": "00bee2255fd00d56af8cc65bb7f58a91c1a5b401fdcbfda64e7b0cb0e737cb11"
+    },
+    {
+      "file": "frames/zhenwu_wave/027.png",
+      "sha256": "3ca0e565ab5ccc53d49473ec2f1b66d0a9f47fd721640a01ea71d086c912fcd6"
+    },
+    {
+      "file": "frames/zhenwu_wave/028.png",
+      "sha256": "f301a3f7a4d27f319719f6ffddb307a347b1150e9f1550f1e46a585b5e74a96f"
+    },
+    {
+      "file": "frames/zhenwu_wave/029.png",
+      "sha256": "9d72c26708e5d5a4e50e3fc906d3691ba3b025ea2c3e091555c4041218d63a05"
+    },
+    {
+      "file": "zhenwu_wave.png",
+      "sha256": "88cb6113fd5114e5e89d65f629eeb63c6967244684fabbcd276ce8a162cfaa33"
+    },
+    {
+      "file": "zhenwu_wave-contact.png",
+      "sha256": "e0c7079b84df70d64ca507c6a495ca1b1166a1d0696b50a98ffd5a2b30603175"
+    },
+    {
+      "file": "frames/qi_impact/000.png",
+      "sha256": "f054cce720b0f0d8b4498589c641b3d0fc8ca2fb3178d31743103447307d3943"
+    },
+    {
+      "file": "frames/qi_impact/001.png",
+      "sha256": "b0d302764b844c12ce31e6a9c21b5f36115d1ffa5dab0257997598deec475ae8"
+    },
+    {
+      "file": "frames/qi_impact/002.png",
+      "sha256": "2361af4041a5acfb39cabba04b41d74c6a5e155d67019756ea0828d11acd9636"
+    },
+    {
+      "file": "frames/qi_impact/003.png",
+      "sha256": "75d7657afe29d2fd7c27185c74be63501b68ea2be72e31c74bc9210c9a638c03"
+    },
+    {
+      "file": "frames/qi_impact/004.png",
+      "sha256": "d66c160ac4c62fdfe70af74471e202d5d661f0c5a844a57762844b0114729c91"
+    },
+    {
+      "file": "frames/qi_impact/005.png",
+      "sha256": "9ad2f03598de2482d579c5e1bdbd221574726c2d8ca0aa555809aa0708f80e10"
+    },
+    {
+      "file": "frames/qi_impact/006.png",
+      "sha256": "817eeb112a1027bd3de38784011bd56bbfa46ab1e55fd27de0ffdd6b9a3ab661"
+    },
+    {
+      "file": "frames/qi_impact/007.png",
+      "sha256": "3bb40f8716d6289c1b84d787af64362138e0da5c615fbb74643a5b5fb782fd60"
+    },
+    {
+      "file": "frames/qi_impact/008.png",
+      "sha256": "2704f3a8f23a79f6e90fbc8140bfcc9b22162dd3eb747955428de2a7165a2c95"
+    },
+    {
+      "file": "frames/qi_impact/009.png",
+      "sha256": "a716f3368364164b00b17951f1009c095cfea397d7939a7bd52bb349d02b097a"
+    },
+    {
+      "file": "frames/qi_impact/010.png",
+      "sha256": "fe4b0cbb1668adb06c1ed65a1238832b17d8e000469830493e975df9558e9d17"
+    },
+    {
+      "file": "frames/qi_impact/011.png",
+      "sha256": "69b828f85f3980d2ac9904d9923a1f90d1c6e730f1f1c3e4a5a8fce28e3134a6"
+    },
+    {
+      "file": "frames/qi_impact/012.png",
+      "sha256": "8843a67ec4c5d7aed6fe8b8e922eb0c77a55a32b45c3de4b76ee69773af5d52e"
+    },
+    {
+      "file": "frames/qi_impact/013.png",
+      "sha256": "e94e5422000eee6e7389638ef5a4a6003b6541f4d08c3edac16e2b23b17f0f8a"
+    },
+    {
+      "file": "frames/qi_impact/014.png",
+      "sha256": "f920a61afa60f252a2205f26aaaf87b6d6883255a7109e26bd6f3159319f43fe"
+    },
+    {
+      "file": "frames/qi_impact/015.png",
+      "sha256": "fc1006bb058294e896bc31d70c33d3a2a31842d0ad09efc9d54e68b4c540c132"
+    },
+    {
+      "file": "frames/qi_impact/016.png",
+      "sha256": "b1d3a5420fc08ecc1b34ca3b17f73cc19b18a2ad4fece983f536b6184d2c534f"
+    },
+    {
+      "file": "frames/qi_impact/017.png",
+      "sha256": "18f884d9b07c72180a9cd30096b39a99cc7edbec24b9438fe0b9d949834e3f4e"
+    },
+    {
+      "file": "frames/qi_impact/018.png",
+      "sha256": "86ac78acac89f6f80d1170ecadafd3cb7ed02e1d0539197ceeda6e4654bc26cc"
+    },
+    {
+      "file": "frames/qi_impact/019.png",
+      "sha256": "ec074ca8b2f076865c32bc9858f0430e8099f3d8ad218a06297b6dc2e1c92582"
+    },
+    {
+      "file": "frames/qi_impact/020.png",
+      "sha256": "35879157a5030b7f5f3853c685436bbfd50791a3f1f863a3120f38b127a73f8a"
+    },
+    {
+      "file": "frames/qi_impact/021.png",
+      "sha256": "9cd674a6c1400e508e3419bb742e2b66580bb94bd19072237e816d32c491c92c"
+    },
+    {
+      "file": "frames/qi_impact/022.png",
+      "sha256": "259a677e0d32b99802797afcf1ed4d6031a132326db1d7e0386de47d54ef7c82"
+    },
+    {
+      "file": "frames/qi_impact/023.png",
+      "sha256": "263bad6458694af127d5d47a20f99bbd3cda4aaec44c2f1e78d03566c7d25787"
+    },
+    {
+      "file": "qi_impact.png",
+      "sha256": "c9abb0409c40dc052ad7081ddb81e4fa6fa14c040b4954962ed35c959ab0a5be"
+    },
+    {
+      "file": "qi_impact-contact.png",
+      "sha256": "e3ab2ac763d02bb693d442a5e69dd6dcadf4b90d19a451606e71bfa4ade6e642"
+    },
+    {
+      "file": "frames/taiji_counter/000.png",
+      "sha256": "fa58e304be22283cb7f0568f60ab5a6f1fa12f5abf7a8791d10bc42cdda787ce"
+    },
+    {
+      "file": "frames/taiji_counter/001.png",
+      "sha256": "0f4d6c0c03fdd673b434327304613dadede20d8dbef0428bfc4d3aab58124f02"
+    },
+    {
+      "file": "frames/taiji_counter/002.png",
+      "sha256": "9127d1f4eefce1e366b1fc73a555d0494f3979bcac9eae3aade7aae122897126"
+    },
+    {
+      "file": "frames/taiji_counter/003.png",
+      "sha256": "c05f11ea0cba7fca1858f4b1d8491096c7419b02d295951250d9915a9e619a01"
+    },
+    {
+      "file": "frames/taiji_counter/004.png",
+      "sha256": "c03af7cefc49deef155d29ed5a57ac81a1ec1e4e6c5f772aa5a84b75c09f3709"
+    },
+    {
+      "file": "frames/taiji_counter/005.png",
+      "sha256": "5ec1d8199be409e39f16a3f1e3a93eef605b0fa6760c4a06174fee7fb1af4c89"
+    },
+    {
+      "file": "frames/taiji_counter/006.png",
+      "sha256": "09741da1bb3ef63264e6826257822766ebce9557139dbfcf6f5e67872e64aeac"
+    },
+    {
+      "file": "frames/taiji_counter/007.png",
+      "sha256": "fbe52feab8ac924e04b6a03d13640566b402f679fe1561404e23c71cad9f3cd2"
+    },
+    {
+      "file": "frames/taiji_counter/008.png",
+      "sha256": "c3ad8a221d42ef8b0907bdb9fa8d91436a51b97b27d4a3da55f05ab99fab9cfe"
+    },
+    {
+      "file": "frames/taiji_counter/009.png",
+      "sha256": "a5f0b118e4a66ad6d02df6964ae8064293fda5b3307d9c42b6f7a2327307742f"
+    },
+    {
+      "file": "frames/taiji_counter/010.png",
+      "sha256": "deb1f8afa64d1106a3a77c01a6edd558e8b0aea535ad73ab1cc1faed373d4b25"
+    },
+    {
+      "file": "frames/taiji_counter/011.png",
+      "sha256": "23acf6e7c63655af0e1e9d1033e5008290dbcba7d9cda3a325f66b1b11e7bc90"
+    },
+    {
+      "file": "frames/taiji_counter/012.png",
+      "sha256": "c1748bca0094f83975be4e9c2a9556539c0e1f2128469aa785d53ee7f8131088"
+    },
+    {
+      "file": "frames/taiji_counter/013.png",
+      "sha256": "c58f3aeed1cfcbb75cdd2c4e47127cde492376e3490a14e6d8db655ebae98273"
+    },
+    {
+      "file": "frames/taiji_counter/014.png",
+      "sha256": "e5511fd5a18329ed07d72386dc0fc5c571940b12ff91fbf4c72cedc9560db6c5"
+    },
+    {
+      "file": "frames/taiji_counter/015.png",
+      "sha256": "49b36bccf780d50035d85f472e6e4fb8490f4a180d7160577dbebce8cae470c7"
+    },
+    {
+      "file": "frames/taiji_counter/016.png",
+      "sha256": "5d12accf131427790b4846d4567e093764a2f7a943ededa446413b1ca92b81c4"
+    },
+    {
+      "file": "frames/taiji_counter/017.png",
+      "sha256": "a18b7db08d5bcbef4fe6f9adbbeea963df7a2c5fdd5f367bc94de4e35da7ee2f"
+    },
+    {
+      "file": "frames/taiji_counter/018.png",
+      "sha256": "59b88102c12d2046c8d672e3d8bfec3d738c8284fe2f81a8f718802863d93a2e"
+    },
+    {
+      "file": "frames/taiji_counter/019.png",
+      "sha256": "762aee7f1bba29332ff4ba6b7ce1a0f2b4e2533108313af5ed880f6276d0529e"
+    },
+    {
+      "file": "frames/taiji_counter/020.png",
+      "sha256": "37bf45b2a6710aa2f7b77b6f41ffed4eb11ca7fd52c912f1a5d4aa08baef6bb7"
+    },
+    {
+      "file": "frames/taiji_counter/021.png",
+      "sha256": "450712c3f1fb60a8d1daaf0243a4c9af908792b5fb2233a8413e356b9c561961"
+    },
+    {
+      "file": "frames/taiji_counter/022.png",
+      "sha256": "8c0adb8db109fcea0a48c3d53bc4605b42875f5e28e86ad4319767910b572c88"
+    },
+    {
+      "file": "frames/taiji_counter/023.png",
+      "sha256": "0bce0e8de060d9c7277c65e953e0f34c0dd0926ee8db18fad1d8f12c6072f698"
+    },
+    {
+      "file": "frames/taiji_counter/024.png",
+      "sha256": "dff7c79f8b1f203bbc835aca00cd8e05137a53dafe784c7269ce26d13346d3cf"
+    },
+    {
+      "file": "frames/taiji_counter/025.png",
+      "sha256": "6958b721afbf07c975943d4663b7b566892370df3441e83fb9329023316b217e"
+    },
+    {
+      "file": "frames/taiji_counter/026.png",
+      "sha256": "cbf347aba7565a1e11d997eed3c57492230c23d71c4f08d14fc09b0981a87869"
+    },
+    {
+      "file": "frames/taiji_counter/027.png",
+      "sha256": "a624969df3c2d9464e79ea1f3b27078c0de40ed41c9d1334f38ff41718e245d5"
+    },
+    {
+      "file": "frames/taiji_counter/028.png",
+      "sha256": "81e1953288d796c015ea70f5bae61be186e31ff6379815cc821fe34a32af709a"
+    },
+    {
+      "file": "frames/taiji_counter/029.png",
+      "sha256": "6081000b8c731633d09d74b84a99400e1e09b6577b8f8a03c43148e3926f0f7c"
+    },
+    {
+      "file": "taiji_counter.png",
+      "sha256": "595daf62ce6b7e0537b24cb9ffc83dd0994991ba073f02238e8ecd04456d0b65"
+    },
+    {
+      "file": "taiji_counter-contact.png",
+      "sha256": "0028e15efff7859133be36d03af90cad052de3c6eb60755c91402249494a6d87"
+    },
+    {
+      "file": "frames/wuxiang/000.png",
+      "sha256": "941f2b8d1eb34421005e044e0b526b51e50dca84293c9339244182f535e8bafd"
+    },
+    {
+      "file": "frames/wuxiang/001.png",
+      "sha256": "e2e589958090f1332cf93120ce456e65c5483e72e7fb9508cf2ee938d67f7558"
+    },
+    {
+      "file": "frames/wuxiang/002.png",
+      "sha256": "2a0ff432557e3d91d1589be1bf8b5a72a9c04635852b72692fa06d9c6cc5a84a"
+    },
+    {
+      "file": "frames/wuxiang/003.png",
+      "sha256": "89d448754086b4a46be8feb25faca675ebbf338369b1b1bcfcd1faf254495899"
+    },
+    {
+      "file": "frames/wuxiang/004.png",
+      "sha256": "1ec4b25443333407664778d371a5109b0f3e3b408b4e03f77c112a5a1dd1df5c"
+    },
+    {
+      "file": "frames/wuxiang/005.png",
+      "sha256": "a9c0830d44c1b77e58a33b88ad8e9c82455cb15e8dce8368049452f3dfdf84c6"
+    },
+    {
+      "file": "frames/wuxiang/006.png",
+      "sha256": "028ba58e55d88afbdf6198b61674fd1faedd6d71502650665dad69a275a57036"
+    },
+    {
+      "file": "frames/wuxiang/007.png",
+      "sha256": "30064b678c2a9cf7b1c491305576ad2d4b9c557c656bca08d60ace06ffd7f7cb"
+    },
+    {
+      "file": "frames/wuxiang/008.png",
+      "sha256": "c98ce0f25c1ee7a9235da9f7080797467fcf5264d0af5c2d2279384d1a61a476"
+    },
+    {
+      "file": "frames/wuxiang/009.png",
+      "sha256": "ada014e068f47c326ebbc5d316b0e1df37c7372442d228cef473242676244480"
+    },
+    {
+      "file": "frames/wuxiang/010.png",
+      "sha256": "558a72e34a28185afd79b48543856bb64c02c53fd529635a0388f8c5dfd48c27"
+    },
+    {
+      "file": "frames/wuxiang/011.png",
+      "sha256": "1bd57f35068ba81e95099332ed746a2f6c6e8ac009c472e175ab870ea0a4a073"
+    },
+    {
+      "file": "frames/wuxiang/012.png",
+      "sha256": "00bc0e74c0e9fc038cc796b999da9c597c95925db5fce2a666258cd6882ca76e"
+    },
+    {
+      "file": "frames/wuxiang/013.png",
+      "sha256": "967a262c0996cc10fa36392de423e9ea75409cf88a62579b79bed91f83445679"
+    },
+    {
+      "file": "frames/wuxiang/014.png",
+      "sha256": "011346ab93dffd3640d87bb1b78da7f76d1a079dca3804190af43793b7ea1e8c"
+    },
+    {
+      "file": "frames/wuxiang/015.png",
+      "sha256": "cdc062803b6c314ac47eaaaedbed2aea9772b002e24b2b28617fca85a5c19cf1"
+    },
+    {
+      "file": "frames/wuxiang/016.png",
+      "sha256": "e84e051c0fa284c9a8ad2dc94215ba9893c642dc4bd150025a5c49ad2d0fb001"
+    },
+    {
+      "file": "frames/wuxiang/017.png",
+      "sha256": "d30154423ee8175cb3cd84574527d1928e376df5bfbef1bb966c7f5631d72e24"
+    },
+    {
+      "file": "frames/wuxiang/018.png",
+      "sha256": "8ea2f5a3b7f11e6f38f51e61f83d0483fffa659c732bb17d6988a96190596d22"
+    },
+    {
+      "file": "frames/wuxiang/019.png",
+      "sha256": "8d15c721c30f8c185c3a4a6b514354b02b093154ce0f158be8f7cf5372b0e91e"
+    },
+    {
+      "file": "frames/wuxiang/020.png",
+      "sha256": "d6e92b4daed0e0ac25b0743ca8945f597c39682556ed64dddf63e01c1ac200ae"
+    },
+    {
+      "file": "frames/wuxiang/021.png",
+      "sha256": "7875b11da41d3509c1e230cf243bc43fd0f5602347c1498574dfd9d93d42acce"
+    },
+    {
+      "file": "frames/wuxiang/022.png",
+      "sha256": "1238a2eff015f761c940fbed5c01382a9993bcbb02b1fda8b34d5ec26c73f3de"
+    },
+    {
+      "file": "frames/wuxiang/023.png",
+      "sha256": "f8246f316cdf22ad76bf11d6e3e57b5305cd59c50c4cbff0d8fd06e0b0a7e967"
+    },
+    {
+      "file": "frames/wuxiang/024.png",
+      "sha256": "2a3fc8098be57043a3054ea89b36f27897a10859a351bc2cbfb30c92c6f67732"
+    },
+    {
+      "file": "frames/wuxiang/025.png",
+      "sha256": "10ab5625a066ddabb70e8ce07813021f7aa5c3f84adc8ed17af50c506004686d"
+    },
+    {
+      "file": "frames/wuxiang/026.png",
+      "sha256": "5615e2d9b35c552e0ce60f7b52707a257dc8427a7f7acb5ffa7cbb3938b33682"
+    },
+    {
+      "file": "frames/wuxiang/027.png",
+      "sha256": "b53dc750752ea931accbfc1e26d0e8ed6004a1b17151f7c927a18e42e69a2c01"
+    },
+    {
+      "file": "frames/wuxiang/028.png",
+      "sha256": "de42b8bbe5bf6b043018e24a52a9c8c13c9d005e2ef81b9ee51307e6ec6f27dd"
+    },
+    {
+      "file": "frames/wuxiang/029.png",
+      "sha256": "22e976a9a6306e7e54b69cbaefa770e07c2db033b5319b89e8b5b64975e0db9a"
+    },
+    {
+      "file": "wuxiang.png",
+      "sha256": "7cc928dcea5914ec20f2a8b53ac3afb40310af6b111c56a6ff0b2560420ec353"
+    },
+    {
+      "file": "wuxiang-contact.png",
+      "sha256": "11656dbe905e32afb1a352476434e0f0371b0aa980e2147fc371117c9f53398a"
+    },
+    {
+      "file": "frames/taiji_charge/000.png",
+      "sha256": "bcf8e494de0608b193a0ebe7314f40ca4109e896dbbe3f9cfe513b5ef2053140"
+    },
+    {
+      "file": "frames/taiji_charge/001.png",
+      "sha256": "bed568ae1554676bc0d99161717bf986d0a7541261c7fdbac7c35cb0be0d33b3"
+    },
+    {
+      "file": "frames/taiji_charge/002.png",
+      "sha256": "0d8f0e1029f617a6572c0641165b101ee3aee5b3c74df3cce068596e2f579fec"
+    },
+    {
+      "file": "frames/taiji_charge/003.png",
+      "sha256": "bc3e4eb387f1e8e80d998ebbfa01a7e450ec1aa977b840752bd93fe1633248d4"
+    },
+    {
+      "file": "frames/taiji_charge/004.png",
+      "sha256": "dd7f3cd8c8f76c5dcd062f2fb0cdf54b64639e3c71be279227eab0ee50228790"
+    },
+    {
+      "file": "frames/taiji_charge/005.png",
+      "sha256": "ed76d5d5e0c1fd4e9ba1bb76a3d3d2ca53b3d4a87fca775246555b540343dbff"
+    },
+    {
+      "file": "frames/taiji_charge/006.png",
+      "sha256": "ed3d2493d296a4d4e552ec23c9cd946054b06dd863139db4a218e1b983ebfbb4"
+    },
+    {
+      "file": "frames/taiji_charge/007.png",
+      "sha256": "03b5ba70dbe06777629aa916f12125461a22de5d37897599d03cfde552bba269"
+    },
+    {
+      "file": "frames/taiji_charge/008.png",
+      "sha256": "d7a091dad5a2156cf65ff5b34df8cac5a1225494987b1df591fa65e259ca2216"
+    },
+    {
+      "file": "frames/taiji_charge/009.png",
+      "sha256": "3b431cfa42669d38cb8dae18456a3e6817b9ff8f15a166ef7bfb618457eb5220"
+    },
+    {
+      "file": "frames/taiji_charge/010.png",
+      "sha256": "414f49cd792be57a68ff880873007bdce40dc159e3f4d2b395b9bcbdca1e7b91"
+    },
+    {
+      "file": "frames/taiji_charge/011.png",
+      "sha256": "4688b65f89d2d6646cc19b96b5d0f957d4aec8162bb3dfdf77d3fdb8d971c20d"
+    },
+    {
+      "file": "frames/taiji_charge/012.png",
+      "sha256": "f85063a7e87ccc4aeb444e35c2c2cce097336c21a9edbc297fc662f3edad63a7"
+    },
+    {
+      "file": "frames/taiji_charge/013.png",
+      "sha256": "36650b963f48a307a31a2ab2789ce13460f65ba873ab2e75551fc3a58544f548"
+    },
+    {
+      "file": "frames/taiji_charge/014.png",
+      "sha256": "ec61971a1b4368c0a9bfdb8441257bb1a29588a1bad30fd03fc50665fdf96274"
+    },
+    {
+      "file": "frames/taiji_charge/015.png",
+      "sha256": "88078f2c851f9929281903c051ef7aca7c550c23e873fb84ed98c349d16e372e"
+    },
+    {
+      "file": "frames/taiji_charge/016.png",
+      "sha256": "66667231faa72895da83064130f5b7e672b5b8d94d3b800b6b1e3b92036cff97"
+    },
+    {
+      "file": "frames/taiji_charge/017.png",
+      "sha256": "5eb953d0f9facd44ab567c4b890e92baf468731bc07ac264db22c7b394aae217"
+    },
+    {
+      "file": "frames/taiji_charge/018.png",
+      "sha256": "05e72622b6c35e185c2af0b884d72725090f51ace78bd39e625ca59c807e89e3"
+    },
+    {
+      "file": "frames/taiji_charge/019.png",
+      "sha256": "275ef2f20463a5324fe9b21a147f1d31a81340001c5ac0189a9507f55b034be5"
+    },
+    {
+      "file": "frames/taiji_charge/020.png",
+      "sha256": "d637aefdc9c4a26b292b56fd62450bf8db36b542c7bf68ddfd36504d92ab7acd"
+    },
+    {
+      "file": "frames/taiji_charge/021.png",
+      "sha256": "580ef7da0cbcd1976dd796b85d57e667ecc996214f018d18d0a58995ba3959fe"
+    },
+    {
+      "file": "frames/taiji_charge/022.png",
+      "sha256": "fe7e64a0d199302ba743cc89ac56c9fc9b8b4bd288ff23b578fdf15bd9d7c35d"
+    },
+    {
+      "file": "frames/taiji_charge/023.png",
+      "sha256": "bbcb50d4b205433b902c281c8103057aad4129d174375babfdaedc44f66a3b45"
+    },
+    {
+      "file": "frames/taiji_charge/024.png",
+      "sha256": "eab239235927718e626e214de09143a00b5c0b9f14eedea884e1e356f8e3a82a"
+    },
+    {
+      "file": "frames/taiji_charge/025.png",
+      "sha256": "1805f36c09a48fac75979fcfe163785f33ed905623eac9bd28758df9adf8197d"
+    },
+    {
+      "file": "frames/taiji_charge/026.png",
+      "sha256": "ee145afb68b4536fe73a11b90e846a9ebd656a469fd6bc33920cff4be29f9330"
+    },
+    {
+      "file": "frames/taiji_charge/027.png",
+      "sha256": "94eb45695783a328d57de9f81faf217ca1b41708fbb029f54a02d464b1304e19"
+    },
+    {
+      "file": "frames/taiji_charge/028.png",
+      "sha256": "cee8f8bc45eb69bd4f3064abb3912be4f889ef4939307bf69baf3c40dc027890"
+    },
+    {
+      "file": "frames/taiji_charge/029.png",
+      "sha256": "bcf8e494de0608b193a0ebe7314f40ca4109e896dbbe3f9cfe513b5ef2053140"
+    },
+    {
+      "file": "taiji_charge.png",
+      "sha256": "81e9d29f2153d041f41ecfb0935b5939d6135240ff3b9182ce1b89e930e2a7a1"
+    },
+    {
+      "file": "taiji_charge-contact.png",
+      "sha256": "8c25d1dbcbfef570684fa292e33096f800e3181df820f9817df17e1667684ece"
+    },
+    {
+      "file": "frames/taiji_circle/000.png",
+      "sha256": "ff5d4d16b2026a0c7cd32cb45118ffcb735e90e114e803333bac5eadc777fa04"
+    },
+    {
+      "file": "frames/taiji_circle/001.png",
+      "sha256": "a3cd3b43e67392b07ab16bdba7a72dcecb2c82d787190d2543b2bee97d169ece"
+    },
+    {
+      "file": "frames/taiji_circle/002.png",
+      "sha256": "203722b6bd296830b3add8deb662a1190195bc23b6e4e368497f818308b79e59"
+    },
+    {
+      "file": "frames/taiji_circle/003.png",
+      "sha256": "dee0da1abed9e53b73264f63bef977815aea9120ba500fec9db254ab00bbe529"
+    },
+    {
+      "file": "frames/taiji_circle/004.png",
+      "sha256": "123893860a6d503d8d284da3b94517fb9643cd3ce45b374396010653fcbc32a4"
+    },
+    {
+      "file": "frames/taiji_circle/005.png",
+      "sha256": "2ccf1f9162c252fc1ba8f79bdf65e33172f7c124b725e116443220cd7d02c322"
+    },
+    {
+      "file": "frames/taiji_circle/006.png",
+      "sha256": "d42aee94eedd6f1e5853e268a0f91766c4fcc3a2fb7ae87be8db3ec0977143bd"
+    },
+    {
+      "file": "frames/taiji_circle/007.png",
+      "sha256": "d4984959a68d990f71449ca7cdea68264042c0844d41dbc1b85f85ab8f4c97d7"
+    },
+    {
+      "file": "frames/taiji_circle/008.png",
+      "sha256": "6b6bbd2903d59903940067eb6b3be7386eb078c08caf044f44236cfda9a60ddd"
+    },
+    {
+      "file": "frames/taiji_circle/009.png",
+      "sha256": "e1cfc941cbf58476b2b5f69d74b9d2286282518b5cd3a9df5969af29e5f6b178"
+    },
+    {
+      "file": "frames/taiji_circle/010.png",
+      "sha256": "9af4a0cc3a66f0bb61e2f0b5f91b29bc2dd863178327d3172fc443dd7c08ccc0"
+    },
+    {
+      "file": "frames/taiji_circle/011.png",
+      "sha256": "6d3115c966b26837f0fd0876770db5d77e18b9e39eee6f87436a309034e58b8c"
+    },
+    {
+      "file": "frames/taiji_circle/012.png",
+      "sha256": "9e7e1bd72a191cd02cbcf80260a89506abfa7f0dc32541c80ddd0723418fc05b"
+    },
+    {
+      "file": "frames/taiji_circle/013.png",
+      "sha256": "971858dec2a607b4456e571093281fd45ad2ef5d10199eddb9d395a831108d9d"
+    },
+    {
+      "file": "frames/taiji_circle/014.png",
+      "sha256": "47a22afac752deb293cd962c437bf51a858150103ea7d0baacd960378cd982d0"
+    },
+    {
+      "file": "frames/taiji_circle/015.png",
+      "sha256": "8e852a2f5daca3f1866a83390f6e173c7667660853d399dceca67f5302a8a5b3"
+    },
+    {
+      "file": "frames/taiji_circle/016.png",
+      "sha256": "77affefb8e7938e2f62c26141b08b7a3cf77430ed753a506c8ee579130bc7be5"
+    },
+    {
+      "file": "frames/taiji_circle/017.png",
+      "sha256": "80d7bf6b9c7d16f19490987001a2b5cc1e12501e25e7d660ca6b76cfd029b547"
+    },
+    {
+      "file": "frames/taiji_circle/018.png",
+      "sha256": "71d8eb8b9be85fd4b062540cc31d6750fad223bc68e870b153d735c3266710f9"
+    },
+    {
+      "file": "frames/taiji_circle/019.png",
+      "sha256": "e9c23392fd1f31b39f10c8900cc36c5c70a11dffe337ec92e5192e4fa3793151"
+    },
+    {
+      "file": "frames/taiji_circle/020.png",
+      "sha256": "d3f2eeab5c53ae89e784e968a2133ec72de473bbe45158af22db28c7fd4eb100"
+    },
+    {
+      "file": "frames/taiji_circle/021.png",
+      "sha256": "be94c1bad455c51412ed5122f617db23defd7e2572cf82238dc17f5bb5fd0da5"
+    },
+    {
+      "file": "frames/taiji_circle/022.png",
+      "sha256": "70132026cac8e4b3f41d07fee38c59f2cf4f8ebb6ed2f6d01178e5ee1b03cdc0"
+    },
+    {
+      "file": "frames/taiji_circle/023.png",
+      "sha256": "a27069f190593503ba451465f6ed32a3477d3b1b28cd64afb810bbc724976e77"
+    },
+    {
+      "file": "taiji_circle.png",
+      "sha256": "d208c619e90cbf21a670b8fa12419a88db812944c62a1506be121c4ffdbfc0b2"
+    },
+    {
+      "file": "taiji_circle-contact.png",
+      "sha256": "918cad31115c05653c753bcb9282e191dcae8f0f8b5785856fe6a9039ff38044"
+    },
+    {
+      "file": "frames/ultra_field/000.png",
+      "sha256": "4633318c9874ca35cce139cb7523c242dc1ea292d5a8d6947ac9f045d4d5dc24"
+    },
+    {
+      "file": "frames/ultra_field/001.png",
+      "sha256": "5b680231f35fd48f34ac91d695f2b231e3bfdfafa6b3d8988a34cbdcea09730b"
+    },
+    {
+      "file": "frames/ultra_field/002.png",
+      "sha256": "1a697e232a0b2a49692ac8488c7980ece3aad4c476e941c5508e0b75ee0c7bf9"
+    },
+    {
+      "file": "frames/ultra_field/003.png",
+      "sha256": "f365e1d4fd2c2c971da0e132fbd99f23c334b5cc14aa4e3dea8a9657ceb6063c"
+    },
+    {
+      "file": "frames/ultra_field/004.png",
+      "sha256": "23618d597db468c3c4e2cb023f81481e409be76585896c2218fc91efbbb692c4"
+    },
+    {
+      "file": "frames/ultra_field/005.png",
+      "sha256": "a25b738e51474592e6bf5274940a241ac9e9995faf9a1867000fac6f4956319c"
+    },
+    {
+      "file": "frames/ultra_field/006.png",
+      "sha256": "068d12bd00ae3de28bcc79edb7cf6f1108e368a334c08c54ff1488fa9a04783a"
+    },
+    {
+      "file": "frames/ultra_field/007.png",
+      "sha256": "a4cdf46745558d8197a67e043e8872be5cd9dd04fc46c568dcc71fbc226a3c3c"
+    },
+    {
+      "file": "frames/ultra_field/008.png",
+      "sha256": "4fce8659b3b7ddb05ac9f961edebe339c12fb572d984f67ea00bc8ba5ddeb92b"
+    },
+    {
+      "file": "frames/ultra_field/009.png",
+      "sha256": "bce346f8b333bc96704169ae7b73c6037a17283f9ccaa816e2cb1d009c3a62ab"
+    },
+    {
+      "file": "frames/ultra_field/010.png",
+      "sha256": "1935c900d2955930486d41617eb50f610346f856f1bd15e1e0ed29c2a200cb62"
+    },
+    {
+      "file": "frames/ultra_field/011.png",
+      "sha256": "89318b88a93466f02e2f369c06e64df8b5ddff6c6adf23e0a7283a0b7ea3638d"
+    },
+    {
+      "file": "frames/ultra_field/012.png",
+      "sha256": "c0eab96a6aa1a71c63bef3fe7ef8fcfb7c1d19df66e461d19f117bc0869a0611"
+    },
+    {
+      "file": "frames/ultra_field/013.png",
+      "sha256": "c8d6ebeb49b59beaf6f2ba1dd3e1df4f42f1def6798cf951993400d440729517"
+    },
+    {
+      "file": "frames/ultra_field/014.png",
+      "sha256": "6a0126eda2389b629acbd88f75c89ad04aca0fbfc497c301c5b5effef1fab3f4"
+    },
+    {
+      "file": "frames/ultra_field/015.png",
+      "sha256": "b64e05c4e08caee5d4e926de26e22c9ed1d9d35ed86ce7e4afb6859b6244413d"
+    },
+    {
+      "file": "frames/ultra_field/016.png",
+      "sha256": "d72c400d864ab9e3a8288d51cb2cc6c4452b1f0d56b2a0d8f8a3cf108cb67c11"
+    },
+    {
+      "file": "frames/ultra_field/017.png",
+      "sha256": "c1cee6fe1edd963112fcaa5100b6821adc29f4d4bb6f2d5e8b0f90cc04c383c8"
+    },
+    {
+      "file": "frames/ultra_field/018.png",
+      "sha256": "c80e157901546e0f643503e67feaf4679d0bc38a4b89343a09646d47b8c51641"
+    },
+    {
+      "file": "frames/ultra_field/019.png",
+      "sha256": "5232a0e7457cce7b4cfce7f819edc71aada92940a13d94ad9d0d556d565f7b56"
+    },
+    {
+      "file": "frames/ultra_field/020.png",
+      "sha256": "5e6108c2ac9a7d252a3439f188c353e54e171c20c1afb9fde7bc61814db561a7"
+    },
+    {
+      "file": "frames/ultra_field/021.png",
+      "sha256": "f21a295e15e6a0ac7352b4b9d73414bd7272861b6080d54496f4f7f60f0402ad"
+    },
+    {
+      "file": "frames/ultra_field/022.png",
+      "sha256": "f1452c0e6c5b92a93597c8e02de426f5b91ee0c6b1477adc9e4c80d6476167b6"
+    },
+    {
+      "file": "frames/ultra_field/023.png",
+      "sha256": "406bb8c0b780021588f5428f10ebd339a85ef4c8af3d0403b8e670f834ccaed0"
+    },
+    {
+      "file": "frames/ultra_field/024.png",
+      "sha256": "b82d59146a80f668ed472462d3234c408f3ccea0f9c9ace2fe2f65835137526c"
+    },
+    {
+      "file": "frames/ultra_field/025.png",
+      "sha256": "ebd17559bc48c76dae474e0ef15a43dfe87ba20d292bbaa300538a0eea66f2b7"
+    },
+    {
+      "file": "frames/ultra_field/026.png",
+      "sha256": "a4eff0350bb788122f65d1264da9decc9c1eb7092e1355c4cee8e6c7338e78ce"
+    },
+    {
+      "file": "frames/ultra_field/027.png",
+      "sha256": "62e6b903b80b9e3746e13d7367e312ffef301e93e782f64859497f85e9083489"
+    },
+    {
+      "file": "frames/ultra_field/028.png",
+      "sha256": "c30580c452a04759db9dc30d31cbbacbf5fdc0729080d137368c37e13ddb43a3"
+    },
+    {
+      "file": "frames/ultra_field/029.png",
+      "sha256": "1b4f0df178a5272dc735641f05f26500baee6d43ac7d32234757f907900a72b7"
+    },
+    {
+      "file": "ultra_field.png",
+      "sha256": "2e099cc4f1ae5e4f7edb52b35a0fb87069c26614bdd22b2e0797372a9141a874"
+    },
+    {
+      "file": "ultra_field-contact.png",
+      "sha256": "44019587db403d848d16823b68e9fd8ae2489a96fecf470a509d599a49f03ae3"
+    }
+  ],
+  "source_scope": "132 source packages, 313 raw members, 54 decoded original Texture2Ds; declared roots are skill GA -> seven actual Cascade systems -> materials -> textures/SubUV.",
+  "adaptation": {
+    "engine": "Unity native sprite rig; no UE code/Blueprint/shader executes",
+    "composition": "Precomposed original-texture layers, finite life, RG SubUV channel masks, alpha conversion; original ink RGBA kept",
+    "orientation": "positive X sword wave via clockwise 90-degree texture projection; actor engine mirrors left",
+    "timing": "60 Hz BBEE finite timelines, separate 90-tick flight and 24-tick hit; no eight-frame placeholder",
+    "limits": [
+      "Not an exact Cascade simulation or lossless shader copy",
+      "Original distortion, native mesh deformation and particle collisions are not implemented",
+      "Colors/scale/timing are declared BBEE adaptations; native scene acceptance pending"
+    ]
+  },
+  "visual_acceptance": "pending",
+  "runtime_acceptance": "pending"
+}

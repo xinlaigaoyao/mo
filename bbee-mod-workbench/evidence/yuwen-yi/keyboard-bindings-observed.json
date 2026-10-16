@@ -1,0 +1,54 @@
+{
+  "source": "in-game current keyboard settings observed by root",
+  "run_id": "67946a5463a5467786d4b548e3a498b5",
+  "bindings": {
+    "up": [
+      "W",
+      "Up"
+    ],
+    "down": [
+      "S",
+      "Down"
+    ],
+    "left": [
+      "A",
+      "Left"
+    ],
+    "right": [
+      "D",
+      "Right"
+    ],
+    "jump": [
+      "Space"
+    ],
+    "skill": [
+      "I",
+      "MouseRight"
+    ],
+    "attack": [
+      "J",
+      "MouseLeft"
+    ],
+    "dash": [
+      "K",
+      "Shift"
+    ],
+    "special": [
+      "F",
+      "L"
+    ],
+    "heal": [
+      "R"
+    ],
+    "teacher1": [
+      "Q"
+    ],
+    "teacher2": [
+      "E"
+    ],
+    "attack_skill": [
+      "U"
+    ]
+  },
+  "settings_changed": false
+}

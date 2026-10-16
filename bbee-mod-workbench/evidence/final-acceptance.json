@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "build_id": "25627491",
+  "phases": [
+    "static-tool-compile",
+    "compile",
+    "validated-existing-strict-baseline",
+    "prepare",
+    "typetree",
+    "regression",
+    "full-build",
+    "repeat-full-build",
+    "install-full",
+    "update-full",
+    "withdrawal-profile-build",
+    "profile-withdrawal",
+    "uninstall",
+    "independent-baseline",
+    "original-game-unchanged"
+  ],
+  "target_profile": {
+    "path": "profiles\\framework-runtime.json",
+    "sha256": "c180102ec16616930c50370e1ead64cb3b351369032a19f17cef5fcaaa046391",
+    "enabled": [
+      "bbee-sdk",
+      "bbee-actors",
+      "bbee-inspector",
+      "framework-validation-probe"
+    ]
+  },
+  "reused_strict_baseline_sha256": "94f43ccb2851b2f1868d89638f6c8b6a93a61ebb0c333a7565f48b546e36a1d7",
+  "elapsed_seconds": 180.4,
+  "runtime_ui": "separate acceptance; not implied by build/transaction success"
+}

@@ -1,0 +1,171 @@
+{
+  "scope": "Static source trace, not measured gameplay timing or damage",
+  "sources": {
+    "input": "Launcher/mods/dr-party/mod.json#/content/tables/SkillActivate/0",
+    "action": "Launcher/mods/dr-party/gen/kris_tree.json#/_actions/71",
+    "damage": [
+      "Launcher/mods/dr-party/mod.json#/content/tables/SkillDamage/2"
+    ],
+    "fixed_point_converter": "Launcher/mods/char-ruby/own/bossport.py:35-37"
+  },
+  "input": {
+    "$new": true,
+    "ActorId": 200801,
+    "Group": 1,
+    "Order": 1,
+    "Action": "kris_a1",
+    "AllowActiveState": true,
+    "AutoTurn": 1,
+    "ActionpointInputTag": 1,
+    "ActionpointInputTag2": 1,
+    "Preinputtime": 0.2,
+    "ActdurStrict": 0.22,
+    "AllowGround": true,
+    "Input": "Attack",
+    "StartTrigger": [
+      "Start_1"
+    ],
+    "Mutelist": "\"all\":0.05,\"5\":0.01,\"7\":0.05",
+    "Timeout": 0.45
+  },
+  "action": {
+    "Name": "kris_a1",
+    "Animate": "kris_atk1",
+    "AnimateDuration": {
+      "raw": 1503238554,
+      "decoded": 0.35000000009313226,
+      "encoding": "raw / 4294967296; explicitly identified fixed-point wrapper"
+    },
+    "TotalDuration": {
+      "raw": 1503238554,
+      "decoded": 0.35000000009313226,
+      "encoding": "raw / 4294967296; explicitly identified fixed-point wrapper"
+    },
+    "first_hit_window": {
+      "Start": {
+        "raw": 214748365,
+        "decoded": 0.05000000004656613,
+        "encoding": "raw / 4294967296; explicitly identified fixed-point wrapper"
+      },
+      "End": {
+        "raw": 715827883,
+        "decoded": 0.16666666674427688,
+        "encoding": "raw / 4294967296; explicitly identified fixed-point wrapper"
+      },
+      "HitInterval": {
+        "raw": -4294967296,
+        "decoded": -1.0,
+        "encoding": "raw / 4294967296; explicitly identified fixed-point wrapper"
+      }
+    },
+    "first_hit_box": {
+      "Min": {
+        "x": {
+          "raw": -2491081032,
+          "decoded": -0.5800000000745058,
+          "encoding": "raw / 4294967296; explicitly identified fixed-point wrapper"
+        },
+        "y": {
+          "raw": -830360344,
+          "decoded": -0.1933333333581686,
+          "encoding": "raw / 4294967296; explicitly identified fixed-point wrapper"
+        }
+      },
+      "Max": {
+        "x": {
+          "raw": 5626407158,
+          "decoded": 1.3100000000558794,
+          "encoding": "raw / 4294967296; explicitly identified fixed-point wrapper"
+        },
+        "y": {
+          "raw": 6781276142,
+          "decoded": 1.5788888889364898,
+          "encoding": "raw / 4294967296; explicitly identified fixed-point wrapper"
+        }
+      }
+    },
+    "AddEffects_raw": [
+      {
+        "Start": {
+          "value": 0
+        },
+        "ConditionGroup": {
+          "Combine": 0,
+          "Conditions": []
+        },
+        "NameEx": {
+          "UseExpression": 0,
+          "ConstValue": "Role/Kris/kris_slash_1",
+          "Expression": {
+            "Source": ""
+          }
+        },
+        "Rotation": {
+          "x": {
+            "value": 0
+          },
+          "y": {
+            "value": 0
+          }
+        },
+        "Scale": {
+          "x": {
+            "value": 4294967296
+          },
+          "y": {
+            "value": 4294967296
+          }
+        },
+        "RandomScale": {
+          "x": {
+            "value": 4294967296
+          },
+          "y": {
+            "value": 4294967296
+          }
+        },
+        "Binding": 1,
+        "KillMode": 2,
+        "Position": {
+          "x": {
+            "value": 0
+          },
+          "y": {
+            "value": 0
+          }
+        },
+        "AbsolutePos": 0,
+        "BindPos": 0,
+        "RandomPlay": 0,
+        "OnGround": 0,
+        "HideEffectWhenNoVisible": 0,
+        "HideEffectIfNotSelf": 0,
+        "CheckExistingByName": 0,
+        "Layer": 678496669,
+        "OverrideFXLifeTime": {
+          "value": 0
+        },
+        "BindDirType": 1,
+        "LodCheckType": 0
+      }
+    ]
+  },
+  "damage_rows": [
+    {
+      "ActorId": 200801,
+      "Action": "kris_a1",
+      "HitTimes": 1.0,
+      "SkillGroupId": 1,
+      "FluctMin": 1.0,
+      "FluctMax": 1.0,
+      "DamageRatio": [
+        1.1
+      ],
+      "VibrateName": "3_mid_short",
+      "DamageRatioPvp": [
+        1.1
+      ],
+      "$append": true
+    }
+  ]
+}

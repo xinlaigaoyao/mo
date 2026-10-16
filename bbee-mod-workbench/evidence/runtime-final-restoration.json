@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "inputs": [
+    {
+      "scope": "working",
+      "verified_files": 2397,
+      "status": "passed"
+    },
+    {
+      "scope": "source",
+      "verified_files": 2397,
+      "status": "passed"
+    }
+  ],
+  "guard_active": false,
+  "launcher_active": false,
+  "owned_shortcuts_remaining": 0,
+  "appid_hint_remaining": false,
+  "installed_record_remaining": false,
+  "elapsed_seconds": 38.29,
+  "scope": "same original 2397 baseline-listed inputs; sensitive configuration excluded"
+}

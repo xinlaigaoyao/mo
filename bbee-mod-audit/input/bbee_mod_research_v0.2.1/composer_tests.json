@@ -1,0 +1,51 @@
+{
+  "scope": "reviewed table composer functions only; synthetic stock row plus real dr-party patch rows; no game files",
+  "source_sha256": "9ec9969bcac3ffbff4af4db077f0107d1d9b34c8c0b5088f23901be4f294b104",
+  "tests": [
+    {
+      "name": "dependent overlay changes exactly one intended field",
+      "passed": true,
+      "diffs": [
+        {
+          "key": [
+            200801,
+            1,
+            1
+          ],
+          "field": "Preinputtime",
+          "old": 0.2,
+          "new": 0.3
+        }
+      ]
+    },
+    {
+      "name": "unrelated synthetic stock row preserved",
+      "passed": true
+    },
+    {
+      "name": "repeat composition is deterministic from .orig",
+      "passed": true
+    },
+    {
+      "name": "independent second override triggers field conflict",
+      "passed": true,
+      "reported": [
+        "CONFLICT table SkillActivate row (200801, 1, 1) field Preinputtime: study-kris-input-buffer vs second-overlay (declare study-kris-input-buffer as a dependency to override it)"
+      ]
+    }
+  ],
+  "damage_key_ambiguity": {
+    "table": "SkillDamage",
+    "composer_key_fields": [
+      "ActorId",
+      "HitTimes"
+    ],
+    "same_key": true,
+    "actions": [
+      "dropend4",
+      "dropend_show"
+    ],
+    "warning": "Action is not part of this composer key; do not write an Action-specific override using this tuple alone."
+  },
+  "log": "  table SkillActivate: 24 row edits from ['dr-party']\n  table SkillActivate: 25 row edits from ['dr-party', 'study-kris-input-buffer']\n  table SkillActivate: 25 row edits from ['dr-party', 'study-kris-input-buffer']\n  table SkillActivate: 26 row edits from ['dr-party', 'study-kris-input-buffer', 'second-overlay']\n"
+}

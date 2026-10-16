@@ -1,0 +1,58 @@
+{
+  "status": "approved_for_runtime_review",
+  "actor_id": 200901,
+  "build_record_sha256": "4a11c43b047db4b44dd068da24b5886ff5bdfb41aa9caccb617f241a4e9d62ff",
+  "native_readback_receipt_sha256": "6cbaea798c12e1a112b617895e4fed44c8d6f5f5e8b5a1b04be9e837994b3276",
+  "viewed": [
+    {
+      "file": "evidence\\yuwen-yi\\native-art-review\\build-4a11c43b047db4b4\\contact-clips-01.png",
+      "sha256": "9fde72017fab20415c29df67aee23eab01c9df58233fbc5d522e65b1680316c4"
+    },
+    {
+      "file": "evidence\\yuwen-yi\\native-art-review\\build-4a11c43b047db4b4\\contact-clips-02.png",
+      "sha256": "acc036d917bd243cc9313db268f6f74734a955422851a11e91ae73b41836d749"
+    },
+    {
+      "file": "evidence\\yuwen-yi\\native-art-review\\build-4a11c43b047db4b4\\contact-clips-03.png",
+      "sha256": "3249062fe66653ec3b51056c281699090ae8fa7ab0d42a9a4ae6d7ae1be3329b"
+    },
+    {
+      "file": "evidence\\yuwen-yi\\native-art-review\\build-4a11c43b047db4b4\\contact-clips-04.png",
+      "sha256": "6f992f9e0ace3cafee1805f60c10fec3dc88229fdf445cc3e0394c3919ed3766"
+    },
+    {
+      "file": "evidence\\yuwen-yi\\native-art-review\\build-4a11c43b047db4b4\\contact-clips-05.png",
+      "sha256": "e17899d1d1ed1eccf49dcd7387e8286abfcc57ac5a880c91d84bea7427dcc4f0"
+    },
+    {
+      "file": "evidence\\yuwen-yi\\native-art-review\\build-4a11c43b047db4b4\\contact-clips-06.png",
+      "sha256": "ba95dce2fd66faf2b5cddb6866ad5066932c36ab30e04ff40d199ece8099ba69"
+    },
+    {
+      "file": "evidence\\yuwen-yi\\native-art-review\\build-4a11c43b047db4b4\\contact-clips-07.png",
+      "sha256": "7c4daf68df773bad6e17d2552d3cbc8e01f9e9d44b08c24cf9aec90aeab6b702"
+    },
+    {
+      "file": "evidence\\yuwen-yi\\native-art-review\\build-4a11c43b047db4b4\\contact-clips-08.png",
+      "sha256": "877871b83624b5707a4200f2534b0f8251abf47087f9636642ef1d69e3a23f7a"
+    },
+    {
+      "file": "evidence\\yuwen-yi\\native-art-review\\build-4a11c43b047db4b4\\contact-native-icons.png",
+      "sha256": "710f66d058603c8e25dd0ab770f21f8ce12bb354277a0e8a6383a14effd30420"
+    },
+    {
+      "file": "evidence\\yuwen-yi\\native-art-review\\build-4a11c43b047db4b4\\contact-native-ui.png",
+      "sha256": "c7b2100eaa2948764454734c9d7d10e07e75dff881f214ef566cec4d8be73cdb"
+    }
+  ],
+  "observations": [
+    "Root viewed all eight contact pages covering 62 native clips and aliases, including attacks, authored reactions, grounded/airborne motion, summon/heal and three independent qi effects. Every shown native frame is visible with complete anatomy/effect bounds; no donor character body or blank fallback was seen.",
+    "Root viewed all 16 native atlas icon sprites, all are present with distinct names and correct transparent compositions.",
+    "Root viewed all 12 native UI texture decodes. Original Yuwen Yi identity and half-length portrait fade are preserved, diamond and grey head variants are present."
+  ],
+  "context_checks_pending": [
+    "Actual Unity SpritePalette rendering, collision and animation playback",
+    "PDA and disabled-PvP horizontal portrait framing: current original Dialog canvas retains generous transparent margins; readability must be judged in the real page, not declared final from a contact sheet."
+  ],
+  "scope": "Visual admission of exact decoded native art to game acceptance. Not gameplay, live UI placement, animation fluency or strength approval."
+}

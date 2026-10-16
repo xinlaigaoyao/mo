@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "kind": "authored_poses_visual_review",
+  "reviewed_date": "2026-10-15",
+  "reviewer": "root agent independent contact-sheet visual inspection",
+  "approved": true,
+  "approval_scope": "Authored pose candidates may enter the complete artwork preparation and native build batch.",
+  "source_row": "Hero_WuDang",
+  "body_manifest_sha256": "c53f67f143e03b8cbb598671368de13f241e2dcfb60870bc8c9a054c46f253dc",
+  "authored_manifest": "E:\\AAA MOD\\bbee-mod-workbench\\ZenithTerminal\\Launcher\\mods\\char-yuwen-yi\\assets\\authored-poses.json",
+  "authored_manifest_sha256": "54050fc64e5436217a8687e0f16fd311d91ca77ccc2d1ab2589a3beae81b6696",
+  "contact_sheet": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\authored-poses-contact-sheet.png",
+  "contact_sheet_sha256": "e51bc66592b3b28dd2de3cf8552594d46cfa22089eb50736b22bf54c1b63b457",
+  "clips_reviewed": 10,
+  "frames_reviewed": 40,
+  "observations": {
+    "all_frames_visually_inspected": true,
+    "faces_positive_x": true,
+    "semantic_rows_match_their_labels": true,
+    "head_hands_feet_not_visibly_cut_off": true,
+    "feet_aligned": true
+  },
+  "mechanical_receipt": "E:\\AAA MOD\\bbee-mod-workbench\\evidence\\yuwen-yi\\authored-poses-validation.json",
+  "prior_pending_receipt_preserved": true,
+  "limits": {
+    "body_and_portrait_complete_review": false,
+    "native_build_accepted": false,
+    "animation_fluency_accepted": false,
+    "in_game_accepted": false
+  }
+}

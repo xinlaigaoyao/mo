@@ -1,0 +1,82 @@
+{
+  "python": "3.14.8 (tags/v3.14.8:8e6e75d, Sep 30 2026, 18:19:33) [MSC v.1944 64 bit (AMD64)]",
+  "packages": [
+    {
+      "name": "archspec",
+      "version": "0.2.6"
+    },
+    {
+      "name": "astc-encoder-py",
+      "version": "0.1.12"
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0"
+    },
+    {
+      "name": "brotli",
+      "version": "1.2.0"
+    },
+    {
+      "name": "etcpak",
+      "version": "0.9.15"
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.7.0"
+    },
+    {
+      "name": "lz4",
+      "version": "4.4.5"
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.1"
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0"
+    },
+    {
+      "name": "pip",
+      "version": "26.2.1"
+    },
+    {
+      "name": "PySide6",
+      "version": "6.11.2"
+    },
+    {
+      "name": "PySide6_Addons",
+      "version": "6.11.2"
+    },
+    {
+      "name": "PySide6_Essentials",
+      "version": "6.11.2"
+    },
+    {
+      "name": "shiboken6",
+      "version": "6.11.2"
+    },
+    {
+      "name": "texture2ddecoder",
+      "version": "1.0.6"
+    },
+    {
+      "name": "tpk_ar",
+      "version": "0.2.4"
+    },
+    {
+      "name": "UnityPy",
+      "version": "1.25.3"
+    },
+    {
+      "name": "TypeTreeGeneratorAPI",
+      "version": "0.0.10"
+    }
+  ],
+  "source": "signed bundled runtime plus one hash-pinned optional TypeTreeGeneratorAPI wheel in the workbench only",
+  "optional_wheel_sha256": "e96003e973c8d52d221b4ae50f377bcaf7538f2098e437d5383a1b7f13fa72ba",
+  "node": "v24.15.0",
+  "dotnet_sdk": "10.0.100",
+  "fallback_install": "disabled; require explicit pinned dependency repair"
+}
